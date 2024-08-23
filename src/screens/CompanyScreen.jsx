@@ -1,0 +1,37 @@
+import Hero from "../components/HeroText/HeroText";
+import './styles.css';
+import CoinOne from '../images/coinUno.png';
+import CoinTwo from '../images/coinBlur.png';
+import CoinOneIz from '../images/coinIzq.png';
+import CoinTwoIz from '../images/coinBlurIzq.png';
+import SectionOne from "./SectionOne/SectionOne";
+
+
+
+const CompanyScreen = () => {
+    return (
+        <div className="containerCompany">
+            <div className="containerHeroCompany">
+                <Hero 
+                    title='potenciá tu negocio, cobrá reales y recibí dólar digital ' 
+                    subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto.'
+                />
+                <div className="containerCoinUno">
+                    <img src={CoinOne} alt="Moneda" />
+                    <img className="coinTwo" src={CoinTwo} alt="Moneda" />
+                </div>
+
+                <div className="containerCoinDos">
+                    <img className="coinThree" src={CoinTwoIz} alt='Moneda' />
+                    <img className="coinFour" src={CoinOneIz} alt="Moneda" />
+                </div>
+            </div>
+
+            <SectionOne />
+
+            
+        </div>
+    )
+}
+
+export default CompanyScreen;

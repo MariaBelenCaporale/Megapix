@@ -1,0 +1,12 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #1E1E1E;
+  fill: rgba(255, 255, 255, 0.01);
+}

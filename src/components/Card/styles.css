@@ -1,0 +1,49 @@
+
+.containerCard {
+    border-radius: 30px;
+    border: 1px solid #00FFE1;
+    background: rgba(255, 255, 255, 0.10);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    backdrop-filter: blur(20px);
+    width: 70%;
+    height: auto;
+    padding: 100px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.textCard {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 100%;
+}
+.tituloCard {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas";
+    margin: 0px;
+    font-size: 7em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.044%;
+}
+.containerTextRight {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.rayoImg {
+    position: absolute;
+    right: 1;
+    top: 1;
+    width: 70%;
+}
