@@ -13,11 +13,12 @@ const CompanyScreen = () => {
         <div className="containerCompany">
             <div className="containerHeroCompany">
                 <Hero 
-                    title='potenciá tu negocio, cobrá reales y recibí dólar digital ' 
+                    titleColor="potenciá tu negocio,"
+                    title=' cobrá reales y recibí dólar digital ' 
                     subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto.'
                 />
                 <div className="containerCoinUno">
-                    <img src={CoinOne} alt="Moneda" />
+                    <img className="coinOne" src={CoinOne} alt="Moneda" />
                     <img className="coinTwo" src={CoinTwo} alt="Moneda" />
                 </div>
 

@@ -25,6 +25,10 @@
     flex-direction: column;
 }
 
+.coinOne, .coinTwo, .coinThree, .coinFour {
+    animation:
+    coin 5s infinite 0s;
+}
 .coinTwo {
     margin-bottom: 50px;
     width: 25%;
@@ -35,4 +39,16 @@
 }
 .coinFour {
     width: 25%;
+}
+
+@keyframes coin {
+    0% {
+       transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(25px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }

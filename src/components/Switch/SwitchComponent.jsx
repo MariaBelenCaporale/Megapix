@@ -50,7 +50,7 @@ export default function SwitchComponent() {
                         borderWidth: '2px',
                         borderColor: '#3F3F3F',
                         fontSize: '18px',
-                        fontWeight: 700,
+                        fontWeight: 500,
                         borderRadius: '10px',
                         textTransform: 'none',
                         '&.Mui-selected': {
