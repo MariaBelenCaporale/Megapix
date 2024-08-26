@@ -19,3 +19,48 @@
 .highlight {
     color: #62FEE2; 
 }
+
+/* PILLS */
+
+.pillsRow {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.containerPills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.containerPill, .containerPillUno, .containerPillDos, .containerPillTres, .containerPillCuatro {
+    border-radius: 160px;
+    border: 1px solid white;
+    width: auto;
+    cursor: pointer;
+}
+
+.containerPill:hover {
+    border: 1px solid #62FEE2;
+}
+.containerPillUno {
+    transform: rotate(8.727deg);
+}
+.containerPillTres {
+    transform: rotate(-23.368deg);
+}
+.containerPillCuatro {
+    transform: rotate(-4.167deg);
+}
+.textPill {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 40px;
+}

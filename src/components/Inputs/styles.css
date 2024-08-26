@@ -111,3 +111,22 @@
   font-weight: 500;
   line-height: normal;
 }
+
+.btnCobro {
+  border-radius: 13.845px;
+  background: #62FEE2;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.cobrar {
+  color: #000;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 8px;
+  margin: 0px;
+}

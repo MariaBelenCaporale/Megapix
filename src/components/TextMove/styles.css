@@ -10,7 +10,7 @@
 
 .textMoveWrapper {
     display: flex;
-    animation: moveText 20s linear infinite;
+    animation: moveText 50s linear infinite;
 }
 
 .textMove {

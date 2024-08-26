@@ -10,6 +10,7 @@ import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
 import MegapixGlass from '../images/Megapix-Glass.png';
 import SectionFour from "./SectionFour/SectionFour";
+import SectionFive from "./SectionFive/SectionFive";
 
 
 const CompanyScreen = () => {
@@ -40,6 +41,7 @@ const CompanyScreen = () => {
             <SectionTwo />
             <SectionThree />
             <SectionFour />
+            <SectionFive />
             
         </div>
     )

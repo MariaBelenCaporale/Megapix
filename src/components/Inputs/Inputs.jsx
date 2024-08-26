@@ -116,6 +116,9 @@ const Inputs = () => {
           <p className="countryOk">BRL</p>
         </div>
       </div>
+      <button className="btnCobro">
+        <p className="cobrar">Cobrar</p>
+      </button>
     </div>
   );
 };

@@ -1,0 +1,24 @@
+.containerSectionFive {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.containerFive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.titleFive {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.044%;
+    width: 70%;
+}
