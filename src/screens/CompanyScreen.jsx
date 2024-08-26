@@ -5,6 +5,9 @@ import CoinTwo from '../images/coinBlur.png';
 import CoinOneIz from '../images/coinIzq.png';
 import CoinTwoIz from '../images/coinBlurIzq.png';
 import SectionOne from "./SectionOne/SectionOne";
+import TextMove from "../components/TextMove/TextMove";
+import SectionTwo from "./SectionTwo/SectionTwo";
+import SectionThree from "./SectionThree/SectionThree";
 
 
 
@@ -29,7 +32,9 @@ const CompanyScreen = () => {
             </div>
 
             <SectionOne />
-
+            <TextMove />
+            <SectionTwo />
+            <SectionThree />
             
         </div>
     )
