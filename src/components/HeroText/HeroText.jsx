@@ -7,7 +7,8 @@ const Hero = ({ title, subtitle, titleColor}) => {
     return (
         <div className="container">
             <div className='containerBackground'>
-                <h1 className="titleHero">{titleColor}{title}</h1>
+       
+                <h1 className="titleHero"><span className="highlight">{titleColor}</span>{title}</h1>
                 <p className='subtitleHero'>{subtitle}</p>
                 <ButtonComponent title='Ir a la plataforma'/>
             </div>

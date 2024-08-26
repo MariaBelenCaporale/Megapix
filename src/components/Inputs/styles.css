@@ -1,26 +1,113 @@
+.containerTotalInput {
+  position: relative;
+}
+
+.containerMonto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
 
 .monto {
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.16px;
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
 }
+
 .containerInput {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
+
 .inputs {
-    width: 557px;
-    height: 40px;
-    background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.36) 0%, rgba(217, 255, 248, 0.36) 100%);
-    border: 2px solid #62FEE2;
-    border-radius: 10px;
-    box-shadow: 0px 4.713px 4.713px 0px rgba(0, 0, 0, 0.25) inset;
-    backdrop-filter: blur(21.02810287475586px);
+  width: 557px;
+  height: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.36) 0%, rgba(217, 255, 248, 0.36) 100%);
+  border: 2px solid #62FEE2;
+  border-radius: 10px;
+  box-shadow: 0px 4.713px 4.713px 0px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(21.028px);
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.flagIcon {
+  width: 20px;
+  height: 15px;
+}
+
+.containerFlagInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+}
+
+.countryOk {
+  color: #828282;
+  font-family: 'Poppins';
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.18px;
+}
+
+.infoMessage {
+  position: absolute;
+  top: 50%;
+  left: 100%; 
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.10);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.containerItemUno {
+  position: absolute;
+  top: 50%;
+  left: -350px;
+  background-color: rgba(255, 255, 255, 0.10);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transform: translateY(-50%);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.itemUno, .itemDos {
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 1em;
+  width: 100%;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
 }

@@ -1,12 +1,21 @@
 
-
+.containerSectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .titleSectionTwo {
     color:#FFF;
     text-align: center;
-    text-shadow: 0px 4px 184px #000, 0px 4px 134px #000;
     font-family: 'Poppins';
     font-size: 5em;
     font-style: normal;
     font-weight: 600;
     line-height: 100.044%; 
+    width: 40%;
+}
+.highlight {
+    color: #62FEE2; 
 }

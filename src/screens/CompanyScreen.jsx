@@ -8,7 +8,7 @@ import SectionOne from "./SectionOne/SectionOne";
 import TextMove from "../components/TextMove/TextMove";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
-
+import MegapixGlass from '../images/Megapix-Glass.png';
 
 
 const CompanyScreen = () => {
@@ -20,6 +20,9 @@ const CompanyScreen = () => {
                     title=' cobrá reales y recibí dólar digital ' 
                     subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto.'
                 />
+                <div className="containerPixImg">
+                <img className="megapixHome" src={MegapixGlass} />
+                </div>
                 <div className="containerCoinUno">
                     <img className="coinOne" src={CoinOne} alt="Moneda" />
                     <img className="coinTwo" src={CoinTwo} alt="Moneda" />

@@ -1,10 +1,11 @@
 import './styles.css';
 
-
 const SectionTwo = () => {
     return (
-        <section>
-            <h2 className="titleSectionTwo">Ventajas de usar Megapix</h2>
+        <section className='containerSectionTwo'>
+            <h2 className="titleSectionTwo">
+                Ventajas de usar <span className="highlight">Megapix</span>
+            </h2>
         </section>
     )
 }
