@@ -9,6 +9,7 @@ import TextMove from "../components/TextMove/TextMove";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
 import MegapixGlass from '../images/Megapix-Glass.png';
+import SectionFour from "./SectionFour/SectionFour";
 
 
 const CompanyScreen = () => {
@@ -38,6 +39,7 @@ const CompanyScreen = () => {
             <TextMove />
             <SectionTwo />
             <SectionThree />
+            <SectionFour />
             
         </div>
     )
