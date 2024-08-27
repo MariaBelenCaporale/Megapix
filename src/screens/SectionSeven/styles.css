@@ -1,0 +1,69 @@
+.containerSecSeven {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.containerAsk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.ask {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    cursor: pointer;
+}
+.titleSectionSeven {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.titleSeven {
+    color: #FFF;
+    font-family: "Bebas";
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-items: center;
+    padding: 20px 0px;
+}
+.icon {
+    border-radius: 10px;
+    background: #323232;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.response {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.line {
+    width: 100%;
+    border: 0.5px solid white;
+}
