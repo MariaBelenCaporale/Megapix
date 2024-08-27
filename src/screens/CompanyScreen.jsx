@@ -13,6 +13,7 @@ import SectionFour from "./SectionFour/SectionFour";
 import SectionFive from "./SectionFive/SectionFive";
 import SectionSix from "./SectionSix/SectionSix";
 import SectionSeven from "./SectionSeven/SectionSeven";
+import Footer from "../components/Footer/Footer";
 
 
 const CompanyScreen = () => {
@@ -46,6 +47,7 @@ const CompanyScreen = () => {
             <SectionFive />
             <SectionSix />
             <SectionSeven />
+            <Footer />
             
         </div>
     )

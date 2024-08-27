@@ -1,0 +1,76 @@
+.containerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.sloganContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleSlogan {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerOrder {
+    width: 90%;
+    border-radius: 30px;
+    background:  rgba(255, 255, 255, 0.10);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    backdrop-filter: blur(20px);
+    height: 200px;
+    z-index: 1;
+    top: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.containerFormas {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    height: auto;
+    position: absolute;
+}
+.formas {
+    width: 100%;
+}
+.titleFooter {
+    color: #FFF;
+    font-family: "Bebas";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.containerRayoFooter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.rayito {
+    width: 300px;
+}
+.logoFooter {
+    padding: 0px 30px;
+}
