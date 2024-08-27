@@ -6,15 +6,22 @@
     justify-content: center;
     width: 100%;
 }
+.blurTwo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .titleSectionTwo {
     color:#FFF;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 5em;
+    font-size: 4.5em;
     font-style: normal;
     font-weight: 600;
     line-height: 100.044%; 
     width: 40%;
+    z-index: 1;
 }
 .highlight {
     color: #62FEE2; 
@@ -25,7 +32,22 @@
 .pillsRow {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.containerPill {
+    border-radius: 160px;
+    border: 3px solid white;
+    width: auto;
+    cursor: pointer;
+    background-color: #111111; 
+    transition: background-color 0.3s; 
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.containerPill::before {
+    background-color: #62FEE2;
 }
 
 .containerPills {
@@ -35,32 +57,67 @@
     justify-content: center;
     gap: 2rem;
 }
-.containerPill, .containerPillUno, .containerPillDos, .containerPillTres, .containerPillCuatro {
-    border-radius: 160px;
-    border: 1px solid white;
-    width: auto;
-    cursor: pointer;
+
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
+.containerPillCero {
+    transform: rotate(22.192deg);
+    animation-duration: 4s; 
+}
+
+.containerPillUno {
+    transform: rotate(8.727deg);
+    animation-duration: 5s;
+}
+
+.containerPillDos {
+    transform: rotate(-22.087deg);
+    animation-duration: 6s; 
+}
+
+.containerPillTres {
+    transform: rotate(-23.368deg);
+    animation-duration: 3.5s; 
+}
+
+.containerPillCuatro {
+    transform: rotate(-9.266deg);
+    animation-duration: 4.5s; 
+}
+
+.containerPillCinco {
+    transform: rotate(-23.368deg);
+    animation-duration: 5s; 
+}
+
+.containerPillSeis {
+    transform: rotate(-4.167deg);
+    animation-duration: 4s; 
+}
+
+.containerPillSiete {
+    transform: rotate(12.17deg);
+    animation-duration: 6s; 
 }
 
 .containerPill:hover {
-    border: 1px solid #62FEE2;
+    border: 3px solid #62FEE2;
 }
-.containerPillUno {
-    transform: rotate(8.727deg);
-}
-.containerPillTres {
-    transform: rotate(-23.368deg);
-}
-.containerPillCuatro {
-    transform: rotate(-4.167deg);
+
+.textPill:hover {
+    color: #62FEE2;
 }
 .textPill {
     color: #FFF;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 1em;
-    font-style: normal;
+    font-size: 1.2em;
     font-weight: 400;
-    line-height: normal;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }

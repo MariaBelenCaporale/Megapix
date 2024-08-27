@@ -22,3 +22,11 @@
     line-height: 100.044%;
     width: 70%;
 }
+.containerDragCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+}
