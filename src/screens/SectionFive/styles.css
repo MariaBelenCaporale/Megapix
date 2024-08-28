@@ -32,13 +32,30 @@
 }
 
 
-@media (min-width: 390px) {
+
+
+@media (min-width: 360px) and (max-width: 576px) {
+
+.containerDragCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 2rem;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+.containerDragCard > * {
+    flex-shrink: 0; 
+    scroll-snap-align: start; 
+}
     .titleFive {
         font-size: 2em;
     }
     .containerDragCard {
-        overflow: hidden;
-        justify-content: flex-start;
+        overflow-x: auto; 
+        flex-direction: row; 
     }
-    
 }

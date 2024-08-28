@@ -8,10 +8,9 @@ const NavBar = () => {
         <div className='containerNav'>
             <div className='containerLogo'>
             <img className='logo' src={Logo} alt="Logo Megapix" />
-            <LanguageSelect />
             </div>
             <SwitchComponent />
-            
+            <LanguageSelect />
         </div>
     );
 };

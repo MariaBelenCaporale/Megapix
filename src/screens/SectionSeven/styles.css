@@ -68,9 +68,10 @@
     border: 0.5px solid white;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .titleSeven {
-        font-size: 3em;
+        font-size: 2.7em;
+        width: 90%;
     }
     .ask {
         width: 90%;

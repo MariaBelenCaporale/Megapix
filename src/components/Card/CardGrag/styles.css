@@ -45,7 +45,7 @@
 }
 
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .cardDrag {
         width: 85%;
         padding: 20px;

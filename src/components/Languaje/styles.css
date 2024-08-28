@@ -60,7 +60,7 @@
 }
 
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px){
     .containerLanguage {
         width: auto;
     }

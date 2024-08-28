@@ -17,9 +17,10 @@
 
  
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .containerSectionOne {
         height: auto;
+        width: 100%;
     }
     .titleSectionOne {
         font-size: 2em;

@@ -16,7 +16,9 @@ const SectionFour = () => {
                 <ButtonFour title='Gestión de tiendas'/>
                 <ButtonFour title='Gestión de usuarios'/>
               </div>
-
+            </div>
+            <div className='containerMoveImageFour'>
+              <div className='moveImage'></div>
             </div>
 
         </section>

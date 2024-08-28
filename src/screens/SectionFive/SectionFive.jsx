@@ -30,6 +30,12 @@ const SectionFive = () => {
           subtitle="“Conversión automática de pesos a reales, y en dólar digital que quedara en tu cuenta 🙌”."
           img={Pix}
         />
+         {/* <CardDrag
+          title="Gestión de tiendas"
+          subtitle="“Conversión automática de pesos a reales, y en dólar digital que quedara en tu cuenta 🙌”."
+          img={Pix}
+        /> */}
+        
       </div>
     </section>
   );

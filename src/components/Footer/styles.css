@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 9;
 }
 .titleSlogan {
     color: #FFF;
@@ -75,7 +76,7 @@
     padding: 0px 30px;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .titleSlogan {
         font-size: 3em;
     }
@@ -86,7 +87,11 @@
         width: 200px;
     }
     .footerOrder {
-        width: 85%;
+        width: 90%;
         top: 0px;
+    }
+    .logoFooter {
+        padding: 0px;
+        width: 200px;
     }
 }

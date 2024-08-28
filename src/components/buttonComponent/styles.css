@@ -1,8 +1,13 @@
-
+.containerButtonComponent {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .buttonStyle {
     background-color: #ffffff5c;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    width: 18%;
+    width: 100%;
     height: 50px;
     border-radius: 0px;
     align-items: center;
@@ -12,6 +17,7 @@
     border: 2px solid transparent; 
     border-image: linear-gradient(to right, hsl(0, 0%, 60%), hsl(0, 0%, 60%));
     border-image-slice: 1;
+    padding: 20px;
 }
 .buttonStyle:hover {
     border-image: linear-gradient(to right, hsl(0, 0%, 60%), hsl(173, 100%, 60%));
@@ -30,9 +36,9 @@
     color: #00FFE1;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 360px) and (max-width: 576px){
     .buttonStyle {
-        width: 200px;
+        width: 100%;
     }
     .textButton {
         font-size: 1em;

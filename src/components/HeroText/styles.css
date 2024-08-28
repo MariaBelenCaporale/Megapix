@@ -2,6 +2,8 @@
     font-family: "Bebas";
     src: url("../../fonts/BebasNeue-Regular.ttf");
   }
+
+
 .containerHero {
     display: flex;
     align-items: center;
@@ -55,8 +57,8 @@
     }
 }
 
-
-@media (min-width: 390px){
+  
+@media (min-width: 360px) and (max-width: 576px){
     .titleHero {
         font-size: 2.6em;
         width: 90%;
@@ -65,7 +67,7 @@
         color: #FFF;
         text-align: center;
         font-family: 'Poppins';
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: 400;
         width: 90%;
     }
