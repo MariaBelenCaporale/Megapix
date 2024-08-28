@@ -62,3 +62,18 @@
         transform: translateY(0px) scale(1); 
     }
 }
+
+@media (min-width: 390px) {
+    .megapixHome {
+        width: 100%;
+    }
+    .coinFour {
+        width: 40%;
+    }
+    .coinOne {
+        width: 30%;
+    }
+    .containerCoinUno, .containerCoinDos{
+        top: 200px;
+    }
+}

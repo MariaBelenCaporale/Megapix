@@ -24,3 +24,14 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
+@media (min-width: 390px) {
+    .titleSectionThree {
+        font-size: 3em;
+    }
+    .subSectionThree {
+        font-size: 1em;
+    }
+
+}

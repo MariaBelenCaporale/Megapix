@@ -44,3 +44,15 @@
     padding: 20px 0px;
     width: 40%;
 }
+
+@media (min-width: 390px) {
+    .titleSectionSix {
+        font-size: 3em;
+    }
+    .itemSix {
+        font-size: 2.3em;
+    }
+    .subtitleSectionSix {
+        width: 100%;
+    }
+}

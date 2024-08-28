@@ -34,3 +34,13 @@
         transform: translateX(-100%);
     }
 }
+
+
+@media (min-width: 390px) {
+    .textMoveContainer {
+        height: 30vh;
+    }
+    .textMove {
+        font-size: 4em;
+    }
+}

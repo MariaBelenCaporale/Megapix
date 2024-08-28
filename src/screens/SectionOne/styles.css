@@ -17,5 +17,12 @@
 
  
 
-
+@media (min-width: 390px) {
+    .containerSectionOne {
+        height: auto;
+    }
+    .titleSectionOne {
+        font-size: 2em;
+    }
+}
 

@@ -47,3 +47,30 @@
   position: absolute;
   width: 30%;
 }
+
+@media (min-width: 390px) {
+  .pixImage {
+    display: none;
+  }
+  .sectionFour {
+    align-items: center;
+  }
+  .cardFour {
+    margin: 0px;
+    padding: 30px 20px;
+    width: 75%;
+  }
+  .titleFour {
+    font-size: 2em;
+  }
+  .containerBtnFour {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+}

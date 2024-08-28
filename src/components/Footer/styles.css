@@ -74,3 +74,19 @@
 .logoFooter {
     padding: 0px 30px;
 }
+
+@media (min-width: 390px) {
+    .titleSlogan {
+        font-size: 3em;
+    }
+    .sloganContainer {
+        width: 90%;
+    }
+    .rayito {
+        width: 200px;
+    }
+    .footerOrder {
+        width: 85%;
+        top: 0px;
+    }
+}

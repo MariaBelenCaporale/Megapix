@@ -43,3 +43,20 @@
 .imgDrag {
     width: 100%;
 }
+
+
+@media (min-width: 390px) {
+    .cardDrag {
+        width: 85%;
+        padding: 20px;
+        height: 450px;
+    }
+    .titleCardDrag {
+        font-size: 1.3em;
+        padding: 20px 0px 10px 0px;
+    }
+    .containerImgDrag {
+        height: 100px;
+    }
+    
+}

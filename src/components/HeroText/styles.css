@@ -55,3 +55,19 @@
     }
 }
 
+
+@media (min-width: 390px){
+    .titleHero {
+        font-size: 2.6em;
+        width: 90%;
+    }
+    .subtitleHero {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 1em;
+        font-weight: 400;
+        width: 90%;
+    }
+    
+}

@@ -19,3 +19,19 @@
     width: 50%;
     z-index: 99;
 }
+
+
+@media (min-width: 390px) {
+    .containerLogo {
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: flex-start;      
+    }
+    .logo {
+        width: 30%;
+    }
+    .containerNav {
+        flex-direction: column;
+    }
+}

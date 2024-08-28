@@ -35,6 +35,7 @@ export default function SwitchComponent() {
                 exclusive
                 onChange={handleChange}
                 aria-label="text alignment"
+                className='switch'
                 sx={{
                     backgroundColor: '#3F3F3F',
                     border: '1px solid',
@@ -74,7 +75,7 @@ export default function SwitchComponent() {
                     <p className='empresa'>Empresas</p>
                 </ToggleButton>
                 <ToggleButton value="turistas" aria-label="turistas">
-                    Turistas
+                <p className='turista'>Turistas</p>
                 </ToggleButton>
             </ToggleButtonGroup>
         </Box>

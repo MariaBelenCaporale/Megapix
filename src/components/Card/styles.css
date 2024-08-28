@@ -62,3 +62,27 @@
         transform: translateY(0px);
     }
 }
+
+@media (min-width: 390px) {
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .containerCard {
+        padding: 30px 20px;
+    }
+    .tituloCard {
+        font-size: 4em;
+    }
+    .rayoImg {
+        width: 50%;
+    }
+    .textCard {
+        color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    }
+}

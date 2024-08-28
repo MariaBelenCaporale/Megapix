@@ -130,3 +130,18 @@
   padding: 8px;
   margin: 0px;
 }
+
+@media (min-width: 390px) {
+  .containerTotalInput {
+    width: 270px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #1E1E1E;
+    position: relative;
+    padding: 30px;
+  }
+  .inputWrapper {
+    width: 100%;
+  }
+}

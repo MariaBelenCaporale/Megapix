@@ -29,3 +29,12 @@
 .textButton:hover {
     color: #00FFE1;
 }
+
+@media (min-width: 390px) {
+    .buttonStyle {
+        width: 200px;
+    }
+    .textButton {
+        font-size: 1em;
+    }
+}

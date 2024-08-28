@@ -7,3 +7,12 @@
     justify-content: center;
 }
 
+@media (min-width: 390px) {
+    .switch {
+        width: 50%;
+    }
+    .empresa, .turista {
+        font-size: 0.8em;
+    }
+    
+}

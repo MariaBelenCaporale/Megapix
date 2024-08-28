@@ -58,3 +58,10 @@
     font-family: 'Poppins';
     font-weight: 400;
 }
+
+
+@media (min-width: 390px) {
+    .containerLanguage {
+        width: auto;
+    }
+}
