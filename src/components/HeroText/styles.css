@@ -89,3 +89,10 @@
         width: 80%;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .titleHero {
+        width: 80%;
+        font-size: 5em;
+    }
+}

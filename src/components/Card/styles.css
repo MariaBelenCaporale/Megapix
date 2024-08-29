@@ -101,3 +101,12 @@
         font-weight: 300;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .containerCard {
+        padding: 70px;
+    }
+    .tituloCard {
+        font-size: 5em;
+    }
+}
