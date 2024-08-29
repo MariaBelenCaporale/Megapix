@@ -86,3 +86,38 @@
     }
     
 }
+@media (min-width: 577px) and (max-width: 768px) {
+    .titleSeven {
+        font-size: 4em;
+        width: 90%;
+    }
+    .ask {
+        width: 90%;
+    }
+    .question p {
+        font-size: .7em;
+        font-weight: 400;
+        width: 80%;
+    }
+    .containerSecSeven {
+        justify-content: center;
+    }   
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .titleSeven {
+        font-size: 5em;
+        width: 90%;
+    }
+    .ask {
+        width: 90%;
+    }
+    .question p {
+        font-size: .7em;
+        font-weight: 400;
+        width: 80%;
+    }
+    .containerSecSeven {
+        justify-content: center;
+    }   
+}
