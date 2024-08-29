@@ -146,3 +146,33 @@
         width: 500px;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1400px) {
+    .titleSectionSix {
+        font-size: 4em;
+    }
+    .sectionSix {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+    .itemSix {
+        font-size: 2.3em;
+    }
+    .subtitleSectionSix {
+        width: 100%;
+    }
+    .containerTextSix {
+        padding: 0px;
+        width: 100%;
+    }
+    .containerVideosSix {
+        gap: 3em;
+        width: 90%;
+        height: auto;
+        flex-direction: row;
+    }
+    .videoGif {
+        width: 500px;
+    }
+} 
+

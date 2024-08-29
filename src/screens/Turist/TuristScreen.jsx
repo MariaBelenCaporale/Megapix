@@ -5,8 +5,8 @@ const TuristScreen = () => {
     return (
         <div className="containerTurist"> 
             <Hero 
-                title="pagá en reales con pix desde tu banco" 
-                subtitle="Viví tus vacaciones pagando como si estuvieses en casa" 
+                title="Pagá con pix sin límites en Argentina" 
+                subtitle="Viví experiencias únicas pagando como si estuvieses en casa" 
             />
         </div>
     );

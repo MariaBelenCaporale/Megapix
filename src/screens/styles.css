@@ -131,3 +131,26 @@
         justify-content: space-around;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .megapixHome {
+        width: 100%;
+    }
+    .coinFour {
+        width: 30%;
+    }
+    .coinOne {
+        width: 30%;
+    }
+    .containerCoinUno {
+        top: 20px;
+        height: 90vh;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    .containerCoinDos {
+        top: 20px;
+        height: 90vh;
+        justify-content: space-around;
+    }
+}
