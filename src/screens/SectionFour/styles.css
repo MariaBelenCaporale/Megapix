@@ -97,3 +97,37 @@
     margin-right: 0px;
   }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .pixImage {
+    display: none;
+  }
+  .sectionFour {
+    align-items: center;
+    flex-direction: column;
+  }
+  .cardFour {
+    margin: 0px;
+    padding: 30px 20px;
+    width: 80%;
+  }
+  .titleFour {
+    font-size: 3em;
+  }
+  .containerBtnFour {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto; 
+    white-space: nowrap;
+  }
+  .containerBtnFour button {
+    flex: 0 0 auto; 
+  }
+  .containerMoveImageFour {
+    margin-right: 0px;
+  }
+}

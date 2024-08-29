@@ -9,7 +9,7 @@
 
 @media (min-width: 360px) and (max-width: 576px) {
     .switch {
-        width: 50%;
+        width: auto;
     }
     .empresa, .turista {
         font-size: 0.8em;
@@ -18,5 +18,16 @@
         position: absolute;
         top: 90px;
     }
-    
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .switch {
+        width: auto;
+    }
+    .empresa, .turista {
+        font-size: 0.8em;
+    }
+    .containerSwitch {
+        position: absolute;
+        top: 90px;
+    }
 }

@@ -58,5 +58,12 @@
         overflow-x: auto; 
         flex-direction: row; 
     }
+}
 
+@media (min-width: 577px) and (max-width: 768px) {
+    .titleFive {
+        font-size: 4em;
+        text-align: center;
+        width: 90%;
+    }
 }

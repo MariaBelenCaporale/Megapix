@@ -43,7 +43,7 @@
 .rayoImg {
     position: absolute;
     right: 1;
-    top: 1;
+    bottom: 1;
     width: 70%;
 }
 .rayoImg {
@@ -53,14 +53,12 @@
 
 @keyframes rayo {
     0% {
-       transform: translateY(0px);
+       transform: translateY(-20px) ease-in;
     }
     50% {
-        transform: translateY(25px);
+        transform: translateY(20px) ;
     }
-    100% {
-        transform: translateY(0px);
-    }
+
 }
 
 @media (min-width: 360px) and (max-width: 576px) {
@@ -75,10 +73,31 @@
         font-size: 4em;
     }
     .rayoImg {
-        width: 50%;
+        width: 30%;
     }
     .textCard {
         font-size: .9em;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .containerCard {
+        padding: 50px 20px;
+    }
+    .tituloCard {
+        font-size: 4em;
+        width: 50%;
+    }
+    .rayoImg {
+        width: 30%;
+    }
+    .textCard {
+        font-size: 1.2em;
         font-weight: 300;
     }
 }

@@ -71,5 +71,21 @@
         font-weight: 400;
         width: 90%;
     }
-    
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .titleHero {
+        font-size: 3em;
+        width: 90%;
+    }
+    .subtitleHero {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .titleHero {
+        font-size: 4em;
+        width: 80%;
+    }
 }

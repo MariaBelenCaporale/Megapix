@@ -65,3 +65,9 @@
         width: 100%;
     }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .containerLanguage {
+        width: 100%;
+    }
+}

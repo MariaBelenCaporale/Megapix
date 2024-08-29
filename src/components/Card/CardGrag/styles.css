@@ -58,5 +58,18 @@
     .containerImgDrag {
         height: 200px;
     }
-    
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .cardDrag {
+        width: 100%;
+        padding: 20px;
+        height: 450px;
+    }
+    .titleCardDrag {
+        font-size: 1.3em;
+        padding: 20px 0px 10px 0px;
+    }
+    .containerImgDrag {
+        height: 200px;
+    }
 }

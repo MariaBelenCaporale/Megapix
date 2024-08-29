@@ -81,6 +81,7 @@
     }
     .sloganContainer {
         width: 90%;
+        padding: 50px 0px;
     }
     .rayito {
         width: 200px;
@@ -92,5 +93,19 @@
     .logoFooter {
         padding: 0px;
         width: 200px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .sloganContainer {
+        width: 90%;
+    }
+    .titleSlogan {
+        font-size: 4em;
+    }
+    .rayito {
+        width: 250px;
+    }
+    .footerOrder {
+        top: 100px;
     }
 }
