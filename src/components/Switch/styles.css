@@ -14,5 +14,9 @@
     .empresa, .turista {
         font-size: 0.8em;
     }
+    .containerSwitch {
+        position: absolute;
+        top: 90px;
+    }
     
 }

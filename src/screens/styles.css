@@ -57,7 +57,7 @@
     }
 
     50% {
-        transform: translateY(0px) scale(1.1); 
+        transform: translateY(0px) scale(1.5); 
     }
     100% {
         transform: translateY(0px) scale(1); 
@@ -69,12 +69,20 @@
         width: 100%;
     }
     .coinFour {
-        width: 40%;
+        width: 30%;
     }
     .coinOne {
         width: 30%;
     }
-    .containerCoinUno, .containerCoinDos{
-        top: 200px;
+    .containerCoinUno {
+        top: 20px;
+        height: 90vh;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    .containerCoinDos {
+        top: 20px;
+        height: 90vh;
+        justify-content: space-around;
     }
 }

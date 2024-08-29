@@ -93,4 +93,7 @@
   .containerBtnFour button {
     flex: 0 0 auto; 
   }
+  .containerMoveImageFour {
+    margin-right: 0px;
+  }
 }
