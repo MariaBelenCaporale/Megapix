@@ -68,53 +68,55 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
 }
 
 
 @keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
+    0% { transform: translateY(0)  }
+    50% { transform: translateY(-10px)}
+    100% { transform: translateY(0) }
 }
 
 
+
+
 .containerPillCero {
-    transform: rotate(22.192deg);
+    transform: rotate(45deg);
     animation-duration: 4s; 
 }
 
 .containerPillUno {
-    transform: rotate(8.727deg);
     animation-duration: 5s;
 }
 
 .containerPillDos {
-    transform: rotate(-22.087deg);
+
     animation-duration: 6s; 
 }
 
 .containerPillTres {
-    transform: rotate(-23.368deg);
+
     animation-duration: 3.5s; 
 }
 
 .containerPillCuatro {
-    transform: rotate(-9.266deg);
+ 
     animation-duration: 4.5s; 
 }
 
 .containerPillCinco {
-    transform: rotate(-23.368deg);
+
     animation-duration: 5s; 
 }
 
 .containerPillSeis {
-    transform: rotate(-4.167deg);
+
     animation-duration: 4s; 
 }
 
 .containerPillSiete {
-    transform: rotate(12.17deg);
+ 
     animation-duration: 6s; 
 }
 
