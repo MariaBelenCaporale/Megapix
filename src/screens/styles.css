@@ -32,13 +32,23 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
+    overflow: hidden;
 }
 
 .containerCoinDos {
     align-items: flex-start; 
 }
+.coinFour {
+    animation: coin 10s infinite ease-in-out;
+}
 
-.coinOne, .coinTwo, .coinThree, .coinFour {
+.coinOne  {
+    animation: coin 10s infinite ease-in-out;
+}
+.coinTwo  {
+    animation: coin 5s infinite ease-in-out;
+}
+.coinThree {
     animation: coin 5s infinite ease-in-out;
 }
 
@@ -57,7 +67,7 @@
     }
 
     50% {
-        transform: translateY(0px) scale(1.5); 
+        transform: translateY(0px) scale(1.3); 
     }
     100% {
         transform: translateY(0px) scale(1); 

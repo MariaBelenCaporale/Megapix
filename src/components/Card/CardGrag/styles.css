@@ -1,18 +1,13 @@
 
-
-.cardDrag {
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.10);
-    background-blend-mode: soft-light, normal;
-    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
-    backdrop-filter: blur(20px);
-    width: 25%;
-    height: 100%;
-    padding: 30px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
+.subtitleCardDrag {
+    color:#FFF;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    text-indent: 0px;    
+    text-wrap: wrap;
 }
 .titleCardDrag {
     color: #FFF;
@@ -24,67 +19,57 @@
     margin: 0px;
     padding: 30px 0px 10px 0px;
 }
-.subtitleCardDrag {
-    color:#FFF;
-    font-family: 'Poppins';
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0px;
-}
-.containerImgDrag {
+
+.containerDragCard {
     display: flex;
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
-.imgDrag {
+
+.items {
+    position: relative;
     width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+
+.items.active {
+    background: rgba(0, 0, 0, 0.145);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.itemDrag {
+    display: inline-block;
+    border-radius: 30px;
+    background: rgb(60, 60, 60);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    backdrop-filter: blur(20px);
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    margin: 0px 30px;
+}
+
+.containerInfoDrag {
+    padding: 30px;
+}
+
+.containerImgDrag {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 }
 
 
-@media (min-width: 360px) and (max-width: 576px) {
-    .cardDrag {
-        width: 85%;
-        padding: 20px;
-        height: 450px;
-    }
-    .titleCardDrag {
-        font-size: 1.3em;
-        padding: 20px 0px 10px 0px;
-    }
-    .containerImgDrag {
-        height: 200px;
-    }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-    .cardDrag {
-        width: 100%;
-        padding: 20px;
-        height: 450px;
-    }
-    .titleCardDrag {
-        font-size: 1.3em;
-        padding: 20px 0px 10px 0px;
-    }
-    .containerImgDrag {
-        height: 200px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px)  {
-    .cardDrag {
-        width: 100%;
-        padding: 20px;
-        height: 450px;
-    }
-    .titleCardDrag {
-        font-size: 1.3em;
-        padding: 20px 0px 10px 0px;
-    }
-    .containerImgDrag {
-        height: 200px;
-    }
-}
