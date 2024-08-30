@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
 .containerLanguage {
     position: relative;
     display: flex;
@@ -19,11 +31,9 @@
     position: relative;
 }
 
-.containerFlag:hover {
-    background-color: #62FEE2;
-}
+
 .idioms:hover {
-    color: black;
+    color: #62FEE2;
 }
 
 .dropdownMenu {
@@ -55,8 +65,8 @@
     font-size: 16px;
     color: #fff; 
     text-align: center;
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 

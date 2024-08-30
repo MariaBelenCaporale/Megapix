@@ -1,6 +1,19 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins/Poppins-Black.ttf");
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
+
 .monto {
   color: #FFF;
-  font-family: 'Poppins';
+  font-family: "Poppins-regular", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -43,7 +56,7 @@
 
 .currency-label {
   color: #FFF;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-size: .8em;
   font-weight: 500;
 }

@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+  
 .containerSectionFive {
     display: flex;
     align-items: center;
@@ -15,7 +28,7 @@
 .titleFive {
     color: #FFF;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
     font-size: 5em;
     font-style: normal;
     font-weight: 600;

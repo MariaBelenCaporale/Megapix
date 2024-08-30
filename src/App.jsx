@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CompanyScreen from './screens/CompanyScreen';
 import TuristScreen from './screens/Turist/TuristScreen'; 
 
+
 function App() {
   return (
     <Router>

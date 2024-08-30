@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
 .containerSecSeven {
     justify-content: flex-start;
     display: flex;
@@ -27,7 +43,7 @@
 }
 .titleSeven {
     color: #FFF;
-    font-family: "Bebas";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 5em;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +54,7 @@
     justify-content: space-between;
     width: 100%;
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
     font-size: 1.5em;
     font-style: normal;
     font-weight: 300;
@@ -58,7 +74,7 @@
 
 .response {
     color: white;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
     font-size: 1em;
     font-weight: 300;
 }

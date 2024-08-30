@@ -1,7 +1,18 @@
-
+@font-face {
+    font-family: "Poppins";
+    src: url("../../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
+  }
 .subtitleCardDrag {
     color:#FFF;
-    font-family: 'Poppins';
+    font-family: "Poppins-Regular", sans-serif;
     font-size: 1em;
     font-style: normal;
     font-weight: 400;
@@ -12,7 +23,7 @@
 .titleCardDrag {
     color: #FFF;
     text-align: start;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
     font-size: 1.8em;
     font-style: normal;
     font-weight: 500;

@@ -1,4 +1,19 @@
-
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
 .containerCard {
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.10);
@@ -17,17 +32,16 @@
 }
 .textCard {
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: "Poppins", sans-serif;
     font-size: 1.2em;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 150%;
     width: 100%;
 }
 .tituloCard {
     color: #FFF;
     text-align: center;
-    font-family: "Bebas";
+    font-family: "Bebas Neue", sans-serif;
     margin: 0px;
     font-size: 7em;
     font-style: normal;

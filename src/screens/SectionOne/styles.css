@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
 .containerSectionOne {
     display: flex;
     align-items: center;
@@ -8,7 +12,7 @@
 .titleSectionOne {
     color: white;
     text-align: center;
-    font-family: "Bebas";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 5em;
     font-style: normal;
     font-weight: 400;

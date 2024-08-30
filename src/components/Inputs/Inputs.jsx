@@ -116,7 +116,8 @@ const Inputs = () => {
           fontSize: '16px',
           borderRadius: '4px',
           border: 'none',
-          fontFamily: 'Poppins',
+          fontFamily: "Poppins-SemiBold",
+
           backgroundColor: '#62FEE2',
           color: 'black',
           cursor: 'pointer',
