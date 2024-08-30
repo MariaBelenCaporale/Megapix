@@ -75,6 +75,23 @@
     padding: 0px 30px;
 }
 
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.rayito {
+    width: 300px;
+    animation: float 3s ease-in-out infinite;
+}
+
 @media (min-width: 360px) and (max-width: 576px) {
     .titleSlogan {
         font-size: 3em;
