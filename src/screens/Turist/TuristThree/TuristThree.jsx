@@ -1,3 +1,4 @@
+import CardTurist from '../../../components/Card/CardTurist/CardTurist';
 import './styles.css';
 
 const TuristThree = () => {
@@ -6,6 +7,9 @@ const TuristThree = () => {
             <h2 className="titleTuristThree">
             Vení a disfrutar de Argentina con <span className="highlight">Megapix</span>
             </h2>
+            <div className='containerCardTurOne'>
+                <CardTurist />
+            </div>
         </div>
     )
 }

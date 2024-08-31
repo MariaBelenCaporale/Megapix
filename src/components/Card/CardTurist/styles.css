@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+
+.turismCardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.orderCardTur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: .5em;
+}
+.cardTurOne {
+    border-radius: 40px;
+    background: #1E1E1E;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleCardTurOne {
+    color: #5A5A5A;
+    text-align: center;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+.askCardTur {
+    color: #62FEE2;
+    font-family: "Bebas Neue";
+    font-size: 4em;
+    font-style: normal;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: start;
+    width: 60%;
+}
+.textCardTur {
+    color:#FFF;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    text-align: start;
+    margin: 0px;
+    width: 70%;
+}
+.textTurOne, .askTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerCardNext {
+    display: flex;
+    gap: 5em;
+    padding: 40px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    background:rgba(255, 255, 255, 0.10);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    backdrop-filter: blur(20px);
+}
