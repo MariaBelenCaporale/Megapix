@@ -23,6 +23,7 @@ const CompanyScreen = () => {
                 <Hero 
                     titleColor="potenciá tu negocio,"
                     title=' cobrá reales y recibí dólar digital ' 
+                    fontFamily='Bebas Neue, sans-serif'
                     subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto.'
                 />
                 <div className="containerPixImg">

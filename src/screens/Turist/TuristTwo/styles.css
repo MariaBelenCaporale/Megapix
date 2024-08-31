@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../../../fonts/BebasNeue-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+.containerTurTwo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.titleTuristTwo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5em;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.subtitleTuristTwo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    width: 80%;
+    margin: 0px;
+}
