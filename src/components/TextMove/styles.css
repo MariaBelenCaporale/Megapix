@@ -40,7 +40,7 @@
 }
 
 
-@media (min-width: 360px) and (max-width: 576px){
+@media (min-width: 360px){
     .textMoveContainer {
         height: 30vh;
     }
@@ -48,15 +48,9 @@
         font-size: 4em;
     }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-    .textMove {
-        font-size: 4em;
-    }
-    .textMoveContainer {
-        height: 30vh;
-    }
-}
-@media (min-width: 993px) and (max-width: 1200px) {
+
+
+@media (min-width: 993px){
     .textMove {
         font-size: 5em;
     }

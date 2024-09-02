@@ -68,7 +68,7 @@
 }
 
   
-@media (min-width: 360px) and (max-width: 576px){
+@media (min-width: 360px){
     .titleHero {
         font-size: 2.6em;
         width: 90%;
@@ -76,33 +76,39 @@
     .subtitleHero {
         color: #FFF;
         text-align: center;
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins-Regular", sans-serif;
         font-size: 1.1em;
         font-weight: 400;
         width: 90%;
     }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) {
     .titleHero {
         font-size: 3em;
         width: 90%;
     }
     .subtitleHero {
         width: 90%;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 1.1em;
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) {
     .titleHero {
         font-size: 4em;
         width: 80%;
     }
 }
 
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px){
     .titleHero {
         width: 90%;
-        font-size: 5em;
+        font-size: 6em;
+    }
+    .subtitleHero {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 1.3em;
     }
 }

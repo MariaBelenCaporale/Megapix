@@ -12,57 +12,57 @@ const SectionTwo = () => {
         <div className='pillsRow'>
                 <div className='containerPills'>
                     <button className='containerPillCero containerPill  before'>
-                        <p className='textPill'>Control de tus finanzas</p>
+                        Control de tus finanzas
                     </button>
                     <button className='containerPill'>
-                        <p className='textPill'>Plataforma gratuita</p>
+                        Plataforma gratuita
                     </button>
                     <button className='containerPill'>
-                        <p className='textPill'>Segura</p>
+                        Segura
                     </button>
                 </div>
                 <div className='containerPills'>
                     <button className='containerPillCuatro containerPill'>
-                        <p className='textPill'>Amplias opciones de cobro</p>
+                        Amplias opciones de cobro
                     </button>
                     <button className='containerPillCinco containerPill'>
-                        <p className='textPill'>Rapidez</p>
+                        Rapidez
                     </button>
                     <button className='containerPill'>
-                        <p className='textPill'>Multiplataforma</p>
+                        Multiplataforma
                     </button>
                 </div>
                 <div className='containerPills'>
                     <button className='containerPill'>
-                        <p className='textPill'>Conexión con turistas</p>
+                        Conexión con turistas
                     </button>
                     <button className='containerPillUno containerPill'>
-                        <p className='textPill'>Transacciones sin posnet</p>
+                        Transacciones sin posnet
                     </button>
                     <button className='containerPill'>
-                        <p className='textPill'>Cobros sin barreras</p>
+                        Cobros sin barreras
                     </button>
                 </div>
                 <div className='containerPills'>
                     <button className='containerPillDos containerPill'>
-                        <p className='textPill'>Inclusión financiera</p>
+                        Inclusión financiera
                     </button>
                     <button className='containerPillSeis containerPill'>
-                        <p className='textPill'>Conversiones automáticas</p>
+                        Conversiones automáticas
                     </button>
                     <button className='containerPillDos containerPill'>
-                        <p className='textPill'>Soportes 24/7</p>
+                        Soportes 24/7
                     </button>
                 </div>
                 <div className='containerPills'>
                     <button className='containerPill'>
-                        <p className='textPill'>Comercio exterior</p>
+                        Comercio exterior
                     </button>
                     <button className='containerPillSiete containerPill'>
-                        <p className='textPill'>Fácil</p>
+                        Fácil
                     </button>
                     <button className='containerPill'>
-                        <p className='textPill'>Tecnología PIX</p>
+                        Tecnología PIX
                     </button>
                 </div>
             </div>

@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 const ButtonComponent = ({ title }) => {
     return (
-        <div className='containerButtonComponent'>
+     
         <button className='buttonStyle'>
-            <p className='textButton'>{title}</p>
+           {title}
         </button>
-        </div>
+    
     )
 };
 
