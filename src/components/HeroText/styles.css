@@ -1,114 +1,116 @@
 @font-face {
-    font-family: "Bebas";
-    src: url("../../fonts/BebasNeue-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
-    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
-  }
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins/Poppins-Black.ttf");
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
 
+.lightBlue {
+  color: #62fee2;
+}
 .containerHero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .titleHero {
-    color: #FFF;
-    text-align: center;
-    margin: 0px;
-    width: 70%;
-    text-shadow: 0px 4px 134px #000;
-    font-size: 6em;
-    font-style: normal;
-    font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  text-shadow: 0px 4px 134px #000;
+  width: 80%;
+  font-size: 7em;
+  font-style: normal;
+  font-weight: 400;
 }
 .subtitleHero {
-    color: #FFF;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.3em;
-    font-style: normal;
-    font-weight: 500;
-    margin: 0px 0px 50px 0px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0px 0px 50px 0px;
 }
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .containerBackground {
-    backdrop-filter: blur(0px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
+  backdrop-filter: blur(0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        color: white;
-    }
-    to {
-        opacity: 1;
-        color: aqua;
-    }
+  from {
+    opacity: 0;
+    color: white;
+  }
+  to {
+    opacity: 1;
+    color: #62fee2;
+  }
 }
 
-  
-@media (min-width: 360px){
-    .titleHero {
-        font-size: 2.6em;
-        width: 90%;
-    }
-    .subtitleHero {
-        color: #FFF;
-        text-align: center;
-        font-family: "Poppins-Regular", sans-serif;
-        font-size: 1.1em;
-        font-weight: 400;
-        width: 90%;
-    }
+@media (min-width: 360px) {
+  .titleHero {
+    font-size: 2.6em;
+    width: 90%;
+  }
+  .subtitleHero {
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 90%;
+  }
 }
 
 @media (min-width: 577px) {
-    .titleHero {
-        font-size: 3em;
-        width: 90%;
-    }
-    .subtitleHero {
-        width: 90%;
-        font-family: "Poppins-Regular", sans-serif;
-        font-size: 1.1em;
-    }
+  .titleHero {
+    font-size: 3em;
+    width: 90%;
+  }
+  .subtitleHero {
+    width: 90%;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.1em;
+  }
 }
 
 @media (min-width: 769px) {
-    .titleHero {
-        font-size: 4em;
-        width: 80%;
-    }
+  .titleHero {
+    font-size: 4em;
+    width: 80%;
+  }
 }
 
-@media (min-width: 993px){
-    .titleHero {
-        width: 90%;
-        font-size: 6em;
-    }
-    .subtitleHero {
-        font-family: "Poppins-Regular", sans-serif;
-        font-size: 1.3em;
-    }
+@media (min-width: 993px) {
+  .titleHero {
+    width: 90%;
+    font-size: 7em;
+  }
+  .subtitleHero {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.3em;
+  }
 }

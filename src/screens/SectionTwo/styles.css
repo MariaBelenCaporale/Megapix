@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Poppins";
     src: url("../../fonts/Poppins/Poppins-Black.ttf");
@@ -11,131 +12,260 @@
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
 
-.containerSectionTwo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 .blurTwo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .titleSectionTwo {
-    color:#FFF;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 4.5em;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100.044%; 
-    width: 40%;
-    z-index: 1;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.044%;
+  width: 40%;
+  z-index: 1;
 }
 .highlight {
-    color: #62FEE2; 
+  color: #62fee2;
+}
+.containerSectionTwo {
+  position: relative;
+  width: 100%;
+  padding: 20px;
 }
 
-/* PILLS */
-
-.pillsRow {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+.rotated-items-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.containerPill {
-    border-radius: 160px;
-    border: 2px solid white;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    padding: 10px 30px;
-    cursor: pointer;
-    background-color: #111111; 
-    transition: background-color 0.3s; 
-    animation: float 3s ease-in-out infinite;
+.rotated-item {
+  position: absolute;
+  padding: 8px 16px;
+  background: transparent;
+  border-radius: 100px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
 
-    color: #FFF;
-    text-align: center;
-    font-family: "Poppins-Regular", sans-serif;
-    font-size: 1em;
-    font-weight: 400;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
-.containerPill:hover {
-    color: #62FEE2;
-}
-.containerPill:hover {
-    border: 2px solid #62FEE2;
+.rotated-item:hover {
+  color: #62fee2;
+  border: 2px solid #62fee2;
 }
 
-
-.containerPills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+@keyframes floating-1 {
+  0% {
+    transform: translateY(0) rotate(-25deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(-25deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-25deg);
+  }
 }
 
-
-@keyframes float {
-    0% { transform: translateY(0)  }
-    50% { transform: translateY(-10px)}
-    100% { transform: translateY(0) }
+@keyframes floating-2 {
+  0% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-15deg);
+  }
 }
 
-
-.containerPillCero {
-    transform: rotate(45deg);
-    animation-duration: 4s; 
+@keyframes floating-3 {
+  0% {
+    transform: translateY(0) rotate(-30deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-30deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-30deg);
+  }
 }
 
-.containerPillUno {
-    animation-duration: 5s;
+@keyframes floating-5 {
+  0% {
+    transform: translateY(0) rotate(25deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(25deg);
+  }
+  100% {
+    transform: translateY(0) rotate(25deg);
+  }
 }
 
-.containerPillDos {
-
-    animation-duration: 6s; 
+@keyframes floating-6 {
+  0% {
+    transform: translateY(0) rotate(-30deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-30deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-30deg);
+  }
 }
 
-.containerPillTres {
-
-    animation-duration: 3.5s; 
+@keyframes floating-7 {
+  0% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-15deg);
+  }
+}
+@keyframes floating-8 {
+  0% {
+    transform: translateY(0) rotate(10deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(10deg);
+  }
+}
+@keyframes floating-9 {
+  0% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-15deg);
+  }
 }
 
-.containerPillCuatro {
- 
-    animation-duration: 4.5s; 
+@keyframes floating-11 {
+    0% {
+      transform: translateY(0) rotate(25deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(25deg);
+    }
+    100% {
+      transform: translateY(0) rotate(25deg);
+    }
+  }
+  @keyframes floating-12 {
+    0% {
+      transform: translateY(0) rotate(30deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(30deg);
+    }
+    100% {
+      transform: translateY(0) rotate(30deg);
+    }
+  }
+@keyframes floating-13 {
+    0% {
+      transform: translateY(0) rotate(25deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(25deg);
+    }
+    100% {
+      transform: translateY(0) rotate(25deg);
+    }
+  }
+@keyframes floating-14 {
+    0% {
+      transform: translateY(0) rotate(-25deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(-25deg);
+    }
+    100% {
+      transform: translateY(0) rotate(-25deg);
+    }
+  }
+@keyframes floating-15 {
+    0% {
+      transform: translateY(0) rotate(-15deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(-15deg);
+    }
+    100% {
+      transform: translateY(0) rotate(-15deg);
+    }
+  }
+
+.animation-1 {
+  animation: floating-1 4s ease-in-out infinite;
+}
+.animation-2 {
+  animation: floating-2 4s ease-in-out infinite;
+}
+.animation-3 {
+  animation: floating-3 4s ease-in-out infinite;
 }
 
-.containerPillCinco {
-
-    animation-duration: 5s; 
+.animation-5 {
+  animation: floating-5 4s ease-in-out infinite;
+}
+.animation-6 {
+  animation: floating-6 4s ease-in-out infinite;
+}
+.animation-7 {
+  animation: floating-7 4s ease-in-out infinite;
+}
+.animation-8 {
+  animation: floating-8 4s ease-in-out infinite;
+}
+.animation-9 {
+  animation: floating-9 4s ease-in-out infinite;
 }
 
-.containerPillSeis {
-
-    animation-duration: 4s; 
+.animation-11 {
+  animation: floating-11 4s ease-in-out infinite;
 }
-
-.containerPillSiete {
- 
-    animation-duration: 6s; 
+.animation-12 {
+  animation: floating-12 4s ease-in-out infinite;
 }
-
-
-
-
-
-
+.animation-13 {
+  animation: floating-13 4s ease-in-out infinite;
+}
+.animation-14 {
+  animation: floating-14 4s ease-in-out infinite;
+}
+.animation-15 {
+  animation: floating-15 4s ease-in-out infinite;
+}
+.animation-16 {
+  animation: floating-16 4s ease-in-out infinite;
+}
+.animation-17 {
+  animation: floating-17 4s ease-in-out infinite;
+}
 
 @media (min-width: 360px)  {
     .titleSectionTwo {
