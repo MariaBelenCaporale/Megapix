@@ -2,6 +2,7 @@
 import  { useRef, useEffect } from 'react';
 import Card from '../../components/Card/Card';
 import './styles.css'; 
+import TextMove from '../../components/TextMove/TextMove';
 
 
 const SectionOne = () => {
@@ -37,9 +38,12 @@ const SectionOne = () => {
       </h2>
       <div className='sectionWrapper' ref={sectionRef}>
         <div className='cardWrapper'>
-          <Card />
+        
         </div>
+        <Card />
+        <TextMove />
       </div>
+      
     </section>
   );
 };

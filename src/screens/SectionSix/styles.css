@@ -104,8 +104,9 @@
         flex-direction: column-reverse;
     }
     .videoGif {
-        width: 400px;
+        width: 300px;
     }
+    
 }
 @media (min-width: 577px) and (max-width: 768px) {
     .titleSectionSix {

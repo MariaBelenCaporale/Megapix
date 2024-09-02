@@ -66,61 +66,77 @@
 }
 
 @keyframes rayo {
-    0% {
-       transform: translateY(-20px) ease-in;
-    }
-    50% {
-        transform: translateY(20px) ;
-    }
-
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-20px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+.textCardFirst {
+    width: 100%;
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (min-width: 360px)  {
     .card {
-        display: flex;
         flex-direction: column-reverse;
-    }
-    .containerCard {
-        padding: 50px 20px;
+        align-items: center;
+        justify-content: center;
     }
     .tituloCard {
-        font-size: 4em;
+        font-size: 3em;
+        width: 70%;
     }
-    .rayoImg {
-        width: 30%;
+    .containerCard {
+        padding: 50px 30px;
     }
     .textCard {
-        font-size: .9em;
-        font-weight: 300;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: .8em;
+        font-weight: 400;
+    }
+    .rayoImg {
+        width: 100px;
+    }
+    .textCardFirst {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .tituloCard {
+        font-size: 4em;
+        width: 70%;
+    }
+    .rayoImg {
+        width: 150px;
+    }
+    .textCard {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 1em;
     }
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 920px) {
     .card {
-        display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
-    .containerCard {
-        padding: 50px 20px;
-    }
-    .tituloCard {
-        font-size: 4em;
-        width: 50%;
-    }
-    .rayoImg {
-        width: 30%;
+    .textCardFirst {
+        width: 70%;
     }
     .textCard {
+        font-family: "Poppins-Regular", sans-serif;
         font-size: 1.2em;
-        font-weight: 300;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .containerCard {
-        padding: 70px;
     }
     .tituloCard {
-        font-size: 5em;
+        font-size: 7em;
+        width: 100%;
+    }
+    .rayoImg {
+        width: 250px;
     }
 }

@@ -5,7 +5,7 @@ const Card = () => {
     return (
         <div className='containerCard'>
             <div className='card'>
-                <div>
+                <div className='textCardFirst'>
                     <p className='textCard'>Más del 70% de los turistas que visitan Argentina son brasileños, y miles más residen y comercian en el país en destinos como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Aprovechá esta oportunidad y conectá tu negocio con ellos.</p>
                     <p className='textCard'>Aprovechá nuestra plataforma de cobro rápida y segura, que utiliza PIX, el método de pago más popular en Brasil. Destacá tu comercio frente a la competencia y brindá un servicio excepcional.</p>
                     <p className='textCard'>¡Descubrí cómo podemos transformar tu negocio!</p>
