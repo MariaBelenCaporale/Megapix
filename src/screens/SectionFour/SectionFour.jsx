@@ -1,6 +1,7 @@
 
 import Pix from '../../images/pix.png';
 import ButtonFour from '../../components/buttonFour/ButtonFour';
+import GrupoUno from '../../images/grupoUno.png';
 import './styles.css';
 
 const SectionFour = () => {
@@ -18,7 +19,9 @@ const SectionFour = () => {
               </div>
             </div>
             <div className='containerMoveImageFour'>
-              <div className='moveImage'></div>
+              <div className='moveImage'>
+                <img className='imgGroup' src={GrupoUno} alt='funcionalidad' />
+              </div>
             </div>
 
         </section>

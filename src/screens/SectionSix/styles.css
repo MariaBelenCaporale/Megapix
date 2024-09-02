@@ -183,7 +183,7 @@
         width: 100%;
     }
     .containerVideosSix {
-        gap: 3em;
+        gap: 0px;
         width: 90%;
         height: auto;
         flex-direction: row;
