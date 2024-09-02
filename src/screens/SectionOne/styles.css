@@ -1,45 +1,71 @@
 @font-face {
-    font-family: "Bebas";
-    src: url("../../fonts/BebasNeue-Regular.ttf");
-  }
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
 .containerSectionOne {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 .titleSectionOne {
-    color: white;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 5em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100.044%;
-} 
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 
+  padding: 0px;
+  font-size: 7em;
+  margin: 30px 0px;
+}
 
+.titleSectionOne {
+  background: linear-gradient(90deg, #111, #fff, #111);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 100ms ease-in-out;
+}
+
+.sectionWrapper {
+  position: relative;
+  height: 80vh;
+  width: 90%;
+}
+
+.cardWrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 360px) {
-    .containerSectionOne {
-        height: auto;
-        width: 100%;
-    }
-    .titleSectionOne {
-        font-size: 2em;
-        padding: 30px 0px;
-    }
+  .containerSectionOne {
+    height: auto;
+    width: 100%;
+  }
+  .titleSectionOne {
+    font-size: 2em;
+    padding: 30px 0px;
+  }
 }
 @media (min-width: 577px) {
-    .titleSectionOne {
-        font-size: 4em;
-        padding: 30px 0px;
-    }
+  .titleSectionOne {
+    font-size: 4em;
+    padding: 30px 0px;
+  }
 }
 
 @media (min-width: 993px) {
-    .titleSectionOne {
-        font-size: 5em;
-    }
+  .titleSectionOne {
+    font-size: 7em;
+  }
 }
