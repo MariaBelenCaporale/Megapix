@@ -29,7 +29,7 @@
     font-style: normal;
     font-weight: 500;
     margin: 0px;
-    padding: 30px 0px 10px 0px;
+    padding-bottom: 10px ;
 }
 
 .containerDragCard {
@@ -67,11 +67,10 @@
     background: rgb(60, 60, 60);
     background-blend-mode: soft-light, normal;
     box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
-    backdrop-filter: blur(20px);
     height: 500px;
     width: 400px;
     overflow: hidden;
-    margin: 0px 30px;
+    margin: 0px 10px;
 }
 
 .containerInfoDrag {
@@ -85,3 +84,40 @@
 }
 
 
+@media (min-width: 360px) {
+    .itemDrag {
+        width: 300px;
+        height: 400px;
+    }
+    .subtitleCardDrag {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: .9em;
+    }
+    .titleCardDrag {
+        padding-bottom: 10px;
+        text-wrap: balance;
+        font-size: 1.4em;
+    }
+    .containerInfoDrag {
+        padding: 20px;
+    }
+    .containerImgDrag {
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .titleCardDrag {
+        font-size: 1.8em;
+    }
+    .subtitleCardDrag {
+        font-size: 1em;
+    }
+    .itemDrag {
+        width: 350px;
+        height: 500px;
+    }
+    .containerImgDrag {
+        height: 200px;
+    }
+}

@@ -48,7 +48,6 @@
 
 
 @media (min-width: 360px) and (max-width: 576px) {
-
 .containerDragCard {
     display: flex;
     align-items: center;
@@ -59,38 +58,35 @@
     scroll-snap-type: x mandatory; 
     -webkit-overflow-scrolling: touch; 
 }
-
 .containerDragCard > * {
     flex-shrink: 0; 
     scroll-snap-align: start; 
 }
-    .titleFive {
-        font-size: 2em;
-    }
-    .containerDragCard {
-        overflow-x: auto; 
-        flex-direction: row; 
+.titleFive {
+    font-size: 2em;
+}
+.containerDragCard {
+    overflow-x: auto; 
+    flex-direction: row; 
     }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px)  {
     .titleFive {
         font-size: 4em;
         text-align: center;
         width: 90%;
     }
-}
-
-@media (min-width: 769px) and (max-width: 992px)  {
-    .titleFive {
-        font-size: 4em;
-        text-align: center;
-        width: 70%;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
     .containerSectionFive {
         height: auto;
     }
 }
+
+@media (min-width: 992px)   {
+    .titleFive {
+        font-size: 4em;
+        text-align: center;
+        width: 60%;
+    }
+}
+
