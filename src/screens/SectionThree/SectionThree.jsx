@@ -9,7 +9,7 @@ const SectionThree = () => {
             <p className='subSectionThree'>¡Realicemos un cobro en vivo y en directo!</p>
             </div>
 
-            <div>
+            <div className='containerInputs3'>
                 <Inputs />
             </div>
         </section>

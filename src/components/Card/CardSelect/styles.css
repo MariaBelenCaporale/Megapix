@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+
+.containerCardSelect {
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.10);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    backdrop-filter: blur(40px);
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+    gap: 2em;
+}
+.photoContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    overflow: hidden;
+}
+.containerTextSelect {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.textSelect {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: start;
+}
+.titleSelect {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

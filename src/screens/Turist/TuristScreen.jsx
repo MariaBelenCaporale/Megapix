@@ -9,6 +9,7 @@ import PixUno from "../../images/pix-uno.png";
 import PixDos from "../../images/pix-dos.png";
 import TuristFour from "./TuristFour/TuristFour";
 import TuristFive from "./TuristFive/TuristFive";
+import TuristSix from "./TuristSix/TuristSix";
 
 const TuristScreen = () => {
   return (
@@ -37,6 +38,7 @@ const TuristScreen = () => {
       <TuristThree />
       <TuristFour />
       <TuristFive />
+      <TuristSix />
     </div>
   );
 };
