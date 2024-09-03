@@ -4,6 +4,9 @@ import useCalculateArs from "../../hooks/useCalculateArs";
 import argentinaFlag from '../../images/argentina.png'; 
 import eeuuFlag from '../../images/eeuu.png'; 
 import brasilFlag from '../../images/brasil.jpg'; 
+import Check from '../../images/check.png';
+import Codigo from '../../images/codigo.png';
+import LogoMegaPix from '../../assets//logo-megapix.png';
 import './styles.css';
 
 const Inputs = () => {
@@ -46,7 +49,7 @@ const Inputs = () => {
       
       setTimeout(() => {
         setShowPopup(false);
-      }, 2000);
+      }, 3000);
     });
   };
 
@@ -140,7 +143,14 @@ const Inputs = () => {
       {showPopup && (
         <div className='popup'>
           <div className='popup-content'>
-            <span>Hecho</span>
+            <div>
+              <h2 className='textPopUp'>¡Pago realizado!</h2>
+            </div>
+              <img className='imgCheck' src={Check} alt='aprobado' />
+              <img className='imgCodigo' src={Codigo} alt='codigo qr' />
+            <div>
+              <img className='imgPixPop' src={LogoMegaPix} alt='logo de Megapix' />
+            </div>
           </div>
         </div>
       )}

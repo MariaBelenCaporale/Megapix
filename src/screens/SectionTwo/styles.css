@@ -165,13 +165,13 @@
 
 @keyframes floating-11 {
     0% {
-      transform: translateY(0) rotate(25deg);
+      transform: translateY(0) rotate(-15deg);
     }
     50% {
-      transform: translateY(-15px) rotate(25deg);
+      transform: translateY(-15px) rotate(-15deg);
     }
     100% {
-      transform: translateY(0) rotate(25deg);
+      transform: translateY(0) rotate(-15deg);
     }
   }
   @keyframes floating-12 {
