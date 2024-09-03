@@ -1,5 +1,10 @@
 import { useRef, useState, useEffect } from "react";
-import ImgPix from '../../../images/image3.png';
+import Multiplataforma from '../../../images/Multiplataforma.png';
+import Control from '../../../images/sucursales.png';
+import Roles from '../../../images/roles.png';
+import Plataforma from '../../../images/plataforma-costo.png';
+import Transferencias from '../../../images/transferencias.png';
+import Soporte from '../../../images/soporte.png';
 import "./styles.css";
 
 const CardDrag = () => {
@@ -54,7 +59,7 @@ const CardDrag = () => {
       <div className="items" ref={sliderRef}>
         <div className="itemDrag item1">
           <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Multiplataforma} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Multiplataforma</h3>
@@ -67,7 +72,7 @@ const CardDrag = () => {
         </div>
         <div className="itemDrag item2">
           <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Control} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Control de sucursales </h3>
@@ -80,7 +85,7 @@ const CardDrag = () => {
         </div>
         <div className="itemDrag item3">
           <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Roles} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Roles y permisos</h3>
@@ -91,7 +96,7 @@ const CardDrag = () => {
         </div>
         <div className="itemDrag item4">
         <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Plataforma} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Plataforma sin costo</h3>
@@ -102,7 +107,7 @@ const CardDrag = () => {
         </div>
         <div className="itemDrag item5">
         <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Transferencias} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Transferencias al 
@@ -114,7 +119,7 @@ const CardDrag = () => {
         </div>
         <div className="itemDrag item6">
         <div className="containerImgDrag">
-            <img className="imgDrag" src={ImgPix} />
+            <img className="imgDrag" src={Soporte} />
           </div>
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Soporte</h3>

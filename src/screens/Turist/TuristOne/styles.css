@@ -1,0 +1,29 @@
+
+.turistOneContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerPlaces {
+    width: 300px;
+    border-radius: 15px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerCarousel {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.imgPhoneOneTurist {
+    filter: blur(2px);
+}

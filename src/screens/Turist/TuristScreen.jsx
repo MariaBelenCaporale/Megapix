@@ -1,5 +1,5 @@
 import Hero from "../../components/HeroText/HeroText";
-import TuristOne from "./TuristOne/TuristOne";
+// import TuristOne from "./TuristOne/TuristOne";
 import "./styles.css";
 import TuristThree from "./TuristThree/TuristThree";
 import TuristTwo from "./TuristTwo/TuristTwo";
@@ -10,19 +10,22 @@ import PixDos from "../../images/pix-dos.png";
 import TuristFour from "./TuristFour/TuristFour";
 import TuristFive from "./TuristFive/TuristFive";
 import TuristSix from "./TuristSix/TuristSix";
-import Footer from '../../components/Footer/Footer';
-import SectionSeven from '../SectionSeven/SectionSeven';
+import Footer from "../../components/Footer/Footer";
+import SectionSeven from "../SectionSeven/SectionSeven";
+import PhoneComponent from "../../components/Phone/Phone";
 
 const TuristScreen = () => {
   return (
     <div className="containerTurist">
       <div className="containerHeroTurist">
         <Hero
+          showButton={false}
           title="sin límites en Argentina"
           titleColorOne="Pagá con pix "
           fontFamily="Poppins-Bold, sans-serif"
           subtitle="Viví experiencias únicas pagando como si estuvieses en casa"
         />
+        <PhoneComponent />
         <div className="containerCoinUno">
           <img className="coinOne" src={PixUno} alt="Moneda" />
           <img className="coinTwo" src={QrDos} alt="Moneda" />
@@ -35,7 +38,7 @@ const TuristScreen = () => {
         <div className="light"></div>
         <div className="light2"></div>
       </div>
-      <TuristOne />
+
       <TuristTwo />
       <TuristThree />
       <TuristFour />

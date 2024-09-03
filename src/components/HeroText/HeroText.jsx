@@ -8,6 +8,7 @@ const HeroText = ({
   titleColor,
   fontFamily,
   titleColorOne,
+  showButton= true,
 }) => {
   return (
     <div className="container">
@@ -22,7 +23,7 @@ const HeroText = ({
           </span>
         </h1>
         <p className="subtitleHero">{subtitle}</p>
-        <ButtonComponent title="Ir a la plataforma" />
+        {showButton && <ButtonComponent title="Ir a la plataforma" />}
       </div>
     </div>
   );
@@ -34,6 +35,7 @@ HeroText.propTypes = {
   subtitle: PropTypes.string.isRequired,
   titleColor: PropTypes.string.isRequired,
   fontFamily: PropTypes.string,
+  showButton: PropTypes.bool,
 };
 
 export default HeroText;
