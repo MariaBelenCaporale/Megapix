@@ -6,7 +6,7 @@ import Food from "../../../images/comida.png";
 import "./styles.css";
 
 const TuristSix = () => {
-  const [activeCard, setActiveCard] = useState(''); 
+  const [activeCard, setActiveCard] = useState('Gastronomía'); 
 
 
   const handleButtonClick = (title) => {
