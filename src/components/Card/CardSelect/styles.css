@@ -19,7 +19,6 @@
     backdrop-filter: blur(40px);
     width: 70%;
     height: 500px;
-    position: absolute;
     padding: 40px;
     justify-content: space-between;
     display: flex;
@@ -48,7 +47,7 @@
     text-align: start;
 }
 .titleSelect {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 2em;

@@ -10,6 +10,8 @@ import PixDos from "../../images/pix-dos.png";
 import TuristFour from "./TuristFour/TuristFour";
 import TuristFive from "./TuristFive/TuristFive";
 import TuristSix from "./TuristSix/TuristSix";
+import Footer from '../../components/Footer/Footer';
+import SectionSeven from '../SectionSeven/SectionSeven';
 
 const TuristScreen = () => {
   return (
@@ -39,6 +41,8 @@ const TuristScreen = () => {
       <TuristFour />
       <TuristFive />
       <TuristSix />
+      <SectionSeven />
+      <Footer />
     </div>
   );
 };

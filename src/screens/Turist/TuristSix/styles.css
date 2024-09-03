@@ -18,6 +18,9 @@
   align-items: center;
   justify-content: center;
 }
+.fondo {
+  position: absolute;
+}
 .containerButtonSix {
   display: flex;
   gap: 1rem;
@@ -28,7 +31,9 @@
   overflow-x: auto;
   white-space: nowrap;
   gap: 2em;
+  margin: 40px;
 }
+
 
 .containerButtonSix button {
   flex: 0 0 auto;
@@ -53,4 +58,17 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  position: relative;
+}
+.cardContainer {
+  display: flex;
+  overflow-x: auto;
+  width: 70%;
+}
+.cardContainer > * {
+  flex: 1 0 auto;
+  margin-right: 20px; 
+}
+.containerButtonSix > * {
+  margin: 5px;
 }
