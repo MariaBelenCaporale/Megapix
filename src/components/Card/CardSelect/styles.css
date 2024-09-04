@@ -56,3 +56,26 @@
     font-weight: 500;
     line-height: normal;
 }
+
+@media (min-width:360px) {
+    .containerCardSelect {
+        flex-direction: column;
+        height: 350px;
+        padding: 20px;
+        gap: 1em;
+    }
+    .containerTextSelect {
+        width: 100%;
+        font-size: .8em;
+    }
+    .textSelect {
+        margin: 0px;
+    }
+    .photoContainer {
+        overflow: auto;
+    }
+    .photoContainer {
+        overflow: hidden;
+        width: 100%;
+    }
+}

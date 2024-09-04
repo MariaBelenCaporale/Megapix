@@ -37,3 +37,15 @@
     color: #62FEE2;
     border: 1px solid #62FEE2;
 }
+
+@media (min-width: 360px) {
+.btnTuristOne {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1em;
+}
+}
