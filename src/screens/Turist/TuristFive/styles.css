@@ -38,3 +38,10 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+@media (min-width: 360px) {
+    .titleTuristFive {
+        width: 90%;
+        font-size: 2.5em;
+    }
+}

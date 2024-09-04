@@ -83,3 +83,18 @@
     box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
     backdrop-filter: blur(20px);
 }
+
+@media (min-width: 360px) {
+    .containerCardNext {
+        flex-direction: column;
+        padding: 30px 30px;
+        gap: 1em;
+    }
+    .askCardTur, .textCardTur {
+        width: 100%;
+    }
+    .askCardTur {
+        font-size: 3em;
+        line-height: auto;
+    }
+}

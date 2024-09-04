@@ -54,3 +54,22 @@
         transform: translateX(-50%);
     }
 }
+
+@media (min-width: 360px) {
+    .imgPhoneOneTurist {
+        width: 300px;
+    }
+    .carouselInner {
+        gap: .4em;
+    }
+    .containerCarousel {
+        gap: 0px;
+    }
+    .containerPlaces {
+        width: 260px;
+        height: 600px;
+        border-radius: 15px;
+        overflow: hidden;
+        height: 540px;
+    }
+}

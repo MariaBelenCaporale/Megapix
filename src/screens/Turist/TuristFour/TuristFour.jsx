@@ -2,7 +2,7 @@ import './styles.css';
 
 const TuristFour = () => {
     return (
-        <div>
+        <div className='containerHow'>
             <h2 className='titleTuristFour'>¿CÓMO FUNCIONA?</h2>
         </div>
     )

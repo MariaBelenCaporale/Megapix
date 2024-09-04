@@ -10,7 +10,7 @@
 
 .phoneimg {
     width: 650px;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
     z-index: 99;
 }
 
@@ -25,4 +25,21 @@
     position: absolute;
     width: 200px;
     z-index: 9;
+}
+
+@media (min-width: 360px) {
+    .phoneimg {
+        width: 330px;
+    }
+    .containerPhone {
+        margin-top: -100px;
+    }
+}
+@media (min-width: 900px) {
+    .phoneimg {
+        width: 650px;
+    }
+    .containerPhone {
+        margin-top: 100px;
+    }
 }

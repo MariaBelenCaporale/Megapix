@@ -14,3 +14,12 @@
     line-height: 100.044%;
     margin: 0px;
 }
+
+@media (min-width:360px) {
+      .containerHow {
+        margin: 30px;
+      }
+      .titleTuristFour {
+        font-size: 3em;
+      }
+}
