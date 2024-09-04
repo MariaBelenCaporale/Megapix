@@ -3,6 +3,11 @@ import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
 import FondoFood from "../../../images/fondoFood.png";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
 import Food from "../../../images/comida.png";
+import Indumentaria from "../../../images/indumentaria.png";
+import Entretenimiento from "../../../images/entretenimiento.png";
+import Hospedaje from "../../../images/hospedaje.png";
+import Vuelos from "../../../images/vuelos.png";
+import Excursiones from "../../../images/excursiones.png";
 import "./styles.css";
 
 const TuristSix = () => {
@@ -55,35 +60,35 @@ const TuristSix = () => {
           )}
           {activeCard === 'Indumentaria' && (
             <CardSelect
-              image={Food}
+              image={Indumentaria}
               title='Indumentaría'
               text="Lorem ipsum"
             />
           )}
           {activeCard === 'Hospedaje' && (
             <CardSelect
-              image={Food}
+              image={Hospedaje}
               title='Hospedaje'
               text="Lorem ipsum"
             />
           )}
           {activeCard === 'Entretenimiento' && (
             <CardSelect
-              image={Food}
+              image={Entretenimiento}
               title='Entretenimiento'
               text="Lorem ipsum"
             />
           )}
           {activeCard === 'Vuelos' && (
             <CardSelect
-              image={Food}
+              image={Vuelos}
               title='Vuelos'
               text="Lorem ipsum"
             />
           )}
           {activeCard === 'Excursiones' && (
             <CardSelect
-              image={Food}
+              image={Excursiones}
               title='Excursiones'
               text="Lorem ipsum"
             />
