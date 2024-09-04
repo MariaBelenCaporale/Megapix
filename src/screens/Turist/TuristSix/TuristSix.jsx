@@ -7,25 +7,34 @@ import "./styles.css";
 
 const TuristSix = () => {
   const [activeCard, setActiveCard] = useState('Gastronomía'); 
+  const [activeButton, setActiveButton] = useState('Indumentaria');
 
 
-  const handleButtonClick = (title) => {
-    setActiveCard(title);
-  };
-
+  const handleButtonClick = (buttonId, cardTitle) => {
+    setActiveButton(buttonId);
+    setActiveCard(cardTitle);
+  }
   return (
     <section className="containerSectionSixTu">
       <div className="containerTitleSix">
         <h2 className="titleTuristSix">¿Por dónde queres empezar?</h2>
       </div>
       <div className="containerButtonSix">
-        <ButtonTurist title="Indumentaria" onClick={() => handleButtonClick('Indumentaria')} />
-        <ButtonTurist title="Gastronomía" onClick={() => handleButtonClick('Gastronomía')} />
-        <ButtonTurist title="Hospedaje" onClick={() => handleButtonClick('Hospedaje')} />
-        <ButtonTurist title="Entretenimiento" onClick={() => handleButtonClick('Entretenimiento')} />
-        <ButtonTurist title="Vuelos" onClick={() => handleButtonClick('Vuelos')} />
-        <ButtonTurist title="Excursiones" onClick={() => handleButtonClick('Excursiones')} />
-        <ButtonTurist title="Recuerdos" onClick={() => handleButtonClick('Recuerdos')} />
+        <ButtonTurist isActive={activeButton === 'Indumentaria'}
+          title="Indumentaria"
+          onClick={() => handleButtonClick('Indumentaria', 'Indumentaria')} />
+        <ButtonTurist isActive={activeButton === 'Gastronomía'} 
+          title="Gastronomía" onClick={() => handleButtonClick('Gastronomía', 'Gastronomía')} />
+        <ButtonTurist isActive={activeButton === 'Hospedaje'}
+          title="Hospedaje" onClick={() => handleButtonClick('Hospedaje', 'Hospedaje')} />
+        <ButtonTurist isActive={activeButton === 'Entretenimiento'}
+          title="Entretenimiento" onClick={() => handleButtonClick('Entretenimiento', 'Entretenimiento')} />
+        <ButtonTurist isActive={activeButton === 'Vuelos'}
+          title="Vuelos" onClick={() => handleButtonClick('Vuelos', 'Vuelos')} />
+        <ButtonTurist isActive={activeButton === 'Excursiones'}
+          title="Excursiones" onClick={() => handleButtonClick('Excursiones', 'Excursiones')} />
+        <ButtonTurist isActive={activeButton === 'Recuerdos'}
+          title="Recuerdos" onClick={() => handleButtonClick('Recuerdos', 'Recuerdos')} />
       </div>
       <div className="containerFoodSix">
       <img src={FondoFood} className='fondo' alt="imagen de fondo comida" />
