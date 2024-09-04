@@ -97,6 +97,7 @@
         font-weight: 400;
         width: 80%;
         font-family: "Poppins-Regular", sans-serif;
+        text-align: start;
     }
     .containerSecSeven {
         justify-content: center;

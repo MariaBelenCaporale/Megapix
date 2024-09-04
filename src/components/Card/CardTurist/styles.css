@@ -87,7 +87,7 @@
 @media (min-width: 360px) {
     .containerCardNext {
         flex-direction: column;
-        padding: 30px 30px;
+        padding: 30px 50px;
         gap: 1em;
     }
     .askCardTur, .textCardTur {
@@ -98,4 +98,13 @@
         line-height: auto;
     }
     
+}
+
+@media (min-width: 992px) {
+    .containerCardNext {
+        flex-direction: row;
+    }
+    .askCardTur {
+        font-size: 4em;
+    }
 }

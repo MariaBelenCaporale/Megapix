@@ -48,25 +48,26 @@
 }
 .titleSelect {
     color: #FFF;
-    text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 2em;
     margin: 0px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: start;
 }
 
 @media (min-width:360px) {
     .containerCardSelect {
         flex-direction: column;
-        height: 350px;
+        height: auto;
         padding: 20px;
         gap: 1em;
     }
     .containerTextSelect {
         width: 100%;
-        font-size: .8em;
+        font-size: .9em;
+        overflow: scroll;
     }
     .textSelect {
         margin: 0px;
@@ -77,5 +78,27 @@
     .photoContainer {
         overflow: hidden;
         width: 100%;
+        border-radius: 10px;
+        height: 200px;
+    }
+    .titleSelect {
+        text-align: start;
+    }
+}
+
+@media (min-width:992px) {
+    .containerCardSelect {
+        flex-direction: row;
+        gap: 2em;
+        width: 70%;
+        height: 500px;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .photoContainer {
+        height: auto;
+    }
+    .containerTextSelect {
+        justify-content: space-evenly;
     }
 }

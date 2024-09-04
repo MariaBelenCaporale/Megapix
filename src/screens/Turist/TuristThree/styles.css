@@ -40,3 +40,9 @@
         width: 90%;
     }
 }
+@media (min-width: 993px) {
+    .titleTuristThree {
+        font-size: 4em;
+    }
+    
+}

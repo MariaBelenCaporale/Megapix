@@ -55,3 +55,19 @@
     font-size: .9em;
   }
 }
+
+@media (min-width: 993px) {
+  .titleTuristTwo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.subtitleTuristTwo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 1.3em;
+}
+}

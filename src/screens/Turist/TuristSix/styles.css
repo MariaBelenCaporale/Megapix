@@ -86,14 +86,27 @@
   }
   .containerFoodSix {
     height: 500px;
+    padding: 30px;
   }
   .cardContainer {
     width: 90%;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    flex-direction: column;
   }
   .cardContainer > * {
     margin-right: 0px;
+    height: 400px;
+    justify-content: flex-start;
   }
   .containerButtonSix {
     gap: 0px;
   }
+}
+@media (min-width: 992px) {
+  .titleTuristSix {
+    font-size: 4em;
+  }
+  
 }
