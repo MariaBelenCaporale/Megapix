@@ -21,6 +21,12 @@
     width: 100%;
     flex-direction: column;
 }
+.columnOneFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
 .sloganContainer {
     display: flex;
     width: 60%;
@@ -38,12 +44,59 @@
     line-height: 120%; 
     text-align: center;
 }
+.navlink {
+    text-decoration: none; 
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.containerLogoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textNavOne {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+}
+.textNavThree {
+    font-size: 1em;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px;
+}
+.textNavTwo {
+    color: #FFF;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: .8em;
+    font-style: normal;
+    line-height: normal;
+    margin: 0px;
+    width: 60%;
+}
+.navlink:hover {
+    color: #62FEE2;
+}
+
 .footer {
     width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footerProduct {
+    color: #FFF;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
 }
 .footerOrder {
     width: 90%;
@@ -52,12 +105,13 @@
     background-blend-mode: soft-light, normal;
     box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
     backdrop-filter: blur(20px);
-    height: 200px;
+    height: 250px;
     z-index: 1;
     top: 200px;
     position: relative;
-    display: flex;
     align-items: center;
+    flex-direction: row;
+    display: flex;
 }
 .containerFormas {
     width: 100%;

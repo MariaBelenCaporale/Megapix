@@ -1,4 +1,5 @@
 import './styles.css';
+import { NavLink } from 'react-router-dom';
 import Formas from '../../images/formas.png';
 import Rayito from '../../images/rayo.png';
 import LogoFooter from '../../assets/logo-megapix.png';
@@ -12,13 +13,65 @@ const Footer = () => {
                 </div>
                 <h2 className='titleSlogan'>Megapix, innovando el presente & futuro</h2>
             </div>
+
+
             <div className='footer'>
                 <div className='footerOrder'>
-                    <img className='logoFooter' src={LogoFooter} />
+                    <div className='containerLogoFooter'>
+                        <img className='logoFooter' src={LogoFooter} />
+                        <p className='footerProduct'>Un producto de Polynomium® </p>
+                    </div>
+                    <div className='columnOneFooter'>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavOne'>¿Quiénes somos?</p>
+                            <p className='textNavTwo'>Creamos productos tecnológicos que desafían los paradigmas establecidos.</p>
+                        </NavLink>
+                        
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavThree'>Preguntas frecuentes</p> 
+                        </NavLink>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavThree'>Contacto</p> 
+                        </NavLink>
+                    </div>
+                    <div className='columnOneFooter'>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavThree'>Política de provacidad</p>
+                        </NavLink>
+                        
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavThree'>Terminos & condiciones</p> 
+                        </NavLink>
+                    </div>
+                    <div className='columnOneFooter'>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'navlink active' : 'navlink inactive')}
+                        >
+                            <p className='textNavThree'>Comunidad</p>
+                        </NavLink>
+                    
+                    </div>
                 </div>
+
                 <div className='containerFormas'>
-            <img className='formas' src={Formas} />
-           </div>
+                    <img className='formas' src={Formas} />
+                </div>
             </div>
             
         </div>

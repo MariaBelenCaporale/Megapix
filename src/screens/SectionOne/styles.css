@@ -10,7 +10,6 @@
   width: 100%;
   flex-direction: column;
   position: relative;
-  margin-top: 100px;
   /* overflow: hidden; */
 }
 .titleSectionOne {
@@ -53,4 +52,10 @@
     .titleSectionOne {
       font-size: 5em;
     }
+ }
+
+ @media (min-width: 1200px) {
+  .containerSectionOne {
+    margin-top: -30px;
+  }
  }
