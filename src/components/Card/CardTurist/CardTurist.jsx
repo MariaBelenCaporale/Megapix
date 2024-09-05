@@ -7,7 +7,7 @@ const CardTurist = () => {
             <div className='orderCardTur'>
                 <div className='cardTurOne'>
                     <div className='imgTuristPix'>
-                        <img src={Mp} alt='Imagen de Megapix' />
+                        <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
                         <h3 className='titleCardTurOne'>Vacacionar</h3>
@@ -15,7 +15,7 @@ const CardTurist = () => {
                 </div>
                 <div className='cardTurOne'>
                     <div className='imgTuristPix'>
-                        <img src={Mp} alt='Imagen de Megapix' />
+                    <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
                         <h3 className='titleCardTurOne'>Estudiar</h3>
@@ -23,7 +23,7 @@ const CardTurist = () => {
                 </div>
                 <div className='cardTurOne'>
                     <div className='imgTuristPix'>
-                        <img src={Mp} alt='Imagen de Megapix' />
+                    <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
                         <h3 className='titleCardTurOne'>Vivir</h3>
@@ -31,7 +31,7 @@ const CardTurist = () => {
                 </div>
                 <div className='cardTurOne'>
                     <div className='imgTuristPix'>
-                        <img src={Mp} alt='Imagen de Megapix' />
+                    <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
                         <h3 className='titleCardTurOne'>Visitar familia</h3>
@@ -39,7 +39,7 @@ const CardTurist = () => {
                 </div>
                 <div className='cardTurOne'>
                     <div className='imgTuristPix'>
-                        <img src={Mp} alt='Imagen de Megapix' />
+                    <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
                         <h3 className='titleCardTurOne'>Trabajar</h3>

@@ -23,14 +23,12 @@
 }
 .containerButtonSix {
   display: flex;
-  gap: 1rem;
   flex-direction: row;
   width: 100%;
   align-items: center;
   justify-content: flex-start;
   overflow-x: auto;
   white-space: nowrap;
-  gap: 2em;
   margin: 40px;
 }
 
@@ -39,7 +37,10 @@
   flex: 0 0 auto;
 }
 .containerTitleSix {
-  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .titleTuristSix {
   color: #fff;
@@ -63,16 +64,19 @@
 .cardContainer {
   display: flex;
   overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
 }
-.cardContainer > * {
+/* .cardContainer > * {
   flex: 1 0 auto;
   margin-right: 20px; 
-}
+} */
 .containerButtonSix > * {
   margin: 5px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
   .containerTitleSix {
     width: 100%;
     display: flex;
@@ -85,7 +89,7 @@
   }
   .containerFoodSix {
     height: 500px;
-    padding: 30px;
+    padding: 0px;
   }
   .cardContainer {
     width: 90%;
@@ -99,27 +103,65 @@
     height: 400px;
     justify-content: flex-start;
   }
-  .containerButtonSix {
-    gap: 0px;
-  }
-}
-@media (min-width: 992px) {
-  .titleTuristSix {
-    font-size: 4em;
-  } 
 }
 
-@media (min-width: 1200px) {
+
+@media (min-width: 577px) and (max-width: 772px){
+  .cardContainer > * {
+    flex: 0;
+    margin-right: 0px;
+  }
+  .cardContainer {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   .titleTuristSix {
-    width: 40%;
+    font-size: 3em;
+  }
+  .containerTitleSix {
+    width: 90%;
+  }
+}
+@media (min-width: 773px) and (max-width: 992px) {
+  .cardContainer > * {
+    flex: 0;
+    margin-right: 0px;
+  }
+  .cardContainer {
+    display: flex;
+    overflow-x: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+  }
+  .titleTuristSix {
+    font-size: 3em;
+    width: 50%;
+  }
+  .containerTitleSix {
+    width: 80%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .titleTuristSix {
+    width: 80%;
     font-size: 4em;
   }
   .cardContainer {
     width: 70%;
-    height: 500px;
   }
   .containerButtonSix {
     justify-content: center;
   }
-  
+}
+
+@media (min-width: 1201px){
+  .titleTuristSix {
+    font-size: 5em;
+    width: 50%;
+  }
 }

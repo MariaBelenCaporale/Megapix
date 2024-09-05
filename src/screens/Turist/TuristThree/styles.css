@@ -34,24 +34,32 @@
     line-height: 100.044%;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .titleTuristThree {
-        font-size: 2.5em;
+        font-size: 2em;
         width: 90%;
     }
 }
-@media (min-width: 993px) {
+
+@media (min-width: 577px) and (max-width: 992px) {
     .titleTuristThree {
+        font-size: 3em;
+        width: 70%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .titleTuristThree {
+        width: 60%;
         font-size: 4em;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
     .titleTuristThree {
+        font-size: 5em;
         width: 50%;
     }
     .containerTurThree {
         margin-top: 100px;
     }
-    
 }

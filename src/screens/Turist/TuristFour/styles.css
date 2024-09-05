@@ -15,10 +15,21 @@
     margin: 0px;
 }
 
-@media (min-width:360px) {
-      .titleTuristFour {
-        font-size: 3em;
-      }
+@media (min-width: 360px) and (max-width: 576px) {
+        .titleTuristFour {
+          font-size: 3em;
+        }
+        .containerHow {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+        .videoWrapper {
+          display: flex;
+          width: 100%;
+        }
 }
 
 @media (min-width: 1200px) {

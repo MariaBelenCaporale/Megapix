@@ -202,27 +202,68 @@
 }
 
 @media (min-width: 360px) and (max-width: 576px) {
-    .titleSlogan {
-        font-size: 3em;
-    }
-    .sloganContainer {
-        width: 90%;
-        padding: 50px 0px;
-    }
-    .rayito {
-        width: 200px;
-    }
     .footerOrder {
-        width: 90%;
+        width: 70%;
         top: 0px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 30px 30px;
     }
-    
+    .footer {
+        height: auto;
+    }
+    .containerLogoFooter {
+        width: 100%;
+        overflow: hidden;
+        align-items: flex-start;
+    }
     .logoFooter {
         padding: 0px;
-        width: 200px;
+        width: 90%;
+    }
+    .footerProduct {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .textNavTwo {
+        display: none;
+    }
+    .containerTotal {
+        flex-direction: column;
+    }
+    .listResponsive {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .textNavOne, .textNavThree, .textNavComunidad {
+        font-size: .8em;
+    }
+    .columnOneFooterRed {
+        justify-content: center;
+    }
+    .lineResponsive {
+        width: 100%;
+        border: 1px solid white;
+        margin: 30px 0px;
+    }
+    .rayito {
+        width: 150px;
+    }
+    .sloganContainer {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .titleSlogan {
+        width: 100%;
+        font-size: 2em;
     }
 }
-@media (min-width: 577px) and (max-width: 768px) {
+/* @media (min-width: 577px) and (max-width: 768px) {
     .sloganContainer {
         width: 90%;
     }
@@ -241,4 +282,4 @@
     .footerOrder { 
         top: 150px;
     }
-}
+} */
