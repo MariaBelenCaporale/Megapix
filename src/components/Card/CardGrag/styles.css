@@ -126,3 +126,9 @@
         height: 200px;
     }
 }
+
+@media (min-width: 1200px) {
+    .titleCardDrag {
+        font-size: 1.7em;
+    }
+}

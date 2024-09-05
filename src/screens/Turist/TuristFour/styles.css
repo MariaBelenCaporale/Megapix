@@ -16,10 +16,23 @@
 }
 
 @media (min-width:360px) {
-      .containerHow {
-        margin: 30px;
-      }
       .titleTuristFour {
         font-size: 3em;
       }
+}
+
+@media (min-width: 1200px) {
+  .containerHow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .titleTuristFour {
+    font-size: 4em;
+    margin-bottom: 40px;
+  }
+
 }

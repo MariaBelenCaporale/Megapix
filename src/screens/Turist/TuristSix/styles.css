@@ -63,7 +63,6 @@
 .cardContainer {
   display: flex;
   overflow-x: auto;
-  width: 70%;
 }
 .cardContainer > * {
   flex: 1 0 auto;
@@ -107,6 +106,20 @@
 @media (min-width: 992px) {
   .titleTuristSix {
     font-size: 4em;
+  } 
+}
+
+@media (min-width: 1200px) {
+  .titleTuristSix {
+    width: 40%;
+    font-size: 4em;
+  }
+  .cardContainer {
+    width: 70%;
+    height: 500px;
+  }
+  .containerButtonSix {
+    justify-content: center;
   }
   
 }

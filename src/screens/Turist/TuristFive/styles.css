@@ -51,3 +51,10 @@
         font-size: 3.5em;
     }
 }
+
+@media (min-width: 1200px) {
+    .titleTuristFive {
+        width: 50%;
+        font-size: 4em;
+    }
+}

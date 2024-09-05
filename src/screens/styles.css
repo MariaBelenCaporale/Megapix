@@ -142,7 +142,7 @@
     }
 }
 
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px) {
     .megapixHome {
         width: 100%;
     }
@@ -162,5 +162,15 @@
         top: 20px;
         height: 90vh;
         justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerCoinUno, .containerCoinDos {
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .coinOne, .coinTwo,  .coinThree, .coinFour {
+        width: 10%;
     }
 }

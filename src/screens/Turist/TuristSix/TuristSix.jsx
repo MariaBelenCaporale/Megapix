@@ -2,7 +2,8 @@ import { useState } from 'react';
 import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
 import FondoFood from "../../../images/fondoFood.png";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
-import Food from "../../../images/comida.png";
+import Food from "../../../images/food.png";
+import Bodegas from "../../../images/bodegas.png";
 import Indumentaria from "../../../images/indumentaria.png";
 import Entretenimiento from "../../../images/entretenimiento.png";
 import Hospedaje from "../../../images/hospedaje.png";
@@ -38,8 +39,8 @@ const TuristSix = () => {
           title="Vuelos" onClick={() => handleButtonClick('Vuelos', 'Vuelos')} />
         <ButtonTurist isActive={activeButton === 'Excursiones'}
           title="Excursiones" onClick={() => handleButtonClick('Excursiones', 'Excursiones')} />
-        <ButtonTurist isActive={activeButton === 'Recuerdos'}
-          title="Recuerdos" onClick={() => handleButtonClick('Recuerdos', 'Recuerdos')} />
+        <ButtonTurist isActive={activeButton === 'Bodegas'}
+          title="Bodegas" onClick={() => handleButtonClick('Bodegas', 'Bodegas')} />
       </div>
       <div className="containerFoodSix">
       <img src={FondoFood} className='fondo' alt="imagen de fondo comida" />
@@ -93,10 +94,10 @@ const TuristSix = () => {
               text="Lorem ipsum"
             />
           )}
-          {activeCard === 'Recuerdos' && (
+          {activeCard === 'Bodegas' && (
             <CardSelect
-              image={Food}
-              title='Recuerdos'
+              image={Bodegas}
+              title='Bodegas'
               text="Lorem ipsum"
             />
           )}

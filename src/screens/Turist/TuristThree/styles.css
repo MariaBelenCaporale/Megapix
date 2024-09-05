@@ -44,5 +44,14 @@
     .titleTuristThree {
         font-size: 4em;
     }
+}
+
+@media (min-width: 1200px) {
+    .titleTuristThree {
+        width: 50%;
+    }
+    .containerTurThree {
+        margin-top: 100px;
+    }
     
 }

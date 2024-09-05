@@ -1,47 +1,49 @@
 @font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
-    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
-  }
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins/Poppins-Black.ttf");
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
 
-  .containerHeroTurist {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
+.containerHeroTurist {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
 .containerTurist {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .light {
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: -150px;
-    width: 250px;
-    height: 250px;
-    background: #62FEE2;
-    filter: blur(100px);
-    box-shadow: 0px 0px 133.459px 0px #62FEE2, 0px 0px 66.73px 0px #62FEE2, 0px 0px 19.066px 0px #62FEE2, 0px 0px 9.533px 0px #62FEE2;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 250px;
+  height: 250px;
+  background: #62fee2;
+  filter: blur(100px);
+  box-shadow: 0px 0px 133.459px 0px #62fee2, 0px 0px 66.73px 0px #62fee2,
+    0px 0px 19.066px 0px #62fee2, 0px 0px 9.533px 0px #62fee2;
 }
 
 .light2 {
-    border-radius: 100px;
-    position: absolute;
-    top: 300px;
-    right: -150px;
-    width: 250px;
-    height: 250px;
-    background: #62FEE2;
-    filter: blur(100px);
-    box-shadow: 0px 0px 133.459px 0px #62FEE2, 0px 0px 66.73px 0px #62FEE2, 0px 0px 19.066px 0px #62FEE2, 0px 0px 9.533px 0px #62FEE2;
+  border-radius: 100px;
+  position: absolute;
+  top: 300px;
+  right: -150px;
+  width: 250px;
+  height: 250px;
+  background: #62fee2;
+  filter: blur(100px);
+  box-shadow: 0px 0px 133.459px 0px #62fee2, 0px 0px 66.73px 0px #62fee2,
+    0px 0px 19.066px 0px #62fee2, 0px 0px 9.533px 0px #62fee2;
 }

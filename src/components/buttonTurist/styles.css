@@ -49,3 +49,10 @@
     font-size: 1em;
 }
 }
+
+@media (min-width: 1200px) {
+    .btnTuristOne {
+        font-size: 1.2em;
+        width: 230px;
+    }
+}
