@@ -21,11 +21,31 @@
     width: 100%;
     flex-direction: column;
 }
+.columnOneFooterRed {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 1em;
+}
+.red {
+    color: white;
+}
+.red:hover {
+    color: #62FEE2;
+}
 .columnOneFooter {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 1em;
+    width: 100%;
+    align-items: center;
+}
+.containerTotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .sloganContainer {
     display: flex;
@@ -47,12 +67,15 @@
 .navlink {
     text-decoration: none; 
     color: white;
+    text-align: start;
     font-family: "Poppins", sans-serif;
+    width: 100%;
 }
 .containerLogoFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
 }
 .textNavOne {
     font-size: 1em;
@@ -61,13 +84,26 @@
     line-height: normal;
     margin: 0px;
 }
-.textNavThree {
+.textNavThree  {
     font-size: 1em;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     line-height: normal;
     margin: 0px;
+    text-align: start;
+    width: 100%;
+}
+.textNavComunidad {
+    color: white;
+    font-size: 1em;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px;
+    text-align: start;
+    width: 100%;
 }
 .textNavTwo {
     color: #FFF;
@@ -76,7 +112,7 @@
     font-style: normal;
     line-height: normal;
     margin: 0px;
-    width: 60%;
+    width: 100%;
 }
 .navlink:hover {
     color: #62FEE2;
@@ -112,6 +148,9 @@
     align-items: center;
     flex-direction: row;
     display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    gap: 5em;
 }
 .containerFormas {
     width: 100%;
