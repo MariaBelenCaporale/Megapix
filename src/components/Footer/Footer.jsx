@@ -1,7 +1,6 @@
 import "./styles.css";
 import { NavLink } from "react-router-dom";
-import Formas from "../../images/formas.png";
-import Rayito from "../../images/rayo.png";
+import Formas from "@images/formas.png";
 import LogoFooter from "../../assets/logo-megapix.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -9,12 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
     <div className="containerFooter">
-      <div className="sloganContainer">
-        <div className="containerRayoFooter">
-          <img className="rayito" src={Rayito} />
-        </div>
-        <h2 className="titleSlogan">Megapix, innovando el presente & futuro</h2>
-      </div>
+
 
       <div className="footer">
         <div className="footerOrder">

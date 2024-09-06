@@ -18,15 +18,16 @@
     justify-content: flex-start;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 .containerAsk {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    height: auto;
 }
 .ask {
     display: flex;
@@ -60,7 +61,7 @@
     font-weight: 300;
     line-height: normal;
     align-items: center;
-    padding: 20px 0px;
+    padding: 0px;
 }
 .icon {
     border-radius: 10px;
@@ -75,19 +76,25 @@
 .response {
     color: white;
     font-family: "Poppins", sans-serif;
-    font-size: 1em;
     font-weight: 300;
+    font-size: 1.2em;
 }
 
 .line {
+    background-color: white;
+    height: 1px;
     width: 100%;
-    border: 0.5px solid white;
 }
 
 @media (min-width: 360px) and (max-width: 576px) {
     .titleSeven {
         font-size: 2.7em;
         width: 90%;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
     }
     .ask {
         width: 90%;
@@ -98,6 +105,10 @@
         width: 80%;
         font-family: "Poppins-Regular", sans-serif;
         text-align: start;
+        padding: 10px 0px;
+    }
+    .response {
+        font-size: 1em;
     }
     .containerSecSeven {
         justify-content: center;

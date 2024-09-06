@@ -13,6 +13,7 @@ import TuristSix from "./TuristSix/TuristSix";
 import Footer from "../../components/Footer/Footer";
 import SectionSeven from "../SectionSeven/SectionSeven";
 import PhoneComponent from "../../components/Phone/Phone";
+import Slogan from "../../components/Slogan/Slogan";
 
 const TuristScreen = () => {
   return (
@@ -45,6 +46,7 @@ const TuristScreen = () => {
       <TuristFive />
       <TuristSix />
       <SectionSeven />
+      <Slogan />
       <Footer />
     </div>
   );

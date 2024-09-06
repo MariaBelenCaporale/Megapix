@@ -2,7 +2,7 @@ import "./styles.css";
 
 const SectionTwo = () => {
   const items = [
-    {
+    {  
       text: "Control de tus finanzas",
       delay: "800ms",
       styles: {
@@ -12,8 +12,8 @@ const SectionTwo = () => {
       },
       animationClass: "animation-1",
     },
-    {
-      text: "Amplias opciones de cobro",
+    { 
+      text: "Cobros con QR",
       delay: "700ms",
       styles: {
         top: "70%",
@@ -33,6 +33,16 @@ const SectionTwo = () => {
       animationClass: "animation-3",
     },
     {
+      text: "Gratis",
+      delay: "700ms",
+      styles: {
+        top: "70%",
+        left: "60%",
+        transform: "rotate(-15deg)",
+      },
+      animationClass: "animation-4",
+    },
+    {
       text: "Multiplataforma",
       delay: "800ms",
       styles: {
@@ -42,8 +52,8 @@ const SectionTwo = () => {
       },
       animationClass: "animation-5",
     },
-    {
-      text: "Rapidez",
+    { 
+      text: "Rápido",
       delay: "700ms",
       styles: {
         top: "65%",
@@ -63,7 +73,7 @@ const SectionTwo = () => {
       animationClass: "animation-7",
     },
     {
-        text: "Plataforma gratuita",
+        text: "Sin comisiones",
         delay: "800ms",
         styles: {
           top: "85%",
@@ -72,8 +82,8 @@ const SectionTwo = () => {
         },
         animationClass: "animation-8",
       },
-      {
-        text: "Segura",
+      { 
+        text: "Seguridad",
         delay: "700ms",
         styles: {
           top: "50%",
@@ -82,7 +92,17 @@ const SectionTwo = () => {
         },
         animationClass: "animation-9",
       },
-      {
+      { 
+        text: "Gratis",
+        delay: "800ms",
+        styles: {
+          top: "45%",
+          left: "63%",
+          transform: "rotate(-15deg)",
+        },
+        animationClass: "animation-10",
+      },
+      { 
         text: "Tecnología PIX",
         delay: "500ms",
         styles: {
@@ -92,7 +112,7 @@ const SectionTwo = () => {
         },
         animationClass: "animation-11",
       },
-      {
+      { 
         text: "Transacciones sin posnet",
         delay: "800ms",
         styles: {
@@ -112,8 +132,8 @@ const SectionTwo = () => {
         },
         animationClass: "animation-13",
       },
-      {
-        text: "Conversiones automáticas",
+      { 
+        text: "Segura",
         delay: "500ms",
         styles: {
           top: "74%",

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 import './styles.css';
 
 const SectionSeven = () => {
@@ -13,17 +14,25 @@ const SectionSeven = () => {
    
     const faqs = [
         {
-            question: "¿Qué es la tecnología PIX?",
-            answer: "Respuesta",
+            question: "¿La plataforma tiene costo?",
+            answer: "No, Megapix es completamente gratuita.",
         },
         {
-            question: "¿Cómo funciona el dólar digital USDT?",
-            answer: "Respuesta 2",
+            question: "¿Qué es Pix?",
+            answer: "Pix es un sistema de pagos instantáneos de Brasil que te permite transferir dinero de manera rápida, segura y gratuita.",
         },
         {
-            question: "¿Qué características debo cumplir para usar Megapix?",
-            answer: "Respuesta 3",
-        }
+            question: "¿Qué es USDT?",
+            answer: "USDT es una criptomoneda estable que mantiene el mismo valor del dolar estadounidense, siendo una de las criptomonedas mas estables y seguras que hay en el mercado",
+        },
+        {
+            question: "¿El dinero que recibo queda en Megapix o debo vincular una cuenta bancaria?",
+            answer: "El dinero que recibes queda en tu cuenta de Megapix, con la opción de retirarlo instantáneamente cuando lo necesites.",
+        },
+        {
+            question: "¿Debo descargar alguna app?",
+            answer: "No es necesario. Megapix es una plataforma web, accesible desde cualquier dispositivo sin descargas.",
+        },
     ];
 
     return (
@@ -37,7 +46,7 @@ const SectionSeven = () => {
                         <div className='question' onClick={() => handleToggle(index)}>
                             <p>{faq.question}</p>
                             
-                            <span className={`icon ${activeIndex === index ? 'open' : ''}`}>+</span>
+                            <span className={`icon ${activeIndex === index ? 'open' : ''}`}><KeyboardArrowDownRoundedIcon /></span>
                            
                         </div>
                         <div className='line'> </div>

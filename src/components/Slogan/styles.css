@@ -1,0 +1,83 @@
+.sloganContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+}
+.titleSloganContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.titleSlogan {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+    text-align: center;
+}
+.containerRayoFooter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.rayito {
+    width: 300px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.rayito {
+    width: 300px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@media (min-width: 360px) and (max-width: 576px)  {
+    .sloganContainer {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titleSloganContainer {
+        width: 90%;
+    }
+    .rayito {
+        width: 100px;
+    }
+    .titleSlogan {
+        width: 100%;
+        font-size: 1.8em;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .rayito {
+        width: 150px;
+    }
+    .sloganContainer {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .titleSlogan {
+        width: 100%;
+        font-size: 2em;
+    }
+}

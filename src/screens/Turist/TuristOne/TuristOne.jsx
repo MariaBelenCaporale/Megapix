@@ -1,12 +1,12 @@
 import './styles.css';
-import Ushuaia from '../../../images/ushuaia.png';
-import Mendoza from '../../../images/mendoza.png';
-import Bariloche from '../../../images/bariloche.png';
-import Iguazu from '../../../images/iguazu.png';
-import Ski from '../../../images/ski.png';
-import Mdz from '../../../images/mdz.png';
+import Ushuaia from '@images/ushuaia.png';
+import Mendoza from '@images/mendoza.png';
+import Bariloche from '@images/bariloche.png';
+import Iguazu from '@images/iguazu.png';
+import Nieve from '@images/nieve.png';
+import Mdz from '@images/mdz.png';
 
-const images = [Ushuaia, Mendoza, Bariloche, Iguazu, Ski, Mdz];
+const images = [Ushuaia, Mendoza, Bariloche, Iguazu, Nieve, Mdz];
 
 const TuristOne = () => {
     return (
