@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
-import Brasil from '../../images/Brasil.jpg';
-import Argentina from '../../images/argentina.png';
+import Brasil from '@images/brasil.jpg';
+import Argentina from '@images/argentina.png';
 import './styles.css';
 
 const LanguageSelect = () => {
