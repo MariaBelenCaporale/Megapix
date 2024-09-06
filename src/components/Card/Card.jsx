@@ -1,5 +1,5 @@
 import './styles.css';
-import Rayo from '../../images/rayo.png';
+import Rayo from "@images/rayo.png";
 
 const Card = () => {
     return (
@@ -12,7 +12,7 @@ const Card = () => {
                 </div>
 
                 <div className='containerTextRight'>
-                    <img className='rayoImg' src={Rayo} />
+                    <img className='rayoImg' src={Rayo} alt='Imagen de un rayo' />
                     <h2 className='tituloCard'>crecé sin fronteras</h2>
                 </div>
             </div>

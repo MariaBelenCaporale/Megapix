@@ -59,3 +59,8 @@
         font-size: 1em;
     }
 }
+@media (min-width: 993px) {
+    .buttonFour {
+        padding: 10px;
+    }
+}

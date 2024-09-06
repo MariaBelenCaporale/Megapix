@@ -211,6 +211,9 @@
         gap: 2em;
         padding: 30px 30px;
     }
+    .columnOneFooter {
+        width: auto;
+    }
     .footer {
         height: auto;
     }
@@ -238,6 +241,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
+        gap: 2em;
     }
     .textNavOne, .textNavThree, .textNavComunidad {
         font-size: .8em;
@@ -263,23 +267,97 @@
         font-size: 2em;
     }
 }
-/* @media (min-width: 577px) and (max-width: 768px) {
-    .sloganContainer {
+@media (min-width: 577px) and (max-width: 768px) {
+    .footerOrder {
+        width: 80%;
+        top: 0px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 30px 30px;
+    }
+    .columnOneFooter {
+        width: auto;
+    }
+    .footer {
+        height: auto;
+    }
+    .containerLogoFooter {
+        width: 100%;
+        overflow: hidden;
+        align-items: flex-start;
+    }
+    .logoFooter {
+        padding: 0px;
         width: 90%;
     }
-    .titleSlogan {
-        font-size: 4em;
+    .footerProduct {
+        margin-bottom: 0px;
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .textNavTwo {
+        display: none;
+    }
+    .containerTotal {
+        flex-direction: column;
+    }
+    .listResponsive {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .textNavOne, .textNavThree, .textNavComunidad {
+        font-size: 1em;
+    }
+    .columnOneFooterRed {
+        justify-content: center;
+    }
+    .lineResponsive {
+        width: 100%;
+        border: 1px solid white;
+        margin: 30px 0px;
     }
     .rayito {
-        width: 250px;
+        width: 150px;
     }
-    .footerOrder {
-        top: 100px;
+    .sloganContainer {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .titleSlogan {
+        width: 100%;
+        font-size: 2em;
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
-    .footerOrder { 
-        top: 150px;
+@media (min-width: 769px)  {
+    .listResponsive {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
     }
-} */
+    .containerTotal {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .lineResponsive {
+        display: none;
+    }
+    .columnOneFooter {
+        width: auto;
+    }
+   .columnOneFooter {
+        width: auto;
+    }
+    .textNavTwo {
+        width: 60%;
+    } 
+}
+

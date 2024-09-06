@@ -9,7 +9,7 @@ const SectionSix = () => {
             <div className='containerVideosSix'>
             <div className='containerTextSix'>
                 <p className='itemSix'>ESTÁS LISTO?</p>
-                <h2 className='titleSectionSix'>COMENCEMOS</h2>
+                <h2 className='titleSectionSix'>Comencemos</h2>
                 <p className='subtitleSectionSix'>Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.</p>
                 <ButtonComponent title='Ir a la plataforma' />
             </div>
