@@ -14,24 +14,32 @@ const SectionSeven = () => {
    
     const faqs = [
         {
-            question: "¿La plataforma tiene costo?",
-            answer: "No, Megapix es completamente gratuita.",
+            question: "¿Cómo puedo pagar en reales con Pix en Argentina?",
+            answer: "Escaneando el QR o haciendo click en el link de pago desde tu cuenta de preferencia",
         },
         {
-            question: "¿Qué es Pix?",
-            answer: "Pix es un sistema de pagos instantáneos de Brasil que te permite transferir dinero de manera rápida, segura y gratuita.",
+            question: "¿¿Es seguro pagar con Pix en Argentina?",
+            answer: "Sí, Megapix garantiza transacciones seguras utilizando el sistema *Pix*, que está respaldado por el Banco Central de Brasil, asegurando la protección de tus datos y fondos.",
         },
         {
-            question: "¿Qué es USDT?",
-            answer: "USDT es una criptomoneda estable que mantiene el mismo valor del dolar estadounidense, siendo una de las criptomonedas mas estables y seguras que hay en el mercado",
+            question: "¿Cuánto tiempo tarda en procesarse el pago?",
+            answer: "Las transferencias a través de *Pix* son instantáneas, por lo que tu pago se reflejará en la cuenta del comerciante al momento de completarlo.",
         },
         {
-            question: "¿El dinero que recibo queda en Megapix o debo vincular una cuenta bancaria?",
-            answer: "El dinero que recibes queda en tu cuenta de Megapix, con la opción de retirarlo instantáneamente cuando lo necesites.",
+            question: "¿Puedo usar Megapix en cualquier comercio en Argentina?",
+            answer: "Megapix* está disponible en los comercios afiliados a la plataforma. Te recomendamos consultar con el comercio si aceptan pagos a traves de *Megapix* antes de realizar tu compra.",
         },
         {
-            question: "¿Debo descargar alguna app?",
-            answer: "No es necesario. Megapix es una plataforma web, accesible desde cualquier dispositivo sin descargas.",
+            question: "¿Qué moneda utilizaré al hacer el pago?",
+            answer: "Realizarás tu pago en reales brasileños.",
+        },
+        {
+            question: "¿Puedo usar Megapix desde mi celular?",
+            answer: "Sí, puedes acceder a Megapix desde cualquier dispositivo móvil sin necesidad de descargar una app. Solo necesitas conexión a internet y un navegador",
+        },
+        {
+            question: "¿Es necesario que tenga una cuenta bancaria argentina para usar Megapix?",
+            answer: "No, solo necesitas tu cuenta de *Pix* en Brasil para realizar pagos en Argentina a través de Megapix.",
         },
     ];
 
