@@ -44,7 +44,7 @@ const SectionSeven = () => {
                 {faqs.map((faq, index) => (
                     <div key={index} className='ask'>
                         <div className='question' onClick={() => handleToggle(index)}>
-                            <p>{faq.question}</p>
+                            <p className='questionText'>{faq.question}</p>
                             
                             <span className={`icon ${activeIndex === index ? 'open' : ''}`}><KeyboardArrowDownRoundedIcon /></span>
                            
@@ -52,7 +52,7 @@ const SectionSeven = () => {
                         <div className='line'> </div>
                         {activeIndex === index && (
                             <div className='response'>
-                                <p>{faq.answer}</p>
+                                <p className='responseText'>{faq.answer}</p>
                             </div>
                         )}
                     </div>

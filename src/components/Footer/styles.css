@@ -184,11 +184,13 @@
     }
     .logoFooter {
         padding: 0px;
-        width: 90%;
+        width: 80%;
     }
     .footerProduct {
         margin-bottom: 0px;
         width: 100%;
+        font-size: .8em;
+        text-align: start;
     }
     .textNavTwo {
         display: none;
