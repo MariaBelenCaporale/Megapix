@@ -2,7 +2,7 @@ import { useState } from "react";
 import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
 import FondoFood from "../../../images/fondoFood.png";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
-import Food from "../../../images/food.png";
+import Food from "@images/food.png";
 import Bodegas from "@images/bodegas.png";
 import Ski from "@images/ski.png";
 import Indumentaria from "../../../images/indumentaria.png";

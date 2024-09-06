@@ -10,9 +10,9 @@ export default defineConfig({
       '@fonts': 'src/fonts'
     }
   },
-  server: {
-    port: 3000,
-    strictPort: true,
-    origin: "http://0.0.0.0:3000",
-  },
+  // server: {
+  //   port: 3000,
+  //   strictPort: true,
+  //   origin: "http://0.0.0.0:3000",
+  // },
 })
