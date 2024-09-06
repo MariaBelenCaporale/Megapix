@@ -1,3 +1,11 @@
+
+.swiper-cards .swiper-slide {
+  overflow: visible;
+}
+.imgSwipper {
+  box-shadow: 0 0 10px rgb(98 254 226 / 25%);
+  border-radius: 15px;
+}
 .swiper {
     width: 500px;
     height: 320px;
