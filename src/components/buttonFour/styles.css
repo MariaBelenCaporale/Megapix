@@ -10,7 +10,10 @@
     src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
-
+  .buttonFour.active {
+    background-color: #ffffff14;
+    color: white;
+  }
 .containerButtonFour {
     width: auto;
     display: flex;

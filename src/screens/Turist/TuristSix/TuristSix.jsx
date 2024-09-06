@@ -14,7 +14,7 @@ import "./styles.css";
 
 const TuristSix = () => {
   const [activeCard, setActiveCard] = useState("Gastronomía");
-  const [activeButton, setActiveButton] = useState("Indumentaria");
+  const [activeButton, setActiveButton] = useState("Gastronomía");
 
   const handleButtonClick = (buttonId, cardTitle) => {
     setActiveButton(buttonId);

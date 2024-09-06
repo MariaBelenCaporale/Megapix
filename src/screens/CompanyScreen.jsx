@@ -16,6 +16,7 @@ import Footer from "../components/Footer/Footer";
 import Slogan from "../components/Slogan/Slogan";
 
 
+
 const CompanyScreen = () => {
     return (
         <div className="containerCompany">
