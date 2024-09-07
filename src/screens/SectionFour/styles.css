@@ -114,6 +114,14 @@
   .containerMoveImageFour {
     margin-right: 0px;
   }
+  .moveImage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -136,6 +144,7 @@
   }
   .moveImage {
     width: 90%;
+    overflow: hidden;
   }
   .containerBtnFour {
     display: flex;
@@ -153,6 +162,7 @@
   .containerMoveImageFour {
     margin-right: 0px;
   }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -165,11 +175,11 @@
     height: auto;
   }
   .moveImage {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
+    overflow: visible;
   }
   .cardFour {
     margin: 0px;
@@ -195,5 +205,14 @@
   }
   .containerMoveImageFour {
     margin-right: 0px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1400px) {
+  .containerMoveImageFour {
+    margin-right: 0px;
+  }
+  .moveImage {
+    overflow: hidden;
   }
 }
