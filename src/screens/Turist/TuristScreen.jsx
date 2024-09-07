@@ -21,8 +21,8 @@ const TuristScreen = () => {
       <div className="containerHeroTurist">
         <Hero
           showButton={false}
-          title="sin límites en Argentina"
-          titleColorOne="Pagá con pix "
+          titleTwo="sin límites en Argentina"
+          titleColorTwo="Pagá con pix "
           fontFamily="Poppins-Bold, sans-serif"
           subtitle="Viví experiencias únicas pagando como si estuvieses en casa"
         />

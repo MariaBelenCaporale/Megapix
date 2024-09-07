@@ -197,4 +197,18 @@
   .textCardTur {
     width: 90%;
   }
+  .orderCardTur {
+    justify-content: center;
+  }
+  .cardTurOne {
+    width: 350px;
+  }
+  .askCardTur {
+    line-height: 75px;
+    font-size: 5em;
+  }
+  .textCardTur {
+    font-size: 1.5em;
+    line-height: 40px;
+  }
 }
