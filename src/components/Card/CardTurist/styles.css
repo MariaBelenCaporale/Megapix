@@ -193,10 +193,7 @@
   }
 }
 
-@media (min-width: 1201px) {
-  .textCardTur {
-    width: 90%;
-  }
+@media (min-width: 1201px)  {
   .orderCardTur {
     justify-content: center;
   }
@@ -208,7 +205,8 @@
     font-size: 5em;
   }
   .textCardTur {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 40px;
+    width: 90%;
   }
 }

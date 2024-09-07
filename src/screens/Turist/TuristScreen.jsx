@@ -1,5 +1,4 @@
 import Hero from "../../components/HeroText/HeroText";
-// import TuristOne from "./TuristOne/TuristOne";
 import "./styles.css";
 import TuristThree from "./TuristThree/TuristThree";
 import TuristTwo from "./TuristTwo/TuristTwo";
