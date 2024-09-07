@@ -14,7 +14,7 @@
 .subtitleCardDrag {
     color:#FFF;
     font-family: "Poppins-Regular", sans-serif;
-    font-size: 1em;
+    font-size: .8em;
     font-style: normal;
     font-weight: 400;
     margin: 0px;
@@ -26,7 +26,7 @@
     color: #FFF;
     text-align: start;
     font-family: "Poppins", sans-serif;
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-style: normal;
     font-weight: 500;
     margin: 0px;
@@ -129,6 +129,9 @@
 
 @media (min-width: 1200px) {
     .titleCardDrag {
-        font-size: 1.7em;
+        font-size: 1.4em;
+    }
+    .subtitleCardDrag {
+        font-size: .9em;
     }
 }

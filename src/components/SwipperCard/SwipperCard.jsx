@@ -1,8 +1,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Dinero from '@images/dinero.png';
-import MisCuentas from '@images/mis-cuentas.png';
-import Monedacard from '@images/monedacard.png';
+
+import PropTypes from "prop-types";
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
@@ -10,7 +9,7 @@ import './styles.css';
 
 import { EffectCards } from 'swiper/modules';
 
-export default function SwiperCard() {
+export default function SwiperCard({ imagen, imagenUno, imagenDos, imagenTres }) {
   return (
     <>
       <Swiper
@@ -20,16 +19,26 @@ export default function SwiperCard() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img className='imgSwipper' src={Dinero} />
+            <img className='imgSwipper' src={imagen} />
         </SwiperSlide>
         <SwiperSlide>
-            <img className='imgSwipper' src={MisCuentas} />
+            <img className='imgSwipper' src={imagenUno} />
         </SwiperSlide>
         <SwiperSlide>
-            <img className='imgSwipper' src={Monedacard} />
+            <img className='imgSwipper' src={imagenDos} />
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='imgSwipperTres' src={imagenTres} />
         </SwiperSlide>
 
       </Swiper>
     </>
   );
 }
+SwiperCard.propTypes = {
+  imagen: PropTypes.string.isRequired,
+  imagenUno: PropTypes.string.isRequired,
+  imagenDos: PropTypes.string.isRequired,
+  imagenTres: PropTypes.string.isRequired,
+}
+

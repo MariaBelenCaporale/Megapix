@@ -70,6 +70,17 @@ const CardDrag = () => {
             </p>
           </div>
         </div>
+        <div className="itemDrag item1">
+          <div className="containerImgDrag">
+            <img className="imgDrag" src={Multiplataforma} />
+          </div>
+          <div className="containerInfoDrag">
+            <h3 className="titleCardDrag">Seguridad en cada cobro</h3>
+            <p className="subtitleCardDrag">
+            Nuestro sistema de cobro ofrece la máxima seguridad, eliminando los riesgos vinculados al manejo de efectivo y minimizando los errores humanos. Gracias a nuestra tecnología avanzada, cada transacción es precisa y protegida, asegurando un proceso ágil y sin complicaciones.
+            </p>
+          </div>
+        </div>
         <div className="itemDrag item2">
           <div className="containerImgDrag">
             <img className="imgDrag" src={Control} />
@@ -90,7 +101,7 @@ const CardDrag = () => {
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Roles y permisos</h3>
             <p className="subtitleCardDrag">
-            Megapix ofrece un sistema de administration de equipo donde podrás llevar el control de todas las tareas realizadas dentro de la plataforma
+            Megapix ofrece un sistema de administracion y division de tareas reduciendo  la carga administrativa y  aumentando la eficiencia operativa.
             </p>
           </div>
         </div>
@@ -101,7 +112,7 @@ const CardDrag = () => {
           <div className="containerInfoDrag">
             <h3 className="titleCardDrag">Plataforma sin costo</h3>
             <p className="subtitleCardDrag">
-            Tus pagos y datos están protegidos por tecnología avanzada para que puedas pagar con total confianza. 
+            Nuestra plataforma es completamente gratuita, lo que significa que no tendrás que preocuparte por tarifas ocultas ni comisiones por registro o uso.
             </p>
           </div>
         </div>
