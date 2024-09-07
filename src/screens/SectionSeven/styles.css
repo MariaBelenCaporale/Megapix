@@ -102,7 +102,7 @@
         border-radius: 5px;
     }
     .question {
-        align-items: flex-start;
+        align-items: center;
         padding: 20px 0px;
     }
     .ask {
@@ -121,6 +121,9 @@
     .containerSecSeven {
         justify-content: center;
     }
+    .containerAsk {
+        height: auto;
+    }
     
 }
 @media (min-width: 577px) and (max-width: 768px) {
@@ -132,10 +135,13 @@
         width: 90%;
     }
     .questionText {
-        font-size: .7em;
+        font-size: 1em;
         font-weight: 400;
         width: 80%;
         font-family: "Poppins-Regular", sans-serif;
+    }
+    .responseText {
+        font-size: .9em;
     }
     .containerSecSeven {
         justify-content: center;
@@ -150,11 +156,50 @@
     .ask {
         width: 90%;
     }
-    .question p {
+    .questionText {
         font-size: 1em;
         font-weight: 400;
         width: 80%;
         font-family: "Poppins-Regular", sans-serif;
+    }
+    .responseText {
+        font-size: .9em;
+    }
+    .containerSecSeven {
+        justify-content: center;
+    }   
+}
+@media (min-width: 993px) and (max-width: 1400px) {
+    .titleSeven {
+        font-size: 5em;
+        width: 90%;
+    }
+    .ask {
+        width: 90%;
+    }
+    .questionText {
+        font-size: 1.3em;
+    }
+    .responseText {
+        font-size: 1.1em;
+    }
+    .containerSecSeven {
+        justify-content: center;
+    }   
+}
+@media (min-width: 1401px) {
+    .titleSeven {
+        font-size: 6em;
+        width: 90%;
+    }
+    .ask {
+        width: 90%;
+    }
+    .questionText {
+        font-size: 1.3em;
+    }
+    .responseText {
+        font-size: 1.1em;
     }
     .containerSecSeven {
         justify-content: center;
