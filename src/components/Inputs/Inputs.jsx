@@ -16,6 +16,9 @@ const Inputs = () => {
   const [brlInput, setBrlInput] = useState('');
   const [concept, setConcept] = useState('');
   const [showPopup, setShowPopup] = useState(false);
+  const [showMessageArs, setShowMessageArs] = useState(false);
+  const [showMessageUsd, setShowMessageUsd] = useState(false);
+  const [showMessageMotive, setMessageMotive] = useState(false);
 
   const { isPendingBrl, prices } = useCalculateBrl(usdInput);
   const { arsPrice, isPendingArs } = useCalculateArs();
@@ -32,14 +35,14 @@ const Inputs = () => {
     const ars = event.target.value;
     setArsInput(ars);
     const usd = parseFloat(ars) / parseFloat(arsPrice);
-    setUsdInput(usd.toFixed(2)); 
+    setUsdInput(usd.toFixed(2));
   };
 
   const handleUsdChange = (event) => {
     const usd = event.target.value;
     setUsdInput(usd);
     const ars = parseFloat(usd) * parseFloat(arsPrice);
-    setArsInput(ars.toFixed(2)); 
+    setArsInput(ars.toFixed(2));
   };
 
   const generateQrAction = async (event) => {
@@ -55,7 +58,7 @@ const Inputs = () => {
 
   return (
     <>
-      <form onSubmit={generateQrAction} style={{ maxWidth: '600px', margin: '0 auto' }}>
+      <form onSubmit={generateQrAction} style={{ maxWidth: '600px', margin: '0 auto', position: 'relative' }}>
         <div style={{ position: 'relative', marginBottom: '16px' }}>
           <label className='monto'>Monto (ARS)</label>
           <input className='inputs'
@@ -65,14 +68,22 @@ const Inputs = () => {
             disabled={isPendingArs}
             placeholder='$0'
             onChange={handleArsChange}
+            onClick={() => { setShowMessageArs(true); setShowMessageUsd(false); setMessageMotive(false) }}
+            onFocus={() => { setShowMessageArs(true); setShowMessageUsd(false); setMessageMotive(false) }}
           />
           
           <div className='flag-container'>
             <img className='flagIcon' src={argentinaFlag} alt='Bandera de Argentina' />
             <span className='currency-label'>ARS</span>
           </div>
-        </div>
 
+        </div>
+        {showMessageArs && (
+          <div className='containerMessage arg'>
+            <p className='messagePay'>Ingresas el monto que queres cobrar en pesos ARG. 🇦🇷</p>
+          </div>
+        )}
+      
         <div style={{ position: 'relative', marginBottom: '16px' }}>
           <label className='monto'>USDT</label>
           <input className='inputs'
@@ -82,13 +93,24 @@ const Inputs = () => {
             disabled={isPendingArs}
             placeholder='$0'
             onChange={handleUsdChange}
+            onClick={() => { setShowMessageUsd(true); setShowMessageArs(false); setMessageMotive(false) }}
+            onFocus={() => { setShowMessageUsd(true); setShowMessageArs(false); setMessageMotive(false) }}
           />
           <div className='flag-container'>
             <img className='flagIcon' src={eeuuFlag} alt='Bandera de Estados Unidos' />
             <span className='currency-label'>USDT</span>
           </div>
         </div>
-
+        {showMessageUsd && (
+          <div>
+          <div className='containerMessage usdt'>
+            <p className='messagePay'> Te mostramos el valor que vas a recibir en USDT (Dolar digital)</p>
+          </div>
+          <div className='containerMessage usdtDos'>
+            <p className='messagePay'> El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.</p>
+          </div>
+          </div>
+        )}
         <div style={{ marginBottom: '16px' }}>
           <label className='monto'>Motivo</label>
           <input className='inputs'
@@ -97,8 +119,15 @@ const Inputs = () => {
             placeholder='Oso de peluche'
             value={concept}
             onChange={(e) => setConcept(e.target.value)}
+            onClick={() => { setShowMessageArs(false); setShowMessageUsd(false); setMessageMotive(true) }}
+            onFocus={() => { setShowMessageArs(false); setShowMessageUsd(false); setMessageMotive(true) }}
           />
         </div>
+        {showMessageMotive && (
+          <div className='containerMessage motive'>
+            <p className='messagePay'>Colocas el “Motivo” de la operación.</p>
+          </div>
+        )}
 
         <hr style={{ margin: '16px 0', border: '1px solid #ccc' }} />
 
