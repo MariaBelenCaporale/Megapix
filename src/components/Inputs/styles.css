@@ -35,6 +35,11 @@
   right: 130%;
   top: 0%;
 }
+.brl {
+  position: absolute;
+  right: -100%;
+  top: 60%;
+}
 .motive {
   position: absolute;
   right: 130%;
