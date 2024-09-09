@@ -45,7 +45,6 @@
 }
 
 .rotated-items-container {
-
   width: 90%;
   height: 300px;
   display: flex;
@@ -73,26 +72,11 @@
   font-weight: 400;
 }
 
-/* .rotated-item {
-  position: absolute;
-  padding: 8px 16px;
-  background: transparent;
-  border-radius: 100px;
-  border: 2px solid white;
-  cursor: pointer;
-  transition: 300ms ease-in-out;
-
-  color: #fff;
-  text-align: center;
-  font-family: "Poppins-Regular", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-} */
-
-.rotated-item:hover {
+.animation:hover {
   color: #62fee2;
-  border: 2px solid #62fee2;
+  border: 3px solid #62fee2;
 }
+
 
 @keyframes floating-1 {
   0% {
