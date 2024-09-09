@@ -35,13 +35,22 @@
     line-height: 100.044%;
     width: 70%;
 }
-.containerDragCard {
+.containerDragCardFive {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     flex-direction: row;
-    gap: 2rem;
+
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
 }
 
 

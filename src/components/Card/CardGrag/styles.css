@@ -33,16 +33,15 @@
     padding-bottom: 10px ;
 }
 
-.containerDragCard {
+/* .containerDragCard {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
     overflow-x: scroll;
     overflow-y: hidden;
-}
-
-.items {
+} */
+/* .items {
     position: relative;
     width: 100%;
     overflow-x: scroll;
@@ -53,7 +52,7 @@
     will-change: transform;
     user-select: none;
     cursor: pointer;
-}
+} */
 
 .items.active {
     background: rgba(0, 0, 0, 0.145);

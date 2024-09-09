@@ -25,7 +25,7 @@ const CompanyScreen = () => {
                     title='cobra reales y recibí dólar digital ' 
                     titleColor='GRATIS'
                     fontFamily='Bebas Neue, sans-serif'
-                    subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto.'
+                    subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones'
                 />
                 <div className="containerPixImg">
                 <img className="megapixHome" src={MegapixGlass} />
