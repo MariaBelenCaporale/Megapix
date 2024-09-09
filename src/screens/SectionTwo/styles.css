@@ -37,18 +37,43 @@
   width: 100%;
   padding: 20px;
 }
-
-.rotated-items-container {
+.prueba {
   width: 100%;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.rotated-item {
+.rotated-items-container {
+
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation {
+  position: absolute;
+  padding: 20px 20px;
+  width: auto;
+  background-color: #111;
+  background: transparent;
+  border-radius: 100px;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+/* .rotated-item {
   position: absolute;
   padding: 8px 16px;
   background: transparent;
@@ -62,7 +87,7 @@
   font-family: "Poppins-Regular", sans-serif;
   font-size: 1em;
   font-weight: 400;
-}
+} */
 
 .rotated-item:hover {
   color: #62fee2;
@@ -71,13 +96,13 @@
 
 @keyframes floating-1 {
   0% {
-    transform: translateY(0) rotate(-25deg);
+    transform: translateY(0) rotate(-10deg);
   }
   50% {
-    transform: translateY(-25px) rotate(-25deg);
+    transform: translateY(-10px) rotate(-10deg);
   }
   100% {
-    transform: translateY(0) rotate(-25deg);
+    transform: translateY(0) rotate(-10deg);
   }
 }
 
@@ -175,24 +200,24 @@
 }
 @keyframes floating-10 {
   0% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(15deg);
   }
   50% {
-    transform: translateY(-15px) rotate(-15deg);
+    transform: translateY(15px) rotate(15deg);
   }
   100% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(15deg);
   }
 }
 @keyframes floating-11 {
     0% {
-      transform: translateY(0) rotate(-15deg);
+      transform: translateY(0) rotate(-10deg);
     }
     50% {
-      transform: translateY(-15px) rotate(-15deg);
+      transform: translateY(-10px) rotate(-10deg);
     }
     100% {
-      transform: translateY(0) rotate(-15deg);
+      transform: translateY(0) rotate(-10deg);
     }
   }
   @keyframes floating-12 {
@@ -241,56 +266,91 @@
   }
 
 .animation-1 {
-  animation: floating-1 4s ease-in-out infinite;
+  /* control finanzas */
+  top: 10%;
+  left: 1%;
+  animation: floating-1 6s ease-in-out infinite;
 }
 .animation-2 {
+  /* cobros qr */
+  top: 5%;
+  left: 50%;
   animation: floating-2 4s ease-in-out infinite;
 }
 .animation-3 {
-  animation: floating-3 4s ease-in-out infinite;
+  /* conexion con turistas */
+  top: 70%;
+  left: 70%;
+  animation: floating-3 5s ease-in-out infinite;
 }
 .animation-4 {
-  animation: floating-3 4s ease-in-out infinite;
+  /* gratis */
+  top: 20%;
+  left: 70%;
+  animation: floating-3 5s ease-in-out infinite;
 }
 .animation-5 {
-  animation: floating-5 4s ease-in-out infinite;
+  /* multiplataforma */
+  top: 80%;
+  left: 30%;
+  animation: floating-5 6s ease-in-out infinite;
 }
 .animation-6 {
-  animation: floating-6 4s ease-in-out infinite;
+  /*rapido */
+  top: 65%;
+  left: 90%;
+  animation: floating-6 6s ease-in-out infinite;
 }
 .animation-7 {
-  animation: floating-7 4s ease-in-out infinite;
+  /* facil */
+  top: 2%;
+  left: 25%;
+  animation: floating-7 6s ease-in-out infinite;
 }
 .animation-8 {
-  animation: floating-8 4s ease-in-out infinite;
+    /* sin comisiones */
+    top: 80%;
+    left: 50%;
+  animation: floating-8 5s ease-in-out infinite;
 }
 .animation-9 {
-  animation: floating-9 4s ease-in-out infinite;
+    /* seguridad */
+    top: 50%;
+    left: 40%;
+  animation: floating-9 7s ease-in-out infinite;
 }
 .animation-10 {
-  animation: floating-9 4s ease-in-out infinite;
+    /* tecnologia pix */
+    top: 40%;
+    left: 55%;
+  animation: floating-10 6s ease-in-out infinite;
 }
 .animation-11 {
-  animation: floating-11 4s ease-in-out infinite;
+    /* transacciones sin posnet */
+    top: 30%;
+    left: 20%;
+  animation: floating-11 6s ease-in-out infinite;
 }
 .animation-12 {
-  animation: floating-12 4s ease-in-out infinite;
+    /* cobros sin barreras */
+    top: 20%;
+    left: 80%;
+  animation: floating-12 6s ease-in-out infinite;
 }
 .animation-13 {
-  animation: floating-13 4s ease-in-out infinite;
+    /* segura */
+    top: 50%;
+    left: 5%;
+  animation: floating-13 5s ease-in-out infinite;
 }
 .animation-14 {
-  animation: floating-14 4s ease-in-out infinite;
+    /* soporte */
+    top: 80%;
+    left: 10%;
+  animation: floating-14 6s ease-in-out infinite;
 }
-.animation-15 {
-  animation: floating-15 4s ease-in-out infinite;
-}
-.animation-16 {
-  animation: floating-16 4s ease-in-out infinite;
-}
-.animation-17 {
-  animation: floating-17 4s ease-in-out infinite;
-}
+
+
 
 @media (min-width: 360px)  {
   .titleSectionTwo {
@@ -356,3 +416,5 @@
 
     }
 } 
+
+
