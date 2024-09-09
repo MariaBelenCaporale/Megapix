@@ -14,8 +14,8 @@ import './styles.css';
 import SwiperCard from '../../components/SwipperCard/SwipperCard';
 
 const SectionFour = () => {
-    const [activeImage, setActiveImage] = useState('');
-    const [activeButton, setActiveButton] = useState('');
+    const [activeImage, setActiveImage] = useState('Gestión de cobros diarios');
+    const [activeButton, setActiveButton] = useState('Gestión de cobros diarios');
 
     const handleButtonClick = (image, buttonTitle) => {
         setActiveImage(image);

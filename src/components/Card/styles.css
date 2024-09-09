@@ -33,7 +33,7 @@
 .textCard {
     color: #FFF;
     font-family: "Poppins", sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
     line-height: 150%;
     width: 100%;
@@ -130,7 +130,7 @@
     }
     .textCard {
         font-family: "Poppins-Regular", sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .tituloCard {
         font-size: 7em;

@@ -78,8 +78,12 @@
 }
 
 .selected { 
-  color: #62fee2; 
+  color: #111; 
   border: 3px solid #62fee2;
+  background-color: #62fee2;
+}
+.selected:hover {
+  color: #111;
 }
 
 
@@ -660,7 +664,7 @@
 @media (min-width: 1201px) and (max-width: 1440px)  {
   .titleSectionTwo {
     font-size: 4rem;
-    width: 60%;
+    width: 40%;
   }
 
   .containerSectionTwo {

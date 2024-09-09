@@ -1,6 +1,6 @@
 import './styles.css';
 import PropTypes from 'prop-types';
-import Arrow from '@images/arrow.png';
+import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
 
 const ButtonFour = ({ title, onClick, isActive }) => {
     return (
@@ -9,8 +9,8 @@ const ButtonFour = ({ title, onClick, isActive }) => {
                 className={`buttonFour ${isActive ? 'active' : ''}`}
                 onClick={onClick}
             >
-                <p className='textButtonFour'>{title}</p>
-                <img className='arrowBtn' src={Arrow} alt='arrow' />
+                {title}
+                <ArrowForwardRoundedIcon />
             </button>
         </div>
     );

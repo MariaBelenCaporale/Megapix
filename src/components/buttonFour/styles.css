@@ -11,7 +11,10 @@
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
   .buttonFour.active {
-    background-color: #ffffff14;
+    background:
+    linear-gradient(hwb(0 48% 52%), hwb(0 48% 52%)) padding-box,
+    linear-gradient(40deg, rgba(255, 255, 255, 0.795),  rgba(255, 255, 255, 0.36)) border-box;
+  
     color: white;
   }
 .containerButtonFour {
@@ -21,51 +24,44 @@
     justify-content: center;
 }
 .buttonFour {
-    background-color: #ffffff5c;
+    border: 2px solid transparent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 10px;
+    display: inline-block;
+    backdrop-filter: blur(5px);
     width: 100%;
-    /* height: 50px; */
-    height: 60px;
-    border-radius: 0px;
+    height: 64px;
+    gap: 1em;
+    cursor: pointer;
+    background-color: #ffffff10;
     align-items: center;
     justify-content: space-between;
     display: flex;
-    cursor: pointer;
-    border: 2px solid transparent; 
-    border-image: linear-gradient(to right, hsl(0, 0%, 60%), hsl(0, 0%, 60%));
-    border-image-slice: 1;
-    padding: 20px;
-}
-.buttonFour:hover {
-    border-image: linear-gradient(to right, hsl(0, 0%, 60%), hsl(173, 100%, 60%));
-    border-image-slice: 1;
-}
+    padding: 0px 20px;
 
-.textButtonFour {
     color: #FFF;
     text-align: start;
     font-family: "Poppins-Regular", sans-serif;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 400;
     margin: 0px;
 }
-.textButtonFour:hover {
+.buttonFour:hover {
+    background:
+    linear-gradient(hwb(0 48% 52%), hwb(0 48% 52%)) padding-box,
+    linear-gradient(40deg, rgba(255, 255, 255, 0.36),rgba(0, 255, 225, 0.6)) border-box;
     color: #00FFE1;
 }
+
 
 @media (min-width: 360px) and (max-width: 576px){
     .buttonFour {
         width: 100%;
         padding: 10px;
-        gap: 1em;
-    }
-    .textButtonFour {
         font-size: 1em;
     }
 }
-@media (min-width: 993px) and (max-width: 992px) {
-    .buttonFour {
-        padding: 10px;
-    }
-}
+
+
+
 
