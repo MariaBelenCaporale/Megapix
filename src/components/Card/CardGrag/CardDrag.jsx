@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import "./styles.css";
 
 const CardDrag = ({ imageDrag, titleDrag, textDrag }) => {
@@ -66,5 +67,14 @@ const CardDrag = ({ imageDrag, titleDrag, textDrag }) => {
 
   );
 };
+
+
+CardDrag.propTypes = {
+  titleDrag: PropTypes.string.isRequired,
+  imageDrag: PropTypes.string.isRequired,
+  textDrag: PropTypes.string.isRequired,
+};
+
+
 
 export default CardDrag;
