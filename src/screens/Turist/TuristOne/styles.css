@@ -55,21 +55,30 @@
     }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .imgPhoneOneTurist {
         width: 300px;
     }
     .carouselInner {
-        gap: .4em;
+        gap: 1em;
     }
     .containerCarousel {
         gap: 0px;
     }
     .containerPlaces {
         width: 260px;
-        height: 600px;
+        height: 500px;
         border-radius: 15px;
         overflow: hidden;
-        height: 540px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .containerPlaces {
+        height: 600px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)  {
+    .containerPlaces {
+        height: 650px;
     }
 }

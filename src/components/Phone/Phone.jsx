@@ -25,7 +25,7 @@ const PhoneComponent = () => {
 
 
             if (scrollTop > endTransformPoint) {
-                setTransform(`scale(0.5) translateY(${touristOneHeight}px)`);
+                setTransform(`scale(0.8) translateY(${touristOneHeight}px)`);
             }
         };
 

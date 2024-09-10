@@ -82,10 +82,14 @@
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
   .titleHero {
     font-size: 2.6em;
     width: 90%;
+  }
+  .titleTwo {
+    width: 90%;
+    font-size: 1.9em;
   }
   .subtitleHero {
     color: #fff;
@@ -96,11 +100,13 @@
     width: 90%;
   }
 }
-
-@media (min-width: 577px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .titleHero {
     font-size: 3em;
     width: 90%;
+  }
+  .titleTwo {
+    font-size: 2.2em;
   }
   .subtitleHero {
     width: 90%;
@@ -108,32 +114,29 @@
     font-size: 1.1em;
   }
 }
-
-@media (min-width: 769px) {
-  .titleHero {
-    font-size: 6em;
-    width: 80%;
-  }
+@media (min-width: 769px) and (max-width: 992px) {
   .titleTwo {
-    font-size: 5em;
-    width: 60%;
-    line-height: 100px;
+    font-size: 3em;
   }
-}
-
-@media (min-width: 993px)  {
   .titleHero {
+    font-size: 4em;
     width: 90%;
-
   }
   .subtitleHero {
-    font-family: "Poppins-Regular", sans-serif;
     font-size: 1.3em;
+    width: 60%;
   }
 }
+
+
+
+
+
+
+/* 
 
 @media (min-width: 1201px) {
   .titleHero {
     width: 60%;
   }
-}
+} */

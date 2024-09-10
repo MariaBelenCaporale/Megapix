@@ -27,19 +27,39 @@
     z-index: 9;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .phoneimg {
         width: 330px;
     }
     .containerPhone {
         margin-top: -100px;
     }
+    .pix3d {
+        width: 150px;
+    }
+    
 }
-@media (min-width: 900px) {
+@media (min-width: 577px) and (max-width: 768px) {
+    .containerPhone {
+        margin-top: -50px;
+    }
     .phoneimg {
-        width: 650px;
+        width: 400px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .phoneimg {
+        width: 430px;
     }
     .containerPhone {
-        margin-top: 100px;
+        margin-top: -10px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .phoneimg {
+        width: 400px;
+    }
+    .containerPhone {
+        margin-top: -50px;
     }
 }

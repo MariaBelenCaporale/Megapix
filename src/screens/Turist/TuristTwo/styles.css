@@ -46,7 +46,7 @@
 }
   
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px)  {
   .titleTuristTwo {
     font-size: 2.5em;
     width: 90%;
@@ -54,23 +54,34 @@
   .subtitleTuristTwo {
     font-size: .9em;
   }
+  .containerTurTwo {
+    justify-content: flex-start;
+  }
 }
-
-@media (min-width: 993px) {
+@media (min-width: 577px) and (max-width: 768px)  {
   .titleTuristTwo {
-    font-family: "Bebas Neue", sans-serif;
     font-size: 4em;
-    font-weight: 500;
-    margin: 0px;
+    width: 90%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .titleTuristTwo {
+    font-size: 4.5em;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .titleTuristTwo {
+    font-size: 5em;
+  }
+  .subtitleTuristTwo {
+    font-size: 1.5em;
+    width: 80%;
+  }
 }
 
-.subtitleTuristTwo {
-    color: #FFF;
-    text-align: center;
-    font-family: "Poppins-Light", sans-serif;
-    font-size: 1.3em;
-}
-}
+/*
+
+
 
 @media (min-width: 1200px) {
   .containerTuristTwo {
@@ -84,4 +95,4 @@
   .titleTuristTwo {
     font-size: 5em;
   }
-}
+} */
