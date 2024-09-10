@@ -56,6 +56,7 @@
     width: 100%;
     align-items: flex-start;
     padding: 20px 0px;
+    gap: 1em;
 }
 .questionText {
     color: #FFF;
@@ -65,16 +66,11 @@
     font-weight: 300;
     line-height: normal;
     margin: 0px;
+    text-align: start;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-.icon {
-    border-radius: 10px;
-    background: #323232;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+.questionText.active {
+    color: #62FEE2; 
 }
 
 .responseText {
@@ -89,6 +85,22 @@
     background-color: white;
     height: 1px;
     width: 100%;
+}
+
+.icon {
+    border-radius: 10px;
+    background: #323232;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.icon.open {
+    transform: rotate(180deg); 
 }
 
 @media (min-width: 360px) and (max-width: 576px) {
@@ -106,7 +118,7 @@
         padding: 20px 0px;
     }
     .ask {
-        width: 90%;
+        width: 80%;
     }
     .questionText {
         font-size: 1em;
@@ -132,10 +144,11 @@
         width: 90%;
     }
     .ask {
-        width: 90%;
+        width: 80%;
     }
     .questionText {
         font-size: 1em;
+        text-align: start;
         font-weight: 400;
         width: 80%;
         font-family: "Poppins-Regular", sans-serif;
@@ -154,7 +167,7 @@
         width: 90%;
     }
     .ask {
-        width: 90%;
+        width: 80%;
     }
     .questionText {
         font-size: 1em;
@@ -169,13 +182,13 @@
         justify-content: center;
     }   
 }
-@media (min-width: 993px) and (max-width: 1400px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     .titleSeven {
         font-size: 5em;
         width: 90%;
     }
     .ask {
-        width: 90%;
+        width: 80%;
     }
     .questionText {
         font-size: 1.3em;
@@ -187,13 +200,13 @@
         justify-content: center;
     }   
 }
-@media (min-width: 1401px) {
+@media (min-width: 1201px) and (max-width: 1440px)  {
     .titleSeven {
         font-size: 6em;
         width: 90%;
     }
     .ask {
-        width: 90%;
+        width: 80%;
     }
     .questionText {
         font-size: 1.3em;

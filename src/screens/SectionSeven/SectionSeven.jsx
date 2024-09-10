@@ -3,22 +3,19 @@ import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownR
 import './styles.css';
 
 const SectionSeven = () => {
-
     const [activeIndex, setActiveIndex] = useState(null);
-
 
     const handleToggle = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
-   
     const faqs = [
         {
             question: "¿Cómo puedo pagar en reales con Pix en Argentina?",
             answer: "Escaneando el QR o haciendo click en el link de pago desde tu cuenta de preferencia",
         },
         {
-            question: "¿¿Es seguro pagar con Pix en Argentina?",
+            question: "¿Es seguro pagar con Pix en Argentina?",
             answer: "Sí, Megapix garantiza transacciones seguras utilizando el sistema *Pix*, que está respaldado por el Banco Central de Brasil, asegurando la protección de tus datos y fondos.",
         },
         {
@@ -51,11 +48,17 @@ const SectionSeven = () => {
             <div className='containerAsk'>
                 {faqs.map((faq, index) => (
                     <div key={index} className='ask'>
-                        <div className='question' onClick={() => handleToggle(index)}>
-                            <p className='questionText'>{faq.question}</p>
+                        <div
+                            className='question'
+                            onClick={() => handleToggle(index)}
+                        >
+                            <p className={`questionText ${activeIndex === index ? 'active' : ''}`}>
+                                {faq.question}
+                            </p>
                             
-                            <span className={`icon ${activeIndex === index ? 'open' : ''}`}><KeyboardArrowDownRoundedIcon /></span>
-                           
+                            <span className={`icon ${activeIndex === index ? 'open' : ''}`}>
+                                <KeyboardArrowDownRoundedIcon />
+                            </span>
                         </div>
                         <div className='line'> </div>
                         {activeIndex === index && (
