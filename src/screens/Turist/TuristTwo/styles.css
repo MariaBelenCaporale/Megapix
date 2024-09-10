@@ -16,14 +16,15 @@
     src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
   }
 
- 
+.imgFoodSelect {
+  width: 100%;
+}
 .containerTurTwo {
     width: 100%;
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    justify-content: flex-start;
 }
 .titleTuristTwo {
     color: #FFF;
@@ -55,18 +56,26 @@
     font-size: .9em;
   }
   .containerTurTwo {
-    justify-content: flex-start;
+    height: 200px;
+
   }
 }
-@media (min-width: 577px) and (max-width: 768px)  {
+
+@media (min-width: 577px) and (max-width: 768px) {
   .titleTuristTwo {
     font-size: 4em;
     width: 90%;
+  }
+  .containerTurTwo {
+    height: 250px;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .titleTuristTwo {
     font-size: 4.5em;
+  }
+  .containerTurTwo {
+    height: 250px;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -77,22 +86,22 @@
     font-size: 1.5em;
     width: 80%;
   }
+  .containerTurTwo {
+    height: 250px;
+  }
 }
 
-/*
-
-
-
-@media (min-width: 1200px) {
-  .containerTuristTwo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100%;
-  }
+@media (min-width: 1201px) {
   .titleTuristTwo {
-    font-size: 5em;
+    font-size: 6em;
   }
-} */
+  .subtitleTuristTwo {
+    width: 70%;
+  }
+  .containerTurTwo {
+    height: 200px;
+  }
+}
+
+
+

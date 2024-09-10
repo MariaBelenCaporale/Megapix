@@ -6,7 +6,7 @@ const CardSelect = ({ text, title, image}) => {
   return (
     <div className="containerCardSelect">
       <div className="photoContainer">
-      <img src={image} alt="imagen de comida" />
+      <img className="imgFoodSelect" src={image} alt="imagen de comida" />
       </div>
       <div className="containerTextSelect">
         <h2 className="titleSelect">{title}</h2>
