@@ -20,7 +20,7 @@
   line-height: normal;
   letter-spacing: 0.16px;
 }
-.containerMessage {
+.containerMessage, .containerMessageTwo {
   border-radius: 30px;
   width: 200px;
   height: auto;
@@ -29,6 +29,28 @@
   background-blend-mode: soft-light, normal;
   box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
   backdrop-filter: blur(20px);
+}
+.containerMessage::after {
+  content: ''; 
+  position: absolute; 
+  top: 35%; 
+  left: 100%; 
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent; 
+  border-left: 30px solid rgba(255, 255, 255, 0.10); 
+  border-bottom: 20px solid transparent; 
+}
+.containerMessageTwo::after {
+  content: ''; 
+  position: absolute; 
+  top: 35%; 
+  right: 100%; 
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent; 
+  border-right: 30px solid rgba(255, 255, 255, 0.10); 
+  border-bottom: 20px solid transparent; 
 }
 .arg {
   position: absolute;

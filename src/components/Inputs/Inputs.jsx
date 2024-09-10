@@ -16,7 +16,7 @@ const Inputs = () => {
   const [brlInput, setBrlInput] = useState('');
   const [concept, setConcept] = useState('');
   const [showPopup, setShowPopup] = useState(false);
-  const [showMessageArs, setShowMessageArs] = useState(false);
+  const [showMessageArs, setShowMessageArs] = useState(true);
   const [showMessageUsd, setShowMessageUsd] = useState(false);
   const [showMessageMotive, setMessageMotive] = useState(false);
   const [showMessageBrl, setMessageBrl] = useState(false);
@@ -110,7 +110,7 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageArs) && (
           <div className='containerMessage arg'>
-            <p className='messagePay'>Ingresás el monto que querés cobrar en pesos ARG. 🇦🇷</p>
+            <p className='messagePay'>Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷</p>
           </div>
         )}
       
@@ -133,10 +133,10 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageUsd) && (
           <div>
-          <div className='containerMessage usdt'>
+          <div className='containerMessageTwo usdt'>
             <p className='messagePay'> Te mostramos el valor que vas a recibir en USDT (Dolar digital)</p>
           </div>
-          <div className='containerMessage usdtDos'>
+          <div className='containerMessageTwo usdtDos'>
             <p className='messagePay'> El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.</p>
           </div>
           </div>
@@ -178,7 +178,7 @@ const Inputs = () => {
           </div>
         </div>
         {(!hideMessages && showMessageBrl) && (
-          <div className='containerMessage brl'>
+          <div className='containerMessageTwo brl'>
             <p className='messagePay'>Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷
             Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️</p>
           </div>

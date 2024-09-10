@@ -22,9 +22,7 @@ const SectionFive = () => {
         <CardDrag item1
           imageDrag={Multiplataforma}
           titleDrag='Multiplataforma'
-          textDrag='Podrás acceder y utilizar la plataforma desde la página web
-              mediante todos los dispositivos que estén conectados a Internet
-              (Celular, Tablet y Computadora)'
+          textDrag='Estar fuera de tu casa ya no es un problema, la plataforma puede usarse desde cualquier dispositivo con conexión a internet, ya sea tu celular o tablet.'
         />
         <CardDrag item2
           imageDrag={Control}
