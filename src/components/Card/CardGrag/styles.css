@@ -90,7 +90,7 @@
 @media (min-width: 360px) {
     .itemDrag {
         width: 300px;
-        height: 400px;
+        height: 450px;
     }
     .subtitleCardDrag {
         font-family: "Poppins-Regular", sans-serif;
@@ -100,7 +100,7 @@
     .titleCardDrag {
         padding-bottom: 10px;
         text-wrap: balance;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     .containerInfoDrag {
         padding: 20px;

@@ -8,169 +8,115 @@
     position: relative; 
     background-color: #111111;
 }
+
+.containerHeroCompany {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    align-items: center;
+}
+
 .containerPixImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
+
 .megapixHome {
     position: absolute;
     bottom: 0;
     opacity: 0.3;
     filter: blur(4px);
-}
-.containerHeroCompany {
-    display: flex;
-    flex-direction: column;
-    position: relative; 
+    width: auto;
 }
 
-.containerCoinUno, .containerCoinDos {
+
+.coinContainer {
     position: absolute;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
-.containerCoinDos {
-    align-items: flex-start; 
-}
-.coinFour {
-    animation: coin 10s infinite ease-in-out;
+
+
+.coinOne {
+    animation: orbit 15s linear infinite;
+    position: absolute;
+    width: 15%;
 }
 
-.coinOne  {
-    animation: coin 10s infinite ease-in-out;
-}
-.coinTwo  {
-    animation: coin 5s infinite ease-in-out;
-}
-.coinThree {
-    animation: coin 5s infinite ease-in-out;
-}
-
-.coinTwo, .coinOne {
-    width: 25%;
-}
-
-.coinFour, .coinThree {
+.coinTwo {
+    animation: orbit 30s linear infinite;
+    position: absolute;
     width: 20%;
 }
 
+.coinThree {
+    animation: orbit 40s linear infinite;
+    position: absolute;
+    width: 30%;
+}
 
-@keyframes coin {
+.coinFour {
+    animation: orbit 25s linear infinite;
+    position: absolute;
+    width: 20%;
+}
+
+@keyframes orbit {
     0% {
-        transform: translateY(0px) scale(1); 
-    }
-
-    50% {
-        transform: translateY(0px) scale(1.3); 
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
     }
     100% {
-        transform: translateY(0px) scale(1); 
+        transform: rotate(360deg) translateX(200px) rotate(-360deg);
     }
 }
 
-@media (min-width: 360px) and (max-width: 576px){
-    .megapixHome {
-        width: 100%;
+@media (min-width: 360px) and (max-width: 576px) {
+    .coinOne, .coinTwo {
+        width: 30%;
     }
     .coinFour {
-        width: 30%;
+        width: 50%;
     }
-    .coinOne {
-        width: 30%;
+    .coinThree {
+        width: 70%;
     }
-    .containerCoinUno {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-        overflow: hidden;
-    }
-    .containerCoinDos {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
+    .megapixHome {
+        width: 100%;
     }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+    .coinContainer img {
+        width: 30%;
+    }
     .megapixHome {
         width: 100%;
     }
-    .coinFour {
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .coinContainer img {
         width: 30%;
     }
-    .coinOne {
-        width: 30%;
-    }
-    .containerCoinUno {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-        overflow: hidden;
-    }
-    .containerCoinDos {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
+    .megapixHome {
+        width: 100%;
     }
 }
 @media (min-width: 769px) and (max-width: 992px) {
+    .coinContainer img {
+        width: 30%;
+    }
     .megapixHome {
         width: 100%;
     }
-    .coinFour {
-        width: 30%;
-    }
-    .coinOne {
-        width: 30%;
-    }
-    .containerCoinUno {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-        overflow: hidden;
-    }
-    .containerCoinDos {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-    }
 }
 
-@media (min-width: 993px) {
-    .megapixHome {
-        width: 100%;
-    }
-    .coinFour {
-        width: 30%;
-    }
-    .coinOne {
-        width: 30%;
-    }
-    .containerCoinUno {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-        overflow: hidden;
-    }
-    .containerCoinDos {
-        top: 20px;
-        height: 90vh;
-        justify-content: space-around;
-    }
-}
 
-@media (min-width: 1200px) {
-    .containerCoinUno, .containerCoinDos {
-        height: 100vh;
-        justify-content: space-around;
-    }
-    .coinOne, .coinTwo,  .coinThree, .coinFour {
-        width: 10%;
-    }
-}
