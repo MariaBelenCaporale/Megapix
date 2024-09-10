@@ -167,7 +167,7 @@
 
 @media (min-width: 993px) and (max-width: 1400px) {
     .titleSectionSix {
-        font-size: 4em;
+     font-size: 4em;
     }
     .sectionSix {
         flex-direction: column-reverse;

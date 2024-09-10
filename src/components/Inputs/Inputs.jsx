@@ -1,4 +1,4 @@
-import { useState, useTransition, useEffect } from 'react';
+import { useState, useTransition, useEffect, useRef } from 'react';
 import useCalculateBrl from '../../hooks/useCalculateBrl';
 import useCalculateArs from "../../hooks/useCalculateArs";
 import argentinaFlag from '../../images/argentina.png'; 
@@ -22,9 +22,10 @@ const Inputs = () => {
   const [showMessageBrl, setMessageBrl] = useState(false);
   const [hideMessages, setHideMessages] = useState(false);
 
-
   const { isPendingBrl, prices } = useCalculateBrl(usdInput);
   const { arsPrice, isPendingArs } = useCalculateArs();
+
+  const messageRef = useRef(null); 
 
   const generateQrAction = async (event) => {
     event.preventDefault();
@@ -41,7 +42,6 @@ const Inputs = () => {
       }, 3000);
     });
   };
-  
 
   useEffect(() => {
     if (isNaN(parseFloat(usdInput)) || !prices?.total_brl) {
@@ -71,6 +71,20 @@ const Inputs = () => {
     }
   }, [concept]);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (messageRef.current && !messageRef.current.contains(event.target)) {
+        setShowMessageArs(false);
+        setShowMessageUsd(false);
+        setMessageMotive(false);
+        setMessageBrl(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
   const handleArsChange = (event) => {
     const ars = event.target.value;
     setArsInput(ars);
@@ -84,7 +98,6 @@ const Inputs = () => {
     const ars = parseFloat(usd) * parseFloat(arsPrice);
     setArsInput(ars.toFixed(2));
   };
-
 
   return (
     <>
@@ -109,7 +122,7 @@ const Inputs = () => {
 
         </div>
         {(!hideMessages && showMessageArs) && (
-          <div className='containerMessage arg'>
+          <div ref={messageRef} className='containerMessage arg'>
             <p className='messagePay'>Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷</p>
           </div>
         )}
@@ -133,10 +146,10 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageUsd) && (
           <div>
-          <div className='containerMessageTwo usdt'>
+          <div ref={messageRef} className='containerMessageTwo usdt'>
             <p className='messagePay'> Te mostramos el valor que vas a recibir en USDT (Dolar digital)</p>
           </div>
-          <div className='containerMessageTwo usdtDos'>
+          <div ref={messageRef} className='containerMessageTwo usdtDos'>
             <p className='messagePay'> El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.</p>
           </div>
           </div>
@@ -154,7 +167,7 @@ const Inputs = () => {
           />
         </div>
         {(!hideMessages && showMessageMotive) && (
-          <div className='containerMessage motive'>
+          <div ref={messageRef} className='containerMessage motive'>
             <p className='messagePay'>Colocás el “Motivo” de la operación.</p>
           </div>
         )}
@@ -178,9 +191,11 @@ const Inputs = () => {
           </div>
         </div>
         {(!hideMessages && showMessageBrl) && (
-          <div className='containerMessageTwo brl'>
-            <p className='messagePay'>Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷
-            Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️</p>
+          <div ref={messageRef} className='containerMessageTwo brl'>
+            <p className='messagePay'>
+              Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷
+              Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️
+            </p>
           </div>
         )}
 
@@ -213,8 +228,8 @@ const Inputs = () => {
             <div>
               <h2 className='textPopUp'>¡Pago realizado!</h2>
             </div>
-              <img className='imgCheck' src={Check} alt='aprobado' />
-              <img className='imgCodigo' src={Codigo} alt='codigo qr' />
+            <img className='imgCheck' src={Check} alt='aprobado' />
+            <img className='imgCodigo' src={Codigo} alt='codigo qr' />
             <div>
               <img className='imgPixPop' src={LogoMegaPix} alt='logo de Megapix' />
             </div>

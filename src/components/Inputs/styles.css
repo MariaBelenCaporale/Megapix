@@ -189,5 +189,88 @@
   }
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+  .messagePay {
+    font-size: .8em;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px)  {
+  .messagePay {
+    font-size: .9em;
+  }
+}
 
+@media (min-width: 360px) and (max-width: 992px) {
+  .popup-content {
+    width: 250px;
+    height: 400px;
+  }
+  .textPopUp {
+    font-size: 1.5em;
+  }
+  .imgCodigo {
+    width: 250px;
+  }
+  .imgCheck {
+    width: 150px;
+  }
+  .arg {
+    position: absolute;
+    right: 0%;
+    top: 20%;
+    z-index: 9;
+  }
+  .brl {
+    z-index: 1;
+    position: absolute;
+    right: -0%;
+    top: 45%;
+  }
+  .usdt, .usdtDos {
+    display: none;
+  }
+  .motive {
+    right: 0%;
+    top: 60%;
+    z-index: 1;
+  }
+  .containerMessage, .containerMessageTwo {
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background: #3f3f3f8f;
+  }
+  .containerMessage::after, .containerMessageTwo::after {
+    display: none;
+  }
+}
 
+@media (min-width: 993px) and (max-width: 1200px)  {
+  .containerMessage, .containerMessageTwo {
+    width: 150px;
+  }
+  .arg, .motive {
+    right: 120%;
+  }
+  .usdt {
+    right: -80%;
+  }
+  .usdtDos, .brl {
+    right: -80%;
+    top: 50%;
+  }
+  .popup-content {
+    width: 350px;
+    height: 500px;
+  }
+  .textPopUp {
+    font-size: 2.5em;
+  }
+  .imgCodigo {
+    width: 300px;
+  }
+  .imgCheck {
+    width: 200px;
+  }
+}
