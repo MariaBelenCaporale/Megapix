@@ -72,7 +72,7 @@
   text-align: center;
 }
 .cardTurOne:hover .textCardTurOne {
-  top: 60%;
+  top: 65%;
   transform: translateY(0);
   text-shadow: 0 0 20px rgba(98, 254, 226, 0.8);
 }
@@ -132,12 +132,9 @@
 
 @media (min-width: 360px) and (max-width: 772px) {
   .orderCardTur {
-    flex-direction: row;
-    width: 100%;
-    gap: 0.5em;
-    overflow-x: auto; 
-    padding: 0; 
+    display: none;
   }
+  
   .cardTurOne {
     width: 100%; 
     min-width: 250px; 

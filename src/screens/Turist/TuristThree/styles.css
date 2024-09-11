@@ -39,12 +39,18 @@
         font-size: 2em;
         width: 90%;
     }
+    .containerTurThree {
+        gap: 2em;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
     .titleTuristThree {
         font-size: 3em;
         width: 70%;
+    }
+    .containerTurThree {
+        gap: 2em;
     }
 }
 @media (min-width: 993px) and (max-width: 1200px) {

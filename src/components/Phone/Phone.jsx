@@ -2,7 +2,7 @@ import './styles.css';
 import Phone from '@images/phone.png';
 import { useEffect, useState, useRef } from 'react';
 import TuristOne from '../../screens/Turist/TuristOne/TuristOne';
-import Pix3d from '@images/pix3d.png';
+
 
 const PhoneComponent = () => {
     const [transform, setTransform] = useState('scale(1) translateY(0)');
@@ -48,7 +48,6 @@ const PhoneComponent = () => {
                         className="phoneimg"
                         style={{ transform: transform }}
                     />
-                    <img className='pix3d' src={Pix3d} />
                 </div>
                 <TuristOne />
             </section>

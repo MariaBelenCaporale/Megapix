@@ -56,7 +56,7 @@ const Footer = () => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Política de provacidad</p>
+                <p className="textNavThree">Política de privacidad</p>
               </NavLink>
 
               <NavLink

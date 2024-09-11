@@ -12,8 +12,9 @@ import Coffee from '@images/coffee.png';
 import Wine from '@images/wine.png';
 import PagoPix from '@images/pagoPix.png';
 import Woman from '@images/woman.png';
+import Obelisco from '@images/obelisco.png';
 
-const images = [Ushuaia, Mendoza, Bariloche, Work, iguazuOffice, Puente, PixCard, Coffee, Wine, PagoPix, Woman, Iguazu, Nieve]; 
+const images = [Ushuaia, Mendoza, Bariloche, Work, iguazuOffice, Obelisco, Puente, PixCard, Coffee, Wine, PagoPix, Woman, Iguazu, Nieve]; 
 
 
 const TuristOne = () => {
