@@ -1,6 +1,7 @@
-import './styles.css';
+import './styles.css'; 
 import { ToggleButton, ToggleButtonGroup } from '@mui/material';
 import { Box } from '@mui/material';
+import Iso from '@images/iso.png';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
@@ -10,6 +11,7 @@ export default function SwitchComponent() {
 
     const initialAlignment = location.pathname === '/turistas' ? 'turistas' : 'empresas';
     const [alignment, setAlignment] = useState(initialAlignment);
+    const [loading, setLoading] = useState(false); 
 
     useEffect(() => {
         const newAlignment = location.pathname === '/turistas' ? 'turistas' : 'empresas';
@@ -19,17 +21,21 @@ export default function SwitchComponent() {
     const handleChange = (event, newAlignment) => {
         if (newAlignment !== null) {
             setAlignment(newAlignment);
+            setLoading(true); 
 
-            if (newAlignment === 'turistas') {
-                navigate('/turistas');
-            } else if (newAlignment === 'empresas') {
-                navigate('/');
-            }
+            setTimeout(() => {
+                if (newAlignment === 'turistas') {
+                    navigate('/turistas');
+                } else if (newAlignment === 'empresas') {
+                    navigate('/');
+                }
+                setLoading(false); 
+            }, 1000);
         }
     };
 
     return (
-        <Box className="containerSwitch" display="flex" alignItems="center">
+        <Box className="containerSwitch" display="flex" alignItems="center" position="relative">
             <ToggleButtonGroup
                 value={alignment}
                 exclusive
@@ -75,9 +81,15 @@ export default function SwitchComponent() {
                     <p className='empresa'>Empresas</p>
                 </ToggleButton>
                 <ToggleButton value="turistas" aria-label="turistas">
-                <p className='turista'>Turistas</p>
+                    <p className='turista'>Turistas</p>
                 </ToggleButton>
             </ToggleButtonGroup>
+
+            {loading && (
+                <div className='progress'>
+                    <img className='iso' src={Iso} alt='Imagen de logo Megapix' />
+                </div>
+            )}
         </Box>
     );
 }
