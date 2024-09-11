@@ -21,11 +21,16 @@
     box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
     backdrop-filter: blur(40px);
 }
-
 .iso {
     width: auto;
     height: auto;
     animation: isoFloat 2s linear infinite;
+}
+ .MuiToggleButton-root {
+    width: 100% !important;
+}
+.css-1hmmozd-MuiToggleButtonGroup-root {
+    width: 90% !important;
 }
 @keyframes isoFloat {
     0% {
@@ -44,7 +49,7 @@
         font-size: 0.8em;
     }
     .containerSwitch {
-        position: absolute;
+        position: absolute !important;
         top: 90px;
     }
 }
