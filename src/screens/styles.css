@@ -1,5 +1,5 @@
 
-.containerCompany {
+/* .containerCompany {
     display: flex;
     height: auto;
     align-items: center;
@@ -7,7 +7,7 @@
     justify-content: end;
     position: relative; 
     background-color: #111111;
-}
+} */
 
 .containerHeroCompany {
     display: flex;
@@ -46,7 +46,7 @@
 
 
 .coinOne {
-    animation: orbit 15s linear infinite;
+    animation: orbit 25s linear infinite;
     position: absolute;
     width: 15%;
 }
@@ -60,21 +60,29 @@
 .coinThree {
     animation: orbit 40s linear infinite;
     position: absolute;
-    width: 30%;
+    width: 20%;
 }
 
 .coinFour {
-    animation: orbit 25s linear infinite;
+    animation: orbitTwo 35s linear infinite;
     position: absolute;
     width: 20%;
 }
 
 @keyframes orbit {
     0% {
-        transform: rotate(0deg) translateX(200px) rotate(0deg);
+        transform: rotate(0deg) translateX(300px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+        transform: rotate(360deg) translateX(300px) rotate(-360deg);
+    }
+}
+@keyframes orbitTwo {
+    0% {
+        transform: rotate(0deg) translateX(400px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(400px) rotate(-360deg);
     }
 }
 

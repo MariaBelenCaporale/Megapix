@@ -111,7 +111,7 @@ Disfruta de días llenos de adrenalina en la nieve, seguidos de cálidos refugio
             <CardSelect
               image={Hospedaje}
               title="Hospedaje"
-              text="Desde la vibrante Buenos Aires hasta los paisajes naturales del sur, Argentina te ofrece una amplia variedad de opciones de hospedaje para todos los gustos. 
+              text="Argentina te ofrece una amplia variedad de opciones de hospedaje para todos los gustos. 
 Desde hoteles de lujo a cabañas en el medio de la montaña , cada lugar tiene su encanto y te invita a disfrutar de una estadía única.
 
 Explora ciudades llenas de historia, deléitate con la gastronomía local y relájate en alojamientos que combinan comodidad y autenticidad.
@@ -129,14 +129,15 @@ Visita  las salas emblemáticas del Teatro Colón, reconocido mundialmente por s
             />
           )}
           {activeCard === "Vuelos" && (
-            <CardSelect 
-            image={Vuelos} 
-            title="Vuelos" 
-            text="Argentina es un país lleno de contrastes y maravillas naturales, y la mejor manera de descubrirlo es viajando de norte a sur. 
+            <CardSelect
+              image={Vuelos}
+              title="Vuelos"
+              text="Argentina es un país lleno de contrastes y maravillas naturales, y la mejor manera de descubrirlo es viajando de norte a sur. 
 
 Con la comodidad de los vuelos internos no necesitas elegir un solo destino. En Argentina, cada vuelo es una oportunidad para descubrir una nueva maravilla natural o cultural.
 
-Puedes comprar tus boletos en pesos argentinos y pagar de forma sencilla y segura con PIX desde Brasil." />
+Puedes comprar tus boletos en pesos argentinos y pagar de forma sencilla y segura con PIX desde Brasil."
+            />
           )}
           {activeCard === "Excursiones" && (
             <CardSelect

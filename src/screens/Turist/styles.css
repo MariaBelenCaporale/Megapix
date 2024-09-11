@@ -16,11 +16,19 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative; 
+  height: auto;
+  align-items: center;
+  justify-content: end;
 }
-.containerTurist {
+/* .containerTurist {
   position: relative;
   text-align: center;
-}
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 .light {
   border-radius: 100px;
@@ -46,4 +54,57 @@
   filter: blur(100px);
   box-shadow: 0px 0px 133.459px 0px #62fee2, 0px 0px 66.73px 0px #62fee2,
     0px 0px 19.066px 0px #62fee2, 0px 0px 9.533px 0px #62fee2;
+}
+
+.coinContainerTurist {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -20%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.coinOneT {
+  animation: orbiturist 35s linear infinite;
+  position: absolute;
+  width: 20%;
+}
+
+.coinTwoT {
+  animation: orbiturist 30s linear infinite;
+  position: absolute;
+  width: 15%;
+}
+
+.coinThreeT {
+  animation: orbiturist 40s linear infinite;
+  position: absolute;
+  width: 15%;
+}
+
+.coinFourT {
+  animation: orbituristOne 45s linear infinite;
+  position: absolute;
+  width: 20%;
+}
+
+@keyframes orbiturist {
+  0% {
+      transform: rotate(0deg) translateX(350px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translateX(350px) rotate(-360deg);
+  }
+}
+@keyframes orbituristOne {
+  0% {
+      transform: rotate(0deg) translateX(300px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+  }
 }

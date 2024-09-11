@@ -26,18 +26,15 @@ const TuristScreen = () => {
           subtitle="Viví experiencias únicas pagando como si estuvieses en casa"
         />
         <PhoneComponent />
-        <div className="containerCoinUno">
-          <img className="coinOne" src={PixUno} alt="Moneda" />
-          <img className="coinTwo" src={QrDos} alt="Moneda" />
-        </div>
-
-        <div className="containerCoinDos">
-          <img className="coinThree" src={QrUno} alt="Moneda" />
-          <img className="coinFour" src={PixDos} alt="Moneda" />
-        </div>
+        <div className="coinContainerTurist">
+                    <img className="coinOneT" src={PixUno} alt="Moneda" />
+                    <img className="coinTwoT" src={QrDos} alt="Moneda" />
+                    <img className="coinThreeT" src={QrUno} alt="Moneda" />
+                    <img className="coinFourT" src={PixDos} alt="Moneda" />
+                </div>
         <div className="light"></div>
         <div className="light2"></div>
-      </div>
+      </div> 
 
       <TuristTwo />
       <TuristThree />
