@@ -46,7 +46,7 @@
 
 .rotated-items-container {
   width: 90%;
-  height: 300px;
+  height: 450px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,7 @@
   background-color: #111;
   background: transparent;
   border-radius: 100px;
-  border: 3px solid white;
+  border: 2px solid white;
   cursor: pointer;
   transition: 300ms ease-in-out;
 
@@ -74,12 +74,12 @@
 
 .animation:hover {
   color: #62fee2;
-  border: 3px solid #62fee2;
+  border: 2px solid #62fee2;
 }
 
 .selected { 
   color: #111; 
-  border: 3px solid #62fee2;
+  border: 2px solid #62fee2;
   background-color: #62fee2;
 }
 .selected:hover {
@@ -88,281 +88,120 @@
 
 
 
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @keyframes floating-1 {
-  /* Contro finanzas */
   0% {
-    transform: translateY(0) rotate(-10deg);
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px) rotate(-10deg);
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(0) rotate(-10deg);
+    transform: translateY(0);
   }
 }
-
-@keyframes floating-2 {
-    /* Sin comisiones */
-  0% {
-    transform: translateY(0) rotate(-10deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(-10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-10deg);
-  }
-}
-
-@keyframes floating-3 {
-    /* Cobros qr y link pago */
-  0% {
-    transform: translateY(0) rotate(-10deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(-10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-10deg);
-  }
-}
-@keyframes floating-4 {
-  0% {
-    transform: translateY(0) rotate(-30deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(-30deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-30deg);
-  }
-}
-
-@keyframes floating-5 {
-    /* gratis */
-  0% {
-    transform: translateY(0) rotate(10deg);
-  }
-  50% {
-    transform: translateY(10px) rotate(10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(10deg);
-  }
-}
-
-@keyframes floating-6 {
-    /* Multiplataforma */
-  0% {
-    transform: translateY(0) rotate(10deg);
-  }
-  50% {
-    transform: translateY(10px) rotate(10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(10deg);
-  }
-}
-
-@keyframes floating-7 {
-    /* Rapido  */
-  0% {
-    transform: translateY(0) rotate(-10deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(-10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-10deg);
-  }
-}
-@keyframes floating-8 {
-    /* Facil */
-  0% {
-    transform: translateY(0) rotate(10deg);
-  }
-  50% {
-    transform: translateY(10px) rotate(10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(10deg);
-  }
-}
-@keyframes floating-9 {
-    /* Sin comisiones */
-  0% {
-    transform: translateY(0) rotate(-10deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(-10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-10deg);
-  }
-}
-@keyframes floating-10 {
-    /* Seguridad */
-  0% {
-    transform: translateY(0) rotate(10deg);
-  }
-  50% {
-    transform: translateY(10px) rotate(10deg);
-  }
-  100% {
-    transform: translateY(0) rotate(10deg);
-  }
-}
-@keyframes floating-11 {
-    /* Tecnologia pix  */
-    0% {
-      transform: translateY(0) rotate(-10deg);
-    }
-    50% {
-      transform: translateY(-10px) rotate(-10deg);
-    }
-    100% {
-      transform: translateY(0) rotate(-10deg);
-    }
-  }
-  @keyframes floating-12 {
-      /* Transacciones sin posnet */
-    0% {
-      transform: translateY(0) rotate(10deg);
-    }
-    50% {
-      transform: translateY(10px) rotate(10deg);
-    }
-    100% {
-      transform: translateY(0) rotate(10deg);
-    }
-  }
-@keyframes floating-13 {
-    /* Cobros sin barreras */
-    0% {
-      transform: translateY(0) rotate(-10deg);
-    }
-    50% {
-      transform: translateY(-10px) rotate(-10deg);
-    }
-    100% {
-      transform: translateY(0) rotate(-10deg);
-    }
-  }
-@keyframes floating-14 {
-    /* Segura */
-    0% {
-      transform: translateY(0) rotate(-10deg);
-    }
-    50% {
-      transform: translateY(-10px) rotate(-10deg);
-    }
-    100% {
-      transform: translateY(0) rotate(-10deg);
-    }
-  }
-@keyframes floating-15 {
-    /*  */
-    0% {
-      transform: translateY(0) rotate(-10deg);
-    }
-    50% {
-      transform: translateY(-10px) rotate(-10deg);
-    }
-    100% {
-      transform: translateY(0) rotate(-10deg);
-    }
-  }
 
 
 .animation-1 {
   /* control finanzas */
-  top: 10%;
-  left: 1%;
-  animation: floating-1 6s ease-in-out infinite;
+  top: 5%;
+  left: 0%;
+  animation: floating 6s ease-in-out infinite;
 }
 .animation-2 {
   /* cobros qr */
   top: 5%;
   left: 50%;
-  animation: floating-2 4s ease-in-out infinite;
+  animation: floating-1 4s ease-in-out infinite;
 }
 .animation-3 {
   /* conexion con turistas */
   top: 70%;
   left: 70%;
-  animation: floating-3 5s ease-in-out infinite;
+  animation: floating 5s ease-in-out infinite;
 }
 .animation-4 {
   /* gratis */
   top: 20%;
   left: 70%;
-  animation: floating-4 5s ease-in-out infinite;
+  animation: floating-1 5s ease-in-out infinite;
 }
 .animation-5 {
   /* multiplataforma */
   top: 80%;
   left: 30%;
-  animation: floating-5 6s ease-in-out infinite;
+  animation: floating 6s ease-in-out infinite;
 }
 .animation-6 {
   /*rapido */
   top: 65%;
   left: 90%;
-  animation: floating-6 6s ease-in-out infinite;
+  animation: floating-1 6s ease-in-out infinite;
 }
 .animation-7 {
   /* facil */
   top: 2%;
   left: 25%;
-  animation: floating-7 6s ease-in-out infinite;
+  animation: floating 6s ease-in-out infinite;
 }
 .animation-8 {
     /* sin comisiones */
     top: 80%;
     left: 50%;
-  animation: floating-8 5s ease-in-out infinite;
+  animation: floating-1 5s ease-in-out infinite;
 }
 .animation-9 {
     /* seguridad */
     top: 50%;
     left: 40%;
-  animation: floating-9 7s ease-in-out infinite;
+  animation: floating 7s ease-in-out infinite;
 }
 .animation-10 {
     /* tecnologia pix */
     top: 40%;
     left: 55%;
-  animation: floating-10 6s ease-in-out infinite;
+  animation: floating 6s ease-in-out infinite;
 }
 .animation-11 {
     /* transacciones sin posnet */
     top: 30%;
     left: 20%;
-  animation: floating-11 6s ease-in-out infinite;
+  animation: floating-1 6s ease-in-out infinite;
 }
 .animation-12 {
     /* cobros sin barreras */
     top: 20%;
     left: 80%;
-  animation: floating-12 6s ease-in-out infinite;
+  animation: floating 4s ease-in-out infinite;
 }
 .animation-13 {
     /* segura */
     top: 50%;
     left: 5%;
-  animation: floating-13 5s ease-in-out infinite;
+  animation: floating-1 5s ease-in-out infinite;
 }
 .animation-14 {
     /* soporte */
     top: 48%;
     left: 1%;
-  animation: floating-14 5s ease-in-out infinite;
+  animation: floating 5s ease-in-out infinite;
 }
 .animation-15 {
     /* soporte */
     top: 5%;
     left: 15%;
-  animation: floating-15 6s ease-in-out infinite;
+  animation: floating-1 6s ease-in-out infinite;
 }
 
 
@@ -405,59 +244,6 @@
     color: #62fee2; 
     border: 2px solid #62fee2;
   }
-  .animation-1 {
-    top: 25%;
-  }
-  .animation-2 {
-    left: 20%;
-    top: 10%;
-  }
-  .animation-3 {
-    left: 3%;
-    top: 85%;
-  }
-  .animation-4 {
-    left: 80%;
-    top: 40%;
-  }
-  .animation-5 {
-    top: 55%;
-    left: 25%;
-  }
-  .animation-6 {
-    top: 20%;
-    left: 65%;
-  }
-  .animation-7 {
-    left: 5%;
-  }
-  .animation-8 {
-    left: 60%;
-    top: 90%;
-  }
-  .animation-9 {
-    top: 73%;
-    left: 55%;
-  }
-  .animation-10 {
-    top: 1%;
-    left: 60%;
-  }
-  .animation-11 {
-    top: 35%;
-  }
-  .animation-12 {
-    top: 52%;
-    left: 50%;
-  }
-  .animation-13 {
-    left: 1%;
-  }
-  .animation-14 {
-    top: 70%;
-    left: 1%;
-  }
- 
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .titleSectionTwo {
@@ -496,61 +282,7 @@
     color: #62fee2; 
     border: 2px solid #62fee2;
   }
-  .animation-1 {
-    top: 25%;
-  }
-  .animation-2 {
-    left: 40%;
-    top: 10%;
-  }
-  .animation-3 {
-    left: 3%;
-    top: 80%;
-  }
-  .animation-4 {
-    left: 80%;
-    top: 40%;
-  }
-  .animation-5 {
-    top: 60%;
-    left: 35%;
-  }
-  .animation-6 {
-    top: 30%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 10%;
-  }
-  .animation-8 {
-    left: 40%;
-    top: 80%;
-  }
-  .animation-9 {
-    top: 80%;
-    left: 70%;
-  }
-  .animation-10 {
-    top: 10%;
-    left: 70%;
-  }
-  .animation-11 {
-    top: 40%;
-  }
-  .animation-12 {
-    top: 60%;
-    left: 65%;
-  }
-  .animation-13 {
-    left: 1%;
-  }
-  .animation-14 {
-    top: 68%;
-    left: 1%;
-  }
 }
-
 @media (min-width: 769px) and (max-width: 992px) {
   .titleSectionTwo {
     font-size: 3rem;
@@ -565,59 +297,6 @@
   .rotated-items-container {
     width: 100%;
     height: 500px;
-  }
-  .animation-1 {
-    top: 25%;
-  }
-  .animation-2 {
-    left: 40%;
-    top: 10%;
-  }
-  .animation-3 {
-    left: 15%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 85%;
-    top: 40%;
-  }
-  .animation-5 {
-    top: 60%;
-    left: 45%;
-  }
-  .animation-6 {
-    top: 30%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 10%;
-  }
-  .animation-8 {
-    left: 45%;
-    top: 80%;
-  }
-  .animation-9 {
-    top: 80%;
-    left: 70%;
-  }
-  .animation-10 {
-    top: 10%;
-    left: 70%;
-  }
-  .animation-11 {
-    top: 40%;
-  }
-  .animation-12 {
-    top: 60%;
-    left: 70%;
-  }
-  .animation-13 {
-    left: 1%;
-  }
-  .animation-14 {
-    top: 68%;
-    left: 1%;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px)  {
@@ -636,133 +315,82 @@
     width: 100%;
     height: 500px;
   }
-  .animation-1 {
-    top: 25%;
-    left: 5%;
-  }
-  .animation-2 {
-    left: 40%;
-    top: 10%;
-  }
-  .animation-3 {
-    left: 15%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 85%;
-    top: 40%;
-  }
-  .animation-5 {
-    top: 55%;
-    left: 45%;
-  }
-  .animation-6 {
-    top: 30%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 10%;
-  }
-  .animation-8 {
-    left: 45%;
-    top: 80%;
-  }
-  .animation-9 {
-    top: 80%;
-    left: 68%;
-  }
-  .animation-10 {
-    top: 10%;
-    left: 70%;
-  }
-  .animation-11 {
-    top: 32%;
-    left: 30%;
-  }
-  .animation-12 {
-    top: 60%;
-    left: 70%;
-  }
-  .animation-13 {
-    left: 20%;
-  }
-  .animation-14 {
-    top: 68%;
-    left: 1%;
-  }
 }
 @media (min-width: 1201px) and (max-width: 1440px)  {
   .titleSectionTwo {
     font-size: 4rem;
     width: 40%;
   }
-
   .containerSectionTwo {
     padding: 0px;
   }
   .animation {
-    padding: 20px 20px;
-    font-size: 1.5em;
+    padding: 15px 20px;
+    font-size: 1.2em;
   }
   .rotated-items-container {
-    width: 90%;
-    height: 550px;
+    width: 80%;
+    height: 350px;
   }
   .animation-1 {
-    top: 25%;
-    left: 5%;
+    top: 5%;
+    left: 10%;
   }
   .animation-2 {
-    left: 40%;
-    top: 10%;
+    left: 70%;
+    top: 5%;
   }
   .animation-3 {
-    left: 15%;
+    left: 6%;
     top: 75%;
   }
   .animation-4 {
     left: 85%;
-    top: 40%;
+    top: 55%;
   }
   .animation-5 {
-    top: 55%;
-    left: 45%;
+    top: 30%;
+    left: 25%;
   }
   .animation-6 {
-    top: 30%;
+    top: 25%;
     left: 62%;
   }
   .animation-7 {
     left: 5%;
-    top: 10%;
+    top: 30%;
   }
   .animation-8 {
-    left: 45%;
-    top: 80%;
+    left: 70%;
+    top: 75%;
   }
   .animation-9 {
-    top: 80%;
-    left: 68%;
+    top: 35%;
+    left: 75%;
   }
   .animation-10 {
-    top: 10%;
-    left: 70%;
+    top: 35%;
+    left: 45%;
   }
   .animation-11 {
-    top: 32%;
-    left: 30%;
+    top: 75%;
+    left: 40%;
   }
   .animation-12 {
-    top: 60%;
-    left: 70%;
+    top: 55%;
+    left: 55%;
   }
   .animation-13 {
-    left: 20%;
+    left: 15%;
+    top: 45%;
   }
   .animation-14 {
-    top: 68%;
-    left: 1%;
+    top: 55%;
+    left: 30%;
+  }
+  .animation-15 {
+    top: 5%;
+    left: 40%;
   }
 }
 
