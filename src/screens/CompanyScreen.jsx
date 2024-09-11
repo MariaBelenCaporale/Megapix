@@ -33,8 +33,8 @@ const CompanyScreen = () => {
                 <div className="coinContainer">
                     <img className="coinOne" src={CoinOne} alt="Moneda" />
                     <img className="coinTwo" src={CoinTwo} alt="Moneda" />
-                    <img className="coinThree" src={CoinTwoIz} alt="Moneda" />
                     <img className="coinFour" src={CoinOneIz} alt="Moneda" />
+                    <img className="coinThree" src={CoinTwoIz} alt="Moneda" />
                 </div>
             </div>
 

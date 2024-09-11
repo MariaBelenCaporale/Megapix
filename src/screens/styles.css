@@ -14,6 +14,7 @@
     flex-direction: column;
     position: relative; 
     align-items: center;
+    overflow: hidden;
 }
 
 .containerPixImg {
@@ -44,29 +45,32 @@
 }
 
 
-
 .coinOne {
-    animation: orbit 25s linear infinite;
+    /* Nitida */
+    animation: orbit 35s linear infinite;
     position: absolute;
     width: 15%;
 }
 
 .coinTwo {
-    animation: orbit 30s linear infinite;
+    animation: orbit 45s linear infinite;
     position: absolute;
-    width: 20%;
+    width: 15%;
 }
 
 .coinThree {
     animation: orbit 40s linear infinite;
     position: absolute;
     width: 20%;
+    top: 40%; 
 }
 
 .coinFour {
+    /* Nitida */
     animation: orbitTwo 35s linear infinite;
     position: absolute;
     width: 20%;
+    bottom: 30%;
 }
 
 @keyframes orbit {
@@ -77,6 +81,7 @@
         transform: rotate(360deg) translateX(300px) rotate(-360deg);
     }
 }
+
 @keyframes orbitTwo {
     0% {
         transform: rotate(0deg) translateX(400px) rotate(0deg);
@@ -85,6 +90,7 @@
         transform: rotate(360deg) translateX(400px) rotate(-360deg);
     }
 }
+
 
 @media (min-width: 360px) and (max-width: 576px) {
     .coinOne, .coinTwo {
