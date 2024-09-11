@@ -32,7 +32,7 @@ const HeroText = ({
          
         </h1>
         <p className="subtitleHero">{subtitle}</p>
-        {showButton && <ButtonComponent title="Ir a la plataforma" />}
+        {showButton && <ButtonComponent title="Visitar plataforma" />}
       </div>
     </div>
   );

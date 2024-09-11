@@ -10,7 +10,30 @@
     src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
-  
+
+.containerCoinFive {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+}
+.coinSectionFive {
+    position: absolute;
+    animation: coinSectionFive 3s ease-in-out infinite;
+}
+
+@keyframes coinSectionFive {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 .containerSectionFive {
     display: flex;
     align-items: center;

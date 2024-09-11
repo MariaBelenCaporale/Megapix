@@ -13,8 +13,12 @@ import Footer from "../../components/Footer/Footer";
 import SectionSeven from "../SectionSeven/SectionSeven";
 import PhoneComponent from "../../components/Phone/Phone";
 import Slogan from "../../components/Slogan/Slogan";
+import { useEffect } from "react";
 
 const TuristScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className="containerTurist">
       <div className="containerHeroTurist">

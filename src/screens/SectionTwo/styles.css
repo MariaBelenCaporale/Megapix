@@ -89,6 +89,7 @@
 
 
 @keyframes floating-1 {
+  /* Contro finanzas */
   0% {
     transform: translateY(0) rotate(-10deg);
   }
@@ -101,26 +102,28 @@
 }
 
 @keyframes floating-2 {
+    /* Sin comisiones */
   0% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(-10deg);
   }
   50% {
-    transform: translateY(-15px) rotate(-15deg);
+    transform: translateY(-10px) rotate(-10deg);
   }
   100% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(-10deg);
   }
 }
 
 @keyframes floating-3 {
+    /* Cobros qr y link pago */
   0% {
-    transform: translateY(0) rotate(-30deg);
+    transform: translateY(0) rotate(-10deg);
   }
   50% {
-    transform: translateY(-15px) rotate(-30deg);
+    transform: translateY(-15px) rotate(-10deg);
   }
   100% {
-    transform: translateY(0) rotate(-30deg);
+    transform: translateY(0) rotate(-10deg);
   }
 }
 @keyframes floating-4 {
@@ -136,74 +139,81 @@
 }
 
 @keyframes floating-5 {
-  0% {
-    transform: translateY(0) rotate(25deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(25deg);
-  }
-  100% {
-    transform: translateY(0) rotate(25deg);
-  }
-}
-
-@keyframes floating-6 {
-  0% {
-    transform: translateY(0) rotate(-30deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(-30deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-30deg);
-  }
-}
-
-@keyframes floating-7 {
-  0% {
-    transform: translateY(0) rotate(-15deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(-15deg);
-  }
-  100% {
-    transform: translateY(0) rotate(-15deg);
-  }
-}
-@keyframes floating-8 {
+    /* gratis */
   0% {
     transform: translateY(0) rotate(10deg);
   }
   50% {
-    transform: translateY(-15px) rotate(10deg);
+    transform: translateY(10px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(10deg);
+  }
+}
+
+@keyframes floating-6 {
+    /* Multiplataforma */
+  0% {
+    transform: translateY(0) rotate(10deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(10deg);
+  }
+}
+
+@keyframes floating-7 {
+    /* Rapido  */
+  0% {
+    transform: translateY(0) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-10deg);
+  }
+}
+@keyframes floating-8 {
+    /* Facil */
+  0% {
+    transform: translateY(0) rotate(10deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(10deg);
   }
   100% {
     transform: translateY(0) rotate(10deg);
   }
 }
 @keyframes floating-9 {
+    /* Sin comisiones */
   0% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(-10deg);
   }
   50% {
-    transform: translateY(-15px) rotate(-15deg);
+    transform: translateY(-10px) rotate(-10deg);
   }
   100% {
-    transform: translateY(0) rotate(-15deg);
+    transform: translateY(0) rotate(-10deg);
   }
 }
 @keyframes floating-10 {
+    /* Seguridad */
   0% {
-    transform: translateY(0) rotate(15deg);
+    transform: translateY(0) rotate(10deg);
   }
   50% {
-    transform: translateY(15px) rotate(15deg);
+    transform: translateY(10px) rotate(10deg);
   }
   100% {
-    transform: translateY(0) rotate(15deg);
+    transform: translateY(0) rotate(10deg);
   }
 }
 @keyframes floating-11 {
+    /* Tecnologia pix  */
     0% {
       transform: translateY(0) rotate(-10deg);
     }
@@ -215,36 +225,51 @@
     }
   }
   @keyframes floating-12 {
+      /* Transacciones sin posnet */
     0% {
-      transform: translateY(0) rotate(30deg);
+      transform: translateY(0) rotate(10deg);
     }
     50% {
-      transform: translateY(-15px) rotate(30deg);
+      transform: translateY(10px) rotate(10deg);
     }
     100% {
-      transform: translateY(0) rotate(30deg);
+      transform: translateY(0) rotate(10deg);
     }
   }
 @keyframes floating-13 {
+    /* Cobros sin barreras */
     0% {
-      transform: translateY(0) rotate(25deg);
+      transform: translateY(0) rotate(-10deg);
     }
     50% {
-      transform: translateY(-15px) rotate(25deg);
+      transform: translateY(-10px) rotate(-10deg);
     }
     100% {
-      transform: translateY(0) rotate(25deg);
+      transform: translateY(0) rotate(-10deg);
     }
   }
 @keyframes floating-14 {
+    /* Segura */
     0% {
-      transform: translateY(0) rotate(-25deg);
+      transform: translateY(0) rotate(-10deg);
     }
     50% {
-      transform: translateY(-15px) rotate(-25deg);
+      transform: translateY(-10px) rotate(-10deg);
     }
     100% {
-      transform: translateY(0) rotate(-25deg);
+      transform: translateY(0) rotate(-10deg);
+    }
+  }
+@keyframes floating-15 {
+    /*  */
+    0% {
+      transform: translateY(0) rotate(-10deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(-10deg);
+    }
+    100% {
+      transform: translateY(0) rotate(-10deg);
     }
   }
 
@@ -329,9 +354,15 @@
 }
 .animation-14 {
     /* soporte */
-    top: 80%;
-    left: 10%;
-  animation: floating-14 6s ease-in-out infinite;
+    top: 48%;
+    left: 1%;
+  animation: floating-14 5s ease-in-out infinite;
+}
+.animation-15 {
+    /* soporte */
+    top: 5%;
+    left: 15%;
+  animation: floating-15 6s ease-in-out infinite;
 }
 
 

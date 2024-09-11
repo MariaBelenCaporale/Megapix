@@ -69,27 +69,29 @@
 }
 
 .coinOneT {
-  animation: orbiturist 35s linear infinite;
+  animation: orbiturist 30s linear infinite;
   position: absolute;
-  width: 20%;
+  width: 30%;
 }
 
 .coinTwoT {
+  /* nitido */
   animation: orbiturist 30s linear infinite;
   position: absolute;
   width: 15%;
 }
 
 .coinThreeT {
+    /* nitido */
   animation: orbiturist 40s linear infinite;
   position: absolute;
   width: 15%;
 }
 
 .coinFourT {
-  animation: orbituristOne 45s linear infinite;
+  animation: orbituristOne 50s linear infinite;
   position: absolute;
-  width: 20%;
+  width: 15%;
 }
 
 @keyframes orbiturist {

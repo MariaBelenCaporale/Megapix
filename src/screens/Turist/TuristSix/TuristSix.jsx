@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
-import FondoFood from "@images/fondoFood.png";
+import Fondo from "@images/dialog.png";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
 import Food from "@images/food.png";
 import Bodegas from "@images/bodegas.png";
@@ -70,7 +70,7 @@ const TuristSix = () => {
         />
       </div>
       <div className="containerFoodSix">
-        <img src={FondoFood} className="fondo" alt="imagen de fondo comida" />
+        <img src={Fondo} className="fondo" alt="imagen de fondo comida" />
         <div className="cardContainer">
           {activeCard === "Gastronomía" && (
             <CardSelect

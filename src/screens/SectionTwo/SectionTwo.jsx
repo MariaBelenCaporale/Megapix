@@ -9,7 +9,7 @@ const SectionTwo = () => {
   };
   const buttons = [
     "Control de tus finanzas",
-    "Cobros con QR",
+    "Cobros QR y Link de pago",
     "Conexión con turistas",
     "Gratis",
     "Multiplataforma",
@@ -21,7 +21,8 @@ const SectionTwo = () => {
     "Transacciones sin posnet",
     "Cobros sin barreras",
     "Segura",
-    "Soporte 24/7"
+    "Soporte 24/7",
+    "Gestión de negocios",
   ];
 
   return (

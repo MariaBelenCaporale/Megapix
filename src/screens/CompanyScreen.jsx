@@ -14,10 +14,14 @@ import SectionSix from "./SectionSix/SectionSix";
 import SectionSeven from "./SectionSeven/SectionSeven";
 import Slogan from "../components/Slogan/Slogan";
 import Footer from "../components/Footer/Footer";
+import { useEffect } from 'react';
 
 
 
 const CompanyScreen = () => {
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
     return (
         <div className="containerCompany">
             <div className="containerHeroCompany">

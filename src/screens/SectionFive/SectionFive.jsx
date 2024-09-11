@@ -5,6 +5,7 @@ import Control from '@images/sucursales.png';
 import Roles from '@images/Roles.png';
 import Transferencias from '@images/transferencias.png';
 import Soporte from '@images/soporte.png';
+import Coin from '@images/coinUno.png';
 import "./styles.css";
 
 const SectionFive = () => {
@@ -12,6 +13,9 @@ const SectionFive = () => {
     <section className="containerSectionFive">
       <div className="containerFive">
         <h2 className="titleFive">Características & Beneficios</h2>
+      </div>
+      <div className="containerCoinFive">
+        <img className="coinSectionFive" src={Coin} alt="Moneda megapix" />
       </div>
       <div className="containerDragCardFive">
       <CardDrag item0
