@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import "./styles.css";
 
 const SectionTwo = () => {
+  const { t } = useTranslation();
   const [selectedButton, setSelectedButton] = useState(null)
 
   const handleButtonClick = (index) => {
@@ -29,7 +31,7 @@ const SectionTwo = () => {
     <section className="containerSectionTwo">
       <div className="blurTwo">
         <h2 className="titleSectionTwo">
-          Ventajas de usar <span className="highlight">Megapix</span>
+           {`${t('Ventajas de usar')} `} <span className="highlight"> {`${t('Megapix')} `}</span>
         </h2>
       </div>
       <div className="prueba" >

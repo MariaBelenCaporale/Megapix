@@ -3,10 +3,12 @@ import  { useRef, useEffect } from 'react';
 import Card from '../../components/Card/Card';
 import './styles.css'; 
 import TextMove from '../../components/TextMove/TextMove';
+import { useTranslation } from 'react-i18next';
 
 
 
 const SectionOne = () => {
+  const { t } = useTranslation();
   
   const textRef = useRef(null);
   const sectionRef = useRef(null);
@@ -36,7 +38,7 @@ const SectionOne = () => {
   return (
     <section className='containerSectionOne'>
       <h2 className='titleSectionOne' ref={textRef}>
-        Potenciá tu negocio
+      {`${t('Potenciá tu negocio')} `}
       </h2>
       <div className='sectionWrapper' ref={sectionRef}>
         <div className='cardWrapper'>
