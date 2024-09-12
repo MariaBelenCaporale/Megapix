@@ -126,3 +126,28 @@
 }
 
 
+
+@media (min-width: 360px) and (max-width: 576px) {
+  .coinOneT, .coinTwoT {
+      width: 20%;
+  }
+  .coinFourT {
+      width: 10%;
+  }
+  .coinThreeT {
+      width: 20%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+ 
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  
+}

@@ -29,13 +29,15 @@ const TuristScreen = () => {
           fontFamily="Poppins-Bold, sans-serif"
           subtitle="Viví experiencias únicas pagando como si estuvieses en casa"
         />
-                <div className="light"></div>
-                <div className="light2"></div>
+    
         <div className="coinContainerTurist">
                     <img className="coinOneT" src={PixUno} alt="Moneda" />
                     <img className="coinTwoT" src={QrDos} alt="Moneda" />
                     <img className="coinThreeT" src={QrUno} alt="Moneda" />
                     <img className="coinFourT" src={PixDos} alt="Moneda" />
+
+                <div className="light"></div>
+                <div className="light2"></div>
           </div>
         <PhoneComponent />
         
