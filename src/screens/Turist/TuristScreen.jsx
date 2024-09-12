@@ -51,7 +51,9 @@ const TuristScreen = () => {
       <TuristSix />
       <SectionSeven />
       <Slogan />
-      <Footer />
+      <Footer 
+        link={'https://www.instagram.com/megapix_bra/'}
+      />
     </div>
   );
 };

@@ -50,9 +50,12 @@ const CompanyScreen = () => {
             <SectionSix />
             <SectionSeven />
             <Slogan />
-            <Footer />
+            <Footer 
+                link={'https://www.instagram.com/megapix_arg/'}
+            />
         </div>
     )
 }
+
 
 export default CompanyScreen;

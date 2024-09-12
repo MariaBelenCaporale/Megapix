@@ -4,8 +4,9 @@ import Formas from "@images/formas.png";
 import LogoFooter from "../../assets/logo-megapix.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import PropTypes from "prop-types";
 
-const Footer = () => {
+const Footer = ({ link }) => {
   return (
     <div className="containerFooter">
 
@@ -26,12 +27,17 @@ const Footer = () => {
                 }
               >
                 <p className="textNavOne">¿Quiénes somos?</p>
-                <p className="textNavTwo">
-                  Creamos productos tecnológicos que desafían los paradigmas
-                  establecidos.
-                </p>
               </NavLink>
 
+              <NavLink
+                to="https://www.polynomium.com/"
+                target="_blanck"
+                className={({ isActive }) =>
+                  isActive ? "navlink active" : "navlink inactive"
+                }
+              >
+                <p className="textNavThree">Ir a polynomium</p>
+              </NavLink>
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -73,10 +79,10 @@ const Footer = () => {
             <div className="columnOneFooter">
               <p className="textNavComunidad">Comunidad</p>
               <div className="columnOneFooterRed">
-                <a href="" className="red" target="_blank">
+                <a href={link} className="red" target="_blank" rel="noreferrer">
                   <InstagramIcon />
                 </a>
-                <a href="" className="red" target="_blank">
+                <a href="https://www.linkedin.com/company/megapixpay/posts/?feedView=all" className="red" target="_blank" rel="noreferrer">
                   <LinkedInIcon />
                 </a>
               </div>
@@ -91,5 +97,9 @@ const Footer = () => {
     </div>
   );
 };
+
+Footer.propTypes = {
+  link: PropTypes.string.isRequired,
+}
 
 export default Footer;
