@@ -1,61 +1,61 @@
 @font-face {
-  font-family: "Bebas";
-  src: url("../../fonts/BebasNeue-Regular.ttf");
-}
-.containerSectionOne {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: auto;
-  width: 100%;
-  flex-direction: column;
-  position: relative;
-  /* overflow: hidden; */
-}
-.titleSectionOne {
-  color: white;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-
-  padding: 0px;
-  font-size: 7em;
-  margin: 30px 0px;
-}
-
-.titleSectionOne {
-  background: linear-gradient(90deg, #111, #fff, #111);
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-clip: text;
-  color: transparent;
-  transition: background-position 300ms ease-in-out;
-}
-
-.sectionWrapper {
-  position: relative;
-  flex-direction: column;
-  height: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 360px) {
-  .titleSectionOne {
-    font-size: 3em;
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
   }
-}
- @media (min-width: 576px) {
-    .titleSectionOne {
-      font-size: 5em;
-    }
- }
-
- @media (min-width: 1200px) {
   .containerSectionOne {
-    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    /* overflow: hidden; */
   }
- }
+  .titleSectionOne {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  
+    padding: 0px;
+    font-size: 7em;
+    margin: 30px 0px;
+  }
+  
+  .titleSectionOne {
+    background: linear-gradient(90deg, #111, #fff, #111);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 300ms ease-in-out;
+  }
+  
+  .sectionWrapper {
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (min-width: 360px) {
+    .titleSectionOne {
+      font-size: 3em;
+    }
+  }
+   @media (min-width: 576px) {
+      .titleSectionOne {
+        font-size: 5em;
+      }
+   }
+  
+   @media (min-width: 1200px) {
+    .containerSectionOne {
+      margin-top: -30px;
+    }
+   }
