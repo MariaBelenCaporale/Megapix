@@ -5,7 +5,9 @@ import './styles.css';
 import TextMove from '../../components/TextMove/TextMove';
 
 
+
 const SectionOne = () => {
+  
   const textRef = useRef(null);
   const sectionRef = useRef(null);
 

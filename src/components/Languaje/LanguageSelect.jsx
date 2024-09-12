@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
+import { useTranslation } from 'react-i18next';
 import Brasil from '@images/brasil.jpg';
 import Argentina from '@images/argentina.png';
 import './styles.css';
 
 const LanguageSelect = () => {
-    const [selectedLanguage, setSelectedLanguage] = useState('Español');
+    const { i18n } = useTranslation();
     const [isDropdownOpen, setDropdownOpen] = useState(false);
 
     const languageFlags = {
@@ -14,14 +15,16 @@ const LanguageSelect = () => {
     };
 
     const handleLanguageChange = (language) => {
-        setSelectedLanguage(language);
-        setDropdownOpen(false); 
+        const lng = language === 'Portugués' ? 'br' : 'es';
+        i18n.changeLanguage(lng);
+        setDropdownOpen(false);
     };
 
     const toggleDropdown = () => {
         setDropdownOpen(!isDropdownOpen);
     };
 
+    const selectedLanguage = i18n.language === 'br' ? 'Portugués' : 'Español';
     const selectedFlag = languageFlags[selectedLanguage];
 
     return (
@@ -30,7 +33,6 @@ const LanguageSelect = () => {
                 <KeyboardArrowDownRoundedIcon sx={{ color: 'white', marginLeft: '8px' }} />
                 <img className='flag' src={selectedFlag} alt={selectedLanguage} />
                 <p className='idioms'>{selectedLanguage}</p>
-                
             </div>
             {isDropdownOpen && (
                 <div className='dropdownMenu'>

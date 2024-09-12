@@ -15,21 +15,24 @@ import SectionSeven from "./SectionSeven/SectionSeven";
 import Slogan from "../components/Slogan/Slogan";
 import Footer from "../components/Footer/Footer";
 import { useEffect } from 'react';
-
-
+import { useTranslation } from 'react-i18next';
 
 const CompanyScreen = () => {
-        useEffect(() => {
-            window.scrollTo(0, 0);
-        }, []);
+    const { t } = useTranslation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="containerCompany">
             <div className="containerHeroCompany">
                 <Hero 
-                    title='cobra reales y recibí dólar digital ' 
-                    titleColor='GRATIS'
+                    title={`${t('cobra reales y recibí dólar digital')} `}
+                    titleColor={`${t('GRATIS')} `}
                     fontFamily='Bebas Neue, sans-serif'
-                    subtitle='Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones'
+                    subtitle=
+                    {`${t('Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones')} `}
                 />
                 <div className="containerPixImg">
                     <img className="megapixHome" src={MegapixGlass} alt="Megapix Glass" />
@@ -56,6 +59,5 @@ const CompanyScreen = () => {
         </div>
     )
 }
-
 
 export default CompanyScreen;
