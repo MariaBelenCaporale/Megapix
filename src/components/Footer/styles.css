@@ -284,7 +284,7 @@
     }
 }
 
-@media (min-width: 993px) and (max-width: 1440px) {
+@media (min-width: 993px)  {
     .listResponsive {
         display: flex;
         flex-direction: row;
@@ -296,6 +296,7 @@
         padding: 40px 60px;
         width: 80%;
         top: 250px;
+        gap: 10em;
     }
     .lineResponsive {
         display: none;
@@ -305,9 +306,6 @@
     }
     .columnOneFooterRed {
         justify-content: center;
-    }
-    .footerOrder {
-        gap: 3em;
     }
     .textNavThree {
         font-weight: 500;
