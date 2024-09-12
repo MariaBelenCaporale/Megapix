@@ -102,6 +102,30 @@
     height: 200px;
   }
 }
+@media (min-width: 1201px) {
+  .titleTuristTwo {
+    font-size: 5em;
+  }
+  .subtitleTuristTwo {
+    font-size: 1.5em;
+    width: 80%;
+  }
+  .containerTurTwo {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .titleTuristTwo {
+    font-size: 6em;
+  }
+  .subtitleTuristTwo {
+    width: 70%;
+  }
+  .containerTurTwo {
+    height: 200px;
+  }
+}
 
 
 

@@ -207,3 +207,26 @@
     width: 90%;
   }
 }
+
+
+@media (min-width: 1201px)  {
+  .orderCardTur {
+    justify-content: center;
+  }
+  .cardTurOne {
+    width: 350px;
+  }
+  .askCardTur {
+    line-height: 75px;
+    font-size: 5em;
+  }
+  .textCardTur {
+    width: 90%;
+    font-size: 1.5em;
+    line-height: 50px;
+  }
+  .containerCardNext {
+    padding: 80px;
+    height: auto;
+  }
+}
