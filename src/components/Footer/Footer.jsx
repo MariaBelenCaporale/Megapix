@@ -66,7 +66,7 @@ const Footer = ({ link }) => {
               </NavLink>
 
               <NavLink
-                to="/"
+                to="/terminos"
                 className={({ isActive }) =>
                   isActive ? "navlink active" : "navlink inactive"
                 }

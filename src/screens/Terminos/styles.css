@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+}
+
+.containerTerms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 9;
+}
+.containerTitleTerms {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleTerms {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+    color: white;
+}
+.textTerms {
+    color: white;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+}
