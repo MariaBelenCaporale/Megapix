@@ -137,3 +137,9 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1441px) {
+    .textSelect {
+        font-size: 1.2em;
+    }
+}

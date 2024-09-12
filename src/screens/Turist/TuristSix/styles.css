@@ -134,8 +134,14 @@
     width: 100%;
   }
 }
-@media (min-width: 1201px)  {
+@media (min-width: 1201px) and (max-width: 1440px)  {
   .containerTitleSix {
     width: 70%;
+  }
+}
+
+@media (min-width: 1441px)  {
+  .containerTitleSix {
+    width: 50%;
   }
 }

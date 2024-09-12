@@ -190,7 +190,9 @@
   }
 }
 
-@media (min-width: 1201px)  {
+
+
+@media (min-width: 1201px) and (max-width:1440px)  {
   .orderCardTur {
     justify-content: center;
   }
@@ -202,24 +204,17 @@
     font-size: 5em;
   }
   .textCardTur {
+    width: 90%;
     font-size: 1em;
     line-height: 40px;
-    width: 90%;
+  }
+  .containerCardNext {
+    padding: 70px;
+    height: auto;
   }
 }
 
-
-@media (min-width: 1201px)  {
-  .orderCardTur {
-    justify-content: center;
-  }
-  .cardTurOne {
-    width: 350px;
-  }
-  .askCardTur {
-    line-height: 75px;
-    font-size: 5em;
-  }
+@media (min-width: 1441px)  {
   .textCardTur {
     width: 90%;
     font-size: 1.5em;
@@ -229,4 +224,14 @@
     padding: 80px;
     height: auto;
   }
+  .askCardTur {
+    line-height: 100px;
+    font-size: 6em;
+  }
+  .orderCardTur {
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }

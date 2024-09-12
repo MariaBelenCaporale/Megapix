@@ -129,14 +129,18 @@
 }
 
 
-
-
-
-
-/* 
-
-@media (min-width: 1201px) {
+@media (min-width: 1441px)  {
+  .subtitleHero {
+    font-size: 2em;
+    width: 50%;
+  }
+  .titleTwo {
+    font-size: 7em;
+    width: 70%;
+    line-height: 130px;
+  }
   .titleHero {
+    font-size: 8em;
     width: 60%;
   }
-} */
+}
