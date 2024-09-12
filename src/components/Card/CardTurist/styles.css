@@ -233,5 +233,9 @@
     align-items: center;
     justify-content: center;
   }
+  .askCardTur {
+    font-size: 6em;
+    width: 80%;
+  }
   
 }
