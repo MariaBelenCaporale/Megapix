@@ -73,7 +73,9 @@
 .questionText.active {
     color: #62FEE2; 
 }
-
+.response {
+    width: 90%
+}
 .responseText {
     color: white;
     font-family: "Poppins", sans-serif;
