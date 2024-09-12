@@ -11,25 +11,19 @@
   src: url("../../fonts/Poppins/Poppins-Thin.ttf");
 }
 
+
+
 .containerHeroTurist {
-  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  position: relative; 
   height: auto;
   align-items: center;
   justify-content: end;
 }
-/* .containerTurist {
-  position: relative;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
+.container {
+  position: relative; 
+}
 .light {
   border-radius: 100px;
   position: absolute;
@@ -56,11 +50,12 @@
     0px 0px 19.066px 0px #62fee2, 0px 0px 9.533px 0px #62fee2;
 }
 
+
 .coinContainerTurist {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: -20%;
+  top: 0;
   left: 0;
   display: flex;
   align-items: center;
@@ -69,32 +64,43 @@
 }
 
 .coinOneT {
-  animation: orbiturist 30s linear infinite;
   position: absolute;
-  width: 30%;
+  width: 15%;
+  animation: orbitT 35s linear infinite;
+  transform-origin: center;
 }
 
 .coinTwoT {
-  /* nitido */
-  animation: orbiturist 30s linear infinite;
   position: absolute;
   width: 15%;
+  animation: orbitTwoT 45s linear infinite;
+  transform-origin: center;
+  transform: rotate(0deg) translateX(350px) rotate(0deg);
 }
 
 .coinThreeT {
-    /* nitido */
-  animation: orbiturist 40s linear infinite;
   position: absolute;
-  width: 15%;
+  width: 20%;
+  animation: orbitThreeT 40s linear infinite;
+  transform-origin: center;
+  transform: rotate(0deg) translateX(-190px) rotate(0deg);
 }
 
 .coinFourT {
-  animation: orbituristOne 50s linear infinite;
   position: absolute;
-  width: 15%;
+  width: 20%;
+  animation: orbitTwoT 35s linear infinite;
 }
 
-@keyframes orbiturist {
+@keyframes orbitThreeT {
+  0% {
+      transform: rotate(0deg) translateX(-190px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translateX(-190px) rotate(-360deg);
+  }
+}
+@keyframes orbitTwoT {
   0% {
       transform: rotate(0deg) translateX(350px) rotate(0deg);
   }
@@ -102,11 +108,21 @@
       transform: rotate(360deg) translateX(350px) rotate(-360deg);
   }
 }
-@keyframes orbituristOne {
+@keyframes orbitOneT {
   0% {
-      transform: rotate(0deg) translateX(300px) rotate(0deg);
+      transform: rotate(0deg) translateX(-200px) rotate(0deg);
   }
   100% {
-      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+      transform: rotate(360deg) translateX(-200px) rotate(-360deg);
   }
 }
+@keyframes orbitT {
+  0% {
+      transform: rotate(0deg) translateX(-270px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translateX(-270px) rotate(-360deg);
+  }
+}
+
+
