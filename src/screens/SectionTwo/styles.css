@@ -207,6 +207,29 @@
 
 
 @media (min-width: 360px) and (max-width: 576px)  {
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes floating-1 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
   .titleSectionTwo {
       width: 70%;
       font-size: 2.5em;
@@ -217,7 +240,7 @@
   }
   .rotated-items-container {
     width: 90%;
-    height: 350px;
+    height: 450px;
   }
   .animation {
     padding: 10px;
@@ -234,31 +257,31 @@
   }
   .animation-3 {
     left: 0%;
-    top: 85%;
+    top: 90%;
   }
   .animation-4 {
-    left: 70%;
-    top: 50%;
+    left: 40%;
+    top: 78%;
   }
   .animation-5 {
     top: 20%;
     left: 5%;
   }
   .animation-6 {
-    top: 25%;
-    left: 62%;
+    top: 35%;
+    left: 70%;
   }
   .animation-7 {
-    left: 30%;
-    top: 5%;
+    left: 0%;
+    top: 35%;
   }
   .animation-8 {
     left: 60%;
     top: 85%;
   }
   .animation-9 {
-    top: 35%;
-    left: 75%;
+        top: 50%;
+    left: 65%;
   }
   .animation-10 {
     top: 5%;
@@ -273,16 +296,16 @@
     left: 50%;
   }
   .animation-13 {
-    left: 1%;
-    top: 35%;
+    left: 15%;
+    top: 78%;
   }
   .animation-14 {
-    top: 70%;
+    top: 65%;
     left: 3%;
   }
   .animation-15 {
-    top: 32%;
-    left: 25%;
+    top: 35%;
+    left: 20%;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
@@ -295,73 +318,73 @@
   }
   .rotated-items-container {
     width: 90%;
-    height: 350px;
+    height: 400px;
   }
   .animation {
     padding: 10px;
     font-size: .9em;
   }
-
   .animation-1 {
     top: 5%;
     left: 0%;
   }
   .animation-2 {
-    left: 70%;
-    top: 5%;
+      left: 15%;
+      top: 35%;
   }
   .animation-3 {
-    left: 0%;
-    top: 60%;
+    left: 10%;
+    top: 75%;
   }
   .animation-4 {
-    left: 65%;
-    top: 44%;
+    left: 45%;
+    top: 50%;
   }
   .animation-5 {
-    top: 25%;
-    left: 15%;
-  }
-  .animation-6 {
-    top: 25%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 30%;
-    top: 5%;
-  }
-  .animation-8 {
-    left: 75%;
-    top: 60%;
-  }
-  .animation-9 {
-    top: 35%;
-    left: 75%;
-  }
-  .animation-10 {
-    top: 30%;
-    left: 40%;
-  }
-  .animation-11 {
-    top: 65%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 50%;
-    left: 30%;
-  }
-  .animation-13 {
-    left: 1%;
     top: 20%;
-  }
-  .animation-14 {
-    top: 43%;
     left: 5%;
   }
-  .animation-15 {
+  .animation-6 {
+    top: 20%;
+    left: 80%;
+  }
+  .animation-7 {
+    left: 0%;
+    top: 35%;
+  }
+  .animation-8 {
+    left: 50%;
+    top: 75%;
+  }
+  .animation-9 {
+    top: 40%;
+    left: 65%;
+  }
+  .animation-10 {
+    top: 5%;
+    left: 75%;
+  }
+  .animation-11 {
+    top: 55%;
+    left: 60%;
+  }
+  .animation-12 {
     top: 5%;
     left: 40%;
   }
+  .animation-13 {
+    left: 30%;
+    top: 55%;
+  }
+  .animation-14 {
+    top: 55%;
+    left: 3%;
+  }
+  .animation-15 {
+    top: 20%;
+    left: 40%;
+  }
+
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .titleSectionTwo {
