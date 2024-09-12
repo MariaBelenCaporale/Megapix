@@ -1,18 +1,7 @@
-
-/* .containerCompany {
-    display: flex;
-    height: auto;
-    align-items: center;
-    flex-direction: column;
-    justify-content: end;
-    position: relative; 
-    background-color: #111111;
-} */
-
 .containerHeroCompany {
     display: flex;
     flex-direction: column;
-    position: relative; 
+    position: relative;
     align-items: center;
     overflow: hidden;
 }
@@ -31,7 +20,6 @@
     width: auto;
 }
 
-
 .coinContainer {
     position: absolute;
     width: 100%;
@@ -44,53 +32,67 @@
     overflow: hidden;
 }
 
-
 .coinOne {
-    /* Nitida */
-    animation: orbit 35s linear infinite;
     position: absolute;
     width: 15%;
+    animation: orbit 35s linear infinite;
+    transform-origin: center;
 }
 
 .coinTwo {
-    animation: orbit 45s linear infinite;
     position: absolute;
     width: 15%;
+    animation: orbitTwo 45s linear infinite;
+    transform-origin: center;
+    transform: rotate(0deg) translateX(350px) rotate(0deg);
 }
 
 .coinThree {
-    animation: orbit 40s linear infinite;
     position: absolute;
     width: 20%;
-    top: 40%; 
+    animation: orbitThree 40s linear infinite;
+    transform-origin: center;
+    transform: rotate(0deg) translateX(-190px) rotate(0deg);
 }
 
 .coinFour {
-    /* Nitida */
-    animation: orbitTwo 35s linear infinite;
     position: absolute;
     width: 20%;
-    bottom: 30%;
+    animation: orbitTwo 35s linear infinite;
 }
 
-@keyframes orbit {
+@keyframes orbitThree {
     0% {
-        transform: rotate(0deg) translateX(300px) rotate(0deg);
+        transform: rotate(0deg) translateX(-190px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(300px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-190px) rotate(-360deg);
     }
 }
-
 @keyframes orbitTwo {
     0% {
-        transform: rotate(0deg) translateX(400px) rotate(0deg);
+        transform: rotate(0deg) translateX(350px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(400px) rotate(-360deg);
+        transform: rotate(360deg) translateX(350px) rotate(-360deg);
     }
 }
-
+@keyframes orbitOne {
+    0% {
+        transform: rotate(0deg) translateX(-200px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(-200px) rotate(-360deg);
+    }
+}
+@keyframes orbit {
+    0% {
+        transform: rotate(0deg) translateX(-270px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(-270px) rotate(-360deg);
+    }
+}
 
 @media (min-width: 360px) and (max-width: 576px) {
     .coinOne, .coinTwo {
@@ -124,13 +126,3 @@
         width: 100%;
     }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-    .coinContainer img {
-        width: 30%;
-    }
-    .megapixHome {
-        width: 100%;
-    }
-}
-
-
