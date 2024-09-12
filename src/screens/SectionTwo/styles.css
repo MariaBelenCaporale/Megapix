@@ -622,15 +622,17 @@
 
 @media (min-width: 1441px) {
   .animation {
-    font-size: 1.3em;
+    font-size: 1.5em;
     border: 3px solid white;
   }
   .selected { 
-
     border: 3px solid #62fee2;
   }
   .animation:hover {
     border: 3px solid #62fee2;
+  }
+  .rotated-items-container {
+    width: 80%;
   }
   .animation-1 {
     top: 5%;
