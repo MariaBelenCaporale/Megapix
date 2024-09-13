@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -265,7 +265,7 @@
   }
   .animation-5 {
     top: 20%;
-    left: 5%;
+    left: 15%;
   }
   .animation-6 {
     top: 35%;
@@ -277,7 +277,7 @@
   }
   .animation-8 {
     left: 60%;
-    top: 85%;
+    top: 90%;
   }
   .animation-9 {
         top: 50%;
@@ -293,7 +293,7 @@
   }
   .animation-12 {
     top: 20%;
-    left: 50%;
+    left: 40%;
   }
   .animation-13 {
     left: 15%;
@@ -333,7 +333,7 @@
       top: 35%;
   }
   .animation-3 {
-    left: 10%;
+    left: 1%;
     top: 75%;
   }
   .animation-4 {
@@ -353,7 +353,7 @@
     top: 35%;
   }
   .animation-8 {
-    left: 50%;
+    left: 40%;
     top: 75%;
   }
   .animation-9 {
@@ -365,7 +365,7 @@
     left: 75%;
   }
   .animation-11 {
-    top: 55%;
+    top: 65%;
     left: 60%;
   }
   .animation-12 {
@@ -553,10 +553,8 @@
   .animation {
     padding: 15px 20px;
     font-size: 1.2em;
-  }
-  .rotated-items-container {
+  }  .rotated-items-container {
     width: 80%;
-    height: 350px;
   }
   .animation-1 {
     top: 5%;
@@ -571,7 +569,7 @@
     top: 75%;
   }
   .animation-4 {
-    left: 85%;
+    left: 80%;
     top: 55%;
   }
   .animation-5 {
@@ -595,8 +593,8 @@
     left: 75%;
   }
   .animation-10 {
-    top: 35%;
-    left: 45%;
+    top: 32%;
+    left: 40%;
   }
   .animation-11 {
     top: 75%;
@@ -604,7 +602,7 @@
   }
   .animation-12 {
     top: 55%;
-    left: 55%;
+    left: 50%;
   }
   .animation-13 {
     left: 15%;
@@ -647,7 +645,7 @@
     top: 75%;
   }
   .animation-4 {
-    left: 85%;
+    left: 80%;
     top: 55%;
   }
   .animation-5 {
@@ -671,8 +669,8 @@
     left: 75%;
   }
   .animation-10 {
-    top: 35%;
-    left: 45%;
+    top: 32%;
+    left: 40%;
   }
   .animation-11 {
     top: 75%;
@@ -680,7 +678,7 @@
   }
   .animation-12 {
     top: 55%;
-    left: 55%;
+    left: 50%;
   }
   .animation-13 {
     left: 15%;
