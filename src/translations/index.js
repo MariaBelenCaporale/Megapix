@@ -83,6 +83,30 @@ const resources = {
 
             // TURISTAS ------------------
             "sin límites en Argentina":"sin límites en Argentina",
+            "Pagá con pix ":"Pagá con pix ",
+            "Viví experiencias únicas pagando como si estuvieses en casa":"Viví experiencias únicas pagando como si estuvieses en casa",
+            //turistTwo
+            'Paga desde tu celular':'Paga desde tu celular',
+            'Realizá tus pagos con Megapix en cualquier lugar del país. Eligiendo la opción de tu preferencia':'Realizá tus pagos con Megapix en cualquier lugar del país. Eligiendo la opción de tu preferencia',
+            //turistThree
+            'Vení a disfrutar de Argentina con ':'Vení a disfrutar de Argentina con ',
+            'Vacacionar':'Vacacionar',
+            'Estudiar':'Estudiar',
+            'Vivir':'Vivir',
+            'Visitar familia':'Visitar familia',
+            'Trabajar':'Trabajar',
+            '¿Por qué elegirnos?':'¿Por qué elegirnos?',
+            'Megapix está aquí para acompañarte, facilitando tus transacciones y evitando el uso de engorrosas casas de cambio, conversiones costosas y la incomodidad de manejar grandes cantidades de efectivo.':'Megapix está aquí para acompañarte, facilitando tus transacciones y evitando el uso de engorrosas casas de cambio, conversiones costosas y la incomodidad de manejar grandes cantidades de efectivo.',
+            //turistFour
+            '¿CÓMO FUNCIONA?':'¿CÓMO FUNCIONA?',
+
+
+
+
+
+
+
+
 
         }
     },
@@ -165,6 +189,25 @@ const resources = {
 
             // TURISTAS ------------------
             "sin límites en Argentina":"falta",
+            "Pagá con pix ":"falta ",
+            "Viví experiencias únicas pagando como si estuvieses en casa":"falta",
+            //turistTwo
+            'Paga desde tu celular':'falta',
+            'Realizá tus pagos con Megapix en cualquier lugar del país. Eligiendo la opción de tu preferencia':'falta',
+            //turistThree
+            'Vení a disfrutar de Argentina con ':'falta ',
+            'Vacacionar':'falta',
+            'Estudiar':'falta',
+            'Vivir':'falta',
+            'Visitar familia':'falta',
+            'Trabajar':'falta',
+            '¿Por qué elegirnos?':'falta',
+            'Megapix está aquí para acompañarte, facilitando tus transacciones y evitando el uso de engorrosas casas de cambio, conversiones costosas y la incomodidad de manejar grandes cantidades de efectivo.':'falta',
+            //turistFour
+            '¿CÓMO FUNCIONA?':'falta',
+
+
+
 
 
 
