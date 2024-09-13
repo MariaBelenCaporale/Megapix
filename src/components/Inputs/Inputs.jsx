@@ -7,9 +7,12 @@ import brasilFlag from '../../images/brasil.jpg';
 import Check from '../../images/check.png';
 import Codigo from '../../images/codigo.png';
 import LogoMegaPix from '../../assets/logo-megapix.png';
+import { useTranslation } from 'react-i18next';
 import './styles.css';
 
 const Inputs = () => {
+  const { t } = useTranslation();
+
   const [isLoadingQr, startTransitionQr] = useTransition();
   const [arsInput, setArsInput] = useState('');
   const [usdInput, setUsdInput] = useState('');
@@ -103,7 +106,7 @@ const Inputs = () => {
     <>
       <form onSubmit={generateQrAction} style={{ maxWidth: '600px', margin: '0 auto', position: 'relative' }}>
         <div style={{ position: 'relative', marginBottom: '16px' }}>
-          <label className='monto'>Monto (ARS)</label>
+          <label className='monto'>{`${t('Monto (ARS)')} `}</label>
           <input className='inputs'
             type='number'
             name='arsInput'
@@ -123,7 +126,7 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageArs) && (
           <div ref={messageRef} className='containerMessage arg'>
-            <p className='messagePay'>Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷</p>
+            <p className='messagePay'>{`${t('Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷')} `}</p>
           </div>
         )}
       
@@ -147,19 +150,21 @@ const Inputs = () => {
         {(!hideMessages && showMessageUsd) && (
           <div>
           <div ref={messageRef} className='containerMessageTwo usdt'>
-            <p className='messagePay'> Te mostramos el valor que vas a recibir en USDT (Dolar digital)</p>
+            <p className='messagePay'>{`${t('Te mostramos el valor que vas a recibir en USDT (Dolar digital)')} `}</p>
           </div>
           <div ref={messageRef} className='containerMessageTwo usdtDos'>
-            <p className='messagePay'> El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.</p>
+            <p className='messagePay'>
+            {`${t('El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.')} `}
+              </p>
           </div>
           </div>
         )}
         <div style={{ marginBottom: '16px' }}>
-          <label className='monto'>Motivo</label>
+          <label className='monto'>{`${t('Motivo')} `}</label>
           <input className='inputs'
             type='text'
             name='concept'
-            placeholder='Oso de peluche'
+            placeholder={`${t('Oso de peluche')} `}
             value={concept}
             onChange={(e) => setConcept(e.target.value)}
             onClick={() => { setShowMessageArs(false); setShowMessageUsd(false); setMessageMotive(true); setMessageBrl(false) }}
@@ -168,7 +173,7 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageMotive) && (
           <div ref={messageRef} className='containerMessage motive'>
-            <p className='messagePay'>Colocás el “Motivo” de la operación.</p>
+            <p className='messagePay'>{`${t('Colocás el “Motivo” de la operación.')} `}</p>
           </div>
         )}
 

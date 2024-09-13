@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
-import "./styles.css";
+import "./styles.css"; 
 
 const SectionTwo = () => {
   const { t } = useTranslation();
