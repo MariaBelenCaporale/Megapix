@@ -1,5 +1,5 @@
 import './styles.css';
-import Phone from '@images/phone.png';
+import Phone from '@images/phoneEsp.png';
 import { useEffect, useState, useRef } from 'react';
 import TuristOne from '../../screens/Turist/TuristOne/TuristOne';
 
