@@ -64,7 +64,15 @@
         margin-top: -50px;
     }
 }
-@media (min-width: 1201px)  {
+@media (min-width: 1201px) and (max-width:1440px)  {
+    .phoneimg {
+        width: 440px;
+    }
+    .containerPhone {
+        margin-top: -90px;
+    }
+} 
+@media (min-width: 1441px) {
     .phoneimg {
         width: 440px;
     }
