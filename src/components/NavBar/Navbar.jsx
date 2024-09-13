@@ -7,7 +7,9 @@ const NavBar = () => {
     return (
         <div className='containerNav'>
             <div className='containerLogo'>
-            <img className='logo' src={Logo} alt="Logo Megapix" />
+            <a href="#top">
+                    <img className='logo' src={Logo} alt="Logo Megapix" />
+                </a>
             </div>
             <SwitchComponent />
             <LanguageSelect />
