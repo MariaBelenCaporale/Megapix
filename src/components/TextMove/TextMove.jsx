@@ -8,7 +8,7 @@ const TextMove = () => {
         <div className='textMoveContainer'>
             <div className='textMoveWrapper'>
                 <p className='textMove'>
-                {`${t('cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis')} `}
+                {t('cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis')}
                     </p>
             </div>
         </div>

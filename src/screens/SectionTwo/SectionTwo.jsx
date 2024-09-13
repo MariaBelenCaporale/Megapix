@@ -31,7 +31,7 @@ const SectionTwo = () => {
     <section className="containerSectionTwo">
       <div className="blurTwo">
         <h2 className="titleSectionTwo">
-           {`${t('Ventajas de usar')} `} <span className="highlight"> {`${t('Megapix')} `}</span>
+           {t('Ventajas de usar')} <span className="highlight"> {t('Megapix')}</span>
         </h2>
       </div>
       <div className="prueba" >

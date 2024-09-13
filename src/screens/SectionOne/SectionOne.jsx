@@ -38,7 +38,7 @@ const SectionOne = () => {
   return (
     <section className='containerSectionOne'>
       <h2 className='titleSectionOne' ref={textRef}>
-      {`${t('Potenciá tu negocio')} `}
+      {t('Potenciá tu negocio')} 
       </h2>
       <div className='sectionWrapper' ref={sectionRef}>
         <div className='cardWrapper'>

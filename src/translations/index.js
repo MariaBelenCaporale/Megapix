@@ -5,7 +5,7 @@ const resources = {
     es: {
         translation: {
             // SECTION EMPRESAS
-            //HERO
+
             'cobra reales y recibí dólar digital':'cobra reales y recibí dólar digital',
             'GRATIS':'GRATIS',
             'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones':'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones',
@@ -34,13 +34,15 @@ const resources = {
             'Motivo':'Motivo',
             'Oso de peluche':'Oso de peluche',
             'Colocás el “Motivo” de la operación.':'Colocás el “Motivo” de la operación.',
+            'Monto a cobrar (BRL)':'Monto a cobrar (BRL)',
+            'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️':'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️',
 
         }
     },
     br: {
         translation: {
             // SECTION EMPRESAS
-            //HERO
+
             'cobra reales y recibí dólar digital':'Receba reais e ganhe dólar digital',
             'GRATIS':'Falta',
             'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones':'Falta',
@@ -68,6 +70,8 @@ const resources = {
             'Motivo':'Falta',
             'Oso de peluche':'Falta',
             'Colocás el “Motivo” de la operación.':'Falta',
+            'Monto a cobrar (BRL)':'Falta',
+            'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️':'Falta',
 
 
 
