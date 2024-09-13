@@ -7,8 +7,8 @@ const SectionThree = () => {
     return (
         <section className='containerSection3'>
             <div>
-            <h2 className='titleSectionThree'> {`${t('¿Cómo funciona?')} `}</h2>
-            <p className='subSectionThree'>{`${t('¡Realicemos un cobro en vivo y en directo!')} `}</p>
+            <h2 className='titleSectionThree'>{t('¿Cómo funciona?')}</h2>
+            <p className='subSectionThree'>{t('¡Realicemos un cobro en vivo y en directo!')}</p>
             </div>
 
             <div className='containerInputs3'>

@@ -13,9 +13,12 @@ import Footer from "../../components/Footer/Footer";
 import SectionSeven from "../SectionSeven/SectionSeven";
 import PhoneComponent from "../../components/Phone/Phone";
 import Slogan from "../../components/Slogan/Slogan";
+import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
 
 const TuristScreen = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
 }, []);
@@ -24,7 +27,7 @@ const TuristScreen = () => {
       <div className="containerHeroTurist">
         <Hero
           showButton={false}
-          titleTwo="sin límites en Argentina"
+          titleTwo={t("sin límites en Argentina")}
           titleColorTwo="Pagá con pix "
           fontFamily="Poppins-Bold, sans-serif"
           subtitle="Viví experiencias únicas pagando como si estuvieses en casa"

@@ -10,10 +10,13 @@ import CobroDos from '@images/cobrosDos.png';
 import Ventas from '@images/ventas.png';
 import VentasDos from '@images/ventasDos.png';
 import Monedacard from '@images/monedacard.png';
+import { useTranslation } from 'react-i18next';
 import './styles.css';
 import SwiperCard from '../../components/SwipperCard/SwipperCard';
 
 const SectionFour = () => {
+    const { t } = useTranslation();
+
     const [activeImage, setActiveImage] = useState('Gestión de cobros diarios');
     const [activeButton, setActiveButton] = useState('Gestión de cobros diarios');
 
@@ -26,33 +29,33 @@ const SectionFour = () => {
         <section className="sectionFour">
             <img className='pixImage' src={Pix} alt='pix' />
             <div className='cardFour'>
-                <h2 className='titleFour'>Funcionalidades principales</h2>
+                <h2 className='titleFour'>{t('Funcionalidades principales')}</h2>
                 <div className='containerBtnFour'>
                     <ButtonFour
-                        title='Gestión de cobros diarios'
+                        title={t('Gestión de cobros diarios')}
                         onClick={() => handleButtonClick('Gestión de cobros diarios', 'Gestión de cobros diarios')}
                         isActive={activeButton === 'Gestión de cobros diarios'}
                     />
                     <ButtonFour
                     isActive={activeButton === 'Gestión de billetera'}
-                        title='Gestión de billetera'
+                        title={t('Gestión de billetera')}
                         onClick={() => handleButtonClick('Gestión de billetera', 'Gestión de billetera')}
                         
                     />
                     <ButtonFour
-                        title='Gestión de ventas'
+                        title={t('Gestión de ventas')}
                         onClick={() => handleButtonClick('Gestión de ventas', 'Gestión de ventas')}
                         isActive={activeButton === 'Gestión de ventas'}
                     />
                     <ButtonFour
                     isActive={activeButton === 'Gestión de tiendas'}
-                        title='Gestión de tiendas'
+                        title={t('Gestión de tiendas')}
                         onClick={() => handleButtonClick('Gestión de tiendas', 'Gestión de tiendas')}
                         
                     />
                     <ButtonFour
                     isActive={activeButton === 'Gestión de usuarios'}
-                        title='Gestión de usuarios'
+                        title={t('Gestión de usuarios')}
                         onClick={() => handleButtonClick("Gestión de usuarios", 'Gestión de usuarios')} 
                         
                     />
