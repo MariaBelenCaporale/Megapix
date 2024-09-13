@@ -1,5 +1,6 @@
 import ButtonComponent from "../buttonComponent/buttonComponent";
 import "./styles.css";
+import { useTranslation } from 'react-i18next';
 import PropTypes from "prop-types";
 
 const HeroText = ({
@@ -12,6 +13,8 @@ const HeroText = ({
   titleColorTwo,
   showButton= true,
 }) => {
+  const { t } = useTranslation();
+  
   return (
     <div className="container">
       <div className="containerBackground">
@@ -32,7 +35,7 @@ const HeroText = ({
          
         </h1>
         <p className="subtitleHero">{subtitle}</p>
-        {showButton && <ButtonComponent title="Visitar plataforma" />}
+        {showButton && <ButtonComponent title={t("Visitar plataforma")} />}
       </div>
     </div>
   );

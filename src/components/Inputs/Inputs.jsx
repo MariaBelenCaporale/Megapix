@@ -223,7 +223,7 @@ const Inputs = () => {
           }}
           disabled={!concept || !usdInput || !arsInput || isPendingBrl || isLoadingQr || isPendingArs}
         >
-          <span>Cobrar</span>
+          <span>{t('Cobrar')}</span>
         </button>
       </form>
 
@@ -231,7 +231,7 @@ const Inputs = () => {
         <div className='popup'>
           <div className='popup-content'>
             <div>
-              <h2 className='textPopUp'>¡Pago realizado!</h2>
+              <h2 className='textPopUp'>{t('¡Pago realizado!')}</h2>
             </div>
             <img className='imgCheck' src={Check} alt='aprobado' />
             <img className='imgCodigo' src={Codigo} alt='codigo qr' />

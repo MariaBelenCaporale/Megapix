@@ -3,8 +3,10 @@ import { ToggleButton, ToggleButtonGroup } from '@mui/material';
 import { Box } from '@mui/material';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function SwitchComponent() {
+    const { t } = useTranslation();
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -72,10 +74,10 @@ export default function SwitchComponent() {
                 }}
             >
                 <ToggleButton value="empresas" aria-label='empresas'>
-                    <p className='empresa'>Empresas</p>
+                    <p className='empresa'>{t('Empresas')}</p>
                 </ToggleButton>
                 <ToggleButton value="turistas" aria-label="turistas">
-                <p className='turista'>Turistas</p>
+                <p className='turista'>{t('Turistas')}</p>
                 </ToggleButton>
             </ToggleButtonGroup>
         </Box>

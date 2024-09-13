@@ -23,6 +23,18 @@ const resources = {
             //SECTION TWO
             'Ventajas de usar':'Ventajas de usar',
             'Megapix':'Megapix',
+            "Control de tus finanzas":"Control de tus finanzas",
+            "Cobros QR y Link de pago":"Cobros QR y Link de pago",
+            "Conexión con turistas":"Conexión con turistas",
+            "Gratis":"Gratis",
+            "Rápido":"Rápido",
+            "Fácil":"Fácil",
+            "Sin comisiones":"Sin comisiones",
+            "Transacciones sin posnet":"Transacciones sin posnet",
+            "Cobros sin barreras":"Cobros sin barreras",
+            "Segura":"Segura",
+            "Soporte 24/7":"Soporte 24/7",
+            "Gestión de negocios":"Gestión de negocios",
             //SECTION THREE
             '¿Cómo funciona?':'¿Cómo funciona?',
             '¡Realicemos un cobro en vivo y en directo!':'¡Realicemos un cobro en vivo y en directo!',
@@ -36,6 +48,12 @@ const resources = {
             'Colocás el “Motivo” de la operación.':'Colocás el “Motivo” de la operación.',
             'Monto a cobrar (BRL)':'Monto a cobrar (BRL)',
             'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️':'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️',
+            'Cobrar':'Cobrar',
+            '¡Pago realizado!':'¡Pago realizado!',
+
+
+
+
             //SECTION FOUR
             'Funcionalidades principales':'Funcionalidades principales',
             'Gestión de cobros diarios':'Gestión de cobros diarios',
@@ -138,6 +156,13 @@ const resources = {
             'Política de privacidad':'Política de privacidad',
             'Términos & condiciones':'Términos & condiciones',
             'Comunidad':'Comunidad',
+            //btn
+            "Visitar plataforma":"Visitar plataforma",
+            //Slogan
+            'Megapix, innovando el presente & futuro':'Megapix, innovando el presente & futuro',
+            //Switch
+            'Empresas':'Empresas',
+            'Turistas':'Turistas',
 
 
 
@@ -167,6 +192,18 @@ const resources = {
             //SECTION TWO
             'Ventajas de usar':'Falta',
             'Megapix':'Falta',
+            "Control de tus finanzas":"falta",
+            "Cobros QR y Link de pago":"falta",
+            "Conexión con turistas":"falta",
+            "Gratis":"falta",
+            "Rápido":"falta",
+            "Fácil":"falta",
+            "Sin comisiones":"falta",
+            "Transacciones sin posnet":"falta",
+            "Cobros sin barreras":"falta",
+            "Segura":"falta",
+            "Soporte 24/7":"falta",
+            "Gestión de negocios":"falta",
             //SECTION THREE
             '¿Cómo funciona?':'Falta',
             '¡Realicemos un cobro en vivo y en directo!':'Falta',
@@ -180,6 +217,12 @@ const resources = {
             'Colocás el “Motivo” de la operación.':'Falta',
             'Monto a cobrar (BRL)':'Falta',
             'Te indicamos cuál será el monto final a cobrar en BRL (Reales)‍🇧🇷 Clickeas “cobrar” y elegís tu método ideal. 🙋‍♀️':'Falta',
+            'Cobrar':'falta',
+            '¡Pago realizado!':'falta',
+
+
+
+
             //SECTION FOUR
             'Funcionalidades principales':'Falta',
             'Gestión de cobros diarios':'Falta',
@@ -282,6 +325,13 @@ const resources = {
             'Política de privacidad':'falta',
             'Términos & condiciones':'falta',
             'Comunidad':'falta',
+            //btn
+            "Visitar plataforma":"falta",
+            //Slogan
+            'Megapix, innovando el presente & futuro':'falta',
+            //Switch
+            'Empresas':'falta',
+            'Turistas':'falta',
 
 
 

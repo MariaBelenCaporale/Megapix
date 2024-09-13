@@ -10,21 +10,21 @@ const SectionTwo = () => {
     setSelectedButton(index);
   };
   const buttons = [
-    "Control de tus finanzas",
-    "Cobros QR y Link de pago",
-    "Conexión con turistas",
-    "Gratis",
-    "Multiplataforma",
-    "Rápido",
-    "Fácil",
-    "Sin comisiones",
-    "Seguridad",
-    "Tecnología PIX",
-    "Transacciones sin posnet",
-    "Cobros sin barreras",
-    "Segura",
-    "Soporte 24/7",
-    "Gestión de negocios",
+    t("Control de tus finanzas"),
+    t("Cobros QR y Link de pago"),
+    t("Conexión con turistas"),
+    t("Multiplataforma"),
+    t("Gratis"),
+    t("Rápido"),
+    t("Fácil"),
+    t("Sin comisiones"),
+    t("Seguridad"),
+    t("Tecnología PIX"),
+    t("Transacciones sin posnet"),
+    t("Cobros sin barreras"),
+    t("Segura"),
+    t("Soporte 24/7"),
+    t("Gestión de negocios"),
   ];
 
   return (
