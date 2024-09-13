@@ -1,6 +1,6 @@
 import './styles.css';
 import { useTranslation } from 'react-i18next';
-import Mp from '../../../images/mp.png';
+import Mp from '@images/mp.png';
 
 const CardTurist = () => {
     const { t } = useTranslation();

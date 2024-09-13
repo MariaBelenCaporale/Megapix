@@ -5,8 +5,11 @@ import LogoFooter from "../../assets/logo-megapix.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PropTypes from "prop-types";
+import { useTranslation } from 'react-i18next';
 
 const Footer = ({ link }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="containerFooter">
 
@@ -15,7 +18,7 @@ const Footer = ({ link }) => {
         <div className="footerOrder">
           <div className="containerLogoFooter">
             <img className="logoFooter" src={LogoFooter} />
-            <p className="footerProduct">Un producto de Polynomium® </p>
+            <p className="footerProduct">{t('Un producto de Polynomium®')}</p>
           </div>
           <div className="containerTotal">
             <div className="listResponsive">
@@ -26,7 +29,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavOne">¿Quiénes somos?</p>
+                <p className="textNavOne">{t('¿Quiénes somos?')}</p>
               </NavLink>
 
               <NavLink
@@ -36,7 +39,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Ir a polynomium</p>
+                <p className="textNavThree">{t('Ir a polynomium')}</p>
               </NavLink>
               <NavLink
                 to="/"
@@ -44,7 +47,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Preguntas frecuentes</p>
+                <p className="textNavThree">{t('Preguntas frecuentes')}</p>
               </NavLink>
               <NavLink
                 to="/"
@@ -52,7 +55,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Contacto</p>
+                <p className="textNavThree">{t('Contacto')}</p>
               </NavLink>
             </div>
             <div className="columnOneFooter">
@@ -62,7 +65,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Política de privacidad</p>
+                <p className="textNavThree">{t('Política de privacidad')}</p>
               </NavLink>
 
               <NavLink
@@ -71,13 +74,13 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">Terminos & condiciones</p>
+                <p className="textNavThree">{t('Términos & condiciones')}</p>
               </NavLink>
             </div>
             </div>
             <span className="lineResponsive"></span>
             <div className="columnOneFooter">
-              <p className="textNavComunidad">Comunidad</p>
+              <p className="textNavComunidad">{t('Comunidad')}</p>
               <div className="columnOneFooterRed">
                 <a href={link} className="red" target="_blank" rel="noreferrer">
                   <InstagramIcon />
