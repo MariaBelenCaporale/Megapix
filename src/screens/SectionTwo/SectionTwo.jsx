@@ -20,7 +20,7 @@ const SectionTwo = () => {
     t("Sin comisiones"),
     t("Seguridad"),
     t("Tecnología PIX"),
-    t("Transacciones sin posnet"),
+    t("Pagos inmediatos"),
     t("Cobros sin barreras"),
     t("Segura"),
     t("Soporte 24/7"),

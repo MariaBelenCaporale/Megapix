@@ -47,7 +47,7 @@ const Footer = ({ link }) => {
                   isActive ? "navlink active" : "navlink inactive"
                 }
               >
-                <p className="textNavThree">{t('Preguntas frecuentes')}</p>
+                <p className="textNavThree">{t('Soporte & FAQs')}</p>
               </NavLink>
               <NavLink
                 to="/"

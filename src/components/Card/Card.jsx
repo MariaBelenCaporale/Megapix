@@ -9,13 +9,20 @@ const Card = () => {
             <div className='card'>
                 <div className='textCardFirst'>
                     <p className='textCard'>
-                    {t('Más del 30% de quienes que visitan Argentina son de Brasil, sumado a miles de personas residentes que desarrollan actividades comerciales en destinos como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Aprovechá esta oportunidad para conectar tu negocio con este importante mercado.')}
+                    
+                    {t('Más del 30% de los turistas que visitan Argentina provienen de Brasil, además de miles de residentes brasileños que desarrollan actividades comerciales en destinos clave como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Es por esto que desde Megapix pensamos una solución basada en el método de pago más popular en Brasil: PIX.')}
                     </p>
                     <p className='textCard'>
-                    {t('Obtené nuestra plataforma de cobro rápida y segura, que utiliza PIX, el método de pago más popular en Brasil. Destacá tu comercio frente a la competencia y brindá un servicio excepcional.')} 
+                    {t('¡Conectando con este mercado estratégico vas a poder hacer crecer los ingresos de tu negocio o emprendimiento!')} 
                     </p>
                     <p className='textCard'>
-                    {t('¡Descubrí cómo podemos transformar tu negocio!')}
+                    {t('Entonces... ¿Ya te convencimos?')}
+                    </p>
+                    <p className='textCard'>
+                    {t('Si querés comenzar a cobrar con Pix ya podés hacerlo a través de nuestra plataforma, es 100% segura y gratuita.')}
+                    </p>
+                    <p className='textCard'>
+                    {t('¡Potencia tu negocio al alcance de tu mano con Megapix!')}
                     </p>
                 </div>
 

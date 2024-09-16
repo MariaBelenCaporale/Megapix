@@ -32,7 +32,7 @@ const CompanyScreen = () => {
                     titleColor={t('GRATIS')} 
                     fontFamily='Bebas Neue, sans-serif'
                     subtitle=
-                    {t('Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones')} 
+                    {t('Obtené tu cuenta y cuando desees retirá en pesos o cripto.')} 
                 />
                 <div className="containerPixImg">
                     <img className="megapixHome" src={MegapixGlass} alt="Megapix Glass" />

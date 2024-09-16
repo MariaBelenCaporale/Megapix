@@ -8,16 +8,20 @@ const resources = {
 
             'cobra reales y recibí dólar digital':'cobra reales y recibí dólar digital',
             'GRATIS':'GRATIS',
-            'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones':'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones',
+            'Obtené tu cuenta y cuando desees retirá en pesos o cripto.':'Obtené tu cuenta y cuando desees retirá en pesos o cripto.',
             //SECTION ONE
             'Potenciá tu negocio':'Potenciá tu negocio',
             
-            'Más del 30% de quienes que visitan Argentina son de Brasil, sumado a miles de personas residentes que desarrollan actividades comerciales en destinos como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Aprovechá esta oportunidad para conectar tu negocio con este importante mercado.':'Más del 30% de quienes que visitan Argentina son de Brasil, sumado a miles de personas residentes que desarrollan actividades comerciales en destinos como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Aprovechá esta oportunidad para conectar tu negocio con este importante mercado.',
+            'Más del 30% de los turistas que visitan Argentina provienen de Brasil, además de miles de residentes brasileños que desarrollan actividades comerciales en destinos clave como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Es por esto que desde Megapix pensamos una solución basada en el método de pago más popular en Brasil: PIX.':'Más del 30% de los turistas que visitan Argentina provienen de Brasil, además de miles de residentes brasileños que desarrollan actividades comerciales en destinos clave como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Es por esto que desde Megapix pensamos una solución basada en el método de pago más popular en Brasil: PIX.',
            
-            'Obtené nuestra plataforma de cobro rápida y segura, que utiliza PIX, el método de pago más popular en Brasil. Destacá tu comercio frente a la competencia y brindá un servicio excepcional.':'Obtené nuestra plataforma de cobro rápida y segura, que utiliza PIX, el método de pago más popular en Brasil. Destacá tu comercio frente a la competencia y brindá un servicio excepcional.',
+            '¡Conectando con este mercado estratégico vas a poder hacer crecer los ingresos de tu negocio o emprendimiento!':'¡Conectando con este mercado estratégico vas a poder hacer crecer los ingresos de tu negocio o emprendimiento!',
 
-            '¡Descubrí cómo podemos transformar tu negocio!':'¡Descubrí cómo podemos transformar tu negocio!',
+            'Entonces... ¿Ya te convencimos?':'Entonces... ¿Ya te convencimos? ',
             'crecé sin fronteras':'crecé sin fronteras',
+
+            'Si querés comenzar a cobrar con Pix ya podés hacerlo a través de nuestra plataforma, es 100% segura y gratuita.':'Si querés comenzar a cobrar con Pix ya podés hacerlo a través de nuestra plataforma, es 100% segura y gratuita.',
+
+            '¡Potencia tu negocio al alcance de tu mano con Megapix!':'¡Potencia tu negocio al alcance de tu mano con Megapix!',
             //TEXT MOVE
             'cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis':'cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis',
             //SECTION TWO
@@ -30,7 +34,7 @@ const resources = {
             "Rápido":"Rápido",
             "Fácil":"Fácil",
             "Sin comisiones":"Sin comisiones",
-            "Transacciones sin posnet":"Transacciones sin posnet",
+            "Pagos inmediatos":"Pagos inmediatos",
             "Cobros sin barreras":"Cobros sin barreras",
             "Segura":"Segura",
             "Soporte 24/7":"Soporte 24/7",
@@ -40,7 +44,7 @@ const resources = {
             '¡Realicemos un cobro en vivo y en directo!':'¡Realicemos un cobro en vivo y en directo!',
             //Inputs
             'Monto (ARS)':'Monto (ARS)',
-            'Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷':'Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷',
+            'Ingresa el monto que queres cobrar 👉🏻':'Ingresa el monto que queres cobrar 👉🏻',
             'Te mostramos el valor que vas a recibir en USDT (Dolar digital)':'Te mostramos el valor que vas a recibir en USDT (Dolar digital)',
             'El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.':'El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.',
             'Motivo':'Motivo',
@@ -63,20 +67,22 @@ const resources = {
             'Gestión de usuarios':'Gestión de usuarios',
             //SECTION FIVE
             'Características & Beneficios':'Características & Beneficios',
-            'Seguridad en cada cobro':'Seguridad en cada cobro',
+            'Cobros seguros':'Cobros seguros',
             'Nuestro sistema de cobro ofrece la máxima seguridad, eliminando los riesgos vinculados al manejo de efectivo y minimizando los errores humanos. Gracias a nuestra tecnología avanzada, cada transacción es precisa y protegida, asegurando un proceso ágil y sin complicaciones.':'Nuestro sistema de cobro ofrece la máxima seguridad, eliminando los riesgos vinculados al manejo de efectivo y minimizando los errores humanos. Gracias a nuestra tecnología avanzada, cada transacción es precisa y protegida, asegurando un proceso ágil y sin complicaciones.',
             'Multiplataforma':'Multiplataforma',
-            'Estar fuera de tu casa ya no es un problema, la plataforma puede usarse desde cualquier dispositivo con conexión a internet, ya sea tu celular o tablet.':'Estar fuera de tu casa ya no es un problema, la plataforma puede usarse desde cualquier dispositivo con conexión a internet, ya sea tu celular o tablet.',
+            'Podrás acceder y utilizar la plataforma desde cualquier dispositivo que tenga conexión a internet, ya sea un celular o una tablet, sin necesidad de contar con una computadora para ello.':'Podrás acceder y utilizar la plataforma desde cualquier dispositivo que tenga conexión a internet, ya sea un celular o una tablet, sin necesidad de contar con una computadora para ello.',
             'Control de sucursales':'Control de sucursales',
-            'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una. (Acciones limitadas a los roles asignados)':'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una. (Acciones limitadas a los roles asignados)',
+            'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una (Roles y permisos asignados a quien consideres).':'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una (Roles y permisos asignados a quien consideres).',
             'Roles y permisos':'Roles y permisos',
-            'Megapix ofrece un sistema de administracion y division de tareas reduciendo  la carga administrativa y  aumentando la eficiencia operativa.':'Megapix ofrece un sistema de administracion y division de tareas reduciendo  la carga administrativa y  aumentando la eficiencia operativa.',
+            'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.':'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.',
             'Plataforma sin costo':'Plataforma sin costo',
-            'Nuestra plataforma es completamente gratuita, lo que significa que no tendrás que preocuparte por tarifas ocultas ni comisiones por registro o uso.':'Nuestra plataforma es completamente gratuita, lo que significa que no tendrás que preocuparte por tarifas ocultas ni comisiones por registro o uso.',
-            'Transferencias al instante':'Transferencias al instante',
-            'Recibí tus cobros al instante de manera facil y segura':'Recibí tus cobros al instante de manera facil y segura',
-            'Soporte':'Soporte',
-            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días.':'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días.',
+            'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.':'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.',
+            //Pagos inmediatos
+            'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.':'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.',
+            //Soporte 24/7
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites con atención personalizada y rápida las 24 horas, todos los días.':'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites con atención personalizada y rápida las 24 horas, todos los días.',
+            'Dólar digital (USDT)':'Dólar digital (USDT)',
+            'El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y  protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!':'El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y  protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!',
             //SECTION SIX
             '¿ESTÁS LISTO?':'¿ESTÁS LISTO?',
             'Comencemos':'Comencemos',
@@ -156,13 +162,14 @@ const resources = {
             'Política de privacidad':'Política de privacidad',
             'Términos & condiciones':'Términos & condiciones',
             'Comunidad':'Comunidad',
+            'Soporte & FAQs':'Soporte & FAQs',
             //btn
             "Visitar plataforma":"Visitar plataforma",
             //Slogan
             'Megapix, innovando el presente & futuro':'Megapix, innovando el presente & futuro',
             //Switch
-            'Empresas':'Empresas',
-            'Turistas':'Turistas',
+            'Negocios AR':'Negocios AR',
+            'Clientes BR':'Clientes BR',
 
 
 
@@ -178,15 +185,19 @@ const resources = {
             // SECTION EMPRESAS
             'cobra reales y recibí dólar digital':'Receba reais e ganhe dólar digital',
             'GRATIS':'Falta',
-            'Obtené tu cuenta y cuando desees retirá en pesos o cripto sin comisiones':'Falta',
+            'Obtené tu cuenta y cuando desees retirá en pesos o cripto.':'Falta',
             //SECTION ONE
             'Potenciá tu negocio':'Falta',
-            'Más del 30% de quienes que visitan Argentina son de Brasil, sumado a miles de personas residentes que desarrollan actividades comerciales en destinos como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Aprovechá esta oportunidad para conectar tu negocio con este importante mercado.':'Falta',
+            'Más del 30% de los turistas que visitan Argentina provienen de Brasil, además de miles de residentes brasileños que desarrollan actividades comerciales en destinos clave como Buenos Aires, Ushuaia, Bariloche, Mendoza y Misiones. Es por esto que desde Megapix pensamos una solución basada en el método de pago más popular en Brasil: PIX.':'Falta',
 
-            'Obtené nuestra plataforma de cobro rápida y segura, que utiliza PIX, el método de pago más popular en Brasil. Destacá tu comercio frente a la competencia y brindá un servicio excepcional.':'Falta',
+            '¡Conectando con este mercado estratégico vas a poder hacer crecer los ingresos de tu negocio o emprendimiento!':'Falta',
 
-            '¡Descubrí cómo podemos transformar tu negocio!':'Falta',
+            'Entonces... ¿Ya te convencimos?':'Falta',
+            'Si querés comenzar a cobrar con Pix ya podés hacerlo a través de nuestra plataforma, es 100% segura y gratuita.':'falta',
+
             'crecé sin fronteras':'Falta',
+
+            '¡Potencia tu negocio al alcance de tu mano con Megapix!':'falta',
             //TEXT MOVE
             'cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis cobrá reales, recibí dólar DIGITAL y retirá en pesos o cripto gratis':'Falta',
             //SECTION TWO
@@ -199,7 +210,7 @@ const resources = {
             "Rápido":"falta",
             "Fácil":"falta",
             "Sin comisiones":"falta",
-            "Transacciones sin posnet":"falta",
+            "Pagos inmediatos":"falta",
             "Cobros sin barreras":"falta",
             "Segura":"falta",
             "Soporte 24/7":"falta",
@@ -209,7 +220,7 @@ const resources = {
             '¡Realicemos un cobro en vivo y en directo!':'Falta',
             //Inputs
             'Monto (ARS)':'Falta',
-            'Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷':'Falta',
+            'Ingresa el monto que queres cobrar 👉🏻':'Falta',
             'Te mostramos el valor que vas a recibir en USDT (Dolar digital)':'Falta',
             'El USDT es una criptomoneda que mantiene el mismo valor que el dolar estadonudense, lo que significa que 1 USDT equivale a un dolar.':'Falta',
             'Motivo':'Falta',
@@ -232,20 +243,22 @@ const resources = {
             'Gestión de usuarios':'Falta',
             //SECTION FIVE
             'Características & Beneficios':'Falta',
-            'Seguridad en cada cobro':'Falta',
+            'Cobros seguros':'Falta',
             'Nuestro sistema de cobro ofrece la máxima seguridad, eliminando los riesgos vinculados al manejo de efectivo y minimizando los errores humanos. Gracias a nuestra tecnología avanzada, cada transacción es precisa y protegida, asegurando un proceso ágil y sin complicaciones.':'Falta',
             'Multiplataforma':'Falta',
-            'Estar fuera de tu casa ya no es un problema, la plataforma puede usarse desde cualquier dispositivo con conexión a internet, ya sea tu celular o tablet.':'Falta',
+            'Podrás acceder y utilizar la plataforma desde cualquier dispositivo que tenga conexión a internet, ya sea un celular o una tablet, sin necesidad de contar con una computadora para ello.':'Falta',
             'Control de sucursales':'Falta',
-            'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una. (Acciones limitadas a los roles asignados)':'Falta',
+            'Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una (Roles y permisos asignados a quien consideres).':'Falta',
             'Roles y permisos':'Falta',
-            'Megapix ofrece un sistema de administracion y division de tareas reduciendo  la carga administrativa y  aumentando la eficiencia operativa.':'Falta',
+            'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.':'Falta',
             'Plataforma sin costo':'Falta',
-            'Nuestra plataforma es completamente gratuita, lo que significa que no tendrás que preocuparte por tarifas ocultas ni comisiones por registro o uso.':'Falta',
-            'Transferencias al instante':'Falta',
-            'Recibí tus cobros al instante de manera facil y segura':'Falta',
-            'Soporte':'Falta',
-            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días.':'Falta',
+            'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.':'Falta',
+            //Pagos inmediatos
+            'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.':'Falta',
+            //Soporte 24/7
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites con atención personalizada y rápida las 24 horas, todos los días.':'Falta',
+            'Dólar digital (USDT)':'falta',
+            'El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y  protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!':'Falta',
             //SECTION SIX
             '¿ESTÁS LISTO?':'Falta',
             'Comencemos':'Falta',
@@ -325,13 +338,14 @@ const resources = {
             'Política de privacidad':'falta',
             'Términos & condiciones':'falta',
             'Comunidad':'falta',
+            'Soporte & FAQs':'falta',
             //btn
             "Visitar plataforma":"falta",
             //Slogan
             'Megapix, innovando el presente & futuro':'falta',
             //Switch
-            'Empresas':'falta',
-            'Turistas':'falta',
+            'Negocios AR':'Negócios AR',
+            'Clientes BR':'falta',
 
 
 

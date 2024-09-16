@@ -126,7 +126,7 @@ const Inputs = () => {
         </div>
         {(!hideMessages && showMessageArs) && (
           <div ref={messageRef} className='containerMessage arg'>
-            <p className='messagePay'>{t('Ingresá el monto que querés cobrar en pesos ARG. 🇦🇷')}</p>
+            <p className='messagePay'>{t('Ingresa el monto que queres cobrar 👉🏻')}</p>
           </div>
         )}
       

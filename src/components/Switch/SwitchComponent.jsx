@@ -74,10 +74,10 @@ export default function SwitchComponent() {
                 }}
             >
                 <ToggleButton value="empresas" aria-label='empresas'>
-                    <p className='empresa'>{t('Empresas')}</p>
+                    <p className='empresa'>{t('Negocios AR')}</p>
                 </ToggleButton>
                 <ToggleButton value="turistas" aria-label="turistas">
-                <p className='turista'>{t('Turistas')}</p>
+                <p className='turista'>{t('Clientes BR')}</p>
                 </ToggleButton>
             </ToggleButtonGroup>
         </Box>

@@ -13,7 +13,7 @@ const SectionSix = () => {
                 <p className='itemSix'>{t('¿ESTÁS LISTO?')}</p>
                 <h2 className='titleSectionSix'>{t('Comencemos')}</h2>
                 <p className='subtitleSectionSix'>{t('Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.')}</p>
-                <ButtonComponent title={t('Ir a la plataforma')} />
+                <ButtonComponent title={t('Visitar plataforma')} />
             </div>
             
                 <div className='containerVideo'>
