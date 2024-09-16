@@ -81,3 +81,9 @@
         font-size: 2em;
     }
 }
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .titleSloganContainer {
+        width: 60%;
+    }
+}
+

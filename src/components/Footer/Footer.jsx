@@ -17,9 +17,12 @@ const Footer = ({ link }) => {
       <div className="footer">
         <div className="footerOrder">
           <div className="containerLogoFooter">
-            <img className="logoFooter" src={LogoFooter} />
+            <a href="#top">
+              <img className='logoFooter' src={LogoFooter} alt="Logo Megapix" />
+            </a>
             <p className="footerProduct">{t('Un producto de Polynomium®')}</p>
           </div>
+
           <div className="containerTotal">
             <div className="listResponsive">
             <div className="columnOneFooter">
@@ -49,14 +52,7 @@ const Footer = ({ link }) => {
               >
                 <p className="textNavThree">{t('Soporte & FAQs')}</p>
               </NavLink>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  isActive ? "navlink active" : "navlink inactive"
-                }
-              >
-                <p className="textNavThree">{t('Contacto')}</p>
-              </NavLink>
+
             </div>
             <div className="columnOneFooter">
               <NavLink
@@ -76,9 +72,22 @@ const Footer = ({ link }) => {
               >
                 <p className="textNavThree">{t('Términos & condiciones')}</p>
               </NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "navlink active" : "navlink inactive"
+                }
+              >
+                <p className="textNavThree">{t('Contacto')}</p>
+              </NavLink>
             </div>
+            
             </div>
-            <span className="lineResponsive"></span>
+
+            
+          </div>
+          <span className="lineResponsive"></span>
+            <div>
             <div className="columnOneFooter">
               <p className="textNavComunidad">{t('Comunidad')}</p>
               <div className="columnOneFooterRed">
@@ -89,8 +98,8 @@ const Footer = ({ link }) => {
                   <LinkedInIcon />
                 </a>
               </div>
+              </div>
             </div>
-          </div>
         </div>
 
         <div className="containerFormas">
