@@ -4,7 +4,7 @@ import ButtonComponent from '../../components/buttonComponent/buttonComponent';
 
 const SectionSix = () => {
     const { t } = useTranslation();
-    // const gifUrl = 'https://media.giphy.com/media/0xhORIXTg2XPQeoJQk/giphy.gif';
+    const gifUrl = 'https://media.giphy.com/media/0xhORIXTg2XPQeoJQk/giphy.gif';
 
     return (
         <section className='sectionSix'>
@@ -17,7 +17,7 @@ const SectionSix = () => {
             </div>
             
                 <div className='containerVideo'>
-                    {/* <img src={gifUrl} alt='Example GIF' className='videoGif' /> */}
+                    <img src={gifUrl} alt='Example GIF' className='videoGif' />
                 </div>
             </div>
         </section>

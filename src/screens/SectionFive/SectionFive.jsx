@@ -10,9 +10,58 @@ import Inmediatos from '@images/inmediato.png';
 import Usdt from '@images/usdt.png';
 import { useTranslation } from 'react-i18next';
 import "./styles.css";
+import { useEffect, useRef, useState } from "react";
 
 const SectionFive = () => {
   const { t } = useTranslation();
+
+  const sliderRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+
+  useEffect(() => {
+    const slider = sliderRef.current;
+
+    const onMouseDown = (e) => {
+      setIsDragging(true);
+      setStartX(e.pageX - slider.offsetLeft);
+      setScrollLeft(slider.scrollLeft);
+      slider.classList.add("active");
+    };
+
+    const onMouseUp = () => {
+      setIsDragging(false);
+      slider.classList.remove("active");
+    };
+
+    const onMouseLeave = () => {
+      if (isDragging) {
+        setIsDragging(false);
+        slider.classList.remove("active");
+      }
+    };
+
+    const onMouseMove = (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; 
+      slider.scrollLeft = scrollLeft - walk;
+    };
+
+    slider.addEventListener("mousedown", onMouseDown);
+    slider.addEventListener("mouseup", onMouseUp);
+    slider.addEventListener("mouseleave", onMouseLeave);
+    slider.addEventListener("mousemove", onMouseMove);
+
+    return () => {
+      slider.removeEventListener("mousedown", onMouseDown);
+      slider.removeEventListener("mouseup", onMouseUp);
+      slider.removeEventListener("mouseleave", onMouseLeave);
+      slider.removeEventListener("mousemove", onMouseMove);
+    };
+  }, [isDragging, startX, scrollLeft]);
 
   return (
     <section className="containerSectionFive">
@@ -22,18 +71,18 @@ const SectionFive = () => {
       <div className="containerCoinFive">
         <img className="coinSectionFive" src={Coin} alt="Moneda megapix" />
       </div>
-      <div className="containerDragCardFive">
-      <CardDrag item0
+      <div className="containerDragCardFive" ref={sliderRef}>
+      <CardDrag
           imageDrag={CobrosSeguros}
           titleDrag={t('Cobros seguros')}
           textDrag={t('Nuestro sistema de cobro ofrece la máxima seguridad, eliminando los riesgos vinculados al manejo de efectivo y minimizando los errores humanos. Gracias a nuestra tecnología avanzada, cada transacción es precisa y protegida, asegurando un proceso ágil y sin complicaciones.')}
         />
-        <CardDrag item1
+        <CardDrag 
           imageDrag={Multiplataforma}
           titleDrag={t('Multiplataforma')}
           textDrag={t('Podrás acceder y utilizar la plataforma desde cualquier dispositivo que tenga conexión a internet, ya sea un celular o una tablet, sin necesidad de contar con una computadora para ello.')}
         />
-        <CardDrag item2
+        <CardDrag
           imageDrag={Control}
           titleDrag={t('Control de sucursales')}
           textDrag={t('Podrás adherir todas las sucursales que estén asociadas a tu CUIT único y visualizar el historial de movimientos de cada una (Roles y permisos asignados a quien consideres).')}
@@ -64,6 +113,7 @@ const SectionFive = () => {
           textDrag={t('El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y  protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!')}
         /> 
       </div>
+      
     </section>
   );
 };
