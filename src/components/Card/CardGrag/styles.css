@@ -90,18 +90,18 @@
 
 @media (min-width: 360px) {
     .itemDrag {
-        width: 300px;
+        width: 340px;
         height: 450px;
     }
     .subtitleCardDrag {
-        font-family: "Poppins-Regular", sans-serif;
+        font-family: "Poppins-Light", sans-serif;
         font-size: .9em;
         text-align: start;
     }
     .titleCardDrag {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         text-wrap: balance;
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     .containerInfoDrag {
         padding: 20px;
@@ -120,6 +120,7 @@
     .subtitleCardDrag {
         font-size: 1em;
         text-align: start;
+        font-family: "Poppins-Light", sans-serif;
     }
     .itemDrag {
         width: 470px;

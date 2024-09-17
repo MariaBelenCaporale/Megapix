@@ -19,6 +19,10 @@
     width: 100%;
     z-index: 99;
 }
+.linkLogoNav {
+    display: flex;
+    justify-content: center;
+}
 
 
 @media (min-width: 360px) and (max-width: 576px){
@@ -44,12 +48,17 @@
         width: 100%;      
     }
     .logo {
-        width: 80%;
+        width: 60%;
     }
     .containerNav {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .logo {
+        width: 60%;
     }
 }

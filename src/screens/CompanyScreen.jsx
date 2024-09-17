@@ -28,7 +28,7 @@ const CompanyScreen = () => {
         <div className="containerCompany">
             <div className="containerHeroCompany">
                 <Hero 
-                    title={t('cobra reales y recibí dólar digital')}
+                    title={t('cobra reales y recibí dólar digital ')}
                     titleColor={t('GRATIS')} 
                     fontFamily='Bebas Neue, sans-serif'
                     subtitle=

@@ -6,7 +6,7 @@ const resources = {
         translation: {
             // SECTION EMPRESAS
 
-            'cobra reales y recibí dólar digital':'cobra reales y recibí dólar digital',
+            'cobra reales y recibí dólar digital ':'cobra reales y recibí dólar digital ',
             'GRATIS':'GRATIS',
             'Obtené tu cuenta y cuando desees retirá en pesos o cripto.':'Obtené tu cuenta y cuando desees retirá en pesos o cripto.',
             //SECTION ONE
@@ -183,7 +183,7 @@ const resources = {
     br: {
         translation: {
             // SECTION EMPRESAS
-            'cobra reales y recibí dólar digital':'Receba reais e ganhe dólar digital',
+            'cobra reales y recibí dólar digital ':'falta ',
             'GRATIS':'Falta',
             'Obtené tu cuenta y cuando desees retirá en pesos o cripto.':'Falta',
             //SECTION ONE

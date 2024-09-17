@@ -93,10 +93,11 @@
   .cardFour {
     margin: 0px;
     padding: 30px 20px;
-    width: 75%;
+    width: 80%;
+    gap: 2rem;
   }
   .titleFour {
-    font-size: 2em;
+    font-size: 1.2em;
   }
   .containerBtnFour {
     display: flex;

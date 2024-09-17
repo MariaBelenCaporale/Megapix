@@ -26,10 +26,9 @@
 .containerTextSix {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 40%;
     align-items: flex-start;
     justify-content: center;
-    padding: 0px 40px;
 }
 .itemSix {
     color: #FFF;
@@ -49,11 +48,10 @@
     font-weight: 500;
     line-height: 120%; 
     margin: 0px;
-    width: 50%;
 }
 .subtitleSectionSix {
     color: #FFF;
-    font-family: "Poppins-Regular", sans-serif;
+    font-family: 'Poppins-Light', sans-serif;
     font-size: 1em;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +69,8 @@
 .containerVideosSix {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
+    flex-direction: row;
 }
 .videoGif {
     width: 800px; 
@@ -164,13 +163,12 @@
         width: 500px;
     }
 }
-@media (min-width: 993px) and (max-width: 1400px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     .titleSectionSix {
      font-size: 4em;
     }
     .sectionSix {
         flex-direction: column-reverse;
-        gap: 3rem;
     }
     .itemSix {
         font-size: 2.3em;
@@ -182,14 +180,28 @@
         padding: 0px;
         width: 100%;
     }
-    .containerVideosSix {
-        gap: 0px;
-        width: 90%;
-        height: auto;
-        flex-direction: row;
+} 
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .titleSectionSix {
+     font-size: 4em;
     }
-    .videoGif {
-        width: 500px;
+    .subtitleSectionSix {
+        font-size: 1.2em;
+        font-family: 'Poppins-Light';
+    }
+    .containerTextSix {
+        width: 50%;
     }
 } 
 
+@media (min-width: 1441px) {
+    .titleSectionSix {
+        font-size: 4.5em;
+    }
+    .subtitleSectionSix {
+        font-size: 1.5em;
+    }
+    .containerTextSix {
+        width: 50%;
+    }
+}

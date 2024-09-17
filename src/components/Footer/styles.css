@@ -205,6 +205,9 @@
         gap: 1em;
         width: 100%;
     }
+    .columnOneFooter {
+        text-wrap: nowrap;
+    }
     .textNavOne, .textNavThree, .textNavComunidad {
         font-size: .75em;
         font-family: "Poppins-Regular", sans-serif;
