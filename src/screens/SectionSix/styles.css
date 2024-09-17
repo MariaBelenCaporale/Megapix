@@ -91,16 +91,18 @@
     }
     .subtitleSectionSix {
         width: 100%;
+        text-align: center;
     }
     .containerTextSix {
         padding: 0px;
-        width: 90%;
+        width: 100%;
+        align-items: center;
     }
     .containerVideosSix {
         gap: 3em;
         width: 350px;
         height: auto;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .videoGif {
         width: 300px;

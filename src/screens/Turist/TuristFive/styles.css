@@ -47,7 +47,9 @@
     user-select: none;
     cursor: pointer;
 }
-
+.containerDragFive::-webkit-scrollbar {
+    display: none; 
+} 
 
 @media (min-width: 360px) and (max-width: 576px)  {
     .titleTuristFive {
