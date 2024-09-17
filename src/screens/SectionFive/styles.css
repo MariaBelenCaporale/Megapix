@@ -96,7 +96,10 @@
 .containerDragCard {
     overflow-x: auto; 
     flex-direction: row; 
-    }
+}
+.coinSectionFive {
+    display: none;
+}
 }
 
 @media (min-width: 577px)  {

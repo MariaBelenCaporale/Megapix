@@ -99,6 +99,9 @@
     font-weight: 400;
     width: 90%;
   }
+  .containerBackground {
+    width: 85%;
+  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .titleHero {
@@ -112,6 +115,9 @@
     width: 90%;
     font-family: "Poppins-Regular", sans-serif;
     font-size: 1.1em;
+  }
+  .containerBackground {
+    width: 80%;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
