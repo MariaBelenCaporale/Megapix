@@ -221,3 +221,11 @@
         justify-content: center;
     }   
 }
+@media (min-width: 1441px) {
+    .containerSecSeven {
+        height: 100vh;
+    }
+    .containerAsk {
+        height: auto;
+    }
+}

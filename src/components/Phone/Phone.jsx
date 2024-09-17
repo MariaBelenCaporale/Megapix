@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import TuristOne from '../../screens/Turist/TuristOne/TuristOne';
 
 
+
 const PhoneComponent = () => {
     const [transform, setTransform] = useState('scale(1) translateY(0)');
     const coverRef = useRef(null);
@@ -50,6 +51,7 @@ const PhoneComponent = () => {
                     />
                 </div>
                 <TuristOne />
+
             </section>
             
             <div ref={turistOneRef} />

@@ -30,12 +30,14 @@
   overflow-x: auto;
   white-space: nowrap;
   margin: 40px;
+  user-select: none;
   gap: 1em;
 }
 
 
 .containerButtonSix button {
   flex: 0 0 auto;
+  user-select: none;
 }
 .containerTitleSix {
   display: flex;
@@ -143,5 +145,8 @@
 @media (min-width: 1441px)  {
   .containerTitleSix {
     width: 50%;
+  }
+  .containerButtonSix {
+    user-select: none;
   }
 }

@@ -369,10 +369,12 @@
         gap: 2em;
     }
     .footerOrder {
+        height: 300px;
         padding: 40px 60px;
         width: 80%;
-        gap: 3em;
+        gap: 0px;
         top: 250px;
+        justify-content: space-around;
     }
     .lineResponsive {
         display: none;

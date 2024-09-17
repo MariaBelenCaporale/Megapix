@@ -204,6 +204,12 @@
         font-size: 1.5em;
     }
     .containerTextSix {
-        width: 50%;
+        width: 45%;
+    }
+    .containerVideosSix {
+        width: 80%;
+    }
+    .subtitleSectionSix {
+        padding: 20px 0px 25px 0px;
     }
 }

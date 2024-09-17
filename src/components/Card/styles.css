@@ -32,7 +32,7 @@
 }
 .textCard {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Light", sans-serif;
     font-size: 1.2em;
     font-weight: 500;
     line-height: 150%;
@@ -117,7 +117,7 @@
         width: 150px;
     }
     .textCard {
-        font-family: "Poppins-Regular", sans-serif;
+        font-family: "Poppins-Light", sans-serif;
         font-size: 1em;
     }
     .containerCard {
@@ -139,7 +139,7 @@
         width: 70%;
     }
     .textCard {
-        font-family: "Poppins-Regular", sans-serif;
+        font-family: "Poppins-Light", sans-serif;
         font-size: 1em;
     }
     .tituloCard {
@@ -179,5 +179,12 @@
     }
     .tituloCard {
         font-size: 6em;
+    }
+}
+@media (min-width: 1441px) {
+    .textCard {
+        font-family: "Poppins-Light", sans-serif;
+        font-size: 1.2em;
+        width: 90%;
     }
 }

@@ -217,3 +217,15 @@
     overflow: hidden;
   }
 }
+
+@media (min-width: 1441px) {
+  .sectionFour {
+    justify-content: space-around;
+  }
+  .cardFour {
+    width: 30%;
+  }
+  .containerMoveImageFour {
+    width: auto;
+  }
+}

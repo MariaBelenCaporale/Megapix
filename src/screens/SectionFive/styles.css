@@ -127,3 +127,8 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .containerFive {
+        width: 70%;
+    }
+}
