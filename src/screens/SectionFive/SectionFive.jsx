@@ -2,7 +2,7 @@ import CardDrag from "../../components/Card/CardGrag/CardDrag";
 import Multiplataforma from '@images/Multiplataforma.png';
 import Plataforma from '@images/plataforma-costo.png';
 import Control from '@images/sucursales.png';
-import Roles from '@images/Roles.png';
+import Roles from '@images/roles.png';
 import Soporte from '@images/soporte.png';
 import Coin from '@images/coinUno.png';
 import CobrosSeguros from '@images/cobros-seguros.png';
