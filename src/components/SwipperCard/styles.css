@@ -38,6 +38,7 @@
   
   .swiper-3d .swiper-slide-shadow {
     background-color: rgba(0, 0, 0, 0);
+    position: relative;
   }
   
   @media (min-width: 360px) and (max-width: 576px)  {
@@ -59,12 +60,21 @@
       height: 500px;
     }
   }
-  @media (min-width: 993px) and (max-width: 1400px) {
+  @media (min-width: 993px) and (max-width: 1200px) {
     .swiper {
       width: 400px;
       height: 500px;
     }
     .imgSwipper {
       width: 100%;
+    }
+  }
+  @media (min-width: 1201px) and (max-width: 1440px) {
+    .swiper {
+      width: 400px;
+      height: 500px;
+    }
+    .imgSwipper {
+      width: 550px;
     }
   }

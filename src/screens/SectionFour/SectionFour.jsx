@@ -76,7 +76,7 @@ const SectionFour = () => {
                         <SwiperCard imagen={CobroDos} imagenUno={CobroUno} />
                     ) }
                     {activeImage === 'Gestión de ventas' && (
-                        <SwiperCard imagen={Ventas} imagenUno={VentasDos} />
+                        <SwiperCard imagen={Ventas} imagenTres={VentasDos} />
                     ) }
                 </div>
             </div>
