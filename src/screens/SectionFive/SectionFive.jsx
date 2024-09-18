@@ -14,11 +14,38 @@ import { useEffect, useRef, useState } from "react";
 
 const SectionFive = () => {
   const { t } = useTranslation();
-
-  const sliderRef = useRef(null);
+  const [circleStyle, setCircleStyle] = useState({ display: 'flex', transform: 'scale(0)' });
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
+  const sliderRef = useRef(null);
+
+  const handleMouseMove = (e) => {
+    setCircleStyle({
+      display: 'block',
+      left: `${e.clientX - 45}px`,
+      top: `${e.clientY - 45}px`,
+      transform: 'scale(1)',
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setCircleStyle({
+      ...circleStyle,
+      transform: 'scale(0)',
+    });
+  };
+
+  useEffect(() => {
+    const container = document.querySelector('.containerDragCardFive');
+    container.addEventListener('mousemove', handleMouseMove);
+    container.addEventListener('mouseleave', handleMouseLeave);
+
+    return () => {
+      container.removeEventListener('mousemove', handleMouseMove);
+      container.removeEventListener('mouseleave', handleMouseLeave);
+    };
+  }, []);
 
   useEffect(() => {
     const slider = sliderRef.current;
@@ -46,7 +73,7 @@ const SectionFive = () => {
       if (!isDragging) return;
       e.preventDefault();
       const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 3; 
+      const walk = (x - startX) * 3;
       slider.scrollLeft = scrollLeft - walk;
     };
 
@@ -72,6 +99,9 @@ const SectionFive = () => {
         <img className="coinSectionFive" src={Coin} alt="Moneda megapix" />
       </div>
       <div className="containerDragCardFive" ref={sliderRef}>
+      <div className="cursor-circle" style={circleStyle}>
+        <p>Drag</p>
+        </div>
       <CardDrag
           imageDrag={CobrosSeguros}
           titleDrag={t('Cobros seguros')}

@@ -10,7 +10,31 @@
     src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
-
+  .cursor-circle {
+    z-index: 9;
+    position: fixed; 
+    width: 90px; 
+    height: 90px; 
+    background-color: #62fee19c; 
+    border-radius: 50%; 
+    pointer-events: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease; 
+  }
+  
+  .cursor-circle p {
+    z-index: 9;
+    font-family: 'Poppins-Regular';
+    font-size: 1em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  
+  
 .containerCoinFive {
     display: flex;
     align-items: center;
@@ -69,12 +93,13 @@
     overflow-y: hidden;
     white-space: nowrap;
     transition: all 0.2s;
-    cursor: pointer;
+    cursor: grab;
     user-select: none;
 }
 
 .containerDragCardFive::-webkit-scrollbar {
     display: none; 
+    cursor: grabbing;
 }
 
 

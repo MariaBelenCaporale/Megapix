@@ -3,6 +3,7 @@ import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownR
 import { useTranslation } from 'react-i18next';
 import Brasil from '@images/brasil.jpg';
 import Argentina from '@images/argentina.png';
+import EstadosUnidos from '@images/banderaEEUU.png'; 
 import './styles.css';
 
 const LanguageSelect = () => {
@@ -12,10 +13,24 @@ const LanguageSelect = () => {
     const languageFlags = {
         'Portugués': Brasil,
         'Español': Argentina,
+        'Inglés': EstadosUnidos, 
     };
 
     const handleLanguageChange = (language) => {
-        const lng = language === 'Portugués' ? 'br' : 'es';
+        let lng;
+        switch (language) {
+            case 'Portugués':
+                lng = 'br';
+                break;
+            case 'Español':
+                lng = 'es';
+                break;
+            case 'Inglés':
+                lng = 'en'; 
+                break;
+            default:
+                lng = 'es'; 
+        }
         i18n.changeLanguage(lng);
         setDropdownOpen(false);
     };
@@ -24,7 +39,19 @@ const LanguageSelect = () => {
         setDropdownOpen(!isDropdownOpen);
     };
 
-    const selectedLanguage = i18n.language === 'br' ? 'Portugués' : 'Español';
+    const selectedLanguage = (() => {
+        switch (i18n.language) {
+            case 'br':
+                return 'Portugués';
+            case 'es':
+                return 'Español';
+            case 'en':
+                return 'Inglés'; 
+            default:
+                return 'Español'; 
+        }
+    })();
+
     const selectedFlag = languageFlags[selectedLanguage];
 
     return (
@@ -43,6 +70,10 @@ const LanguageSelect = () => {
                     <div className='containerFlag' onClick={() => handleLanguageChange('Español')}>
                         <img className='flag' src={Argentina} alt="Español" />
                         <p className='idioms'>Español</p>
+                    </div>
+                    <div className='containerFlag' onClick={() => handleLanguageChange('Inglés')}>
+                        <img className='flag' src={EstadosUnidos} alt="Inglés" />
+                        <p className='idioms'>Inglés</p>
                     </div>
                 </div>
             )}
