@@ -1,10 +1,11 @@
 import './styles.css';
 import { useTranslation } from 'react-i18next';
+import Roscon from '@images/Main.gif';
 import ButtonComponent from '../../components/buttonComponent/buttonComponent';
 
 const SectionSix = () => {
     const { t } = useTranslation();
-    const gifUrl = 'https://media.giphy.com/media/0xhORIXTg2XPQeoJQk/giphy.gif';
+
 
     return (
         <section className='sectionSix'>
@@ -17,7 +18,7 @@ const SectionSix = () => {
             </div>
             
                 <div className='containerVideo'>
-                    <img src={gifUrl} alt='Example GIF' className='videoGif' />
+                    <img src={Roscon} alt='Roscón giratorio' className='videoGif' />
                 </div>
             </div>
         </section>
