@@ -69,12 +69,20 @@
 .containerVideosSix {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 80%;
     flex-direction: row;
+    justify-content: space-between;
 }
 .videoGif {
-    width: 800px; 
+    width: 900px;
     height: auto;
+}
+.containerVideo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -105,7 +113,7 @@
         flex-direction: column;
     }
     .videoGif {
-        width: 300px;
+        width: 500px;
     }
     
 }
@@ -122,19 +130,21 @@
     }
     .subtitleSectionSix {
         width: 100%;
+        text-align: center;
     }
     .containerTextSix {
         padding: 0px;
         width: 100%;
+        align-items: center;
     }
     .containerVideosSix {
         gap: 3em;
         width: 350px;
         height: auto;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .videoGif {
-        width: 400px;
+        width: 600px;
     }
 }
 @media (min-width: 769px) and (max-width: 992px)  {
@@ -144,25 +154,28 @@
     .sectionSix {
         flex-direction: column-reverse;
         gap: 3rem;
+        margin-top: 100px;
     }
     .itemSix {
         font-size: 2.3em;
     }
     .subtitleSectionSix {
         width: 100%;
+        text-align: center;
     }
     .containerTextSix {
         padding: 0px;
-        width: 100%;
+        width: 80%;
+        align-items: center;
     }
     .containerVideosSix {
         gap: 3em;
         width: 90%;
         height: auto;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .videoGif {
-        width: 500px;
+        width: 700px;
     }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -192,7 +205,7 @@
         font-family: 'Poppins-Light';
     }
     .containerTextSix {
-        width: 50%;
+        width: 100%;
     }
 } 
 
@@ -204,12 +217,15 @@
         font-size: 1.5em;
     }
     .containerTextSix {
-        width: 45%;
+        width: 80%;
     }
     .containerVideosSix {
         width: 80%;
     }
     .subtitleSectionSix {
         padding: 20px 0px 25px 0px;
+    }
+    .videoGif {
+        width: 1200px;
     }
 }

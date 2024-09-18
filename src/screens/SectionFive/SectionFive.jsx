@@ -100,7 +100,7 @@ const SectionFive = () => {
       </div>
       <div className="containerDragCardFive" ref={sliderRef}>
       <div className="cursor-circle" style={circleStyle}>
-        <p>Drag</p>
+        <p>Deslizar</p>
         </div>
       <CardDrag
           imageDrag={CobrosSeguros}
