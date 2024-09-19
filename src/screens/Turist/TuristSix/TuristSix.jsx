@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
-import Fondo from "@images/dialog.png";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
+import Fondo from "@images/dialog.png";
 import Food from "@images/food.png";
 import Bodegas from "@images/bodegas.png";
 import Ski from "@images/ski.png";

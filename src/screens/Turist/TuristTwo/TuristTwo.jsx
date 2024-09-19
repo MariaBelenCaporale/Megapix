@@ -1,5 +1,7 @@
-import './styles.css';
 import { useTranslation } from 'react-i18next';
+import './styles.css';
+
+
 
 const TuristTwo = () => {
     const { t } = useTranslation();

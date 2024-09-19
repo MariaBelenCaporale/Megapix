@@ -1,10 +1,9 @@
 
 import  { useRef, useEffect } from 'react';
 import Card from '../../components/Card/Card';
-import './styles.css'; 
 import TextMove from '../../components/TextMove/TextMove';
 import { useTranslation } from 'react-i18next';
-
+import './styles.css'; 
 
 
 const SectionOne = () => {

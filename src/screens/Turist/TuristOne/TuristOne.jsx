@@ -1,4 +1,3 @@
-import './styles.css';
 import Ushuaia from '@images/ushuaia.png';
 import Mendoza from '@images/mendoza.png';
 import Bariloche from '@images/bariloche.png';
@@ -13,6 +12,8 @@ import Wine from '@images/wine.png';
 import PagoPix from '@images/pagoPix.png';
 import Woman from '@images/woman.png';
 import Obelisco from '@images/obelisco.png';
+import './styles.css';
+
 
 
 const images = [Ushuaia, Mendoza, Bariloche, Work, iguazuOffice, Obelisco, Puente, PixCard, Coffee, Wine, PagoPix, Woman, Iguazu, Nieve]; 

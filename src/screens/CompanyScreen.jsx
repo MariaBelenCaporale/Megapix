@@ -1,10 +1,7 @@
 import './styles.css';
 import Hero from "../components/HeroText/HeroText";
-import CoinOne from '@images/coinUno.png';
-import CoinTwo from '@images/coinBlur.png';
-import CoinOneIz from '@images/coinIzq.png';
-import MegapixGlass from '@images/Megapix-Glass.png';
-import CoinTwoIz from '@images/coinBlurIzq.png';
+import Slogan from "../components/Slogan/Slogan";
+import Footer from "../components/Footer/Footer";
 import SectionOne from "./SectionOne/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
@@ -12,8 +9,11 @@ import SectionFour from "./SectionFour/SectionFour";
 import SectionFive from "./SectionFive/SectionFive";
 import SectionSix from "./SectionSix/SectionSix";
 import SectionSeven from "./SectionSeven/SectionSeven";
-import Slogan from "../components/Slogan/Slogan";
-import Footer from "../components/Footer/Footer";
+import CoinOne from '@images/coinUno.png';
+import CoinTwo from '@images/coinBlur.png';
+import CoinOneIz from '@images/coinIzq.png';
+import MegapixGlass from '@images/Megapix-Glass.png';
+import CoinTwoIz from '@images/coinBlurIzq.png';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 

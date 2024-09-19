@@ -9,8 +9,8 @@ import CobrosSeguros from '@images/cobros-seguros.png';
 import Inmediatos from '@images/inmediato.png';
 import Usdt from '@images/usdt.png';
 import { useTranslation } from 'react-i18next';
-import "./styles.css";
 import { useEffect, useRef, useState } from "react";
+import "./styles.css";
 
 const SectionFive = () => {
   const { t } = useTranslation();

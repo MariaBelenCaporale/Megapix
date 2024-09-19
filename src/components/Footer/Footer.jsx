@@ -1,11 +1,11 @@
-import "./styles.css";
 import { NavLink } from "react-router-dom";
-import Formas from "@images/formas.png";
 import LogoFooter from "../../assets/logo-megapix.png";
+import Formas from "@images/formas.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PropTypes from "prop-types";
 import { useTranslation } from 'react-i18next';
+import "./styles.css";
 
 const Footer = ({ link }) => {
   const { t } = useTranslation();

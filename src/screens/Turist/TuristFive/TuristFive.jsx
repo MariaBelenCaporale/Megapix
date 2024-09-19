@@ -6,8 +6,10 @@ import Seguridad from '@images/seguridad.png';
 import Soporte from '@images/soporte.png';
 import Efectivo from '@images/efectivo.png';
 import { useTranslation } from 'react-i18next';
-import './styles.css'
 import { useEffect, useRef, useState } from 'react';
+import './styles.css';
+
+
 
 const TuristFive = () => {
   const { t } = useTranslation();

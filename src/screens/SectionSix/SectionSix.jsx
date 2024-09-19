@@ -1,7 +1,7 @@
-import "./styles.css";
 import { useTranslation } from "react-i18next";
 import Roscon from "@images/roscon.gif";
 import ButtonComponent from "../../components/buttonComponent/buttonComponent";
+import "./styles.css";
 
 const SectionSix = () => {
   const { t } = useTranslation();

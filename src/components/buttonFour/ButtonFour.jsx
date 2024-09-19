@@ -1,6 +1,6 @@
-import './styles.css';
 import PropTypes from 'prop-types';
 import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
+import './styles.css';
 
 const ButtonFour = ({ title, onClick, isActive }) => {
     return (

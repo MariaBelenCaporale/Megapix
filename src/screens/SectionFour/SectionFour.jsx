@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Pix from '@images/pix.png';
 import ButtonFour from '../../components/buttonFour/ButtonFour';
+import SwiperCard from '../../components/SwipperCard/SwipperCard';
+import Pix from '@images/pix.png';
 import GestionTiendas from '@images/gestionTiendas.png';
 import Usuarios from '@images/usuarios.png';
 import Dinero from '@images/dinero.png';
@@ -12,7 +13,6 @@ import VentasDos from '@images/ventasDos.png';
 import Monedacard from '@images/monedacard.png';
 import { useTranslation } from 'react-i18next';
 import './styles.css';
-import SwiperCard from '../../components/SwipperCard/SwipperCard';
 
 const SectionFour = () => {
     const { t } = useTranslation();

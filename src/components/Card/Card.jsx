@@ -1,6 +1,6 @@
-import './styles.css';
 import Rayo from "@images/rayo.png";
 import { useTranslation } from 'react-i18next';
+import './styles.css';
 
 const Card = () => {
     const { t } = useTranslation();

@@ -1,7 +1,7 @@
 import ButtonComponent from "../buttonComponent/buttonComponent";
-import "./styles.css";
 import { useTranslation } from 'react-i18next';
 import PropTypes from "prop-types";
+import "./styles.css";
 
 const HeroText = ({
   title,

@@ -1,6 +1,6 @@
-import './styles.css';
 import { useTranslation } from 'react-i18next';
 import PagoQRbr from '@images/PagoQR-BR.mp4';
+import './styles.css';
 
 const TuristFour = () => {
     const { t } = useTranslation();

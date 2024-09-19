@@ -1,5 +1,5 @@
-import './styles.css';
 import PropTypes from 'prop-types';
+import './styles.css';
 
 const ButtonTurist = ({ title, onClick, isActive }) => {
     return (
