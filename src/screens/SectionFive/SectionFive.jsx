@@ -10,42 +10,19 @@ import Inmediatos from '@images/inmediato.png';
 import Usdt from '@images/usdt.png';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from "react";
+import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
+import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 import "./styles.css";
 
 const SectionFive = () => {
   const { t } = useTranslation();
-  const [circleStyle, setCircleStyle] = useState({ display: 'flex', transform: 'scale(0)' });
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
   const sliderRef = useRef(null);
 
-  const handleMouseMove = (e) => {
-    setCircleStyle({
-      display: 'block',
-      left: `${e.clientX - 45}px`,
-      top: `${e.clientY - 45}px`,
-      transform: 'scale(1)',
-    });
-  };
 
-  const handleMouseLeave = () => {
-    setCircleStyle({
-      ...circleStyle,
-      transform: 'scale(0)',
-    });
-  };
 
-  useEffect(() => {
-    const container = document.querySelector('.containerDragCardFive');
-    container.addEventListener('mousemove', handleMouseMove);
-    container.addEventListener('mouseleave', handleMouseLeave);
-
-    return () => {
-      container.removeEventListener('mousemove', handleMouseMove);
-      container.removeEventListener('mouseleave', handleMouseLeave);
-    };
-  }, []);
 
   useEffect(() => {
     const slider = sliderRef.current;
@@ -90,6 +67,17 @@ const SectionFive = () => {
     };
   }, [isDragging, startX, scrollLeft]);
 
+  const handleScroll = (amount) => {
+    if (sliderRef.current) {
+      sliderRef.current.scrollTo({
+        left: sliderRef.current.scrollLeft + amount,
+        behavior: 'smooth',
+      });
+    }
+  };
+  
+  
+
   return (
     <section className="containerSectionFive">
       <div className="containerFive">
@@ -98,10 +86,11 @@ const SectionFive = () => {
       <div className="containerCoinFive">
         <img className="coinSectionFive" src={Coin} alt="Moneda megapix" />
       </div>
+
+      <div className="containerCarousel">
+      <button className="arrowButton left" onClick={() => handleScroll(-400)}><KeyboardArrowLeftRoundedIcon className="arrowCarousel"/></button>
       <div className="containerDragCardFive" ref={sliderRef}>
-      <div className="cursor-circle" style={circleStyle}>
-        <p>Deslizar</p>
-        </div>
+    
       <CardDrag
           imageDrag={CobrosSeguros}
           titleDrag={t('Cobros seguros')}
@@ -142,8 +131,10 @@ const SectionFive = () => {
           titleDrag={t('Dólar digital (USDT)')}
           textDrag={t('El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y  protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!')}
         /> 
+          
       </div>
-      
+      <button className="arrowButton right" onClick={() => handleScroll(400)}><KeyboardArrowRightRoundedIcon className="arrowCarousel"/></button>
+      </div>
     </section>
   );
 };

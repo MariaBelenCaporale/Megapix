@@ -10,31 +10,7 @@
     src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
-  .cursor-circle {
-    z-index: 9;
-    position: fixed; 
-    width: 90px; 
-    height: 90px; 
-    background-color: #62fee19c; 
-    border-radius: 50%; 
-    pointer-events: none; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.5s ease; 
-  }
-  
-  .cursor-circle p {
-    z-index: 9;
-    font-family: 'Poppins-Regular';
-    font-size: 1em;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  
-  
+
 .containerCoinFive {
     display: flex;
     align-items: center;
@@ -45,6 +21,23 @@
 .coinSectionFive {
     position: absolute;
     animation: coinSectionFive 3s ease-in-out infinite;
+}
+.containerCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.arrowButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 3em !important;
+}
+.arrowCarousel {
+    color: white;
 }
 
 @keyframes coinSectionFive {
@@ -86,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: 85%;
     flex-direction: row;
     position: relative;
     overflow-x: scroll;

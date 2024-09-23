@@ -1,16 +1,17 @@
-import { useState } from "react";
 import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
-import Fondo from "@images/dialog.png";
+import Fondo from "@images/dialog.png"; 
 import Food from "@images/food.png";
-import Bodegas from "@images/bodegas.png";
 import Ski from "@images/ski.png";
 import Indumentaria from "@images/indumentaria.png";
 import Entretenimiento from "@images/entretenimiento.png";
 import Hospedaje from "@images/hospedaje.png";
-import Vuelos from "@images/vuelos.png";
 import Excursiones from "@images/excursiones.png";
-import { useTranslation } from 'react-i18next';
+import Recuerdos from "@images/recuerdos.png";
+import { useTranslation } from "react-i18next";
+import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
+import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
+import { useEffect, useState } from "react";
 import "./styles.css";
 
 const TuristSix = () => {
@@ -18,36 +19,86 @@ const TuristSix = () => {
 
   const [activeCard, setActiveCard] = useState("Gastronomía");
   const [activeButton, setActiveButton] = useState("Gastronomía");
+  const [backgroundImage, setBackgroundImage] = useState(Fondo); 
 
   const handleButtonClick = (buttonId, cardTitle) => {
     setActiveButton(buttonId);
     setActiveCard(cardTitle);
   };
+
+  const handleArrowClick = (direction) => {
+    const cardTitles = [
+      "Recuerdos & experiencias", 
+      "Gastronomía", 
+      "Excursiones", 
+      "Hospedaje", 
+      "Entretenimiento", 
+      "Indumentaria", 
+      "Vuelos y transportes"
+    ];
+
+    const currentIndex = cardTitles.indexOf(activeCard);
+    let newIndex = currentIndex;
+
+    if (direction === "left") {
+      newIndex = (currentIndex - 1 + cardTitles.length) % cardTitles.length;
+    } else if (direction === "right") {
+      newIndex = (currentIndex + 1) % cardTitles.length;
+    }
+
+    setActiveCard(cardTitles[newIndex]);
+    setActiveButton(cardTitles[newIndex]);
+  };
+
+  useEffect(() => {
+    switch (activeCard) {
+      case "Recuerdos & experiencias":
+        setBackgroundImage(Recuerdos);
+        break;
+      case "Gastronomía":
+        setBackgroundImage(Food);
+        break;
+      case "Excursiones":
+        setBackgroundImage(Excursiones);
+        break;
+      case "Hospedaje":
+        setBackgroundImage(Hospedaje);
+        break;
+      case "Entretenimiento":
+        setBackgroundImage(Entretenimiento);
+        break;
+      case "Indumentaria":
+        setBackgroundImage(Indumentaria);
+        break;
+      case "Vuelos y transportes":
+        setBackgroundImage(Ski);
+        break;
+      default:
+        setBackgroundImage(Fondo); 
+    }
+  }, [activeCard]);
+
   return (
     <section className="containerSectionSixTu">
       <div className="containerTitleSix">
-        <h2 className="titleTuristSix">{t('¿Por dónde queres empezar?')}</h2>
+        <h2 className="titleTuristSix">{t("¿Por dónde queres empezar?")}</h2>
       </div>
       <div className="containerButtonSix">
-        <ButtonTurist
-          isActive={activeButton === "Indumentaria"}
-          title={t("Indumentaria")}
-          onClick={() => handleButtonClick("Indumentaria", "Indumentaria")}
-        />
+ 
         <ButtonTurist
           isActive={activeButton === "Recuerdos & experiencias"}
           title={t("Recuerdos & experiencias")}
           onClick={() => handleButtonClick("Recuerdos & experiencias", "Recuerdos & experiencias")}
         />
         <ButtonTurist
-          isActive={activeButton === "Ski"}
-          title={t("Ski")}
-          onClick={() => handleButtonClick("Ski", "Ski")}
-        />
-        <ButtonTurist
           isActive={activeButton === "Gastronomía"}
           title={t("Gastronomía")}
           onClick={() => handleButtonClick("Gastronomía", "Gastronomía")}
+        />
+        <ButtonTurist
+          isActive={activeButton === "Excursiones"}
+          title={t("Excursiones")}
+          onClick={() => handleButtonClick("Excursiones", "Excursiones")}
         />
         <ButtonTurist
           isActive={activeButton === "Hospedaje"}
@@ -57,93 +108,102 @@ const TuristSix = () => {
         <ButtonTurist
           isActive={activeButton === "Entretenimiento"}
           title={t("Entretenimiento")}
-          onClick={() =>
-            handleButtonClick("Entretenimiento", "Entretenimiento")
-          }
+          onClick={() => handleButtonClick("Entretenimiento", "Entretenimiento")}
         />
         <ButtonTurist
-          isActive={activeButton === "Vuelos"}
-          title={t("Vuelos")}
-          onClick={() => handleButtonClick("Vuelos", "Vuelos")}
+          isActive={activeButton === "Indumentaria"}
+          title={t("Indumentaria")}
+          onClick={() => handleButtonClick("Indumentaria", "Indumentaria")}
         />
         <ButtonTurist
-          isActive={activeButton === "Excursiones"}
-          title={t("Excursiones")}
-          onClick={() => handleButtonClick("Excursiones", "Excursiones")}
-        />
-        <ButtonTurist
-          isActive={activeButton === "Bodegas"}
-          title={t("Bodegas")}
-          onClick={() => handleButtonClick("Bodegas", "Bodegas")}
+          isActive={activeButton === "Vuelos y transportes"}
+          title={t("Vuelos y transportes")}
+          onClick={() => handleButtonClick("Vuelos y transportes", "Vuelos y transportes")}
         />
       </div>
-      <div className="containerFoodSix">
-        <img src={Fondo} className="fondo" alt="imagen de fondo comida" />
-        <div className="cardContainer">
-          {activeCard === "Gastronomía" && (
-            <CardSelect
-              image={Food}
-              title={t("Gastronomía")}
-              text={t("Argentina ofrece una experiencia gastronómica inigualable que combina tradición y sabor. Desde el famoso asado, símbolo de la cultura argentina, hasta las empanadas crujientes y las pastas caseras, cada plato cuenta una historia. No podés dejar de probar el vino Malbec en las bodegas de Mendoza o saborear un helado artesanal en Buenos Aires. La gastronomía argentina es un festín para los sentidos, perfecta para explorar mientras conocés la esencia del país. ¡Descubrí los sabores que hacen de Argentina un destino culinario único!")}
-            />
-          )}
-          {activeCard === "Recuerdos & experiencias" && (
-            <CardSelect
-              image={Food}
-              title={t("Recuerdos & experiencias")}
-              text={t("Descubrí experiencias inolvidables en cada rincón de Argentina, donde cada recuerdo va más allá. Conocerás la esencia de nuestra cultura, dejando una parte de vos en cada espacio, cada detalle y cada lugar que explores. En el norte, encontrarás una cultura vibrante, repleta de tradiciones y colores que van a cautivar todos tus sentidos. Te invitamos a disfrutar de las prestigiosas bodegas, y maravillarte con la majestuosidad de las montañas y llanuras, junto a la rica diversidad de la fauna y flora local. Dejate deslumbrar por paisajes impresionantes al pie de la cordillera de los Andes y en el fin del mundo. Llevarás en tu ser lo que realmente vale la pena vivir y sentir, experiencias que se quedarán grabadas en tu memoria para siempre.")}
-            />
-          )}
-          {activeCard === "Indumentaria" && (
-            <CardSelect
-              image={Indumentaria}
-              title={t("Indumentaria")}
-              text={t("Argentina te espera con una increíble variedad de opciones para renovar tu estilo. Desde las boutiques de diseño en Buenos Aires hasta outlets con grandes marcas a precios imperdibles. Recorre las elegantes calles de Palermo, donde los diseñadores locales exhiben las mejores prendas, o descubre los grandes centros comerciales como Abasto y Alto Palermo, donde las marcas internacionales y nacionales te esperan con ofertas únicas.")}
-            />
-          )}
-          {activeCard === "Ski" && (
-            <CardSelect
-              image={Ski}
-              title={t("Ski")}
-              text={t("La Patagonia argentina te espera con sus espectaculares centros de esquí, ideales para disfrutar del invierno en paisajes de ensueño. Desde Cerro Catedral en Bariloche hasta el Cerro Castor en Ushuaia, encontrarás pistas para todos los niveles. Disfruta de días llenos de adrenalina en la nieve, seguidos de cálidos refugios para relajarte.")}
-            />
-          )}
-          {activeCard === "Hospedaje" && (
-            <CardSelect
-              image={Hospedaje}
-              title={t("Hospedaje")}
-              text={t("Argentina te ofrece una amplia variedad de opciones de hospedaje para todos los gustos. Desde hoteles de lujo a cabañas en el medio de la montaña, cada lugar tiene su encanto y te invita a disfrutar de una estadía única. Explora ciudades llenas de historia, deléitate con la gastronomía local y relájate en alojamientos que combinan comodidad y autenticidad. Además, pagar es fácil: usa tu cuenta de PIX desde Brasil y disfruta de tu viaje sin complicaciones.")}
-            />
-          )}
-          {activeCard === "Entretenimiento" && (
-            <CardSelect
-              image={Entretenimiento}
-              title={t("Entretenimiento")}
-              text={t("Si estás buscando una experiencia cultural única, Argentina te espera con los brazos abiertos. Buenos Aires  ofrece una increíble variedad de espectáculos que van desde el tango tradicional hasta las producciones teatrales más innovadoras. No importa cuál sea tu preferencia, encontrarás el entretenimiento perfecto para vos. Visita  las salas emblemáticas del Teatro Colón, reconocido mundialmente por su arquitectura y acústica impecable. Disfruta de producciones de ópera, ballet y conciertos de nivel internacional.")}
-            />
-          )}
-          {activeCard === "Vuelos" && (
-            <CardSelect
-              image={Vuelos}
-              title={t("Vuelos")}
-              text={t("Argentina es un país lleno de contrastes y maravillas naturales, y la mejor manera de descubrirlo es viajando de norte a sur. Con la comodidad de los vuelos internos no necesitas elegir un solo destino. En Argentina, cada vuelo es una oportunidad para descubrir una nueva maravilla natural o cultural. Puedes comprar tus boletos en pesos argentinos y pagar de forma sencilla y segura con PIX desde Brasil.")}
-            />
-          )}
-          {activeCard === "Excursiones" && (
-            <CardSelect
-              image={Excursiones}
-              title={t("Excursiones")}
-              text={t("Descubrí la majestuosidad de los paisajes argentinos con excursiones inolvidables. Desde las impresionantes Cataratas del Iguazú en Misiones hasta los glaciares de la Patagonia. Argentina te invita a vivir aventuras en plena naturaleza que se adaptan a tus intereses. Ya sea que busques adrenalina, relax o cultura, acá encontrarás algo extraordinario.")}
-            />
-          )}
-          {activeCard === "Bodegas" && (
-            <CardSelect
-              image={Bodegas}
-              title={t("Bodegas")}
-              text={t("Mendoza, la capital del vino argentino, te invita a vivir una experiencia única recorriendo sus prestigiosas bodegas. Disfruta de paisajes impresionantes al pie de la cordillera de los Andes mientras degustas los mejores Malbecs del mundo, acompañado por expertos que te guiarán en cada copa. Visita bodegas de renombre, donde podrás degustar vinos de clase mundial mientras aprendes sobre los secretos detrás de cada cosecha, cada detalle está diseñado para brindarte una experiencia auténtica")}
-            />
-          )}
+
+      <div className="sliderContainer">
+        <button className="arrowButton left" onClick={() => handleArrowClick("left")}>
+          <KeyboardArrowLeftRoundedIcon className="arrowCarousel"/>
+        </button>
+        <div 
+          className="containerFoodSix" 
+          style={{ 
+            backgroundImage: `url(${backgroundImage})`, 
+            backgroundRepeat: 'no-repeat',  
+            backgroundSize: 'cover',   
+            backdropFilter: 'blur(10px)' 
+          }}
+        >
+          <div className="cardContainer">
+            {activeCard === "Recuerdos & experiencias" && (
+              <CardSelect
+                image={Recuerdos}
+                title={t("Recuerdos & experiencias")}
+                text={t(
+                  "Descubrí experiencias inolvidables en cada rincón de Argentina, donde cada recuerdo va más allá. Conocerás la esencia de nuestra cultura, dejando una parte de vos en cada espacio, cada detalle y cada lugar que explores. En el norte, encontrarás una cultura vibrante, repleta de tradiciones y colores que van a cautivar todos tus sentidos. Te invitamos a disfrutar de las prestigiosas bodegas, y maravillarte con la majestuosidad de las montañas y llanuras, junto a la rica diversidad de la fauna y flora local. Dejate deslumbrar por paisajes impresionantes al pie de la cordillera de los Andes y en el fin del mundo. Llevarás en tu ser lo que realmente vale la pena vivir y sentir, experiencias que se quedarán grabadas en tu memoria para siempre."
+                )}
+              />
+            )}
+            {activeCard === "Gastronomía" && (
+              <CardSelect
+                image={Food}
+                title={t("Gastronomía")}
+                text={t(
+                  "Argentina es un país con una gastronomía variada y llena de sabores, donde se fusionan tradiciones europeas, indígenas y criollas para crear una experiencia única e irrepetible. Desde el asado, que reúne familias y amigos, hasta las empanadas y pastas heredadas de inmigrantes, cada bocado refleja la rica mezcla de culturas que nos define. Vení a descubrir la esencia de Argentina a través de su cocina, donde cada plato es una celebración de diversidad y sabor. ¡Animate a probar lo mejor de nuestra gastronomía!"
+                )}
+              />
+            )}
+            {activeCard === "Excursiones" && (
+              <CardSelect
+                image={Excursiones}
+                title={t("Excursiones")}
+                text={t(
+                  "Te invitamos a conocer una inmensa diversidad de excursiones que te llevarán a descubrir la belleza natural de los lugares más visitados de Argentina donde vas a vivir aventuras únicas y memorables. Desde emociones extremas y momentos de tranquilidad hasta una inmersión cultural, siempre encontrarás una experiencia extraordinaria adaptada a vos. ¡Vení a disfrutar con Megapix la inmensidad de nuestros paisajes y hacé de cada excursión un recuerdo inolvidable!"
+                )}
+              />
+            )}
+            {activeCard === "Hospedaje" && (
+              <CardSelect
+                image={Hospedaje}
+                title={t("Hospedaje")}
+                text={t(
+                  "Con Megapix vas a poder acceder a una amplia variedad de opciones de hospedaje, adecuadas para todos los gustos. Desde hoteles de lujo hasta acogedoras cabañas en medio de la montaña. ¿Qué estás esperando para encontrar tu estadía ideal? Te invitamos a conocer el encanto de cada lugar y llevarte la estadía de tus sueños. No te pierdas de visitar los alojamientos argentinos con la mejor combinación del confort y la autenticidad. Utilizá tu cuenta PIX desde Brasil y disfrutá de tu viaje sin preocupaciones."
+                )}
+              />
+            )}
+            {activeCard === "Entretenimiento" && (
+              <CardSelect
+                image={Entretenimiento}
+                title={t("Entretenimiento")}
+                text={t(
+                  "¡Descubrí la magia cultural de Argentina! Te esperamos con espectáculos únicos y experiencias inolvidables. Desde el tango más auténtico hasta vibrantes obras de teatro y conciertos. Además, vas a poder explorar nuestras ferias, celebraciones, festivales, museos y arquitectura donde el arte se fusiona con la historia de manera incomparable. ¡Con Megapix vení a recorrer y conocer nuestra cultura apasionada!"
+                )}
+              />
+            )}
+            {activeCard === "Indumentaria" && (
+              <CardSelect
+                image={Indumentaria}
+                title={t("Indumentaria")}
+                text={t(
+                  "Desde las boutiques de diseño hasta los outlets con grandes marcas a precios irresistibles. ¡No te podes perder la experiencia de compras en todo el país! Te invitamos a recorrer las calles del barrio de Palermo, en Buenos Aires, donde los diseñadores locales exhiben sus prendas exclusivas confeccionadas con materiales nacionales, como el cuero argentino de alta calidad y tejidos artesanales. Además, descubrí los tradicionales ponchos y prendas de lana merino, originarias del norte y la Patagonia, que capturan la esencia de la cultura local. Con Megapix, no dudes en aprovechar el mix de marcas internacionales y nacionales con una fusión única entre lo moderno y lo auténtico."
+                )}
+              />
+            )}
+            {activeCard === "Vuelos y transportes" && (
+              <CardSelect
+                image={Ski}
+                title={t("Vuelos y transportes")}
+                text={t(
+                  "Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!':'Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!"
+                )}
+              />
+            )}
+          </div>
         </div>
+        <button className="arrowButton right" onClick={() => handleArrowClick("right")}>
+          <KeyboardArrowRightRoundedIcon className="arrowCarousel"/>
+        </button>
       </div>
     </section>
   );

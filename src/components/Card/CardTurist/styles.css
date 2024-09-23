@@ -32,7 +32,7 @@
   border-radius: 40px;
   background: #1e1e1e;
   width: 250px; 
-  height: 340px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +55,9 @@
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+.imgMove {
+  width: 130px;
 }
 
 .textCardTurOne {
