@@ -123,15 +123,20 @@ const resources = {
             '¡Es más que un método de pago, sumate a la experiencia megapix!':'¡Es más que un método de pago, sumate a la experiencia megapix!',
             //turistFive
             'Ventajas de usar ':'Ventajas de usar ',
-            'Con Megapix, las transferencias se realizan en tiempo real, sin demoras ni complicaciones.':'Con Megapix, las transferencias se realizan en tiempo real, sin demoras ni complicaciones.',
+            'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.':'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.',
             'Tecnología PIX':'Tecnología PIX',
-            'Con PIX pagás como si estuvieses en casa, de forma sencilla y sin complicaciones':'Con PIX pagás como si estuvieses en casa, de forma sencilla y sin complicaciones',
-            'Descuentos':'Descuentos',
-            'Disfruta de descuentos exclusivos pagado con Pix en nuestros comercios adheridos':'Disfruta de descuentos exclusivos pagado con Pix en nuestros comercios adheridos',
+            'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.':'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.',
             'Seguridad':'Seguridad',
-            'Tus pagos y datos están protegidos por tecnología avanzada para que puedas pagar con total confianza.':'Tus pagos y datos están protegidos por tecnología avanzada para que puedas pagar con total confianza.',
+            'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.':'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.',
             'Adios efectivo excesivo':'Adios efectivo excesivo',
-            'Pagás en el acto, directo desde tu cuenta, sin preocuparte por llevar efectivo. ¡Disfrutá tu viaje con total libertad y seguridad!':'Pagás en el acto, directo desde tu cuenta, sin preocuparte por llevar efectivo. ¡Disfrutá tu viaje con total libertad y seguridad!',
+            'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!':'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!',
+            'Descuentos exclusivos':'Descuentos exclusivos',
+            'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!':'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!',
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!':'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!',
+
+            
+            
+            
             //turistSix
             '¿Por dónde queres empezar?':'¿Por dónde queres empezar?',
             "Indumentaria":"Indumentaria",
@@ -298,15 +303,18 @@ const resources = {
             '¡Es más que un método de pago, sumate a la experiencia megapix!':'falta',
             //turistFive
             'Ventajas de usar ':'falta ',
-            'Con Megapix, las transferencias se realizan en tiempo real, sin demoras ni complicaciones.':'falta',
-            'Tecnología PIX':'Tecnologia PIX',
-            'Con PIX pagás como si estuvieses en casa, de forma sencilla y sin complicaciones':'falta',
-            'Descuentos':'falta',
-            'Disfruta de descuentos exclusivos pagado con Pix en nuestros comercios adheridos':'falta',
-            'Seguridad':'Segurança',
-            'Tus pagos y datos están protegidos por tecnología avanzada para que puedas pagar con total confianza.':'falta',
+            'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.':'falta',
+            'Tecnología PIX':'falta',
+            'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.':'falta',
+            'Seguridad':'falta',
+            'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.':'falata',
             'Adios efectivo excesivo':'falta',
-            'Pagás en el acto, directo desde tu cuenta, sin preocuparte por llevar efectivo. ¡Disfrutá tu viaje con total libertad y seguridad!':'falta',
+            'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!':'falta',
+            'Descuentos exclusivos':'falta',
+            'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!':'falta',
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!':'falta',
+            
+            
             //turistSix
             '¿Por dónde queres empezar?':'falta',
             "Indumentaria":"falta",
@@ -472,15 +480,16 @@ const resources = {
             '¡Es más que un método de pago, sumate a la experiencia megapix!':'falta',
             //turistFive
             'Ventajas de usar ':'falta ',
-            'Con Megapix, las transferencias se realizan en tiempo real, sin demoras ni complicaciones.':'falta',
-            'Tecnología PIX':'PIX Technology',
-            'Con PIX pagás como si estuvieses en casa, de forma sencilla y sin complicaciones':'falta',
-            'Descuentos':'falta',
-            'Disfruta de descuentos exclusivos pagado con Pix en nuestros comercios adheridos':'falta',
-            'Seguridad':'Security',
-            'Tus pagos y datos están protegidos por tecnología avanzada para que puedas pagar con total confianza.':'falta',
+            'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.':'falta',
+            'Tecnología PIX':'falta',
+            'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.':'falta',
+            'Seguridad':'falta',
+            'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.':'falata',
             'Adios efectivo excesivo':'falta',
-            'Pagás en el acto, directo desde tu cuenta, sin preocuparte por llevar efectivo. ¡Disfrutá tu viaje con total libertad y seguridad!':'falta',
+            'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!':'falta',
+            'Descuentos exclusivos':'falta',
+            'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!':'falta',
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!':'falta',
             //turistSix
             '¿Por dónde queres empezar?':'falta',
             "Indumentaria":"falta",
