@@ -13,7 +13,7 @@ const CardTurist = () => {
                         <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
-                        <h3 className='titleCardTurOne'>{t('Vacacionar')}</h3>
+                        <h3 className='titleCardTurOne'>{t('Vacacioná')}</h3>
                     </div>
                 </div>
                 <div className='cardTurOne'>
@@ -21,7 +21,7 @@ const CardTurist = () => {
                     <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
-                        <h3 className='titleCardTurOne'>{t('Estudiar')}</h3>
+                        <h3 className='titleCardTurOne'>{t('Estudiá')}</h3>
                     </div>
                 </div>
                 <div className='cardTurOne'>
@@ -29,7 +29,7 @@ const CardTurist = () => {
                     <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
-                        <h3 className='titleCardTurOne'>{t('Vivir')}</h3>
+                        <h3 className='titleCardTurOne'>{t('Viví')}</h3>
                     </div>
                 </div>
                 <div className='cardTurOne'>
@@ -37,7 +37,7 @@ const CardTurist = () => {
                     <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
-                        <h3 className='titleCardTurOne'>{t('Visitar familia')}</h3>
+                        <h3 className='titleCardTurOne'>{t('Visitá')}</h3>
                     </div>
                 </div>
                 <div className='cardTurOne'>
@@ -45,7 +45,7 @@ const CardTurist = () => {
                     <img className='imgMove' src={Mp} alt='Imagen de Megapix' />
                     </div>
                     <div className='textCardTurOne'>
-                        <h3 className='titleCardTurOne'>{t('Trabajar')}</h3>
+                        <h3 className='titleCardTurOne'>{t('Trabajá')}</h3>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const CardTurist = () => {
                     <h2 className='askCardTur'>{t('¿Por qué elegirnos?')}</h2>
                 </div>
                 <div className='textTurOne'>
-                    <p className='textCardTur'>{t('Megapix está aquí para acompañarte, facilitando tus transacciones y evitando el uso de engorrosas casas de cambio, conversiones costosas y la incomodidad de manejar grandes cantidades de efectivo.')}</p>
+                    <p className='textCardTur'>{t('Somos una empresa registrada y autorizada que elimina las barreras tradicionales en el cambio de divisas. Además, simplificamos el proceso de pago, evitando conversiones costosas y la molestia de llevar grandes sumas de efectivo.')}</p>
                 </div>
             </div>
         </div>

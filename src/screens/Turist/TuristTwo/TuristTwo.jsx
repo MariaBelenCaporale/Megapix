@@ -9,7 +9,7 @@ const TuristTwo = () => {
         <div className='containerTuristTwo'>
             <div className='containerTurTwo'>
             <h2 className='titleTuristTwo'>{t('Paga desde tu celular')}</h2>
-            <p className='subtitleTuristTwo'>{t('Realizá tus pagos con Megapix en cualquier lugar del país. Eligiendo la opción de tu preferencia')}</p>
+            <p className='subtitleTuristTwo'>{t('Realizá tus pagos a través de Megapix en los comercios adheridos de todo el país.')}</p>
             </div>
         </div>
     )

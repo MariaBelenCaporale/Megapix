@@ -25,7 +25,13 @@
   gap: 2em;
   margin: 0px;
 }
-
+.subtitleFour {
+  font-family: 'Poppins-Light';
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
 
 .videoWrapper {
   position: relative;

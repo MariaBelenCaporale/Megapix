@@ -17,6 +17,7 @@ import CoinTwoIz from '@images/coinBlurIzq.png';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+
 const CompanyScreen = () => {
     const { t } = useTranslation();
 

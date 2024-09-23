@@ -8,7 +8,8 @@ const TuristThree = () => {
     return (
         <div className='containerTurThree'>
             <h2 className="titleTuristThree">
-            {t('Vení a disfrutar de Argentina con ')}<span className="highlight">{t('Megapix')}</span>
+            {t('Disfrutá Argentina con Megapix')}
+            {/* <span className="highlight">{t('')}</span> */}
             </h2>
             <div className='containerCardTurOne'>
                 <CardTurist />
