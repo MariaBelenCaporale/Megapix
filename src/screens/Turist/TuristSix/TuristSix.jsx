@@ -35,6 +35,11 @@ const TuristSix = () => {
           onClick={() => handleButtonClick("Indumentaria", "Indumentaria")}
         />
         <ButtonTurist
+          isActive={activeButton === "Recuerdos & experiencias"}
+          title={t("Recuerdos & experiencias")}
+          onClick={() => handleButtonClick("Recuerdos & experiencias", "Recuerdos & experiencias")}
+        />
+        <ButtonTurist
           isActive={activeButton === "Ski"}
           title={t("Ski")}
           onClick={() => handleButtonClick("Ski", "Ski")}
@@ -80,6 +85,13 @@ const TuristSix = () => {
               image={Food}
               title={t("Gastronomía")}
               text={t("Argentina ofrece una experiencia gastronómica inigualable que combina tradición y sabor. Desde el famoso asado, símbolo de la cultura argentina, hasta las empanadas crujientes y las pastas caseras, cada plato cuenta una historia. No podés dejar de probar el vino Malbec en las bodegas de Mendoza o saborear un helado artesanal en Buenos Aires. La gastronomía argentina es un festín para los sentidos, perfecta para explorar mientras conocés la esencia del país. ¡Descubrí los sabores que hacen de Argentina un destino culinario único!")}
+            />
+          )}
+          {activeCard === "Recuerdos & experiencias" && (
+            <CardSelect
+              image={Food}
+              title={t("Recuerdos & experiencias")}
+              text={t("Descubrí experiencias inolvidables en cada rincón de Argentina, donde cada recuerdo va más allá. Conocerás la esencia de nuestra cultura, dejando una parte de vos en cada espacio, cada detalle y cada lugar que explores. En el norte, encontrarás una cultura vibrante, repleta de tradiciones y colores que van a cautivar todos tus sentidos. Te invitamos a disfrutar de las prestigiosas bodegas, y maravillarte con la majestuosidad de las montañas y llanuras, junto a la rica diversidad de la fauna y flora local. Dejate deslumbrar por paisajes impresionantes al pie de la cordillera de los Andes y en el fin del mundo. Llevarás en tu ser lo que realmente vale la pena vivir y sentir, experiencias que se quedarán grabadas en tu memoria para siempre.")}
             />
           )}
           {activeCard === "Indumentaria" && (
