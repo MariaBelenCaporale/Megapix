@@ -39,8 +39,6 @@
 .arrowButton.right {
     right: 50px;
 }
-
-
 .arrowCarousel {
     color: white;
 }
@@ -78,7 +76,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 100.044%;
-    width: 70%;
+    width: 100%;
 }
 .containerDragCardFive {
     display: flex;
@@ -105,33 +103,39 @@
 
 
 @media (min-width: 360px) and (max-width: 576px) {
-.containerDragCard {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 2rem;
-    overflow-x: auto; 
-    scroll-snap-type: x mandatory; 
-    -webkit-overflow-scrolling: touch; 
-}
-.containerSectionFive {
-    height: auto;
-}
-.containerDragCard > * {
-    flex-shrink: 0; 
-    scroll-snap-align: start; 
-}
-.titleFive {
-    font-size: 2em;
-}
-.containerDragCard {
-    overflow-x: auto; 
-    flex-direction: row; 
-}
-.coinSectionFive {
-    display: none;
-}
+    .containerDragCard {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 2rem;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        -webkit-overflow-scrolling: touch; 
+    }
+    .containerSectionFive {
+        height: auto;
+    }
+    .containerFive {
+        width: 70%;
+    }
+    .containerDragCard > * {
+        flex-shrink: 0; 
+        scroll-snap-align: start; 
+    }
+    .titleFive {
+        font-size: 2em;
+    }
+    .containerDragCard {
+        overflow-x: auto; 
+        flex-direction: row; 
+    }
+    .coinSectionFive {
+        display: none;
+    }
+    .arrowButton {
+        display: none;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px)  {
@@ -139,26 +143,56 @@
         font-size: 3em;
         z-index: 9;
         text-align: center;
-        width: 90%;
     }
     .containerSectionFive {
         height: 100vh;
+    }
+    .arrowButton {
+        display: none;
     }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
     .titleFive {
-        font-size: 4em;
+        font-size: 3.5em;
         text-align: center;
-        width: 60%;
+    }
+    .containerFive {
+        width: 50%;
+    }
+    .left {
+        left: 10px;
+    }
+    .right {
+        right: 10px;
+    }
+    .arrowButton.left {
+        left: 10px;
+    }
+    .arrowButton.right {
+        right: 10px;
     }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-
+    .titleFive {
+        font-size: 4em;
+    }
+    .containerFive {
+        width: 60%;
+    }
+    .containerSectionFive {
+        height: auto;
+    }
+    .arrowButton.left {
+        left: 20px;
+    }
+    .arrowButton.right {
+        right: 20px;
+    }
 }
 @media (min-width: 1201px) and (max-width: 1440px)  {
     .containerFive {
-        width: 70%;
+        width: 50%;
     }
     .left {
         left: 50px;
@@ -174,4 +208,4 @@
     .containerFive {
         width: 70%;
     }
-}
+} 

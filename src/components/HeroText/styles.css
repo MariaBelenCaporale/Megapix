@@ -100,7 +100,7 @@
     width: 90%;
   }
   .containerBackground {
-    width: 85%;
+    width: 90%;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
@@ -131,6 +131,9 @@
   .subtitleHero {
     font-size: 1.3em;
     width: 60%;
+  }
+  .containerBackground {
+    width: 90%;
   }
 }
 

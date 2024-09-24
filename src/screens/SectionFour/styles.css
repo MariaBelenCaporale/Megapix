@@ -188,8 +188,8 @@
     width: 80%;
   }
   .titleFour {
-    font-size: 3em;
-    width: 80%;
+    font-size: 2em;
+    width: 60%;
   }
   .containerBtnFour {
     display: flex;
@@ -209,12 +209,15 @@
   }
 }
 
-@media (min-width: 993px) and (max-width: 1400px) {
+@media (min-width: 993px) and (max-width: 1200px) {
   .containerMoveImageFour {
     margin-right: 0px;
   }
   .moveImage {
     overflow: hidden;
+  }
+  .titleFour {
+    font-size: 2em;
   }
 }
 

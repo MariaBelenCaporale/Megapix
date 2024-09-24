@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100%;
 }
 .titleSectionThree {
     color: #FFF;
@@ -23,7 +24,7 @@
 }
 .subSectionThree {
     color: #FFF;
-    font-family: 'Inter';
+    font-family: 'Poppins-Regular';
     font-size: 1.5em;
     font-style: normal;
     font-weight: 400;
@@ -40,10 +41,42 @@
     }
     .subSectionThree {
         font-size: 1em;
+        margin: 0px 0px 30px;
     }
     .containerInputs3 {
         width: 80%;
     }
-
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .titleSectionThree {
+        font-size: 3em;
+    }
+    .subSectionThree {
+        font-size: 1em;
+        margin: 0px 0px 40px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .titleSectionThree {
+        font-size: 4em;
+    }
+    .subSectionThree {
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0px 0px 40px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .titleSectionThree {
+        font-size: 4.5em;
+    }
+    .subSectionThree {
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0px 0px 40px;
+    }
+}
+
 

@@ -82,6 +82,22 @@
         font-size: 2em;
     }
 }
+@media (min-width: 769px) and (max-width: 992px) {
+    .rayito {
+        width: 200px;
+    }
+    .titleSlogan {
+        font-size: 3em;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .rayito {
+        width: 200px;
+    }
+    .titleSlogan {
+        font-size: 4em;
+    }
+}
 @media (min-width: 1201px) and (max-width: 1440px) {
     .titleSloganContainer {
         width: 60%;

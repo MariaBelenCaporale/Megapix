@@ -10,7 +10,11 @@
   src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
   src: url("../../fonts/Poppins/Poppins-Thin.ttf");
 }
-
+.formStyles {
+  width: 30%;
+  margin: 0px auto;
+  position: relative;
+}
 .monto {
   color: #FFF;
   font-family: "Poppins-regular", sans-serif;
@@ -193,10 +197,18 @@
   .messagePay {
     font-size: .8em;
   }
+  .formStyles {
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+  }
 }
 @media (min-width: 769px) and (max-width: 992px)  {
   .messagePay {
     font-size: .9em;
+  }
+  .formStyles {
+    width: 60%;
   }
 }
 
@@ -272,5 +284,8 @@
   }
   .imgCheck {
     width: 200px;
+  }
+  .formStyles {
+    width: 60%;
   }
 }

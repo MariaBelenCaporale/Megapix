@@ -62,10 +62,11 @@
 }
 
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
     .itemDrag {
-        width: 340px;
+        width: 300px;
         height: 450px;
+        margin: 0px 5px;
     }
     .subtitleCardDrag {
         font-family: "Poppins-Light", sans-serif;
@@ -84,28 +85,48 @@
         height: 150px;
     }
 }
-
-
-
-@media (min-width: 992px) {
-    .titleCardDrag {
-        font-size: 1.8em;
+@media (min-width: 577px) and (max-width: 768px) {
+    .itemDrag {
+        width: 350px;
+        margin: 0px 5px;
     }
     .subtitleCardDrag {
-        font-size: 1em;
-        text-align: start;
-        font-family: "Poppins-Light", sans-serif;
-    }
-    .itemDrag {
-        width: 450px;
-        height: 500px;
-    }
-    .containerImgDrag {
-        height: 200px;
+        font-size: .9em;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 769px) and (max-width: 992px) {
+    .itemDrag {
+        width: 350px;
+        margin: 0px 5px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .itemDrag {
+        width: 400px;
+    }
+    .subtitleCardDrag {
+        font-size: 1em;
+    }
+    .containerImgDrag {
+        height: 150px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .itemDrag {
+        width: 400px;
+    }
+    .subtitleCardDrag {
+        font-size: 1em;
+    }
+    .containerImgDrag {
+        height: 150px;
+    }
+}
+
+
+
+@media (min-width: 1441px) {
     .titleCardDrag {
         font-size: 1.4em;
     }
@@ -113,4 +134,4 @@
         font-size: 1em;
         font-family: 'Poppins-Light';
     }
-}
+} 

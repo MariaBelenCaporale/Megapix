@@ -35,6 +35,10 @@
 .containerSectionTwo {
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
 }
 .prueba {
@@ -310,7 +314,7 @@
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .titleSectionTwo {
-    font-size: 2rem;
+    font-size: 3rem;
     width: 90%;
   }
   .containerSectionTwo {
@@ -401,6 +405,9 @@
   .rotated-items-container {
     width: 90%;
     height: 400px;
+  }
+  .blurTwo {
+    width: 60%;
   }
 
   .animation-1 {
