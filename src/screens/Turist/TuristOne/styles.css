@@ -28,7 +28,7 @@
 .carouselInner {
     display: flex;
     flex-direction: row;
-    width: calc(300px * 12); 
+    width: calc(450px * 15); 
     gap: 1em;
     animation: slide 20s linear infinite; 
 }

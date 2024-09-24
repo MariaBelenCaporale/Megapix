@@ -88,7 +88,7 @@ const SectionFive = () => {
       </div>
 
       <div className="containerCarousel">
-      <button className="arrowButton left" onClick={() => handleScroll(-400)}><KeyboardArrowLeftRoundedIcon className="arrowCarousel"/></button>
+      <button className="arrowButton left" onClick={() => handleScroll(-400)}><KeyboardArrowLeftRoundedIcon className="arrowCarousel"/></button> 
       <div className="containerDragCardFive" ref={sliderRef}>
     
       <CardDrag

@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Bebas";
     src: url("../../fonts/BebasNeue-Regular.ttf");
-  }
+}
+
 .textMoveContainer {
     overflow: hidden;
     white-space: nowrap;
@@ -15,7 +16,11 @@
 
 .textMoveWrapper {
     display: flex;
-    animation: moveText 50s linear infinite;
+    animation: moveText 20s linear infinite; 
+}
+.textMoveSpacer {
+    display: inline-block;
+    width: 20px;
 }
 
 .textMove {
@@ -36,7 +41,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%); 
     }
 }
 
@@ -56,4 +61,3 @@
         font-size: 4em;
     }
 }
-

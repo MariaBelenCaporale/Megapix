@@ -7,17 +7,21 @@ import DescuentosTurist from '@images/descuentosTurist.png';
 import EfectivoTurist from '@images/efectivoTurist.png';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from 'react';
+import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
+import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 import './styles.css';
 
 
 
 const TuristFive = () => {
   const { t } = useTranslation();
-
-  const sliderRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
+  const sliderRef = useRef(null);
+
+
+
 
   useEffect(() => {
     const slider = sliderRef.current;
@@ -61,6 +65,18 @@ const TuristFive = () => {
       slider.removeEventListener("mousemove", onMouseMove);
     };
   }, [isDragging, startX, scrollLeft]);
+
+  const handleScroll = (amount) => {
+    if (sliderRef.current) {
+      sliderRef.current.scrollTo({
+        left: sliderRef.current.scrollLeft + amount,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+
+
     return (
         <section className='containerTuristFive'>
             <div className='containerFiveTitle'>
@@ -68,6 +84,11 @@ const TuristFive = () => {
                     {t('Ventajas de usar ')}<span className="highlight">{t('Megapix')}</span>
                 </h2>
             </div>
+
+            <div className='containerCarouselTurist'>
+            <button className="arrowButton left" onClick={() => handleScroll(-400)}><KeyboardArrowLeftRoundedIcon className="arrowCarousel"/></button> 
+            
+
             <div className='containerDragFive' ref={sliderRef}>
             <CardDrag 
           imageDrag={Inmediatos}
@@ -99,6 +120,8 @@ const TuristFive = () => {
           titleDrag={t('Soporte 24/7')}
           textDrag={t('Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!')}
         />
+            </div>
+            <button className="arrowButton right" onClick={() => handleScroll(400)}><KeyboardArrowRightRoundedIcon className="arrowCarousel"/></button>
             </div>
         </section>
     )
