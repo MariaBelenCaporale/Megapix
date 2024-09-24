@@ -29,6 +29,9 @@
     font-weight: 400;
     line-height: normal;
 }
+.containerInputs3 {
+    width: 100%;
+}
 
 
 @media (min-width: 360px) and (max-width: 576px) {

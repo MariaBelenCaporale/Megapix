@@ -33,9 +33,14 @@
     background: none;
     cursor: pointer;
 }
-.css-i4bv87-MuiSvgIcon-root {
-    font-size: 3em !important;
+.arrowButton.left {
+    left: 50px;
 }
+.arrowButton.right {
+    right: 50px;
+}
+
+
 .arrowCarousel {
     color: white;
 }
@@ -154,6 +159,12 @@
 @media (min-width: 1201px) and (max-width: 1440px)  {
     .containerFive {
         width: 70%;
+    }
+    .left {
+        left: 50px;
+    }
+    .right {
+        right: 50px;
     }
 }
 @media (min-width: 1441px)  {

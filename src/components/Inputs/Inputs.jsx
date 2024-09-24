@@ -104,7 +104,7 @@ const Inputs = () => {
 
   return (
     <>
-      <form onSubmit={generateQrAction} style={{ maxWidth: '600px', margin: '0 auto', position: 'relative' }}>
+      <form onSubmit={generateQrAction} style={{ width: '30%', margin: '0 auto', position: 'relative' }}>
         <div style={{ position: 'relative', marginBottom: '16px' }}>
           <label className='monto'>{t('Monto (ARS)')}</label>
           <input className='inputs'
