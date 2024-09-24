@@ -67,14 +67,20 @@
   border: none;
   cursor: pointer;
   z-index: 1;
+  background: rgba(255, 255, 255, 0.10);
+  background-blend-mode: soft-light, normal;
+  backdrop-filter: blur(40px);
+  border-radius: 50px;
+  padding: 10px;
+
 }
 
-.arrowButton.left {
+.left {
   position: absolute;
   left: 10px;
 }
 
-.arrowButton.right {
+.right {
   position: absolute;
   right: 10px;
 }

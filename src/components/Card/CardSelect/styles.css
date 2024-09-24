@@ -124,13 +124,13 @@
 @media (min-width: 1201px) {
     .containerCardSelect {
         flex-direction: row;
-        width: 80%;
+        width: 70%;
     }
     .imgFoodSelect {
         width: auto;
     }
     .photoContainer {
-        width: 100%;
+        width: 80%;
         border-radius: 15px;
     }
     .containerTextSelect {
