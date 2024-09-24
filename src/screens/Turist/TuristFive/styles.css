@@ -41,9 +41,6 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    transition: all 0.2s;
-    transform: scale(0.98);
-    will-change: transform;
     user-select: none;
     cursor: pointer;
 }

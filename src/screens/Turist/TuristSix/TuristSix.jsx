@@ -2,7 +2,7 @@ import ButtonTurist from "../../../components/buttonTurist/ButtonTurist";
 import CardSelect from "../../../components/Card/CardSelect/CardSelect";
 import Fondo from "@images/dialog.png"; 
 import Food from "@images/food.png";
-import Ski from "@images/ski.png";
+import Vuelos from "@images/vuelos.png";
 import Indumentaria from "@images/indumentaria.png";
 import Entretenimiento from "@images/entretenimiento.png";
 import Hospedaje from "@images/hospedaje.png";
@@ -71,7 +71,7 @@ const TuristSix = () => {
         setBackgroundImage(Indumentaria);
         break;
       case "Vuelos y transportes":
-        setBackgroundImage(Ski);
+        setBackgroundImage(Vuelos);
         break;
       default:
         setBackgroundImage(Fondo); 
@@ -192,7 +192,7 @@ const TuristSix = () => {
             )}
             {activeCard === "Vuelos y transportes" && (
               <CardSelect
-                image={Ski}
+                image={Vuelos}
                 title={t("Vuelos y transportes")}
                 text={t(
                   "Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!':'Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!"

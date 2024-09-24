@@ -286,56 +286,62 @@ const resources = {
             'Preguntas frecuentes':'Perguntas Frequentes',
 
 // TURISTAS ------------------
-            "y sentite como en casa":"falta",
-            "Pagá con pix ":"falta ",
-            "Viví experiencias únicas pagando con Megapix en Argentina.":"falta",
+            "y sentite como en casa":"e sinta-se em casa",
+            "Pagá con pix ":"Pague com Pix ",
+            "Viví experiencias únicas pagando con Megapix en Argentina.":"Viva experiências únicas pagando com Megapix na Argentina.",
             //turistTwo
-            'Paga desde tu celular':'falta',
-            'Realizá tus pagos a través de Megapix en los comercios adheridos de todo el país.':'falta',
+            'Paga desde tu celular':'Pague do seu celular',
+            'Realizá tus pagos a través de Megapix en los comercios adheridos de todo el país.':'Realizá tus pagos a través de Megapix en los comercios adheridos de todo el país.',
             //turistThree
-            'Disfrutá Argentina con Megapix':'falta',
-            'Vacacioná':'falta',
-            'Estudiá':'falta',
-            'Viví':'falta',
-            'Visitá':'falta',
-            'Trabajá':'falta',
-            '¿Por qué elegirnos?':'falta',
-            'Somos una empresa registrada y autorizada que elimina las barreras tradicionales en el cambio de divisas. Además, simplificamos el proceso de pago, evitando conversiones costosas y la molestia de llevar grandes sumas de efectivo.':'falta',
-            //turistFour
-            'Mirá que fácil':'falta',
-            '¡Es más que un método de pago, sumate a la experiencia megapix!':'falta',
+            'Disfrutá Argentina con Megapix':'Disfrutá Argentina con Megapix',
+            'Vacacioná':'Tire férias',
+            'Estudiá':'Estude',
+            'Viví':'Viva',
+            'Visitá':'Visite',
+            'Trabajá':'Trabalhe',
+            '¿Por qué elegirnos?':'Por que escolher Megapix?',
+            'Somos una empresa registrada y autorizada que elimina las barreras tradicionales en el cambio de divisas. Además, simplificamos el proceso de pago, evitando conversiones costosas y la molestia de llevar grandes sumas de efectivo.':'Somos uma empresa registrada e autorizada que elimina as barreiras tradicionais na troca de moedas. Além disso, simplificamos o processo de pagamento, evitando conversões caras e o incômodo de carregar grandes quantias em dinheiro.',
+           //turistFour
+            'Mirá que fácil':'Olha que fácil!',
+            '¡Es más que un método de pago, sumate a la experiencia megapix!':'É mais do que um método de pagamento, junte-se à experiência Megapix!',
             //turistFive
-            'Ventajas de usar ':'falta ',
-            'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.':'falta',
-            'Tecnología PIX':'falta',
-            'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.':'falta',
-            'Seguridad':'falta',
-            'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.':'falata',
-            'Adios efectivo excesivo':'falta',
-            'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!':'falta',
-            'Descuentos exclusivos':'falta',
-            'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!':'falta',
-            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!':'falta',
+            'Ventajas de usar ':'Vantagens de usar ',
+            'Con Megapix vas a poder pagar con tu banco o billetera de preferencia sin necesidad de descargar una aplicación, de manera rápida y sencilla. Las transferencias son instantáneas, sin demoras ni complicaciones.':'Com o Megapix, você poderá pagar com seu banco ou carteira de preferência sem a necessidade de baixar um aplicativo, de maneira rápida e simples. As transferências são instantâneas, sem atrasos ou complicações.',
+            'Tecnología PIX':'Tecnología PIX',
+            'En Megapix, utilizamos la misma tecnología desarrollada y respaldada por el Banco Central de Brasil. Disfrutá de Argentina como si estuvieras en casa.':'No Megapix, utilizamos a mesma tecnologia desenvolvida e respaldada pelo Banco Central do Brasil. Aproveite a Argentina como se estivesse em casa.',
+            'Seguridad':'Segurança',
+            'Nuestros comercios y empresas adheridas cuentan con un proceso riguroso de aprobación y validación de sus datos por lo que tus pagos y datos siempre van a estar protegidos. En Megapix te cuidamos con nuestra tecnología de vanguardia, brindandote total tranquilidad.':'Nossos comércios e empresas credenciados passam por um processo rigoroso de aprovação e validação de seus dados, garantindo que seus pagamentos e informações estejam sempre protegidos. No Megapix, cuidamos de você com nossa tecnologia de ponta, oferecendo total tranquilidade.',
+            'Adios efectivo excesivo':'Adeus ao dinheiro em excesso',
+            'Despedíte de las complicaciones del efectivo en mano. Ahora vas a poder pagar al instante, directamente desde tu cuenta, sin preocuparte por llevar el cambio en efectivo. ¡Disfruta de tu viaje con total libertad y seguridad!':'Diga adeus às complicações com dinheiro em espécie. Agora você poderá pagar instantaneamente, diretamente da sua conta, sem se preocupar em levar troco em dinheiro. Aproveite sua viagem com total liberdade e segurança!',
+            'Descuentos exclusivos':'Descontos exclusivos',
+            'Aprovechá de los mejores descuentos pagando con Megapix en todos los comercios adheridos. ¿Qué estas esperando? ¡Disfrutá al máximo cada experiencia!':'Aproveite os melhores descontos pagando com Megapix em todos os comércios credenciados. O que você está esperando? Aproveite ao máximo cada experiência!',
+            'Nuestro servicio de soporte está listo para ayudarte cuando lo necesites, con atención personalizada y rápida las 24 horas, todos los días. ¡No dudes en contactarnos!':'Nosso serviço de suporte está pronto para ajudar quando você precisar, com atendimento personalizado e rápido 24 horas por dia, todos os dias.',
             
             
             //turistSix
-            '¿Por dónde queres empezar?':'falta',
-            "Indumentaria":"falta",
-            "Ski":"falta",
-            "Gastronomía":"falta",
-            "Hospedaje":"falta",
-            "Entretenimiento":"falta",
-            "Vuelos":"falta",
-            "Excursiones":"falta",
-            "Bodegas":"falta",
-            "Argentina ofrece una experiencia gastronómica inigualable que combina tradición y sabor. Desde el famoso asado, símbolo de la cultura argentina, hasta las empanadas crujientes y las pastas caseras, cada plato cuenta una historia. No podés dejar de probar el vino Malbec en las bodegas de Mendoza o saborear un helado artesanal en Buenos Aires. La gastronomía argentina es un festín para los sentidos, perfecta para explorar mientras conocés la esencia del país. ¡Descubrí los sabores que hacen de Argentina un destino culinario único!":"falta",
-            "Argentina te espera con una increíble variedad de opciones para renovar tu estilo. Desde las boutiques de diseño en Buenos Aires hasta outlets con grandes marcas a precios imperdibles. Recorre las elegantes calles de Palermo, donde los diseñadores locales exhiben las mejores prendas, o descubre los grandes centros comerciales como Abasto y Alto Palermo, donde las marcas internacionales y nacionales te esperan con ofertas únicas.":"falta",
-            "La Patagonia argentina te espera con sus espectaculares centros de esquí, ideales para disfrutar del invierno en paisajes de ensueño. Desde Cerro Catedral en Bariloche hasta el Cerro Castor en Ushuaia, encontrarás pistas para todos los niveles. Disfruta de días llenos de adrenalina en la nieve, seguidos de cálidos refugios para relajarte.":"falta",
-            "Argentina te ofrece una amplia variedad de opciones de hospedaje para todos los gustos. Desde hoteles de lujo a cabañas en el medio de la montaña, cada lugar tiene su encanto y te invita a disfrutar de una estadía única. Explora ciudades llenas de historia, deléitate con la gastronomía local y relájate en alojamientos que combinan comodidad y autenticidad. Además, pagar es fácil: usa tu cuenta de PIX desde Brasil y disfruta de tu viaje sin complicaciones.":"falta",
-            "Si estás buscando una experiencia cultural única, Argentina te espera con los brazos abiertos. Buenos Aires  ofrece una increíble variedad de espectáculos que van desde el tango tradicional hasta las producciones teatrales más innovadoras. No importa cuál sea tu preferencia, encontrarás el entretenimiento perfecto para vos. Visita  las salas emblemáticas del Teatro Colón, reconocido mundialmente por su arquitectura y acústica impecable. Disfruta de producciones de ópera, ballet y conciertos de nivel internacional.":"falta",
-            "Argentina es un país lleno de contrastes y maravillas naturales, y la mejor manera de descubrirlo es viajando de norte a sur. Con la comodidad de los vuelos internos no necesitas elegir un solo destino. En Argentina, cada vuelo es una oportunidad para descubrir una nueva maravilla natural o cultural. Puedes comprar tus boletos en pesos argentinos y pagar de forma sencilla y segura con PIX desde Brasil.":"falta",
-            "Descubrí la majestuosidad de los paisajes argentinos con excursiones inolvidables. Desde las impresionantes Cataratas del Iguazú en Misiones hasta los glaciares de la Patagonia. Argentina te invita a vivir aventuras en plena naturaleza que se adaptan a tus intereses. Ya sea que busques adrenalina, relax o cultura, acá encontrarás algo extraordinario.":"falta",
-            "Mendoza, la capital del vino argentino, te invita a vivir una experiencia única recorriendo sus prestigiosas bodegas. Disfruta de paisajes impresionantes al pie de la cordillera de los Andes mientras degustas los mejores Malbecs del mundo, acompañado por expertos que te guiarán en cada copa. Visita bodegas de renombre, donde podrás degustar vinos de clase mundial mientras aprendes sobre los secretos detrás de cada cosecha, cada detalle está diseñado para brindarte una experiencia auténtica":"falta",
+            '¿Por dónde queres empezar?':'Por onde você quer começar?',
+
+            "Recuerdos & experiencias":"Lembranças & experiências",
+            'Descubrí experiencias inolvidables en cada rincón de Argentina, donde cada recuerdo va más allá. Conocerás la esencia de nuestra cultura, dejando una parte de vos en cada espacio, cada detalle y cada lugar que explores. En el norte, encontrarás una cultura vibrante, repleta de tradiciones y colores que van a cautivar todos tus sentidos. Te invitamos a disfrutar de las prestigiosas bodegas, y maravillarte con la majestuosidad de las montañas y llanuras, junto a la rica diversidad de la fauna y flora local. Dejate deslumbrar por paisajes impresionantes al pie de la cordillera de los Andes y en el fin del mundo. Llevarás en tu ser lo que realmente vale la pena vivir y sentir, experiencias que se quedarán grabadas en tu memoria para siempre.':'Descubra experiências inesquecíveis em cada canto da Argentina, onde cada lembrança vai além. Conheça a essência da nossa cultura, deixando uma parte de você em cada espaço, cada detalhe e cada lugar que explorar. No norte, você encontrará uma cultura vibrante, repleta de tradições e cores que vão cativar todos os seus sentidos. Convidamos você a aproveitar as prestigiadas vinícolas e se maravilhar com a majestade das montanhas e planícies, junto à rica diversidade da fauna e flora local. Deixe-se deslumbrar por paisagens impressionantes ao pé da Cordilheira dos Andes e no fim do mundo. Você levará em seu ser o que realmente vale a pena viver e sentir, experiências que ficarão gravadas em sua memória para sempre.',
+
+            "Gastronomía":"Gastronomia",
+            'Argentina es un país con una gastronomía variada y llena de sabores, donde se fusionan tradiciones europeas, indígenas y criollas para crear una experiencia única e irrepetible. Desde el asado, que reúne familias y amigos, hasta las empanadas y pastas heredadas de inmigrantes, cada bocado refleja la rica mezcla de culturas que nos define. Vení a descubrir la esencia de Argentina a través de su cocina, donde cada plato es una celebración de diversidad y sabor. ¡Animate a probar lo mejor de nuestra gastronomía!':'A Argentina é um país com uma gastronomia variada e cheia de sabores, onde se fundem tradições europeias, indígenas e criolas para criar uma experiência única e irrepetível. Desde o asado, que reúne famílias e amigos, até as empanadas e pastas herdadas dos imigrantes, cada mordida reflete a rica mistura de culturas que nos define. Venha descobrir a essência da Argentina através de sua culinária, onde cada prato é uma celebração de diversidade e sabor. ¡Anima-se a provar o melhor da nossa gastronomia!',
+
+            "Excursiones":"Excursões",
+            'Te invitamos a conocer una inmensa diversidad de excursiones que te llevarán a descubrir la belleza natural de los lugares más visitados de Argentina donde vas a vivir aventuras únicas y memorables. Desde emociones extremas y momentos de tranquilidad hasta una inmersión cultural, siempre encontrarás una experiencia extraordinaria adaptada a vos. ¡Vení a disfrutar con Megapix la inmensidad de nuestros paisajes y hacé de cada excursión un recuerdo inolvidable!':'Convidamos você a conhecer uma imensa diversidade de excursões que o levarão a descobrir a beleza natural dos destinos mais visitados da Argentina, onde você viverá aventuras únicas e memoráveis. Desde emoções extremas e momentos de tranquilidade até uma imersão cultural, você sempre encontrará uma experiência extraordinária adaptada a você. Venha desfrutar com a Megapix da imensidão de nossas paisagens e transforme cada excursão em uma lembrança inesquecível!',
+
+            "Hospedaje":"Hospedagem",
+            'Con Megapix vas a poder acceder a una amplia variedad de opciones de hospedaje, adecuadas para todos los gustos. Desde hoteles de lujo hasta acogedoras cabañas en medio de la montaña. ¿Qué estás esperando para encontrar tu estadía ideal? Te invitamos a conocer el encanto de cada lugar y llevarte la estadía de tus sueños. No te pierdas de visitar los alojamientos argentinos con la mejor combinación del confort y la autenticidad. Utilizá tu cuenta PIX desde Brasil y disfrutá de tu viaje sin preocupaciones.':'Con Megapix vas a poder acceder a una amplia variedad de opciones de hospedaje, adecuadas para todos los gustos. Desde hoteles de lujo hasta acogedoras cabañas en medio de la montaña. ¿Qué estás esperando para encontrar tu estadía ideal? Te invitamos a conocer el encanto de cada lugar y llevarte la estadía de tus sueños. No te pierdas de visitar los alojamientos argentinos con la mejor combinación del confort y la autenticidad. Utilizá tu cuenta PIX desde Brasil y disfrutá de tu viaje sin preocupaciones.',
+            
+            "Entretenimiento":"Entretenimento",
+            '¡Descubrí la magia cultural de Argentina! Te esperamos con espectáculos únicos y experiencias inolvidables. Desde el tango más auténtico hasta vibrantes obras de teatro y conciertos. Además, vas a poder explorar nuestras ferias, celebraciones, festivales, museos y arquitectura donde el arte se fusiona con la historia de manera incomparable. ¡Con Megapix vení a recorrer y conocer nuestra cultura apasionada!':'Descubra a magia cultural da Argentina! Estamos esperando por você com espetáculos únicos e experiências inesquecíveis. Desde o tango mais autêntico até vibrantes peças de teatro e concertos. Além disso, você poderá explorar nossas feiras, celebrações, festivais, museus e arquitetura, onde a arte se funde com a história de maneira incomparável. Com Megapix, venha explorar e conhecer nossa cultura apaixonada!',
+
+            "Indumentaria":"Indumentária",
+            'Desde las boutiques de diseño hasta los outlets con grandes marcas a precios irresistibles. ¡No te podes perder la experiencia de compras en todo el país! Te invitamos a recorrer las calles del barrio de Palermo, en Buenos Aires, donde los diseñadores locales exhiben sus prendas exclusivas confeccionadas con materiales nacionales, como el cuero argentino de alta calidad y tejidos artesanales. Además, descubrí los tradicionales ponchos y prendas de lana merino, originarias del norte y la Patagonia, que capturan la esencia de la cultura local. Con Megapix, no dudes en aprovechar el mix de marcas internacionales y nacionales con una fusión única entre lo moderno y lo auténtico.':'Desde as boutiques de design até os outlets com grandes marcas a preços irresistíveis. Você não pode perder a experiência de compras em todo o país! Convidamos você a explorar as ruas do bairro Palermo, em Buenos Aires, onde os designers locais exibem suas roupas exclusivas confeccionadas com materiais nacionais, como o couro argentino de alta qualidade e tecidos artesanais. Além disso, descubra os tradicionais ponchos e roupas de lã merino, originárias do norte e da Patagônia, que capturam a essência da cultura local. Com Megapix, não hesite em aproveitar a mistura de marcas internacionais e nacionais com uma fusão única entre o moderno e o autêntico.',
+
+            'Vuelos y transportes':'Voos e Transportes',
+            'Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!':'Argentina es un país lleno de contrastes y maravillas naturales, por eso, con Megapix te invitamos a explorarlo cómodamente de norte a sur. Vas a encontrar vuelos internos, donde cada trayecto es una oportunidad para descubrir paisajes impresionantes y sumergirte en su rica diversidad cultural. Además, contás con opciones como buses de larga distancia, trenes y alquiler de autos, que te van a permitir recorrer el país a tu propio ritmo. Realizá tu pago con Pix desde brasil y accedé a tus boletos en pesos argentinos de manera inmediata y segura. ¡Te esperamos!',
+
 
             //ALGUNOS COMPONENTES
             //Footer
@@ -348,7 +354,7 @@ const resources = {
             'Comunidad':'Comunidade',
             'Soporte & FAQs':'Suporte & FAQs',
 
-            'Cavaliere Group S.R.L”- Proveedor de Servicios de Activos Virtuales (PSAV) inscripto bajo el N°X de fecha "X" en el Registro de Proveedores de Servicios de Activos Virtuales de CNV. Este registro es a los fines del control como Sujeto Obligado ante la Unidad de Información Financiera (UIF) y de todo otro ente regulador facultado a tal efecto, en el marco de sus competencias, y no implica licencia ni supervisión por parte de la COMISIÓN NACIONAL DE VALORES sobre la actividad realizada por el PSAV':'falta',
+            'Cavaliere Group S.R.L”- Proveedor de Servicios de Activos Virtuales (PSAV) inscripto bajo el N°X de fecha "X" en el Registro de Proveedores de Servicios de Activos Virtuales de CNV. Este registro es a los fines del control como Sujeto Obligado ante la Unidad de Información Financiera (UIF) y de todo otro ente regulador facultado a tal efecto, en el marco de sus competencias, y no implica licencia ni supervisión por parte de la COMISIÓN NACIONAL DE VALORES sobre la actividad realizada por el PSAV':'Cavaliere Group S.R.L”- Proveedor de Servicios de Activos Virtuales (PSAV) inscripto bajo el N°X de fecha "X" en el Registro de Proveedores de Servicios de Activos Virtuales de CNV. Este registro es a los fines del control como Sujeto Obligado ante la Unidad de Información Financiera (UIF) y de todo otro ente regulador facultado a tal efecto, en el marco de sus competencias, y no implica licencia ni supervisión por parte de la COMISIÓN NACIONAL DE VALORES sobre la actividad realizada por el PSAV',
             //btn
             "Visitar plataforma":"Visitar a plataforma",
             //Slogan
@@ -523,7 +529,7 @@ const resources = {
             'Comunidad':'Community',
             'Soporte & FAQs':'Support & FAQs',
 
-            'Cavaliere Group S.R.L”- Proveedor de Servicios de Activos Virtuales (PSAV) inscripto bajo el N°X de fecha "X" en el Registro de Proveedores de Servicios de Activos Virtuales de CNV. Este registro es a los fines del control como Sujeto Obligado ante la Unidad de Información Financiera (UIF) y de todo otro ente regulador facultado a tal efecto, en el marco de sus competencias, y no implica licencia ni supervisión por parte de la COMISIÓN NACIONAL DE VALORES sobre la actividad realizada por el PSAV':'falta',
+            'Cavaliere Group S.R.L”- Proveedor de Servicios de Activos Virtuales (PSAV) inscripto bajo el N°X de fecha "X" en el Registro de Proveedores de Servicios de Activos Virtuales de CNV. Este registro es a los fines del control como Sujeto Obligado ante la Unidad de Información Financiera (UIF) y de todo otro ente regulador facultado a tal efecto, en el marco de sus competencias, y no implica licencia ni supervisión por parte de la COMISIÓN NACIONAL DE VALORES sobre la actividad realizada por el PSAV':'Cavaliere Group S.R.L"– Virtual Asset Service Provider (PSAV), registered under No. X on "X" in the Register of Virtual Asset Service Providers of the CNV. This registration is for the purposes of compliance as an Obliged Subject before the Financial Intelligence Unit (UIF) and any other regulatory authority authorized to do so, within their competencies, and does not imply a license or supervision by the NATIONAL SECURITIES COMMISSION over the activities performed by the PSAV.',
             //btn
             "Visitar plataforma":"Visit Platform",
             //Slogan

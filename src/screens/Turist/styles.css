@@ -80,7 +80,7 @@
 
 .coinThreeT {
   position: absolute;
-  width: 20%;
+  width: 10%;
   animation: orbitThreeT 40s linear infinite;
   transform-origin: center;
   transform: rotate(0deg) translateX(-190px) rotate(0deg);
@@ -88,7 +88,7 @@
 
 .coinFourT {
   position: absolute;
-  width: 20%;
+  width: 15%;
   animation: orbitTwoT 35s linear infinite;
 }
 
@@ -102,10 +102,10 @@
 }
 @keyframes orbitTwoT {
   0% {
-      transform: rotate(0deg) translateX(350px) rotate(0deg);
+      transform: rotate(0deg) translateX(400px) rotate(0deg);
   }
   100% {
-      transform: rotate(360deg) translateX(350px) rotate(-360deg);
+      transform: rotate(360deg) translateX(400px) rotate(-360deg);
   }
 }
 @keyframes orbitOneT {
