@@ -166,6 +166,9 @@
     .right {
         right: 50px;
     }
+    .titleFive {
+        font-size: 4em;
+    }
 }
 @media (min-width: 1441px)  {
     .containerFive {
