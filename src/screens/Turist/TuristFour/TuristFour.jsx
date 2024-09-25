@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import PagoQRbr from '@images/PagoQR-ES.gif';
 import CarouselImg from '@images/carouselImg.gif';
+import Rayo from '@images/rayo.png';
+// import Galeria from '@images/galeria.png';
 import './styles.css';
 
 const TuristFour = () => {
@@ -20,6 +22,9 @@ const TuristFour = () => {
                     <img src={PagoQRbr} className='videoElement' />
                 </div>
                 <div className='backImg'></div>
+                {/* <img className='backImg' src={Galeria} /> */}
+                <img className='backImgRayo' src={Rayo} />
+                <img className='backImgRayoDos' src={Rayo} />
             </div>
         </div>
     )

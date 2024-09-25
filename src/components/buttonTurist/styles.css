@@ -63,3 +63,9 @@
         display: flex;
     }
 }
+@media (min-width: 1440px) {
+    .btnTuristOne {
+        padding: 30px 50px;
+    }
+    
+}

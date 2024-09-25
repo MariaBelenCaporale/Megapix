@@ -154,3 +154,9 @@
     user-select: none;
   }
 }
+@media (min-width: 1441px) {
+  .containerFoodSix {
+    height: 800px;
+  }
+  
+}

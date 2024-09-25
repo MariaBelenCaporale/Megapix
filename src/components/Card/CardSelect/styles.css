@@ -142,4 +142,12 @@
     .textSelect {
         font-size: 1.2em;
     }
+    .containerCardSelect {
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+    .photoContainer {
+        height: 600px;
+    }
 }

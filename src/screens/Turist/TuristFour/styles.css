@@ -148,6 +148,19 @@
   .carouselElement {
     width: 600px;
   }
+  .backImgRayo {
+    top: -100px;
+    left: 400px;
+    position: absolute;
+    width: 300px;
+  }
+  .backImgRayoDos {
+    position: absolute;
+    width: 120px;
+    right: 900px;
+    top: 500px;
+    rotate: -40deg;
+  }
 }
 
 
