@@ -163,7 +163,7 @@
   }
   .titleHero {
     width: 60%;
-    font-size: 6em;
+    font-size: 5em;
     font-style: normal;
     font-weight: 400;
     line-height: 100px;
@@ -177,12 +177,12 @@
     width: 50%;
   }
   .titleTwo {
-    font-size: 7em;
+    font-size: 6em;
     width: 80%;
     line-height: 130px;
   }
   .titleHero {
-    font-size: 8em;
+    font-size: 6em;
     width: 60%;
   }
 }

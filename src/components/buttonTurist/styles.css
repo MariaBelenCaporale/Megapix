@@ -41,9 +41,9 @@
     border: 1px solid #62FEE2;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 576px) {
 .btnTuristOne {
-    width: 200px;
+    width: 260px;
     height: 50px;
     cursor: pointer;
     color: #FFF;

@@ -132,7 +132,7 @@ const TuristSix = () => {
             backgroundImage: `url(${backgroundImage})`, 
             backgroundRepeat: 'no-repeat',  
             backgroundSize: 'cover',   
-            backdropFilter: 'blur(10px)' 
+            backdropFilter: 'blur(20px)', 
           }}
         >
           <div className="cardContainer">

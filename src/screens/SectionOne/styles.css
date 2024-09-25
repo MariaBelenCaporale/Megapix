@@ -10,7 +10,13 @@
     width: 100%;
     flex-direction: column;
     position: relative;
-    /* overflow: hidden; */
+    gap: 2em;
+  }
+  .containerTitleOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   .titleSectionOne {
     color: white;

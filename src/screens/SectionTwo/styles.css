@@ -53,15 +53,11 @@
   height: 450px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* overflow: hidden; */
   position: relative;
 }
-
 .animation {
-  position: absolute;
   padding: 20px 20px;
-  width: auto;
+  width: 300px;
   background-color: #111;
   background: transparent;
   border-radius: 100px;
@@ -75,12 +71,10 @@
   font-size: 1.3em;
   font-weight: 400;
 }
-
 .animation:hover {
   color: #62fee2;
   border: 2px solid #62fee2;
 }
-
 .selected { 
   color: #111; 
   border: 2px solid #62fee2;
@@ -103,110 +97,18 @@
     transform: translateY(0);
   }
 }
-
-@keyframes floating-1 {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.columnOne {
+  width: auto;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
 }
 
 
-.animation-1 {
-  /* control finanzas */
-  top: 5%;
-  left: 0%;
+.animation {
   animation: floating 6s ease-in-out infinite;
 }
-.animation-2 {
-  /* cobros qr */
-  top: 5%;
-  left: 50%;
-  animation: floating-1 4s ease-in-out infinite;
-}
-.animation-3 {
-  /* conexion con turistas */
-  top: 70%;
-  left: 70%;
-  animation: floating 5s ease-in-out infinite;
-}
-.animation-4 {
-  /* gratis */
-  top: 20%;
-  left: 70%;
-  animation: floating-1 5s ease-in-out infinite;
-}
-.animation-5 {
-  /* multiplataforma */
-  top: 80%;
-  left: 30%;
-  animation: floating 6s ease-in-out infinite;
-}
-.animation-6 {
-  /*rapido */
-  top: 65%;
-  left: 90%;
-  animation: floating-1 6s ease-in-out infinite;
-}
-.animation-7 {
-  /* facil */
-  top: 2%;
-  left: 25%;
-  animation: floating 6s ease-in-out infinite;
-}
-.animation-8 {
-    /* sin comisiones */
-    top: 80%;
-    left: 50%;
-  animation: floating-1 5s ease-in-out infinite;
-}
-.animation-9 {
-    /* seguridad */
-    top: 50%;
-    left: 40%;
-  animation: floating 7s ease-in-out infinite;
-}
-.animation-10 {
-    /* tecnologia pix */
-    top: 40%;
-    left: 55%;
-  animation: floating 6s ease-in-out infinite;
-}
-.animation-11 {
-    /* transacciones sin posnet */
-    top: 30%;
-    left: 20%;
-  animation: floating-1 6s ease-in-out infinite;
-}
-.animation-12 {
-    /* cobros sin barreras */
-    top: 20%;
-    left: 80%;
-  animation: floating 4s ease-in-out infinite;
-}
-.animation-13 {
-    /* segura */
-    top: 50%;
-    left: 5%;
-  animation: floating-1 5s ease-in-out infinite;
-}
-.animation-14 {
-    /* soporte */
-    top: 48%;
-    left: 1%;
-  animation: floating 5s ease-in-out infinite;
-}
-.animation-15 {
-    /* soporte */
-    top: 5%;
-    left: 15%;
-  animation: floating-1 6s ease-in-out infinite;
-}
+
 
 
 
@@ -250,67 +152,6 @@
     padding: 10px;
     font-size: .8em;
   }
-
-  .animation-1 {
-    top: 5%;
-    left: 0%;
-  }
-  .animation-2 {
-    left: 5%;
-    top: 50%;
-  }
-  .animation-3 {
-    left: 0%;
-    top: 90%;
-  }
-  .animation-4 {
-    left: 40%;
-    top: 78%;
-  }
-  .animation-5 {
-    top: 20%;
-    left: 15%;
-  }
-  .animation-6 {
-    top: 35%;
-    left: 70%;
-  }
-  .animation-7 {
-    left: 0%;
-    top: 35%;
-  }
-  .animation-8 {
-    left: 60%;
-    top: 90%;
-  }
-  .animation-9 {
-        top: 50%;
-    left: 65%;
-  }
-  .animation-10 {
-    top: 5%;
-    left: 60%;
-  }
-  .animation-11 {
-    top: 65%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 20%;
-    left: 40%;
-  }
-  .animation-13 {
-    left: 15%;
-    top: 78%;
-  }
-  .animation-14 {
-    top: 65%;
-    left: 3%;
-  }
-  .animation-15 {
-    top: 35%;
-    left: 20%;
-  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .titleSectionTwo {
@@ -328,67 +169,6 @@
     padding: 10px;
     font-size: .9em;
   }
-  .animation-1 {
-    top: 5%;
-    left: 0%;
-  }
-  .animation-2 {
-      left: 15%;
-      top: 35%;
-  }
-  .animation-3 {
-    left: 1%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 45%;
-    top: 50%;
-  }
-  .animation-5 {
-    top: 20%;
-    left: 5%;
-  }
-  .animation-6 {
-    top: 20%;
-    left: 80%;
-  }
-  .animation-7 {
-    left: 0%;
-    top: 35%;
-  }
-  .animation-8 {
-    left: 40%;
-    top: 75%;
-  }
-  .animation-9 {
-    top: 40%;
-    left: 65%;
-  }
-  .animation-10 {
-    top: 5%;
-    left: 75%;
-  }
-  .animation-11 {
-    top: 65%;
-    left: 60%;
-  }
-  .animation-12 {
-    top: 5%;
-    left: 40%;
-  }
-  .animation-13 {
-    left: 30%;
-    top: 55%;
-  }
-  .animation-14 {
-    top: 55%;
-    left: 3%;
-  }
-  .animation-15 {
-    top: 20%;
-    left: 40%;
-  }
-
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .titleSectionTwo {
@@ -409,67 +189,6 @@
   .blurTwo {
     width: 60%;
   }
-
-  .animation-1 {
-    top: 5%;
-    left: 0%;
-  }
-  .animation-2 {
-    left: 70%;
-    top: 5%;
-  }
-  .animation-3 {
-    left: 0%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 85%;
-    top: 55%;
-  }
-  .animation-5 {
-    top: 30%;
-    left: 17%;
-  }
-  .animation-6 {
-    top: 25%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 30%;
-  }
-  .animation-8 {
-    left: 80%;
-    top: 75%;
-  }
-  .animation-9 {
-    top: 35%;
-    left: 75%;
-  }
-  .animation-10 {
-    top: 35%;
-    left: 40%;
-  }
-  .animation-11 {
-    top: 75%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 55%;
-    left: 55%;
-  }
-  .animation-13 {
-    left: 1%;
-    top: 50%;
-  }
-  .animation-14 {
-    top: 55%;
-    left: 25%;
-  }
-  .animation-15 {
-    top: 5%;
-    left: 40%;
-  }
 }
 @media (min-width: 993px) and (max-width: 1200px)  {
   .titleSectionTwo {
@@ -488,66 +207,6 @@
     width: 90%;
     height: 350px;
   }
-  .animation-1 {
-    top: 5%;
-    left: 0%;
-  }
-  .animation-2 {
-    left: 70%;
-    top: 5%;
-  }
-  .animation-3 {
-    left: 0%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 85%;
-    top: 55%;
-  }
-  .animation-5 {
-    top: 30%;
-    left: 17%;
-  }
-  .animation-6 {
-    top: 25%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 30%;
-  }
-  .animation-8 {
-    left: 80%;
-    top: 75%;
-  }
-  .animation-9 {
-    top: 35%;
-    left: 75%;
-  }
-  .animation-10 {
-    top: 35%;
-    left: 40%;
-  }
-  .animation-11 {
-    top: 75%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 55%;
-    left: 55%;
-  }
-  .animation-13 {
-    left: 1%;
-    top: 50%;
-  }
-  .animation-14 {
-    top: 55%;
-    left: 25%;
-  }
-  .animation-15 {
-    top: 5%;
-    left: 40%;
-  }
 }
 @media (min-width: 1201px) and (max-width: 1440px)  {
   .titleSectionTwo {
@@ -558,70 +217,11 @@
     padding: 0px;
   }
   .animation {
-    padding: 15px 20px;
+    padding: 20px 10px;
     font-size: 1.2em;
-  }  .rotated-items-container {
-    width: 80%;
-  }
-  .animation-1 {
-    top: 5%;
-    left: 10%;
-  }
-  .animation-2 {
-    left: 70%;
-    top: 5%;
-  }
-  .animation-3 {
-    left: 6%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 80%;
-    top: 55%;
-  }
-  .animation-5 {
-    top: 30%;
-    left: 25%;
-  }
-  .animation-6 {
-    top: 25%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 30%;
-  }
-  .animation-8 {
-    left: 70%;
-    top: 75%;
-  }
-  .animation-9 {
-    top: 35%;
-    left: 75%;
-  }
-  .animation-10 {
-    top: 32%;
-    left: 40%;
-  }
-  .animation-11 {
-    top: 75%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 55%;
-    left: 50%;
-  }
-  .animation-13 {
-    left: 15%;
-    top: 45%;
-  }
-  .animation-14 {
-    top: 55%;
-    left: 30%;
-  }
-  .animation-15 {
-    top: 5%;
-    left: 40%;
+  }  
+  .rotated-items-container {
+    width: 90%;
   }
 }
 

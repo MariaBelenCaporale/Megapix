@@ -133,6 +133,11 @@
   width: 60%;
 }
 
+@media (min-width: 360px) and (max-width: 576px) {
+  .askCardTur {
+    font-size: 3em;
+  }
+}
 @media (min-width: 360px) and (max-width: 772px) {
   .orderCardTur {
     display: none;

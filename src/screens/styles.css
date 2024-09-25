@@ -34,7 +34,7 @@
 
 .coinOne {
     position: absolute;
-    width: 15%;
+    width: 18%;
     animation: orbit 35s linear infinite;
     transform-origin: center;
 }
@@ -42,9 +42,8 @@
 .coinTwo {
     position: absolute;
     width: 15%;
-    animation: orbitTwo 45s linear infinite;
+    animation: orbitOne 45s linear infinite;
     transform-origin: center;
-    transform: rotate(0deg) translateX(350px) rotate(0deg);
 }
 
 .coinThree {
@@ -52,7 +51,6 @@
     width: 20%;
     animation: orbitThree 40s linear infinite;
     transform-origin: center;
-    transform: rotate(0deg) translateX(-190px) rotate(0deg);
 }
 
 .coinFour {
@@ -71,26 +69,26 @@
 }
 @keyframes orbitTwo {
     0% {
-        transform: rotate(0deg) translateX(350px) rotate(0deg);
+        transform: rotate(0deg) translateX(380px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(350px) rotate(-360deg);
+        transform: rotate(360deg) translateX(380px) rotate(-360deg);
     }
 }
 @keyframes orbitOne {
     0% {
-        transform: rotate(0deg) translateX(-200px) rotate(0deg);
+        transform: rotate(0deg) translateX(-350px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(-200px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-350px) rotate(-360deg);
     }
 }
 @keyframes orbit {
     0% {
-        transform: rotate(0deg) translateX(-270px) rotate(0deg);
+        transform: rotate(0deg) translateX(-300px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(-270px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-300px) rotate(-360deg);
     }
 }
 

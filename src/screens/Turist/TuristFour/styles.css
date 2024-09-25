@@ -76,10 +76,12 @@
 @media (min-width: 360px) and (max-width: 576px) {
     .titleTuristFour {
       font-size: 3em;;
+      margin: 0px;
     }
     .containerHow {
-      gap: 2em;
-      height: auto;
+      height: 100vh;
+      justify-content: flex-start;
+      margin-top: 50px;
     }
     .videoElement {
       width: auto;
@@ -93,11 +95,53 @@
       gap: 3em;
       flex-direction: column;
     }
-
+    .carouselElement {
+      width: 300px;
+    }
+    .videoElement {
+      height: 300px;
+    }
+    .containerElementGif {
+      position: absolute;
+      top: 50%;
+    }
+    .backImg {
+      width: 200px;
+      height: 300px;
+      right: 100px;
+    }
 }
 @media (min-width: 577px) and (max-width: 992px) {
   .titleTuristFour {
     font-size: 4em;
+  }
+  .backImg {
+    width: 200px;
+    height: 300px;
+    right: 100px;
+  }
+  .containerHow {
+    gap: 0px;
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+  .videoWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    flex-direction: column;
+  }
+  .carouselElement {
+    width: 400px;
+  }
+  .videoElement {
+    width: 200px;
+  }
+  .containerElementGif {
+    position: absolute;
+    top: 50%;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -106,7 +150,7 @@
   }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1440px) {
   .containerHow {
     display: flex;
     flex-direction: column;
@@ -118,6 +162,9 @@
   }
   .titleTuristFour {
     font-size: 5em;
+  }
+  .carouselElement {
+    width: 600px;
   }
 
 }
@@ -146,21 +193,9 @@
     width: 320px;
   }
   .carouselElement {
-    width: 600px;
+    width: 650px;
   }
-  .backImgRayo {
-    top: -100px;
-    left: 400px;
-    position: absolute;
-    width: 300px;
-  }
-  .backImgRayoDos {
-    position: absolute;
-    width: 120px;
-    right: 900px;
-    top: 500px;
-    rotate: -40deg;
-  }
+
 }
 
 

@@ -143,20 +143,17 @@
   .titleTuristSix {
     font-size: 4em;
   }
+
 }
 
-@media (min-width: 1441px) {
-  .containerTitleSix {
-    width: 50%;
-  }
-
-  .containerButtonSix {
-    user-select: none;
-  }
-}
 @media (min-width: 1441px) {
   .containerFoodSix {
     height: 800px;
   }
-  
+  .containerButtonSix {
+    user-select: none;
+  }
+  .containerTitleSix {
+    width: 50%;
+  }
 }

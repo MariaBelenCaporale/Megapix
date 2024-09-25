@@ -1,9 +1,7 @@
 import './styles.css';
-import Phone from '@images/phoneEsp.png';
+import Phone from '@images/phone.png';
 import { useEffect, useState, useRef } from 'react';
 import TuristOne from '../../screens/Turist/TuristOne/TuristOne';
-
-
 
 const PhoneComponent = () => {
     const [transform, setTransform] = useState('scale(1) translateY(0)');
@@ -19,11 +17,25 @@ const PhoneComponent = () => {
             const endTransformPoint = turistOnePosition + touristOneHeight - window.innerHeight;
 
    
-            const newScale = Math.max(0.5, 1 - (scrollTop / endTransformPoint) * 0.5);
-            const translateY = Math.min(scrollTop / 2, touristOneHeight); 
+            const windowWidth = window.innerWidth;
+
+           
+            let newScale = 1;
+            let translateY = 0;
+
+            if (windowWidth >= 1201) {
+                newScale = 1.3;
+                translateY = 0;
+            } else if (windowWidth <= 390) {
+                newScale = 1.2;
+                translateY = 0;
+            } else {
+                
+                newScale = Math.max(0.5, 1 - (scrollTop / endTransformPoint) * 0.5);
+                translateY = Math.min(scrollTop / 2, touristOneHeight);
+            }
 
             setTransform(`scale(${newScale}) translateY(${translateY}px)`);
-
 
             if (scrollTop > endTransformPoint) {
                 setTransform(`scale(0.8) translateY(${touristOneHeight}px)`);
@@ -51,11 +63,9 @@ const PhoneComponent = () => {
                     />
                 </div>
                 <TuristOne />
-
             </section>
             
             <div ref={turistOneRef} />
-            
         </>
     );
 };
