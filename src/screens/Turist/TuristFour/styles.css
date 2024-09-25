@@ -121,3 +121,33 @@
   }
 
 }
+@media (min-width: 1441px)  {
+  .containerHow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2em;
+  }
+  .titleTuristFour {
+    font-size: 5em;
+  }
+  .backImg {
+    border-radius: 40px;
+    background-color: #1E1E1E;
+    width: 700px;
+    height: 550px;
+    position: absolute;
+    right: 750px;
+  }
+  .videoElement {
+    width: 320px;
+  }
+  .carouselElement {
+    width: 600px;
+  }
+}
+
+
