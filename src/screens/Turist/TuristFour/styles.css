@@ -79,6 +79,7 @@
     }
     .containerHow {
       gap: 2em;
+      height: auto;
     }
     .videoElement {
       width: auto;
@@ -90,6 +91,7 @@
       align-items: center;
       justify-content: center;
       gap: 3em;
+      flex-direction: column;
     }
 
 }
