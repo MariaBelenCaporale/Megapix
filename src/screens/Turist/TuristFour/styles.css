@@ -15,6 +15,12 @@
     margin-top: 40px;
     margin-bottom: 0px;
 }
+.containerTextFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .containerHow {
   display: flex;
   flex-direction: column;
@@ -23,7 +29,6 @@
   width: 100%;
   height: 100vh;
   gap: 2em;
-  margin: 0px;
 }
 .subtitleFour {
   font-family: 'Poppins-Light';
@@ -32,17 +37,37 @@
   color: white;
   margin: 0px;
 }
-
 .videoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
 }
-
 .videoElement {
-  width: auto;
-  height: 700px;
-  display: block;
+  width: 270px; 
+}
+.carouselElement {
+  width: 500px;
+}
+.containerElementGif {
+  display: flex;
+  z-index: 9;
+  position: relative;
+  top: 10%;
+}
+.containerElementGifUno {
+  display: flex;
+  z-index: 9;
+}
+.backImg {
+  border-radius: 40px;
+  background-color: #1E1E1E;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  right: 450px;
 }
 
 
@@ -64,6 +89,7 @@
       width: 100%;
       align-items: center;
       justify-content: center;
+      gap: 3em;
     }
 
 }
@@ -86,8 +112,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    gap: 1em;
-    margin: 40px 0px 20px 0px;
+    gap: 2em;
   }
   .titleTuristFour {
     font-size: 5em;

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import PagoQRbr from '@images/PagoQR-BR.mp4';
+import PagoQRbr from '@images/PagoQR-ES.gif';
+import CarouselImg from '@images/carouselImg.gif';
 import './styles.css';
 
 const TuristFour = () => {
@@ -7,17 +8,18 @@ const TuristFour = () => {
 
     return (
         <div className='containerHow'>
+            <div className='containerTextFour'>
             <h2 className='titleTuristFour'>{t('Mirá que fácil')}</h2>
             <p className='subtitleFour'>{t('¡Es más que un método de pago, sumate a la experiencia megapix!')}</p>
+            </div>
             <div className='videoWrapper'>
-                <video 
-                    src={PagoQRbr} 
-                    controls 
-                    autoPlay 
-                    loop 
-                    muted 
-                    className='videoElement' 
-                />
+                <div className='containerElementGifUno'>
+                    <img src={CarouselImg} className='carouselElement'/>
+                </div>
+                <div className='containerElementGif'>
+                    <img src={PagoQRbr} className='videoElement' />
+                </div>
+                <div className='backImg'></div>
             </div>
         </div>
     )
