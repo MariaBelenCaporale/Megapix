@@ -1,87 +1,28 @@
-// import { useState } from "react";
-// import { useTranslation } from 'react-i18next';
-// import "./styles.css"; 
-
-// const SectionTwo = () => {
-//   const { t } = useTranslation();
-//   const [selectedButton, setSelectedButton] = useState(null)
-
-//   const handleButtonClick = (index) => {
-//     setSelectedButton(index);
-//   };
-//   const buttons = [
-//     t("Control de tus finanzas"),
-//     t("Cobros QR"),
-//     t("Link de pago"),
-//     t("Conexión con turistas"),
-//     t("Multiplataforma"),
-//     t("Gratis"),
-//     t("Rápido"),
-//     t("Fácil"),
-//     t("Sin comisiones"),
-//     t("Seguridad"),
-//     t("Tecnología PIX"),
-//     t("Pagos inmediatos"),
-//     t("Cobros sin barreras"),
-//     t("Segura"),
-//     t("Soporte 24/7"),
-//     t("Gestión de negocios"),
-//   ];
-
-//   return (
-//     <section className="containerSectionTwo">
-//       <div className="blurTwo">
-//         <h2 className="titleSectionTwo">
-//            {t('Ventajas de usar')} <span className="highlight"> {t('Megapix')}</span>
-//         </h2>
-//       </div>
-//       <div className="prueba" >
-//         <div className="rotated-items-container">
-//         {buttons.map((text, index) => (
-//             <button
-//               key={index}
-//               className={`animation animation-${index + 1} ${selectedButton === index ? 'selected' : ''}`}
-//               onClick={() => handleButtonClick(index)}
-//             >
-//               {text}
-//             </button>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default SectionTwo;
-
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import "./styles.css"; 
 
 const SectionTwo = () => {
   const { t } = useTranslation();
-  // const [selectedButton, setSelectedButton] = useState(null)
 
-  // const handleButtonClick = (index) => {
-  //   setSelectedButton(index);
-  // };
-  // const buttons = [
-  //   t("Control de tus finanzas"),
-  //   t("Cobros QR"),
-  //   t("Link de pago"),
-  //   t("Conexión con turistas"),
-  //   t("Multiplataforma"),
-  //   t("Gratis"),
-  //   t("Rápido"),
-  //   t("Fácil"),
-  //   t("Sin comisiones"),
-  //   t("Seguridad"),
-  //   t("Tecnología PIX"),
-  //   t("Pagos inmediatos"),
-  //   t("Cobros sin barreras"),
-  //   t("Segura"),
-  //   t("Soporte 24/7"),
-  //   t("Gestión de negocios"),
-  // ];
+  useEffect(() => {
+    const buttons = document.querySelectorAll('.animation');
+
+    const randomButtonBlink = () => {
+      const randomIndex = Math.floor(Math.random() * buttons.length);
+      const button = buttons[randomIndex];
+
+      button.classList.add('blink');
+
+      setTimeout(() => {
+        button.classList.remove('blink');
+      }, 3000);
+    };
+
+    const interval = setInterval(randomButtonBlink, 2000); 
+
+    return () => clearInterval(interval); 
+  }, []);
 
   return (
     <section className="containerSectionTwo">
@@ -90,32 +31,24 @@ const SectionTwo = () => {
            {t('Ventajas de usar')} <span className="highlight"> {t('Megapix')}</span>
         </h2>
       </div>
-      <div className="prueba" >
+      <div className="prueba">
         <div className="rotated-items-container">
-          <div className='columnOne'>
-          <button className={'animation' }>{t("Control de tus finanzas")}</button>
-          <button className={'animation' }>{t("Cobros QR")}</button>
-          <button className={'animation' }>{t("Link de pago")}</button>
-          <button className={'animation' }>{t("Conexión con turistas")}</button>
-          </div>
-          <div className='columnOne'>
-          <button className={'animation' }>{t("Multiplataforma")}</button>
-          <button className={'animation' }>{t("Rápido")}</button>
-          <button className={'animation' }>{t("Gratis")}</button>
-          <button className={'animation' }>{t("Fácil")}</button>
-          </div>
-          <div className='columnOne'>
-          <button className={'animation' }>{t("Sin comisiones")}</button>
-          <button className={'animation' }>{t("Seguridad")}</button>
-          <button className={'animation' }>{t("Tecnología PIX")}</button>
-          <button className={'animation' }>{t("Pagos inmediatos")}</button>
-          </div>
-          <div className='columnOne'>
-          <button className={'animation' }>{t("Cobros sin barreras")}</button>
-          <button className={'animation' }>{t("Segura")}</button>
-          <button className={'animation' }>{t("Soporte 24/7")}</button>
-          <button className={'animation' }>{t("Gestión de negocios")}</button>
-          </div>
+        <button className={`animation btn01`}>{t("Control de tus finanzas")}</button>
+          <button className={`animationTwo btn2`}>{t("Cobros QR")}</button>
+          <button className={`animation btn3`}>{t("Link de pago")}</button>
+          <button className={`animationTwo btn4`}>{t("Conexión con turistas")}</button>
+          <button className={`animationTwo btn5`}>{t("Multiplataforma")}</button>
+          <button className={`animation btn6`}>{t("Rápido")}</button>
+          <button className={`animation btn7`}>{t("Gratis")}</button>
+          <button className={`animation btn8`}>{t("Fácil")}</button>
+          <button className={`animationTwo btn9`}>{t("Sin comisiones")}</button>
+          <button className={`animationTwo btn10`}>{t("Seguridad")}</button>
+          <button className={`animation btn11`}>{t("Tecnología PIX")}</button>
+          <button className={`animation btn12`}>{t("Pagos inmediatos")}</button>
+          <button className={`animationTwo btn13`}>{t("Cobros sin barreras")}</button>
+          <button className={`animationTwo btn14`}>{t("Segura")}</button>
+          <button className={`animationTwo btn15`}>{t("Soporte 24/7")}</button>
+          <button className={`animation btn16`}>{t("Gestión de negocios")}</button>
         </div>
       </div>
     </section>

@@ -12,6 +12,27 @@
     src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
 
+  .animation, .animationTwo {
+    padding: 20px 20px;
+    width: 300px;
+    background-color: #111; 
+    border-radius: 100px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out; 
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    position: absolute;
+  }
+  .blink {
+    background-color: #62fee2; 
+    color: #111; 
+    transition: background-color 0.5s ease-in-out; 
+    border: 2px solid #62fee2;
+  }
 .blurTwo {
   width: 100%;
   display: flex;
@@ -39,7 +60,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
 }
 .prueba {
   width: 100%;
@@ -47,42 +67,20 @@
   align-items: center;
   justify-content: center;
 }
-
 .rotated-items-container {
   width: 90%;
   height: 450px;
   display: flex;
-  justify-content: space-between;
-  position: relative;
+  justify-content: center; 
+  position: relative; 
+  overflow: hidden;
 }
-.animation {
-  padding: 20px 20px;
-  width: 300px;
-  background-color: #111;
-  background: transparent;
-  border-radius: 100px;
-  border: 2px solid white;
-  cursor: pointer;
-  transition: 300ms ease-in-out;
 
-  color: #fff;
-  text-align: center;
-  font-family: "Poppins-Regular", sans-serif;
-  font-size: 1.3em;
-  font-weight: 400;
-}
 .animation:hover {
   color: #62fee2;
   border: 2px solid #62fee2;
 }
-.selected { 
-  color: #111; 
-  border: 2px solid #62fee2;
-  background-color: #62fee2;
-}
-.selected:hover {
-  color: #111;
-}
+
 
 
 
@@ -97,45 +95,34 @@
     transform: translateY(0);
   }
 }
+@keyframes floatingTwo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .columnOne {
   width: auto;
   justify-content: space-around;
   flex-direction: column;
   display: flex;
 }
-
-
 .animation {
   animation: floating 6s ease-in-out infinite;
+}
+.animationTwo {
+  animation: floatingTwo 6s ease-in-out infinite;
 }
 
 
 
 
 @media (min-width: 360px) and (max-width: 576px)  {
-  @keyframes floating {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-3px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes floating-1 {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(3px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
   .titleSectionTwo {
     width: 80%;
     font-size: 2.5em;
@@ -144,15 +131,35 @@
   .containerSectionTwo {
     padding: 0px;
   }
-  .rotated-items-container {
-    width: 90%;
-    height: 450px;
-  }
-  .animation {
+  .animation, .animationTwo {
     padding: 10px;
+    width: 150px;
     font-size: .8em;
   }
+  .btn01 { top: 3%; left: 55%; } 
+  .btn2 { top: 3%; left: 5%}
+  .btn3 {top: 18%; left: 3%}
+  .btn4 { top: 18%; left: 50% }
+  .btn5 { top: 28%; left: 5%}
+  .btn6 {top: 35%; left: 55%}
+  .btn7 { top: 42%; left: 0% }
+  .btn8 { top: 45%; left: 45% }
+  .btn9 { top: 53%; left: 3% }
+  .btn10 { top: 55%; left: 55% }
+  .btn11 { top: 65%; left: 5% }
+  .btn12 { top: 68%; left: 50% }
+  .btn13 { top: 78%; left: 55% }
+  .btn14 { top: 75%; left: 5% }
+  .btn15 { top: 90%; left: 50% }
+  .btn16 { top: 88%; left: 5% }
+
+  .rotated-items-container {
+    height: 550px;
+    width: 90%;
+  }
 }
+
+
 @media (min-width: 577px) and (max-width: 768px) {
   .titleSectionTwo {
     font-size: 3rem;
@@ -161,15 +168,35 @@
   .containerSectionTwo {
     padding: 0px;
   }
-  .rotated-items-container {
-    width: 90%;
-    height: 400px;
-  }
-  .animation {
+  .animation, .animationTwo {
     padding: 10px;
+    width: 200px;
     font-size: .9em;
   }
+  .btn01 { top: 3%; left: 55%; } 
+  .btn2 { top: 3%; left: 5%}
+  .btn3 {top: 18%; left: 3%}
+  .btn4 { top: 18%; left: 50% }
+  .btn5 { top: 28%; left: 5%}
+  .btn6 {top: 35%; left: 55%}
+  .btn7 { top: 42%; left: 0% }
+  .btn8 { top: 45%; left: 45% }
+  .btn9 { top: 53%; left: 3% }
+  .btn10 { top: 55%; left: 55% }
+  .btn11 { top: 65%; left: 5% }
+  .btn12 { top: 68%; left: 50% }
+  .btn13 { top: 78%; left: 55% }
+  .btn14 { top: 75%; left: 5% }
+  .btn15 { top: 90%; left: 50% }
+  .btn16 { top: 88%; left: 5% }
+
+  .rotated-items-container {
+    height: 550px;
+    width: 90%;
+  }
 }
+
+
 @media (min-width: 769px) and (max-width: 992px) {
   .titleSectionTwo {
     font-size: 3rem;
@@ -178,10 +205,6 @@
   .containerSectionTwo {
     padding: 0px;
   }
-  .animation {
-    padding: 15px 15px;
-    font-size: .9em;
-  }
   .rotated-items-container {
     width: 90%;
     height: 400px;
@@ -189,25 +212,72 @@
   .blurTwo {
     width: 60%;
   }
+  .animation, .animationTwo {
+    padding: 10px;
+    width: 210px;
+    font-size: 1em;
+  }
+  .btn01 { top: 3%; left: 60%; } 
+  .btn2 { top: 3%; left: 0%}
+  .btn3 {top: 13%; left: 30%}
+  .btn4 { top: 15%; left: 60% }
+  .btn5 { top: 15%; left: 0%}
+  .btn6 {top: 25%; left: 30%}
+  .btn7 { top: 35%; left: 10% }
+  .btn8 { top: 40%; left: 50% }
+  .btn9 { top: 50%; left: 30% }
+  .btn10 { top: 60%; left: 60% }
+  .btn11 { top: 60%; left: 0% }
+  .btn12 { top: 65%; left: 30% }
+  .btn13 { top: 75%; left: 55% }
+  .btn14 { top: 75%; left: 15% }
+  .btn15 { top: 88%; left: 60% }
+  .btn16 { top: 90%; left: 5% }
+
+  .rotated-items-container {
+    height: 550px;
+    width: 90%;
+  }
 }
-@media (min-width: 993px) and (max-width: 1200px)  {
+@media (min-width: 993px) and (max-width:1200px) {
   .titleSectionTwo {
     font-size: 4rem;
     width: 60%;
   }
-
   .containerSectionTwo {
     padding: 0px;
-  }
-  .animation {
-    padding: 15px 20px;
-    font-size: 1em;
   }
   .rotated-items-container {
     width: 90%;
     height: 350px;
   }
+  .animation, .animationTwo {
+    padding: 10px;
+    width: 210px;
+    font-size: 1em;
+  }
+  .btn01 { top: 3%; left: 72%; } 
+  .btn2 { top: 3%; left: 0%}
+  .btn3 {top: 3%; left: 25%}
+  .btn4 { top: 3%; left: 50% }
+  .btn5 { top: 20%; left: 28%}
+  .btn6 {top: 25%; left: 52%}
+  .btn7 { top: 25%; left: 3% }
+  .btn8 { top: 25%; left: 75% }
+  .btn9 { top: 42%; left: 50% }
+  .btn10 { top: 40%; left: 72% }
+  .btn11 { top: 42%; left: 0% }
+  .btn12 { top: 42%; left: 26% }
+  .btn13 { top: 60%; left: 52% }
+  .btn14 { top: 60%; left: 28% }
+  .btn15 { top: 65%; left: 75% }
+  .btn16 { top: 60%; left: 5% }
 }
+
+
+
+
+
 @media (min-width: 1201px) and (max-width: 1440px)  {
   .titleSectionTwo {
     font-size: 4rem;
@@ -216,13 +286,33 @@
   .containerSectionTwo {
     padding: 0px;
   }
-  .animation {
-    padding: 20px 10px;
-    font-size: 1.2em;
-  }  
+
   .rotated-items-container {
     width: 90%;
   }
+  .animation, .animationTwo {
+    padding: 10px;
+    width: 290px;
+    height: 75px;
+    font-size: 1.3em;
+  }
+  .btn01 { top: 3%; left: 72%; } 
+  .btn2 { top: 3%; left: 0%}
+  .btn3 {top: 3%; left: 25%}
+  .btn4 { top: 3%; left: 48% }
+  .btn5 { top: 20%; left: 28%}
+  .btn6 {top: 25%; left: 52%}
+  .btn7 { top: 25%; left: 3% }
+  .btn8 { top: 25%; left: 75% }
+  .btn9 { top: 50%; left: 50% }
+  .btn10 { top: 45%; left: 72% }
+  .btn11 { top: 42%; left: 0% }
+  .btn12 { top: 42%; left: 26% }
+  .btn13 { top: 80%; left: 52% }
+  .btn14 { top: 70%; left: 28% }
+  .btn15 { top: 65%; left: 75% }
+  .btn16 { top: 80%; left: 5% }
+
 }
 
 @media (min-width: 1441px) {
@@ -239,66 +329,7 @@
   .rotated-items-container {
     width: 80%;
   }
-  .animation-1 {
-    top: 5%;
-    left: 10%;
-  }
-  .animation-2 {
-    left: 70%;
-    top: 5%;
-  }
-  .animation-3 {
-    left: 6%;
-    top: 75%;
-  }
-  .animation-4 {
-    left: 80%;
-    top: 55%;
-  }
-  .animation-5 {
-    top: 30%;
-    left: 25%;
-  }
-  .animation-6 {
-    top: 25%;
-    left: 62%;
-  }
-  .animation-7 {
-    left: 5%;
-    top: 30%;
-  }
-  .animation-8 {
-    left: 70%;
-    top: 75%;
-  }
-  .animation-9 {
-    top: 35%;
-    left: 75%;
-  }
-  .animation-10 {
-    top: 32%;
-    left: 40%;
-  }
-  .animation-11 {
-    top: 75%;
-    left: 40%;
-  }
-  .animation-12 {
-    top: 55%;
-    left: 50%;
-  }
-  .animation-13 {
-    left: 15%;
-    top: 45%;
-  }
-  .animation-14 {
-    top: 55%;
-    left: 30%;
-  }
-  .animation-15 {
-    top: 5%;
-    left: 40%;
-  }
+
 }
 
 
