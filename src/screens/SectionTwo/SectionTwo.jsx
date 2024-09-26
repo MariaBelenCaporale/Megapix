@@ -23,7 +23,7 @@ const SectionTwo = () => {
 
     return () => clearInterval(interval); 
   }, []);
-
+  
   return (
     <section className="containerSectionTwo">
       <div className="blurTwo">
