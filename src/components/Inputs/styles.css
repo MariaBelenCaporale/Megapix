@@ -300,8 +300,17 @@
   .imgCheck {
     width: 140px;
   }
+  .usdt, .usdtDos, .brl {
+    right: -90%;
+  }
   .popup-content {
     width: 350px;
     justify-content: space-evenly;
   }
+}
+@media (min-width: 1441px) {
+  .usdt, .usdtDos, .brl {
+    right: -70%;
+  }
+  
 }

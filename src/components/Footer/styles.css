@@ -439,6 +439,10 @@
     }
     .containerTextImportant {
         top: 450px;
+        padding: 50px 0px 50px 0px;
+    }
+    .containerImportant {
+        margin: 0px;
     }
     
 }

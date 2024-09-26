@@ -151,3 +151,8 @@
 @media (min-width: 1201px) and (max-width: 1440px) {
   
 }
+@media (min-width: 1441px)  {
+  .coinTwoT {
+    width: 10%;
+  }
+}
