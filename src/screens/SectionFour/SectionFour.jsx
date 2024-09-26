@@ -27,6 +27,7 @@ const SectionFour = () => {
 
     return (
         <section className="sectionFour">
+            <div className='containerTotalFour'>
             <img className='pixImage' src={Pix} alt='pix' />
             <div className='cardFour'>
                 <h2 className='titleFour'>{t('Funcionalidades principales')}</h2>
@@ -61,6 +62,7 @@ const SectionFour = () => {
                     />
                 </div>
             </div>
+          
             <div className='containerMoveImageFour'>
                 <div className='moveImage'>
                     {activeImage === 'Gestión de billetera' && (
@@ -79,6 +81,7 @@ const SectionFour = () => {
                         <SwiperCard imagen={Ventas} imagenTres={VentasDos} />
                     ) }
                 </div>
+            </div>
             </div>
         </section>
     );
