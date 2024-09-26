@@ -75,7 +75,14 @@ const TuristFive = () => {
     }
   };
 
-
+  useEffect(() => {
+    if (sliderRef.current) {
+      sliderRef.current.scrollTo({
+        left: 800, 
+        behavior: 'auto',
+      });
+    }
+  }, []);
 
     return (
         <section className='containerTuristFive'>

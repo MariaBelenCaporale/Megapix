@@ -17,7 +17,9 @@
     height: 100vh;
     overflow: hidden;
 }
-
+.imgPhoneOneTurist {
+    overflow: auto;
+}
 .containerCarousel {
     display: flex;
     width: 100%;

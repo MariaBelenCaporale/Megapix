@@ -40,8 +40,6 @@
     align-items: center;
     justify-content: flex-start;
     width: 85%;
-    flex-direction: row;
-
     position: relative;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -49,6 +47,8 @@
     user-select: none;
     transition: all 0.2s;
     cursor: grab;
+    user-select: none !important;
+    box-shadow: inset 10px 0 8px 0px #000, inset -10px 0 8px 0px #000;
 }
 .containerDragFive::-webkit-scrollbar {
     display: none; 

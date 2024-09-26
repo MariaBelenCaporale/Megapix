@@ -132,9 +132,18 @@ const TuristSix = () => {
             backgroundImage: `url(${backgroundImage})`, 
             backgroundRepeat: 'no-repeat',  
             backgroundSize: 'cover',   
-            backdropFilter: 'blur(20px)', 
+            position: 'relative',
           }}
         >
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(0, 0, 0, 0.5)', 
+              zIndex: 1,
+            }} />
           <div className="cardContainer">
             {activeCard === "Recuerdos & experiencias" && (
               <CardSelect

@@ -21,9 +21,7 @@
   align-items: center;
   gap: 3rem;
 }
-.imgGroup {
-  width: 100%;
-}
+
 .containerTotalFour {
   display: flex;
   flex-direction: row;
@@ -87,6 +85,9 @@ display: flex;
 }
 
 @media (min-width: 360px) and (max-width: 576px) {
+  .containerTotalFour {
+    flex-direction: column;
+  }
   .pixImage {
     display: none;
   }
@@ -118,6 +119,8 @@ display: flex;
   }
   .containerMoveImageFour {
     margin-right: 0px;
+    width: 90%;
+    height: 300px;
   }
   .moveImage {
     width: 90%;
