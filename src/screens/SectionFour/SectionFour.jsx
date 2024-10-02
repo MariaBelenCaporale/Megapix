@@ -93,7 +93,9 @@ const SectionFour = () => {
                         {activeImage === 'Gestión de usuarios' && (
                             <SwiperCard 
                                 imagen={Usuarios} 
-                                imageStyles={[{ width: '50%' }]} 
+                                imageStyles={[
+                                    { width: '90%' },
+                                ]} 
                             />
                         )}
                         {activeImage === 'Gestión de ventas' && (

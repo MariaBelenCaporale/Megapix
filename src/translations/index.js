@@ -78,6 +78,8 @@ const resources = {
             'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.':'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.',
             'Plataforma sin costo':'Plataforma sin costo',
             'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.':'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.',
+            'Integración con API':'Integración con API',
+            'Ofrecemos una integración ágil y eficiente para comerciantes y empresas con sistemas propios. Mediante nuestra API, podrán incorporar de forma simple y rápida las funcionalidades de Megapix en su plataforma. Esto asegura una experiencia fluida, adaptada a sus necesidades, y optimiza el proceso de pago dentro de su propio entorno.':'Ofrecemos una integración ágil y eficiente para comerciantes y empresas con sistemas propios. Mediante nuestra API, podrán incorporar de forma simple y rápida las funcionalidades de Megapix en su plataforma. Esto asegura una experiencia fluida, adaptada a sus necesidades, y optimiza el proceso de pago dentro de su propio entorno.',
             //Pagos inmediatos
             'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.':'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.',
             //Soporte 24/7
@@ -263,6 +265,8 @@ const resources = {
             'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.':'A Megapix oferece um sistema de administração e divisão de tarefas, com funções como administrador, coadministrador, gerente e caixa ou cobrador, aumentando a eficiência operacional.',
             'Plataforma sin costo':'Plataforma sem custo',
             'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.':'Nossa plataforma é 100% gratuita, o que significa que você não precisará se preocupar com letras miúdas ou comissões de registro ou uso.',
+            'Integración con API':'k',
+            'Ofrecemos una integración ágil y eficiente para comerciantes y empresas con sistemas propios. Mediante nuestra API, podrán incorporar de forma simple y rápida las funcionalidades de Megapix en su plataforma. Esto asegura una experiencia fluida, adaptada a sus necesidades, y optimiza el proceso de pago dentro de su propio entorno.':'ll',
             //Pagos inmediatos
             'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.':'Receba reais e receba dólar digital em sua conta Megapix instantaneamente de forma fácil e segura. Em seguida, você poderá retirá-lo quando quiser, em USDT ou em pesos argentinos.',
             //Soporte 24/7
@@ -445,6 +449,8 @@ const resources = {
             'Megapix ofrece un sistema de administración y división de tareas, donde existe un administrador, co-administrador, gerente y cajero o cobrador, logrando aumentar la eficiencia operativa.':'Megapix offers an administration and task division system, including an administrator, co-administrator, manager, and cashier or collector, enhancing operational efficiency.',
             'Plataforma sin costo':'Cost-Free Platform',
             'Nuestra plataforma es 100% gratuita, lo que significa que no tendrás que preocuparte por la letra chica ni comisiones por registro o uso.':'Our platform is 100% free, meaning you won’t need to worry about hidden fees or registration costs.',
+            'Integración con API':'k',
+            'Ofrecemos una integración ágil y eficiente para comerciantes y empresas con sistemas propios. Mediante nuestra API, podrán incorporar de forma simple y rápida las funcionalidades de Megapix en su plataforma. Esto asegura una experiencia fluida, adaptada a sus necesidades, y optimiza el proceso de pago dentro de su propio entorno.':'ll',
             //Pagos inmediatos
             'Cobrá reales y recibí dolar digital en tu cuenta Megapix al instante de manera fácil y segura. Luego podrás retirarlo cuando quieras en USDT o en pesos argentinos.':'Receive Reais and get digital dollars in your Megapix account instantly in an easy and secure manner. Then, you can withdraw in USDT or Argentine pesos whenever you want.',
             //Soporte 24/7

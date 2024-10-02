@@ -7,6 +7,7 @@ import Soporte from '@images/soporte.png';
 import Coin from '@images/coinUno.png';
 import CobrosSeguros from '@images/cobros-seguros.png';
 import Inmediatos from '@images/inmediato.png';
+import Api from '@images/api.png';
 import Usdt from '@images/usdt.png';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from "react";
@@ -135,6 +136,11 @@ const SectionFive = () => {
             imageDrag={Usdt}
             titleDrag={t('Dólar digital (USDT)')}
             textDrag={t('El dólar digital USDT es una stablecoin que está vinculada al valor del dólar estadounidense, lo que significa que su valor se mantiene estable y protege a los usuarios de la volatilidad. ¡Cobrar en USDT puede aportar estabilidad, agilidad en las transacciones y nuevas oportunidades financieras!')}
+          /> 
+          <CardDrag 
+            imageDrag={Api}
+            titleDrag={t('Integración con API')}
+            textDrag={t('Ofrecemos una integración ágil y eficiente para comerciantes y empresas con sistemas propios. Mediante nuestra API, podrán incorporar de forma simple y rápida las funcionalidades de Megapix en su plataforma. Esto asegura una experiencia fluida, adaptada a sus necesidades, y optimiza el proceso de pago dentro de su propio entorno.')}
           /> 
         </div>
         <button className="arrowButton right" onClick={() => handleScroll(400)}>
