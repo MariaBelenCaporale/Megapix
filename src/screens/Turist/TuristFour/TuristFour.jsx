@@ -2,12 +2,14 @@ import { useTranslation } from 'react-i18next';
 import PagoQRar from '@images/PagoQR-ES.gif';
 import PagoQRbr from '@images/PagoQR-BR.gif';
 import CarouselImg from '@images/carouselImg.gif';
+import CarouselImgBr from '@images/carouselImgBr.gif';
 import './styles.css';
 
 const TuristFour = () => {
     const { t, i18n } = useTranslation();
 
     const paymentImage = i18n.language === 'br' ? PagoQRbr : PagoQRar;
+    const carouselLang = i18n.language === 'br' ? CarouselImgBr : CarouselImg;
 
     return (
         <div className='containerHow'>
@@ -17,7 +19,7 @@ const TuristFour = () => {
             </div>
             <div className='videoWrapper'>
                 <div className='containerElementGifUno'>
-                    <img src={CarouselImg} className='carouselElement'/>
+                    <img src={carouselLang} className='carouselElement'/>
                 </div>
                 <div className='containerElementGif'>
                     <img src={paymentImage} className='videoElement' />
