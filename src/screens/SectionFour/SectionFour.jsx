@@ -68,7 +68,7 @@ const SectionFour = () => {
                                 imagenUno={CobroUno} 
                                 imageStyles={[
                                     { width: '100%' },
-                                    { width: '80%' },
+                                    { width: '50%' },
                                 ]}
                             />
                         )}
@@ -95,6 +95,7 @@ const SectionFour = () => {
                                 imagen={Usuarios} 
                                 imageStyles={[
                                     { width: '90%' },
+                                    { width: '100%' },
                                 ]} 
                             />
                         )}

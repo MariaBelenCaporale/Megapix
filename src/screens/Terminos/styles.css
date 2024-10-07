@@ -32,12 +32,21 @@
     justify-content: center;
 }
 .titleTerms {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
-    color: white;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 134px #000;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.044%; 
 }
-.textTerms {
-    color: white;
-    font-size: 1em;
-    font-family: "Poppins", sans-serif;
+.manual {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
 }
