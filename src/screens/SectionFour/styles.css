@@ -10,6 +10,19 @@
   src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
   src: url("../../fonts/Poppins/Poppins-Thin.ttf");
 }
+.hidden {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+.containerMoveImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 100%;
+}
 
 .sectionFour {
   justify-content: center;
@@ -84,6 +97,7 @@ display: flex;
     justify-content: center;
 }
 
+
 @media (min-width: 360px) and (max-width: 576px) {
   .containerTotalFour {
     flex-direction: column;
@@ -119,7 +133,7 @@ display: flex;
   }
   .containerMoveImageFour {
     margin-right: 0px;
-    width: 90%;
+    width: 100%;
     height: 300px;
   }
   .moveImage {
@@ -129,7 +143,16 @@ display: flex;
     justify-content: center;
     overflow: hidden;
   }
-  
+  .imgOne {
+    width: 90%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 100%;
+  }
+  .imgSeven {
+    width: 70%;
+  }
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -150,10 +173,6 @@ display: flex;
     font-size: 2.4em;
     width: 60%;
   }
-  .moveImage {
-    width: 90%;
-    overflow: hidden;
-  }
   .containerBtnFour {
     display: flex;
     gap: 1rem;
@@ -167,8 +186,34 @@ display: flex;
   .containerBtnFour button {
     flex: 0 0 auto; 
   }
+
+  .moveImage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
   .containerMoveImageFour {
     margin-right: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    height: 600px;
+}
+  
+  .containerTotalFour {
+    flex-direction: column;
+  }
+  .imgOne {
+    width: 90%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 100%;
+  }
+  .imgSeven {
+    width: 70%;
   }
 
 }
@@ -183,11 +228,32 @@ display: flex;
     height: auto;
   }
   .moveImage {
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+  }
+  .containerMoveImageFour {
+    margin-right: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     width: 90%;
-    overflow: visible;
+    height: 650px;
+}
+  
+  .containerTotalFour {
+    flex-direction: column;
+  }
+  .imgOne {
+    width: 90%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 100%;
+  }
+  .imgSeven {
+    width: 50%;
   }
   .cardFour {
     margin: 0px;
@@ -211,20 +277,56 @@ display: flex;
   .containerBtnFour button {
     flex: 0 0 auto; 
   }
-  .containerMoveImageFour {
-    margin-right: 0px;
-  }
+
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
   .containerMoveImageFour {
     margin-right: 0px;
   }
+  .titleFour {
+    font-size: 2em;
+  }
   .moveImage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+  }
+  .imgOne {
+    width: 90%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 100%;
+  }
+  .imgSeven {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .containerMoveImageFour {
+    margin-right: 0px;
   }
   .titleFour {
     font-size: 2em;
+  }
+  .moveImage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .imgOne {
+    width: 80%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 90%;
+  }
+  .imgSeven {
+    width: 50%;
   }
 }
 
@@ -237,5 +339,21 @@ display: flex;
   }
   .containerMoveImageFour {
     width: 50%;
+  }
+  .moveImage {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .imgOne {
+    width: 90%;
+  }
+  .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
+    width: 90%;
+  }
+  .imgSeven {
+    width: 60%;
   }
 }

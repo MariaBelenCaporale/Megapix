@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import ButtonFour from '../../components/buttonFour/ButtonFour';
-import SwiperCard from '../../components/SwipperCard/SwipperCard';
 import Pix from '@images/pix.png';
 import GestionTiendas from '@images/gestionTiendas.png';
 import Usuarios from '@images/usuarios.png';
@@ -19,10 +18,31 @@ const SectionFour = () => {
 
     const [activeImage, setActiveImage] = useState('Gestión de cobros diarios');
     const [activeButton, setActiveButton] = useState('Gestión de cobros diarios');
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const imagesMap = useMemo(() => ({
+        'Gestión de cobros diarios': [CobroUno, CobroDos],
+        'Gestión de billetera': [Dinero, MisCuentas, Monedacard],
+        'Gestión de tiendas': [GestionTiendas],
+        'Gestión de usuarios': [Usuarios],
+        'Gestión de ventas': [Ventas, VentasDos]
+    }), []);
+
+    useEffect(() => {
+        const images = imagesMap[activeImage] || [];
+        if (images.length === 0) return;
+
+        const intervalId = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 3000);
+
+        return () => clearInterval(intervalId);
+    }, [activeImage, imagesMap]);
 
     const handleButtonClick = (image, buttonTitle) => {
         setActiveImage(image);
         setActiveButton(buttonTitle);
+        setCurrentImageIndex(0); 
     };
 
     return (
@@ -63,51 +83,29 @@ const SectionFour = () => {
                 <div className='containerMoveImageFour'>
                     <div className='moveImage'>
                         {activeImage === 'Gestión de cobros diarios' && (
-                            <SwiperCard 
-                                imagen={CobroDos} 
-                                imagenUno={CobroUno} 
-                                imageStyles={[
-                                    { width: '100%' },
-                                    { width: '50%' },
-                                ]}
-                            />
+                            <>
+                                <img className={`imgOne ${currentImageIndex === 0 ? 'active' : 'hidden'}`} src={CobroUno} alt='Cobro Uno' />
+                                <img className={`imgTwo ${currentImageIndex === 1 ? 'active' : 'hidden'}`} src={CobroDos} alt='Cobro Dos' />
+                            </>
                         )}
                         {activeImage === 'Gestión de billetera' && (
-                            <SwiperCard 
-                                imagen={Dinero} 
-                                imagenUno={MisCuentas} 
-                                imagenDos={Monedacard} 
-                                imageStyles={[
-                                    { width: '100%' },
-                                    { width: '100%' },
-                                    { width: '90%' },
-                                ]}
-                            />
+                            <>
+                                <img className={`imgThree ${currentImageIndex === 0 ? 'active' : 'hidden'}`} src={Dinero} alt='Dinero' />
+                                <img className={`imgFour ${currentImageIndex === 1 ? 'active' : 'hidden'}`} src={MisCuentas} alt='Mis Cuentas' />
+                                <img className={`imgFive ${currentImageIndex === 2 ? 'active' : 'hidden'}`} src={Monedacard} alt='Moneda Card' />
+                            </>
                         )}
                         {activeImage === 'Gestión de tiendas' && (
-                            <SwiperCard 
-                                imagen={GestionTiendas} 
-                                imageStyles={[{ width: '100%' }]} 
-                            />
+                            <img className='imgSix active' src={GestionTiendas} alt='Gestión de Tiendas' />
                         )}
                         {activeImage === 'Gestión de usuarios' && (
-                            <SwiperCard 
-                                imagen={Usuarios} 
-                                imageStyles={[
-                                    { width: '90%' },
-                                    { width: '100%' },
-                                ]} 
-                            />
+                            <img className='imgSeven active' src={Usuarios} alt='Usuarios' />
                         )}
                         {activeImage === 'Gestión de ventas' && (
-                            <SwiperCard 
-                                imagen={Ventas} 
-                                imagenUno={VentasDos} 
-                                imageStyles={[
-                                    { width: '100%' },
-                                    { width: '90%' },
-                                ]}
-                            />
+                            <>
+                                <img className={`imgEight ${currentImageIndex === 0 ? 'active' : 'hidden'}`} src={Ventas} alt='Ventas' />
+                                <img className={`imgNine ${currentImageIndex === 1 ? 'active' : 'hidden'}`} src={VentasDos} alt='Ventas Dos' />
+                            </>
                         )}
                     </div>
                 </div>
