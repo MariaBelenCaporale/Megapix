@@ -42,7 +42,7 @@ const Inputs = () => {
   
       setTimeout(() => {
         setShowPopup(false);
-      }, 3000);
+      }, 30000);
     });
   };
 

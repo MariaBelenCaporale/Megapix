@@ -295,10 +295,10 @@
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   .imgCodigo {
-    width: 250px;
+    width: 260px;
   }
   .imgCheck {
-    width: 140px;
+    width: 90px;
   }
   .usdt, .usdtDos, .brl {
     right: -90%;
