@@ -7,6 +7,7 @@ const CardTerminos = () => {
   const [isTermsExpandTwo, setIsTermsExpandTwo] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
+  
   const handleItemClick = (item) => {
     setSelectedItem(item);
   };
@@ -37,6 +38,7 @@ const CardTerminos = () => {
               className="navTitleOne"
               href="#term1"
               onClick={() => handleItemClick("term1")}
+              
             > <span className={`lineaTerm ${selectedItem === "term1" ? "selected" : "" }`} ></span>
               <h3
                 className={`titleCardItem  ${
