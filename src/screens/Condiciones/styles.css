@@ -1,6 +1,15 @@
 
 
-
+.containerNavCondiciones {
+    z-index: 100;
+    flex-direction: row;
+    display: flex;
+    background: linear-gradient(360deg, rgba(17, 17, 17, 0) 15.94%, #111111e5 66.12%);
+    width: 100%;
+}
+.logoCon {
+    width: 50%;
+}
 .containerSectionCond {
     display: flex;
     align-items: center;

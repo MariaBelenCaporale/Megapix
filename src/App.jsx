@@ -1,23 +1,30 @@
 import './App.css';
 import NavBar from './components/NavBar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import CompanyScreen from './screens/CompanyScreen';
 import TuristScreen from './screens/Turist/TuristScreen'; 
-
 import Condiciones from './screens/Condiciones/Condiciones';
 
-
 function App() {
+  const location = useLocation();
+  const hideNavBar = location.pathname === '/terminos';
+
   return (
-    <Router>
-      <NavBar />
+    <>
+      {!hideNavBar && <NavBar />}
       <Routes>
         <Route path="/" element={<CompanyScreen />} />
         <Route path="/turistas" element={<TuristScreen />} />
         <Route path="/terminos" element={<Condiciones />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
-export default App;
+export default function Wrapper() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}

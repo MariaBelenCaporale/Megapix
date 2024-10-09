@@ -1,98 +1,122 @@
 @font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins/Poppins-Black.ttf");
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .lineTerms {
+    background: #5a5a5a;
+    width: 100%;
+    height: 1px;
+  }
+  .navTitleOne {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .termsList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .subNav:hover {
+    color: #62fee2;
+  }
+  ul {
+    list-style: none;
+  }
+  .subNav {
+    color: #e6e6e6;
+    font-family: "Poppins-Light";
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .containerLinesText {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .titleCardItem {
+    color: #fff;
     font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
-    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+  }
+  .titleIndice {
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .subtitleTerms {
+    color: #aaa;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cardTerms {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #292929;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(26px);
+    display: flex;
+    width: 40%;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: auto;
+  }
+  .selected {
+    color: #62fee2;
+  }
+  .lineaTerm {
+    display: flex;
+    width: 3px;
+    height: 31px;
+    background-color: transparent; 
+  }
+  .lineaTerm.selected {
+    background-color: #62fee2; 
   }
 
 
-
-@media (min-width: 1201px) and (max-width: 1440px) {
-    .lineTerms {
-        background: #5A5A5A;
-        width: 100%;
-        height: 1px;
-    }
-    .navTitleOne {
-        text-decoration: none;
-    }
-    .termsList {
-        list-style: none;
-        margin: 0px;
-        padding: 0px;
-        gap: 1em;
-        display: flex;
-        flex-direction: column;
-    }
-    .subNav:hover {
-        color: #62FEE2;
-    }
-    ul {
-        list-style: none;
-    }
-    .subNav {
-        color: #E6E6E6;
-        font-family: 'Poppins-Light';
-        font-size: 1em;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-decoration: none;
-    }
-    .containerLinesText {
-        display: flex;
-    flex-direction: column;
-    gap: 1em;
-    }
-    .titleCardItem {
-        color: #FFF;
-        font-family: 'Poppins';
-        font-size: 1em;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.16px;
-        text-decoration: none;
-    }
-    .titleIndice {
-        color: #FFF;
-        text-align: center;
-        font-family: 'Poppins';
-        font-size: 1.5em;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-    .subtitleTerms {
-        color: #AAA;
-        text-align: center;
-        font-family: 'Poppins-Regular';
-        font-size: 1em;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .cardTerms {
-        border-radius: 0px 10px 10px 0px;
-        background-color: #292929;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        backdrop-filter: blur(26px);
-        display: flex;
-        width: 40%;
-        padding: 32px 16px;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        height: auto;
-    }
-    .selected {
-        color: #62FEE2;
-    }
-
+  .return {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins-Light';
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+    .return:hover {
+    color: #62fee2;
+  }
 }

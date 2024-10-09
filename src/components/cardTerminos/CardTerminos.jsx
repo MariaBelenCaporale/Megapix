@@ -37,7 +37,7 @@ const CardTerminos = () => {
               className="navTitleOne"
               href="#term1"
               onClick={() => handleItemClick("term1")}
-            >
+            > <span className={`lineaTerm ${selectedItem === "term1" ? "selected" : "" }`} ></span>
               <h3
                 className={`titleCardItem  ${
                   selectedItem === "term1" ? "selected" : ""
@@ -256,7 +256,7 @@ const CardTerminos = () => {
               className="navTitleOne"
               href="#a"
               onClick={() => handleItemClick("a")}
-            >
+            ><span className={`lineaTerm ${selectedItem === "a" ? "selected" : "" }`} ></span>
               <h3
                 className={`titleCardItem  ${
                   selectedItem === "a" ? "selected" : ""
@@ -358,7 +358,7 @@ const CardTerminos = () => {
               className="navTitleOne"
               href="#i"
               onClick={() => handleItemClick("i")}
-            >
+            ><span className={`lineaTerm ${selectedItem === "i" ? "selected" : "" }`} ></span>
               <h3
                 className={`titleCardItem  ${
                   selectedItem === "i" ? "selected" : ""
