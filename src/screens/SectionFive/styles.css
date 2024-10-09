@@ -141,7 +141,7 @@
         text-align: center;
     }
     .containerSectionFive {
-        height: 100vh;
+        height: auto;
     }
     .arrowButton {
         display: none;
