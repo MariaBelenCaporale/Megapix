@@ -46,12 +46,13 @@ const Condiciones = () => {
           <div>
              <NavLink to="/" className='return' >
              <KeyboardArrowLeftRoundedIcon />
-             Volver
+            { t("Volver")}
+             
              </NavLink>
          </div>
          
         <div className="containerTitleTerms">
-            <h2 className="titleTerms">Términos y condiciones</h2>
+            <h2 className="titleTerms">{t('Términos y condiciones')}</h2>
         </div>
 
         <div className='containerAsk'>
