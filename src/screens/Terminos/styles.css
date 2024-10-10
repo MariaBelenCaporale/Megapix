@@ -198,3 +198,10 @@
     gap: 2em;
 }
 }
+
+
+@media (min-width: 1441px) {
+  .titleTerms {
+    font-size: 3em;
+  }
+}

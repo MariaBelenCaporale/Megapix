@@ -348,12 +348,12 @@ display: flex;
     overflow: hidden;
   }
   .imgOne {
-    width: 90%;
+    width: 70%;
   }
   .imgTwo, .imgThree, .imgFour, .imgFive, .imgSix, .imgEight, .imgNine {
     width: 90%;
   }
   .imgSeven {
-    width: 60%;
+    width: 50%;
   }
 }

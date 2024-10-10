@@ -84,10 +84,68 @@
     flex-direction: column;
     align-items: flex-start;
     width: 70%;
+    z-index: 1;
 }
 .logoCon {
     width: 50%;
 }
+.containerSectionCond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3em;
+}
+.containerTotalTerminos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.containerTotalCond {
+    z-index: 1;
+    display: flex;
+    gap: 4em;
+    width: 80%;
+    align-items: flex-start;
+}  
+.terminos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    overflow-y: scroll;
+}
+}
+@media (min-width: 1441px)  {
+.containerNavCondiciones {
+    z-index: 100;
+    flex-direction: row;
+    display: flex;
+    background: linear-gradient(360deg, rgba(17, 17, 17, 0) 15.94%, #111111e5 66.12%);
+    width: 100%;
+}
+.askCondiciones {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    z-index: 1;
+}
+.contenedorCondicionesTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    z-index: 1;
+}
+.logoCon {
+    width: 40%;
+}
+
 .containerSectionCond {
     display: flex;
     align-items: center;
