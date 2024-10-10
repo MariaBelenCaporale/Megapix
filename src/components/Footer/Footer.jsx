@@ -10,6 +10,10 @@ import TextFooter from "./TextFooter";
 
 const Footer = ({ link }) => {
   const { t } = useTranslation();
+  const handleScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
 
   return (
     <div className="containerFooter">
@@ -50,6 +54,7 @@ const Footer = ({ link }) => {
                 className={({ isActive }) =>
                   isActive ? "navlink active" : "navlink inactive"
                 }
+                onClick={handleScroll} 
               >
                 <p className="textNavThree">{t('Soporte & FAQs')}</p>
               </NavLink>
@@ -57,10 +62,11 @@ const Footer = ({ link }) => {
             </div>
             <div className="columnOneFooter">
               <NavLink
-                to="/"
+                to="/terminos"
                 className={({ isActive }) =>
                   isActive ? "navlink active" : "navlink inactive"
                 }
+                onClick={handleScroll} 
               >
                 <p className="textNavThree">{t('Política de privacidad')}</p>
               </NavLink>
@@ -70,6 +76,7 @@ const Footer = ({ link }) => {
                 className={({ isActive }) =>
                   isActive ? "navlink active" : "navlink inactive"
                 }
+                onClick={handleScroll} 
               >
                 <p className="textNavThree">{t('Términos & condiciones')}</p>
               </NavLink>
