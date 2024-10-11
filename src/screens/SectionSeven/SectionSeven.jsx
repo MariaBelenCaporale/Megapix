@@ -35,7 +35,7 @@ const SectionSeven = () => {
     ];
 
     return (
-        <section className='containerSecSeven'>
+        <section className='containerSecSeven' id="faqs">
             <div className='titleSectionSeven'>
                 <h2 className='titleSeven'>{t('Preguntas frecuentes')}</h2>
             </div>

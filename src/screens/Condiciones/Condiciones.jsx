@@ -17,6 +17,8 @@ const Condiciones = () => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
+
+    
     const faqs = [
       {
           question: t('Términos y condiciones'),
