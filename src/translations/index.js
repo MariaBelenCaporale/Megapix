@@ -826,7 +826,7 @@ const resources = {
             //btn
             "Visitar plataforma":"Visit Platform",
             //Slogan
-            'Megapix, innovando el presente & futuro':'Megapix, innovando el presente & futuro',
+            'Megapix, innovando el presente & futuro':'Megapix, innovating the present and future',
             //Switch
             'Negocios AR':'Business AR',
             'Clientes BR':'Clients BR',
@@ -844,14 +844,18 @@ const resources = {
 // terminos y condiciones ------------------
 'Los siguientes términos y condiciones generales de uso de la sus modificaciones, constituyen el acuerdo entre cualquier aplicación “Megapix”, y/o sitio web www.megapix.lat incluyendo persona y/o representante legal mayor de 18 años en adelante (“Comerciante/cliente y Turista/usuario final”) que utilice la aplicación móvil disponible en www.megapix.lat operado por Cavaliere Group S.R.L. Se describirán los derechos, responsabilidades y obligaciones que aplicarán en la relación entre el cliente comerciante, usuario final turista, y Megapix, referente al uso de la aplicación y cualquier producto, funcionalidad o servicio en relación que allí se ofrezca.': 'The following general terms and conditions of use and their modifications constitute the agreement between any application “Megapix” and/or the website www.megapix.lat, including any person and/or legal representative over 18 years old (“Merchant/Client and Tourist/End User”) who uses the mobile application available at www.megapix.lat operated by Cavaliere Group S.R.L. The rights, responsibilities, and obligations that will apply in the relationship between the merchant client, tourist end user, and Megapix regarding the use of the application and any products, functionalities, or services offered therein will be described.',
 
-'1. Aceptación de los Términos: ':'1. Aceptación de los Términos: ',
-'La aceptación a los Términos y Condiciones Generales- y demás anexos vinculados- previo a la utilización de la Aplicación implica un acuerdo contractual vinculante entre las partes. Cualquier usuario que no desee aceptarlos deberá abstenerse de utilizar la misma.':'La aceptación a los Términos y Condiciones Generales- y demás anexos vinculados- previo a la utilización de la Aplicación implica un acuerdo contractual vinculante entre las partes. Cualquier usuario que no desee aceptarlos deberá abstenerse de utilizar la misma.',
-'2. Actualizaciones y Modificaciones: ':'2. Actualizaciones y Modificaciones: ',
-'La vigencia de las actualizaciones y/ modificaciones consideradas pertinentes comenzará a regir desde el momento de su publicación y/o funcionamiento y podrán ocurrir de manera automática sin previo aviso. Por la presente, aceptas estas posibles futuras modificaciones y actualizaciones.':'La vigencia de las actualizaciones y/ modificaciones consideradas pertinentes comenzará a regir desde el momento de su publicación y/o funcionamiento y podrán ocurrir de manera automática sin previo aviso. Por la presente, aceptas estas posibles futuras modificaciones y actualizaciones.',
-'3. Comunicación Electrónica: ':'3. Comunicación Electrónica: ',
-'Al aceptar estos Términos Generales el usuario consiente el formato electrónico de notificación en lo referente al uso de la misma y los servicios provistos por ella.':'Al aceptar estos Términos Generales el usuario consiente el formato electrónico de notificación en lo referente al uso de la misma y los servicios provistos por ella.',
-'4. Canales de Atención: ':'4. Canales de Atención: ',
-'En Megapix, brindamos un soporte integral a nuestro cliente (comerciante) a través de la sección llamada “Soporte” dentro nuestra plataforma. En esta sección, el usuario encontrará: ':'En Megapix, brindamos un soporte integral a nuestro cliente (comerciante) a través de la sección llamada “Soporte” dentro nuestra plataforma. En esta sección, el usuario encontrará: ',
+'1. Aceptación de los Términos: ':'1. Acceptance of Terms: ',
+'La aceptación a los Términos y Condiciones Generales- y demás anexos vinculados- previo a la utilización de la Aplicación implica un acuerdo contractual vinculante entre las partes. Cualquier usuario que no desee aceptarlos deberá abstenerse de utilizar la misma.':'Acceptance of the General Terms and Conditions—and any related annexes—prior to using the Application implies a binding contractual agreement between the parties. Any user who does not wish to accept them must refrain from using it.',
+
+'2. Actualizaciones y Modificaciones: ':'2. Updates and Modifications: ',
+'La vigencia de las actualizaciones y/ modificaciones consideradas pertinentes comenzará a regir desde el momento de su publicación y/o funcionamiento y podrán ocurrir de manera automática sin previo aviso. Por la presente, aceptas estas posibles futuras modificaciones y actualizaciones.':'The validity of any updates and/or modifications deemed necessary will take effect from the moment of their publication and/or implementation and may occur automatically without prior notice. By this agreement, you accept these potential future modifications and updates.',
+
+'3. Comunicación Electrónica: ':'3. Electronic Communication: ',
+'Al aceptar estos Términos Generales el usuario consiente el formato electrónico de notificación en lo referente al uso de la misma y los servicios provistos por ella.':'By accepting these General Terms, the user consents to electronic notification regarding the use of the Application and the services provided by it.',
+
+'4. Canales de Atención: ':'4. Support Channels: ',
+'En Megapix, brindamos un soporte integral a nuestro cliente (comerciante) a través de la sección llamada “Soporte” dentro nuestra plataforma. En esta sección, el usuario encontrará: ':'At Megapix, we offer comprehensive support to our customers (merchants) through the section called “Support” within our platform. In this section, the user will find: ',
+
 '• Manual de uso de la herramienta: Guías detalladas para maximizar el uso de nuestras funcionalidades.':'• Manual de uso de la herramienta: Guías detalladas para maximizar el uso de nuestras funcionalidades.',
 '• Preguntas frecuentes: Respuestas a las dudas más comunes para facilitar una solución rápida.':'• Preguntas frecuentes: Respuestas a las dudas más comunes para facilitar una solución rápida.',
 '• Canal de comunicación: Un sistema de mensajería para consultas y soporte técnico.':'• Canal de comunicación: Un sistema de mensajería para consultas y soporte técnico.',
