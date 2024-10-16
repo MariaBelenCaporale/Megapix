@@ -1,14 +1,22 @@
 @font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins/Poppins-Black.ttf");
-  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-  src: url("../../fonts/Poppins/Poppins-Light.ttf");
-  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
   src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
 }
 
 .animation,
@@ -22,7 +30,7 @@
   transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
   color: #fff;
   text-align: center;
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Poppins-Regular";
   font-size: 1.3em;
   font-weight: 400;
   position: absolute;
@@ -43,7 +51,7 @@
 .titleSectionTwo {
   color: #fff;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 4.5em;
   font-style: normal;
   font-weight: 600;
@@ -120,7 +128,7 @@
   .titleSectionTwo {
     width: 80%;
     font-size: 2.5em;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Medium";
   }
   .containerSectionTwo {
     padding: 0px;
@@ -206,6 +214,7 @@
   .titleSectionTwo {
     font-size: 3rem;
     width: 90%;
+    font-family: 'Poppins-Medium';
   }
   .containerSectionTwo {
     padding: 0px;
@@ -476,7 +485,7 @@
   .animation,
   .animationTwo {
     padding: 10px;
-    width: 300px;
+    width: 250px;
     height: 75px;
     font-size: 1.2em;
   }

@@ -1,4 +1,25 @@
-
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  }
+  
 .containerSwitch {
     z-index: 1;
     width: 100%;
@@ -8,9 +29,6 @@
 }
 
 
- .MuiToggleButton-root {
-    width: 100% !important;
-}
 .css-1hmmozd-MuiToggleButtonGroup-root {
     width: 90% !important;
 }

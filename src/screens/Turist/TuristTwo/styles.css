@@ -1,21 +1,24 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("../../../fonts/BebasNeue-Regular.ttf");
+}
 
 @font-face {
-    font-family: "Bebas";
-    src: url("../../../fonts/BebasNeue-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins";
-    src: url("../../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
-    src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../../fonts/Poppins/Poppins-Thin.ttf");
-  }
-
+  font-family: "Poppins-Regular";
+  src: url("../../../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../../fonts/Poppins/Poppins-Light.ttf");
+}
 .imgFoodSelect {
   width: 100%;
 }
@@ -38,7 +41,7 @@
 .subtitleTuristTwo {
     color: #FFF;
     text-align: center;
-    font-family: "Poppins-Light", sans-serif;
+    font-family: "Poppins-Light";
     font-size: 1.3em;
     font-style: normal;
     font-weight: 400;

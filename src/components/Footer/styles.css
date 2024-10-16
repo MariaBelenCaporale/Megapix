@@ -2,17 +2,22 @@
     font-family: "Bebas";
     src: url("../../fonts/BebasNeue-Regular.ttf");
   }
+  
   @font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    font-family: "Poppins-Regular";
     src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
   }
 
   .containerTextImportant {
@@ -74,7 +79,7 @@
     text-decoration: none; 
     color: white;
     text-align: start;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     width: 100%;
 }
 .containerLogoFooter {
@@ -93,7 +98,7 @@
 .textNavThree  {
     font-size: 1em;
     font-style: normal;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     font-weight: 200;
     line-height: normal;
     margin: 0px;
@@ -104,7 +109,7 @@
     color: white;
     font-size: 1em;
     font-style: normal;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     font-weight: 200;
     line-height: normal;
     margin: 0px;
@@ -113,7 +118,7 @@
 }
 .textNavTwo {
     color: #FFF;
-    font-family: "Poppins-Light", sans-serif;
+    font-family: "Poppins-Regular";
     font-size: .8em;
     font-style: normal;
     line-height: normal;
@@ -133,7 +138,7 @@
 }
 .footerProduct {
     color: #FFF;
-    font-family: "Poppins-Regular", sans-serif;
+    font-family: "Poppins-Regular";
     font-size: 1em;
     font-style: normal;
     font-weight: 400;
@@ -232,7 +237,6 @@
     }
     .textNavOne, .textNavThree, .textNavComunidad {
         font-size: .75em;
-        font-family: "Poppins-Regular", sans-serif;
     }
     .columnOneFooterRed {
         justify-content: center;
@@ -425,7 +429,6 @@
     .textNavThree {
         font-weight: 500;
         font-size: 1.2em;
-        font-family: 'Poppins-Light';
     }
     .containerTotal {
         align-items: flex-start;

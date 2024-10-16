@@ -1,14 +1,23 @@
 @font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
     src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
   }
 
 .btnTuristOne {
@@ -18,7 +27,7 @@
     cursor: pointer;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins-Regular", sans-serif;
+    font-family: "Poppins-Regular";
     font-style: normal;
     font-weight: 400;
     margin: 0px;
@@ -41,19 +50,19 @@
     border: 1px solid #62FEE2;
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (min-width: 360px) and (max-width: 772px) {
 .btnTuristOne {
     width: 260px;
     height: 50px;
     cursor: pointer;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins-Regular", sans-serif;
+    font-family: "Poppins-Regular";
     font-size: 1em;
 }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) and (max-width: 1440px){
     .btnTuristOne {
         font-size: 1.2em;
         width: auto;
@@ -63,7 +72,7 @@
         display: flex;
     }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
     .btnTuristOne {
         padding: 30px 50px;
     }

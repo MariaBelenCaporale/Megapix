@@ -2,17 +2,22 @@
   font-family: "Bebas";
   src: url("../../fonts/BebasNeue-Regular.ttf");
 }
+
 @font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins/Poppins-Black.ttf");
-  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-  src: url("../../fonts/Poppins/Poppins-Light.ttf");
-  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  font-family: "Poppins-Regular";
   src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
 }
 
 .lightBlue {
@@ -49,7 +54,7 @@
 .subtitleHero {
   color: #fff;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-Regular";
   font-size: 1.3em;
   font-style: normal;
   font-weight: 500;
@@ -94,7 +99,6 @@
   .subtitleHero {
     color: #fff;
     text-align: center;
-    font-family: "Poppins-Regular", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
     width: 90%;
@@ -113,7 +117,6 @@
   }
   .subtitleHero {
     width: 90%;
-    font-family: "Poppins-Regular", sans-serif;
     font-size: 1.1em;
   }
   .containerBackground {

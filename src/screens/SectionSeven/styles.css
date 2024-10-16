@@ -2,18 +2,24 @@
     font-family: "Bebas";
     src: url("../../fonts/BebasNeue-Regular.ttf");
   }
+
   @font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+    font-family: "Poppins-Regular";
     src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
   }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  }
+  
 .containerSecSeven {
     justify-content: flex-start;
     display: flex;
@@ -61,7 +67,7 @@
 }
 .questionText {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Medium";
     font-size: 1.5em;
     font-style: normal;
     font-weight: 300;
@@ -78,7 +84,7 @@
 }
 .responseText {
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     font-weight: 300;
     font-size: 1.2em;
     text-align: start;
@@ -127,7 +133,6 @@
         font-size: 1em;
         font-weight: 400;
         width: 80%;
-        font-family: "Poppins-Regular", sans-serif;
         text-align: start;
     }
     .responseText {
@@ -154,7 +159,6 @@
         text-align: start;
         font-weight: 400;
         width: 80%;
-        font-family: "Poppins-Regular", sans-serif;
     }
     .responseText {
         font-size: .9em;
@@ -176,7 +180,6 @@
         font-size: 1em;
         font-weight: 400;
         width: 80%;
-        font-family: "Poppins-Regular", sans-serif;
     }
     .responseText {
         font-size: .9em;

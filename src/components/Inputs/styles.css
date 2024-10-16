@@ -1,15 +1,25 @@
 @font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins/Poppins-Black.ttf");
-  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-  src: url("../../fonts/Poppins/Poppins-Light.ttf");
-  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
-  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-  src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-  src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+}
+
 .formStyles {
   width: 30%;
   margin: 0px auto;
@@ -17,7 +27,7 @@
 }
 .monto {
   color: #FFF;
-  font-family: "Poppins-regular", sans-serif;
+  font-family: "Poppins-regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -86,7 +96,7 @@
 }
 .messagePay {
   color: #FFF;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-Light";
   font-size: 1em;
   font-style: normal;
   font-weight: 500;
@@ -129,7 +139,7 @@
 
 .currency-label {
   color: #FFF;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-Medium";
   font-size: .8em;
   font-weight: 500;
 }
@@ -176,7 +186,7 @@
   font-size: 2em;
   margin: 0px;
   text-align: center;
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins-Bold";
 }
 .imgPixPop {
   width: 200px;
@@ -205,6 +215,9 @@
     margin: 0px auto;
     position: relative;
   }
+  .imgCheck {
+    width: 90px;
+  }
 }
 @media (min-width: 769px) and (max-width: 992px)  {
   .messagePay {
@@ -212,6 +225,9 @@
   }
   .formStyles {
     width: 60%;
+  }
+  .imgCheck {
+    width: 100px;
   }
 }
 
@@ -225,9 +241,6 @@
   }
   .imgCodigo {
     width: 250px;
-  }
-  .imgCheck {
-    width: 150px;
   }
   .arg {
     position: absolute;
@@ -286,7 +299,7 @@
     width: 300px;
   }
   .imgCheck {
-    width: 200px;
+    width: 140px;
   }
   .formStyles {
     width: 60%;
@@ -311,6 +324,9 @@
 @media (min-width: 1441px) {
   .usdt, .usdtDos, .brl {
     right: -70%;
+  }
+  .imgCheck {
+    width: 90px;
   }
   
 }

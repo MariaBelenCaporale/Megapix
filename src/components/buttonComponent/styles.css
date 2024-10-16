@@ -1,14 +1,23 @@
-@font-face {
-    font-family: "Poppins";
-    src: url("../../fonts/Poppins/Poppins-Black.ttf");
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-ExtraLight.ttf");
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+
+  @font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Regular";
     src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
-    src: url("../../fonts/Poppins/Poppins-Thin.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
   }
 
 .buttonStyle {
@@ -26,7 +35,7 @@
 
     color: #FFF;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     font-size: 1.3em;
     font-weight: 500;
     margin: 0px;
@@ -56,6 +65,7 @@
         align-items: center;
         justify-content: center;
         font-size: 1em;
+        font-family: "Poppins-Regular";
     }
     .buttonStyle:hover {
         display: flex;
@@ -72,6 +82,7 @@
         align-items: center;
         justify-content: center;
         font-size: 1em;
+        font-family: "Poppins-Regular";
     }
     .buttonStyle:hover {
         display: flex;
@@ -90,6 +101,7 @@
         align-items: center;
         justify-content: center;
         font-size: 1.3em;
+        font-family: "Poppins-Regular";
     }
     .buttonStyle:hover {
         display: flex;

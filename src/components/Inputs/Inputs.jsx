@@ -42,7 +42,7 @@ const Inputs = () => {
   
       setTimeout(() => {
         setShowPopup(false);
-      }, 3000);
+      }, 30000);
     });
   };
 
@@ -212,7 +212,7 @@ const Inputs = () => {
             fontSize: '16px',
             borderRadius: '4px',
             border: 'none',
-            fontFamily: "Poppins-SemiBold",
+            fontFamily: "Poppins-Medium",
             backgroundColor: '#62FEE2',
             color: 'black',
             cursor: 'pointer',
