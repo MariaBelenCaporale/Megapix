@@ -28,6 +28,13 @@
     height: 100vh;
     width: 100%;
 }
+.contieneTypoThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
 .titleSectionThree {
     color: #FFF;
     text-align: center;
@@ -59,9 +66,13 @@
     .subSectionThree {
         font-size: 1em;
         margin: 0px 0px 30px;
+        text-align: center;
     }
     .containerInputs3 {
         width: 80%;
+    }
+    .contieneTypoThree {
+        width: 90%;
     }
 }
 

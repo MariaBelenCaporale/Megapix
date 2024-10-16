@@ -66,7 +66,7 @@
     justify-content: center;
   }
   
-  @media (min-width: 360px) {
+  @media (max-width: 576px) {
     .titleSectionOne {
       font-size: 3em;
     }

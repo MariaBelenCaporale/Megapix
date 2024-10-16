@@ -206,7 +206,7 @@
   }
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (max-width: 576px) {
   .messagePay {
     font-size: .8em;
   }
@@ -216,25 +216,28 @@
     position: relative;
   }
   .imgCheck {
-    width: 90px;
+    width: 70px;
+    top: 210px;
   }
-}
-@media (min-width: 769px) and (max-width: 992px)  {
-  .messagePay {
-    font-size: .9em;
+  .containerMessage, .containerMessageTwo {
+    display: none;
   }
-  .formStyles {
-    width: 60%;
+  .popup-content {
+    width: 70%;
+    height: 400px;
   }
-  .imgCheck {
-    width: 100px;
+  .imgCodigo {
+    width: 200px;
   }
 }
 
-@media (min-width: 360px) and (max-width: 992px) {
+@media (min-width: 577px) and (max-width: 992px) {
   .popup-content {
     width: 250px;
     height: 400px;
+  }
+  .formStyles {
+    width: 60%;
   }
   .textPopUp {
     font-size: 1.5em;
@@ -273,6 +276,8 @@
     display: none;
   }
 }
+
+
  
 @media (min-width: 993px) and (max-width: 1200px)  {
   .containerMessage, .containerMessageTwo {

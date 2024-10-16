@@ -45,7 +45,7 @@
     }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 576px) {
     .textMove {
         font-size: 3em;
         margin: 50px 0px;

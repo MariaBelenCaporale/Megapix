@@ -6,7 +6,7 @@ const SectionThree = () => {
     const { t } = useTranslation();
     return (
         <section className='containerSection3'>
-            <div>
+            <div className='contieneTypoThree'>
             <h2 className='titleSectionThree'>{t('¿Cómo funciona?')}</h2>
             <p className='subSectionThree'>{t('¡Realicemos un cobro en vivo y en directo!')}</p>
             </div>
