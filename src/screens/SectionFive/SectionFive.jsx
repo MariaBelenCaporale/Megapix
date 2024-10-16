@@ -7,7 +7,7 @@ import Soporte from '@images/soporte.png';
 import Coin from '@images/coinUno.png';
 import CobrosSeguros from '@images/cobros-seguros.png';
 import Inmediatos from '@images/inmediato.png';
-import Api from '@images/api.png';
+import Api from '@images/Api.png';
 import Usdt from '@images/usdt.png';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from "react";
