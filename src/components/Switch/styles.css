@@ -43,7 +43,7 @@
 
 @media (min-width: 360px) and (max-width: 576px) {
     .switch {
-        width: auto;
+        width: 90%;
     }
     .empresa, .turista {
         font-size: 0.8em;
@@ -55,7 +55,7 @@
 }
 @media (min-width: 577px) and (max-width: 768px) {
     .switch {
-        width: auto;
+        width: 90%;
     }
     .empresa, .turista {
         font-size: 0.8em;
@@ -67,7 +67,7 @@
 }
 @media (min-width: 769px) and (max-width: 992px) {
     .switch {
-        width: auto;
+        width: 60%;
     }
     .empresa, .turista {
         font-size: 0.8em;
@@ -80,5 +80,24 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     .turista, .empresa {
         font-size: .9em;
+    }
+    .switch {
+        width: 100%;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .turista, .empresa {
+        font-size: .9em;
+    }
+    .switch {
+        width: 100%;
+    }
+}
+@media (min-width: 1441px) {
+    .turista, .empresa {
+        font-size: 1em;
+    }
+    .switch {
+        width: 100%;
     }
 }

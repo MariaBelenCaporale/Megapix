@@ -46,7 +46,7 @@ export default function SwitchComponent() {
                     gap: '1px',
                     '& .MuiToggleButton-root': {
                         height: '50px',
-                        width: '220px',
+                        width: '100%',
                         textAlign: 'center',
                         color: 'rgba(255, 255, 255, 0.50)',
                         fontFamily: 'Poppins-Regular',
@@ -58,7 +58,7 @@ export default function SwitchComponent() {
                         textTransform: 'none',
                         '&.Mui-selected': {
                             backgroundColor: '#ffffff5c',
-                            width: '220px',
+                            width: '100%',
                             color: 'white',
                             borderWidth: '2px',
                             borderColor: '#62FEE2',
