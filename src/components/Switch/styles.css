@@ -43,7 +43,7 @@
 
 @media (min-width: 360px) and (max-width: 576px) {
     .switch {
-        width: 90%;
+        width: auto;
     }
     .empresa, .turista {
         font-size: 0.8em;
