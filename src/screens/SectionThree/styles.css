@@ -52,7 +52,7 @@
 }
 
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
     .titleSectionThree {
         font-size: 3em;
     }

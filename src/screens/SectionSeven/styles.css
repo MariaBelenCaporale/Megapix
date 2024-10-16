@@ -112,7 +112,7 @@
     transform: rotate(180deg); 
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
     .titleSeven {
         font-size: 2.7em;
         width: 90%;

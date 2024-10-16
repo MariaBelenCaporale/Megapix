@@ -188,7 +188,7 @@
 
 
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
     .footerOrder {
         width: 80%;
         top: 0px;

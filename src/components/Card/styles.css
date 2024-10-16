@@ -85,7 +85,7 @@
     width: 100%;
 }
 
-@media (min-width: 360px) and (max-width: 576px)  {
+@media (max-width: 576px)  {
     .card {
         flex-direction: column-reverse;
         align-items: center;

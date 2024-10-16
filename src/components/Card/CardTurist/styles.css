@@ -142,7 +142,7 @@
   width: 60%;
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
   .askCardTur {
     font-size: 3em;
   }

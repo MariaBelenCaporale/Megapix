@@ -107,7 +107,7 @@ display: flex;
 }
 
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
   .containerTotalFour {
     flex-direction: column;
   }

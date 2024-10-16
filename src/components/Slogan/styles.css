@@ -71,7 +71,7 @@
     animation: float 3s ease-in-out infinite;
 }
 
-@media (min-width: 360px) and (max-width: 576px)  {
+@media (max-width: 576px)  {
     .sloganContainer {
         width: 100%;
         height: 40vh;

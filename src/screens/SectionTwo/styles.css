@@ -124,7 +124,7 @@
   animation: floatingTwo 6s ease-in-out infinite;
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (max-width: 576px) {
   .titleSectionTwo {
     width: 80%;
     font-size: 2.5em;

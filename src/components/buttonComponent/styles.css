@@ -57,7 +57,7 @@
 
 
 
-@media (min-width: 360px) and (max-width: 576px){
+@media (max-width: 576px){
     .buttonStyle {
         width: 249px;
         height: 43px;
