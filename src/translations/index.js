@@ -485,7 +485,7 @@ const resources = {
             //btn
             "Visitar plataforma":"Visitar a plataforma",
             //Slogan
-            'Megapix, innovando el presente & futuro':'Megapix, innovando el presente & futuro',
+            'Megapix, innovando el presente & futuro':'megapix, inovando o presente e o futuro',
             //Switch
             'Negocios AR':'Negócios AR',
             'Clientes BR':'Clientes BR',
