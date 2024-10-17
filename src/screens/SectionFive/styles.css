@@ -28,7 +28,7 @@
     position: relative;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     transition: all 0.2s;
     cursor: grab;
     user-select: none !important;
