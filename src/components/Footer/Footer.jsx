@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PropTypes from "prop-types";
 import { useTranslation } from 'react-i18next';
 import "./styles.css";
-import TextFooter from "./TextFooter";
+// import TextFooter from "./TextFooter";
 
 const Footer = ({ link }) => {
   const { t } = useTranslation();
@@ -122,7 +122,7 @@ const Footer = ({ link }) => {
           <img className="formas" src={Formas} />
         </div>
       </div>
-      <TextFooter />
+      {/* <TextFooter /> */}
     </div>
   );
 };

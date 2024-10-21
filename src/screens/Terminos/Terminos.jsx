@@ -9,7 +9,7 @@ const Terminos = ({ section }) => {
       <>
         <p className="textScroll">
           {t(
-            "Los siguientes términos y condiciones generales de uso de la sus modificaciones, constituyen el acuerdo entre cualquier aplicación “Megapix”, y/o sitio web www.megapix.lat incluyendo persona y/o representante legal mayor de 18 años en adelante (“Comerciante/cliente y Turista/usuario final”) que utilice la aplicación móvil disponible en www.megapix.lat operado por Cavaliere Group S.R.L. Se describirán los derechos, responsabilidades y obligaciones que aplicarán en la relación entre el cliente comerciante, usuario final turista, y Megapix, referente al uso de la aplicación y cualquier producto, funcionalidad o servicio en relación que allí se ofrezca."
+            "Los siguientes términos y condiciones generales de uso de la sus modificaciones, constituyen el acuerdo entre cualquier aplicación “Megapix”, y/o sitio web mgapix.com incluyendo persona y/o representante legal mayor de 18 años en adelante (“Comerciante/cliente y Turista/usuario final”) que utilice la aplicación móvil disponible en mgapix.com operado por Cavaliere Group S.R.L. Se describirán los derechos, responsabilidades y obligaciones que aplicarán en la relación entre el cliente comerciante, usuario final turista, y Megapix, referente al uso de la aplicación y cualquier producto, funcionalidad o servicio en relación que allí se ofrezca."
           )}
         </p>
         <p className="textScroll">
