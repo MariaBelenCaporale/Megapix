@@ -20,7 +20,7 @@
     src: url("../../fonts/Poppins/Poppins-Light.ttf");
   }
 
-.buttonStyle {
+/* .buttonStyle {
     background:
     linear-gradient(hwb(0 48% 52% / 0.60), hwb(0 48% 52% / 0.60)) padding-box,
     linear-gradient(40deg, rgba(255, 255, 255, 0.36),  rgba(255, 255, 255, 0.36)) border-box;
@@ -39,8 +39,30 @@
     font-size: 1.3em;
     font-weight: 500;
     margin: 0px;
+} */
+
+.buttonStyle {
+  background: #62FEE2;
+  padding: 20px;
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1e1e1e;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px;
+
+  font-family: "Poppins-Regular";
+  font-size: 1.3em;
+  font-weight: 500;
+
 }
 .buttonStyle:hover {
+  background-color: rgba(98, 254, 225, 0.836)
+  
+}
+
+/* .buttonStyle:hover {
     background:
     linear-gradient(hwb(0 48% 52%), hwb(0 48% 52%)) padding-box,
     linear-gradient(40deg, rgba(255, 255, 255, 0.36),  rgba(0, 255, 225, 0.6)) border-box;
@@ -52,7 +74,7 @@
     backdrop-filter: blur(5px);
 
     color: #00FFE1;
-}
+} */
 
 
 

@@ -28,6 +28,10 @@
     justify-content: center;
 }
 
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected:hover {
+    background-color: #00ffe1c7 !important;
+    color: #1e1e1e !important;
+}
 
 .css-1hmmozd-MuiToggleButtonGroup-root {
     width: 90% !important;
