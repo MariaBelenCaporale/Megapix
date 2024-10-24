@@ -12,7 +12,7 @@ const Slogan = () => {
             <img className="rayito" src={Rayito} />
             </div>
             <div className='titleSloganContainer'>
-            <h2 className="titleSlogan">{t('Megapix, innovando el presente & futuro')}</h2>
+            <h2 className="titleSlogan">{t('Pagos sin fronteras, negocios sin límites')}</h2>
             </div>
       </div>
     )

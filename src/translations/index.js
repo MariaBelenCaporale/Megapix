@@ -176,7 +176,7 @@ const resources = {
             //btn
             "Visitar plataforma":"Visitar plataforma",
             //Slogan
-            'Megapix, innovando el presente & futuro':'Megapix, innovando el presente & futuro',
+            'Pagos sin fronteras, negocios sin límites':'Pagos sin fronteras, negocios sin límites',
             //Switch
             'Negocios AR':'Negocios AR',
             'Clientes BR':'Clientes BR',
@@ -485,7 +485,7 @@ const resources = {
             //btn
             "Visitar plataforma":"Visitar a plataforma",
             //Slogan
-            'Megapix, innovando el presente & futuro':'Megapix, inovando o presente e o futuro',
+            'Pagos sin fronteras, negocios sin límites':'Pagamentos sem fronteiras, negócios sem limites',
             //Switch
             'Negocios AR':'Negócios AR',
             'Clientes BR':'Clientes BR',
@@ -826,7 +826,7 @@ const resources = {
             //btn
             "Visitar plataforma":"Visit Platform",
             //Slogan
-            'Megapix, innovando el presente & futuro':'Megapix, innovating the present and future',
+            'Pagos sin fronteras, negocios sin límites':'Borderless payments, limitless business',
             //Switch
             'Negocios AR':'Business AR',
             'Clientes BR':'Clients BR',
