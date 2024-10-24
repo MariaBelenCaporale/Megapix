@@ -14,7 +14,7 @@ const SectionSix = () => {
           <h2 className="titleSectionSix">{t("Comencemos")}</h2>
           <p className="subtitleSectionSix">
             {t(
-              "Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix."
+              "Creá experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix."
             )}
           </p>
           <ButtonComponent title={t("Visitar plataforma")} />

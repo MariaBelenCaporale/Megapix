@@ -89,7 +89,7 @@ const resources = {
             //SECTION SIX
             '¿ESTÁS LISTO?':'¿ESTÁS LISTO?',
             'Comencemos':'Comencemos',
-            'Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.',
+            'Creá experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Creá experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.',
             'Ir a la plataforma':'Ir a la plataforma',
             //SECTION SEVEN
             '¿La plataforma tiene costo?':'¿La plataforma tiene costo?',
@@ -397,7 +397,7 @@ const resources = {
             //SECTION SIX
             '¿ESTÁS LISTO?':'Pronto para Começar?',
             'Comencemos':'Vamos lá',
-            'Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Crie experiências de cobrança excepcionais, impulsionando o crescimento do seu negócio com sua conta Megapix.',
+            'Creá experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Crie experiências de cobrança excepcionais, impulsionando o crescimento do seu negócio com sua conta Megapix.',
             'Ir a la plataforma':'Visitar a plataforma',
             //SECTION SEVEN
             '¿La plataforma tiene costo?':'A plataforma tem custo?',
@@ -736,7 +736,7 @@ const resources = {
             //SECTION SIX
             '¿ESTÁS LISTO?':'Ready?',
             'Comencemos':'Let’s Get Started',
-            'Crea experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Create exceptional payment experiences by boosting your business growth with your Megapix account.',
+            'Creá experiencias de cobro excepcionales potenciando el crecimiento de tu negocio con tu cuenta Megapix.':'Create exceptional payment experiences by boosting your business growth with your Megapix account.',
             'Ir a la plataforma':'Visit Platform',
             //SECTION SEVEN
             '¿La plataforma tiene costo?':'Is there a cost for the platform?',
