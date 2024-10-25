@@ -2,14 +2,9 @@
     font-family: "Bebas";
     src: url("../../fonts/BebasNeue-Regular.ttf");
   }
-  
   @font-face {
     font-family: "Poppins-Regular";
     src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Medium";
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
   }
   @font-face {
     font-family: "Poppins-Bold";
@@ -27,6 +22,11 @@
     position: relative;
     top: 400px;
     justify-content: center;
+    width: 100%;
+  }
+  .lineResponsive {
+    display: flex;
+    border: 1px solid white;
     width: 100%;
   }
   .containerImportant {
@@ -51,7 +51,7 @@
 .columnOneFooterRed {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: auto;
     flex-direction: row;
     gap: 1em;
 }
@@ -128,6 +128,12 @@
 .navlink:hover {
     color: #62FEE2;
 }
+.footerProduct {
+    font-size: 1em;
+    font-family: 'Poppins';
+    margin: 0px;
+    color: white;
+}
 
 .footer {
     width: 100%;
@@ -136,26 +142,17 @@
     align-items: center;
     justify-content: center;
 }
-.footerProduct {
-    color: #FFF;
-    font-family: "Poppins-Regular";
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 10px;
-}
+
 .footerOrder {
-    width: auto;
     border-radius: 30px;
-    background:  rgba(255, 255, 255, 0.10);
-    background-blend-mode: soft-light, normal;
-    box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset;
+    background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(20px);
     height: 250px;
     z-index: 1;
-    top: 200px;
-    position: relative;
+    padding: 40px 60px;
+    width: 80%;
+    gap: 3em;
+    position: absolute;
     align-items: center;
     flex-direction: row;
     display: flex;
@@ -167,10 +164,10 @@
     overflow: hidden;
     display: flex;
     height: auto;
-    position: absolute;
 }
 .formas {
     width: 100%;
+    opacity: .5;
 }
 .titleFooter {
     color: #FFF;
@@ -184,152 +181,158 @@
     width: 100%;
 }
 
-
-
-
-
 @media (max-width: 576px) {
     .footerOrder {
-        width: 80%;
-        top: 0px;
-        height: auto;
-        display: flex;
         flex-direction: column;
         padding: 30px 20px;
-    }
-    .footer {
+        width: 85%;
         height: auto;
-    }
-    .containerLogoFooter {
-        width: 90%;
-        overflow: hidden;
-        align-items: flex-start;
+        gap: 2em;
     }
     .logoFooter {
-        padding: 0px;
-        width: 70%;
-    }
-    .footerProduct {
-        margin-bottom: 0px;
-        margin-top: 0px;
-        width: 100%;
-        font-size: .8em;
-        text-align: start;
-    }
-    .textNavTwo {
-        display: none;
-    }
-    .containerTotal {
-        flex-direction: column;
-        margin-top: 30px;
-        width: 90%;
+        width: 80%;
     }
     .listResponsive {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 1em;
         width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1em;
     }
-    .columnOneFooter {
-        text-wrap: nowrap;
-    }
-    .textNavOne, .textNavThree, .textNavComunidad {
+    .textNavOne, .textNavThree {
         font-size: .75em;
     }
+    .lineResponsive {
+        display: flex;
+    }
     .columnOneFooterRed {
         justify-content: center;
     }
-    .lineResponsive {
-        width: 100%;
-        border: 1px solid white;
-        margin: 30px 0px;
+    .textNavComunidad {
+        font-size: .75em;
     }
-    .containerTextImportant {
-        top: 50px;
+    .formas {
+        width: 1000px;
     }
 }
-@media (min-width: 577px) and (max-width: 993px) {
-    .footerOrder {
-        width: 80%;
-        top: 0px;
-        height: auto;
+
+@media (min-width: 1200px) and (max-width: 1440px )  {
+    .listResponsive {
         display: flex;
-        flex-direction: column;
-        padding: 30px 20px;
-    }
-    .footer {
-        height: auto;
-    }
-    .containerLogoFooter {
-        overflow: hidden;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 2em;
     }
     .logoFooter {
-        padding: 0px;
-        width: 200px;
+        width: 70%;
     }
-    .footerProduct {
-        margin-bottom: 0px;
-        width: 100%;
-        font-size: 1.2em;
-        margin-top: 0px;
+    .footerOrder {
+        padding: 40px 60px;
+        width: 80%;
+        gap: 3em;
+        position: absolute;
     }
-    .textNavTwo {
+    .lineResponsive {
         display: none;
     }
+    .columnOneFooterRed {
+        justify-content: center;
+    }
+    .textNavThree {
+        font-weight: 500;
+    }
     .containerTotal {
-        flex-direction: column;
+        align-items: flex-start;
+    }
+    .textNavComunidad {
+        text-align: center;
     }
     .listResponsive {
+        gap: 7em;
+    }
+    .containerTextImportant {
+        top: 350px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 772px) {
+    .footerOrder {
+        flex-direction: column;
+        height: auto;
+        padding: 40px;
+    }
+    .logoFooter {
+        width: 60%;
+    }
+    .logoFooterLink {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .listResponsive {
+        width: 100%;
         align-items: flex-start;
         justify-content: space-between;
+        display: flex;
+    }
+    .containerTotal {
         width: 100%;
-        margin-top: 30px;
     }
     .columnOneFooterRed {
         justify-content: center;
     }
+}
+
+@media (min-width: 773px) and (max-width: 992px) {
     .lineResponsive {
+        display: none;
+    }
+    .footerOrder {
+        padding: 30px;
+        width: 90%;
+    }
+    .logoFooter {
         width: 100%;
-        border: 1px solid white;
-        margin: 30px 0px;
     }
-    .containerTextImportant {
-        top: 40px;
-    }
-}
-@media (min-width: 577px) and (max-width: 720px) {
-    .textNavOne, .textNavThree, .textNavComunidad {
-        font-size: 1em;
-    }
-    .containerLogoFooter {
-        width: 90%;
+    .listResponsive {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
     }
     .containerTotal {
-        width: 90%;
+        width: 100%;
     }
 }
 
-@media (min-width: 721px) and (max-width: 993px) {
-    .textNavOne, .textNavThree, .textNavComunidad {
-        font-size: 1.2em;
+@media (min-width: 993px) and (max-width: 1200px) {
+    .lineResponsive {
+        display: none;
+    }
+    .footerOrder {
+        padding: 30px;
+        width: 90%;
+    }
+    .logoFooter {
+        width: 100%;
+    }
+    .listResponsive {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
     }
     .containerTotal {
-        width: 90%;
+        width: 100%;
     }
-    .containerLogoFooter {
-        width: 90%;
-    }
-    .containerTextImportant {
-        top: 150px;
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .columnOneFooter {
+        width: auto;
     }
 }
 
-@media (min-width: 994px) and (max-width: 1200px )  {
+@media (min-width: 1441px)  {
     .listResponsive {
         display: flex;
         flex-direction: row;
@@ -338,11 +341,15 @@
         width: 100%;
         gap: 2em;
     }
+    .logoFooter {
+        width: 90%;
+    }
     .footerOrder {
         padding: 40px 60px;
         width: 80%;
         gap: 3em;
-        top: 250px;
+        position: absolute;
+        height: 350px;
     }
     .lineResponsive {
         display: none;
@@ -350,42 +357,9 @@
     .columnOneFooterRed {
         justify-content: center;
     }
-    .textNavThree {
+    .textNavThree, .textNavOne, .textNavComunidad {
         font-weight: 500;
-    }
-    .containerTotal {
-        align-items: flex-start;
-    }
-    .textNavComunidad {
-        text-align: center;
-    }
-    .containerTextImportant {
-        top: 350px;
-    }
-}
-@media (min-width: 1201px) and (max-width: 1440px )  {
-    .listResponsive {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        justify-content: space-evenly;
-        width: 100%;
-        gap: 2em;
-    }
-    .footerOrder {
-        padding: 40px 60px;
-        width: 80%;
-        gap: 3em;
-        top: 250px;
-    }
-    .lineResponsive {
-        display: none;
-    }
-    .columnOneFooterRed {
-        justify-content: center;
-    }
-    .textNavThree {
-        font-weight: 500;
+        font-size: 1.5em;
     }
     .containerTotal {
         align-items: flex-start;
@@ -399,53 +373,4 @@
     .containerTextImportant {
         top: 350px;
     }
-}
-@media (min-width: 1441px)   {
-    .listResponsive {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        justify-content: space-evenly;
-        width: 100%;
-        gap: 2em;
-    }
-    .footerOrder {
-        height: 300px;
-        padding: 40px 60px;
-        width: 80%;
-        gap: 0px;
-        top: 250px;
-        justify-content: space-around;
-    }
-    .lineResponsive {
-        display: none;
-    }
-    .columnOneFooterRed {
-        justify-content: center;
-    }
-    .textNavOne {
-        font-size: 1.2em;
-    }
-    .textNavThree {
-        font-weight: 500;
-        font-size: 1.2em;
-    }
-    .containerTotal {
-        align-items: flex-start;
-    }
-    .textNavComunidad {
-        text-align: center;
-        font-size: 1.2em;
-    }
-    .listResponsive {
-        gap: 7em;
-    }
-    .containerTextImportant {
-        top: 450px;
-        padding: 50px 0px 50px 0px;
-    }
-    .containerImportant {
-        margin: 0px;
-    }
-    
 }

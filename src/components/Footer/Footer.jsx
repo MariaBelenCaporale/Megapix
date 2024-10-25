@@ -37,15 +37,7 @@ const Footer = ({ link }) => {
           <div className="containerTotal">
             <div className="listResponsive">
               <div className="columnOneFooter">
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    isActive ? "navlink active" : "navlink inactive"
-                  }
-                  onClick={handleScrollToTop} 
-                >
-                  <p className="textNavOne">{t('¿Quiénes somos?')}</p>
-                </NavLink>
+
 
                 <NavLink
                   to="https://www.polynomium.com/"
@@ -67,9 +59,6 @@ const Footer = ({ link }) => {
                 >
                   <p className="textNavThree">{t('Soporte & FAQs')}</p>
                 </NavLink>
-              </div>
-
-              <div className="columnOneFooter">
                 <NavLink
                   to="/terminos"
                   className={({ isActive }) =>
@@ -79,6 +68,10 @@ const Footer = ({ link }) => {
                 >
                   <p className="textNavThree">{t('Política de privacidad')}</p>
                 </NavLink>
+              </div>
+
+              <div className="columnOneFooter">
+
 
                 <NavLink
                   to="/terminos"
@@ -88,6 +81,15 @@ const Footer = ({ link }) => {
                   onClick={handleScrollToTop} 
                 >
                   <p className="textNavThree">{t('Términos & condiciones')}</p>
+                </NavLink>
+                <NavLink
+                  to="/prensa"
+                  className={({ isActive }) =>
+                    isActive ? "navlink active" : "navlink inactive"
+                  }
+                  onClick={handleScrollToTop} 
+                >
+                  <p className="textNavThree">{t('Prensa')}</p>
                 </NavLink>
 
                 <NavLink

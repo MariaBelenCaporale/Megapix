@@ -57,9 +57,9 @@ export default function SwitchComponent() {
                         borderRadius: '10px',
                         textTransform: 'none',
                         '&.Mui-selected': {
-                            backgroundColor: '#62FEE2',
+                            backgroundColor: 'transparent',
                             width: '100%',
-                            color: '#1e1e1e',
+                            color: 'white',
                             borderWidth: '2px',
                             borderColor: '#62FEE2',
                             // boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;',

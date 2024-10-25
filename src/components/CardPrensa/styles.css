@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  }
+
+.cardPrensa {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
+    width: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+    padding: 50px 20px;
+}
+
+
+.medioTitulo {
+    color: #FFF;
+font-family: 'Poppins-Medium';
+font-size: 1em;
+font-style: normal;
+font-weight: 500;
+margin: 0px;
+}
+.prensaFecha {
+    color: #FFF;
+    font-family: 'Poppins-Regular';
+    font-size: .8em;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+}
+.prensaTexto {
+    color: #FFF;
+    font-family: 'Poppins-Regular';
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 500;
+}

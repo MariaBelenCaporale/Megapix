@@ -6,7 +6,6 @@ import Logo from '@images/logoNeon.png';
 import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
 import { NavLink } from "react-router-dom";
 import './styles.css';
-import Footer from '../../components/Footer/Footer';
 import Terminos from '../Terminos/Terminos';
 
 const Condiciones = () => {
@@ -82,7 +81,7 @@ const Condiciones = () => {
                 ))}
             </div>
             </div>
-            <Footer />
+        
         </section>
     );
 }

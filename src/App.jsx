@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import CompanyScreen from './screens/CompanyScreen';
 import TuristScreen from './screens/Turist/TuristScreen'; 
 import Condiciones from './screens/Condiciones/Condiciones';
+import Prensa from './screens/Prensa/Prensa';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const location = useLocation();
-  const hideNavBar = location.pathname === '/terminos';
+  const hideNavBar = location.pathname === '/terminos' || location.pathname === '/prensa';
 
   return (
     <>
@@ -16,7 +18,11 @@ function App() {
         <Route path="/" element={<CompanyScreen />} />
         <Route path="/turistas" element={<TuristScreen />} />
         <Route path="/terminos" element={<Condiciones />} />
+        <Route path="/prensa" element={<Prensa />} />
       </Routes>
+      <Footer 
+        link={'https://www.instagram.com/megapix_arg/'}
+      />
     </>
   );
 }

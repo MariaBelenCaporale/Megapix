@@ -11,7 +11,7 @@ import QrUno from "@images/qrUno.png";
 import QrDos from "@images/qrDos.png";
 import PixUno from "@images/pix-uno.png";
 import PixDos from "@images/pix-dos.png";
-import Footer from "../../components/Footer/Footer";
+// import Footer from "../../components/Footer/Footer";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
 import "./styles.css";
@@ -56,9 +56,9 @@ const TuristScreen = () => {
       <TuristSix />
       <SectionSeven />
       <Slogan />
-      <Footer 
+      {/* <Footer 
         link={'https://www.instagram.com/megapix_bra/'}
-      />
+      /> */}
     </div>
   );
 };

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../../fonts/BebasNeue-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins/Poppins-Light.ttf");
+  }
+
+
+
+  .sectionPrensa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    gap: 4em;
+    margin-bottom: 100px;
+}
+.imgPrensa {
+    position: absolute;
+    top: 120px;
+}
+.contenedorButtonNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    gap: 1em;
+    height: 200px;
+}
+.columUnoPrensa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    gap: 2em;
+}
+.filaPrensa {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+
+    background-image: url('../../images/megaGlass.png');
+    background-repeat: no-repeat;
+}
+.contenedorPrensaTotal {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.tituloPrensa {
+    color:#FFF;
+    text-align: center;
+    font-family: "Bebas";
+    font-size: 3em;
+    font-weight: 400;
+}
+
+  @media (min-width: 1201px) and (max-width: 1440px) {
+    .tituloPrensa {
+        font-size: 3em;
+    }
+
+  }

@@ -48,10 +48,11 @@
 .containerSectionCond {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    gap: 3em;
+    gap: 4em;
+    margin-bottom: 100px;
 }
 .containerTotalTerminos {
     display: flex;

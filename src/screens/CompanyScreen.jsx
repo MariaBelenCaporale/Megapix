@@ -1,7 +1,7 @@
 import './styles.css';
 import Hero from "../components/HeroText/HeroText";
 import Slogan from "../components/Slogan/Slogan";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 import SectionOne from "./SectionOne/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
@@ -54,9 +54,9 @@ const CompanyScreen = () => {
             <SectionSix />
             <SectionSeven />
             <Slogan />
-            <Footer 
+            {/* <Footer 
                 link={'https://www.instagram.com/megapix_arg/'}
-            />
+            /> */}
         </div>
     )
 }
