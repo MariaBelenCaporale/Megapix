@@ -76,11 +76,12 @@
     font-family: "Bebas";
     font-size: 3em;
     font-weight: 400;
+    margin: 0px;
 }
 
   @media (min-width: 1201px) and (max-width: 1440px) {
     .tituloPrensa {
-        font-size: 3em;
+        font-size: 4em;
     }
 
   }

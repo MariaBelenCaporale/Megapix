@@ -25,64 +25,64 @@ const Prensa = () => {
             texto: 'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.'
         },
         {
-            medio: '',
+            medio: 'Ámbito',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina.'
         },
         {
-            medio: '',
+            medio: 'Info Mendoza',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Una solución financiera que elimina barreras de cambio entre Argentina y Brasil.'
         },
         {
-            medio: '',
+            medio: 'Rede Argentina',
             fecha: '23/10/24',
-            texto: 'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.'
+            texto: 'MegaPix: fintech soluciona barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá'
         },
         {
-            medio: '',
+            medio: 'Reportur',
             fecha: '23/10/24',
-            texto: 'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.'
+            texto: 'Lanzan Megapix como medio de pago para brasileros en Argentina.'
         },
         {
-            medio: '',
+            medio: 'RoadShow',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Llega una nueva solución para que los comerciantes le cobren a los turistas brasileños.'
         },
         {
-            medio: '',
+            medio: 'Entorno Económico',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.'
         },
         {
-            medio: '',
+            medio: 'Jornada Online',
             fecha: '23/10/24',
-            texto: 'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.'
+            texto: 'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil'
         },
         {
-            medio: '',
+            medio: 'Eco Cuyo',
             fecha: '23/10/24',
-            texto: 'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.'
+            texto: 'Atención Mendoza: llega una plataforma que permite a los brasileños pagar por transferencia sus gastos en Argentina.'
         },
         {
-            medio: '',
+            medio: 'M. News',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil'
         },
         {
-            medio: '',
+            medio: 'La Pampa 24',
             fecha: '23/10/24',
-            texto: 'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.'
+            texto: 'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina'
         },
         {
-            medio: '',
+            medio: 'Norte en línea',
             fecha: '23/10/24',
-            texto: 'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.'
+            texto: 'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.'
         },
         {
-            medio: '',
+            medio: 'Ovrik',
             fecha: '23/10/24',
-            texto: 'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.'
+            texto: 'Con Megapix, los comercios argentinos ya pueden cobrar en reales y recibir dólares digitales'
         },
 
     ];
@@ -104,7 +104,7 @@ const Prensa = () => {
             <div className='contenedorPrensaTotal'>
                 <h2 className='tituloPrensa'>PRENSA</h2>
                 <div className='contenedorButtonNav'>
-                    {['Forbes', 'IProUp', 'MDZ Online', 'Formes'].map(medio => (
+                    {['Forbes', 'IProUp', 'MDZ Online', 'Ámbito', 'Info Mendoza', 'Rede Argentina', 'Reportur', 'RoadShow', 'Entorno Económico', 'Jornada Online', 'Eco Cuyo', 'M. News', 'La Pampa 24', 'Norte en línea', 'Ovrik'  ].map(medio => (
                         <ButtonNav 
                             key={medio}
                             title={medio}
