@@ -5,7 +5,6 @@ const resources = {
     es: {
         translation: {
             // SECTION EMPRESAS
-
             'cobra reales y recibí dólar digital ':'cobra reales y recibí dólar digital ',
             'GRATIS':'GRATIS',
             'Obtené tu cuenta y cuando desees retirá en pesos o cripto.':'Obtené tu cuenta y cuando desees retirá en pesos o cripto.',
@@ -309,6 +308,36 @@ const resources = {
             '12. Modificaciones. ':'12. Modificaciones. ',
             'Megapix se reserva el derecho de modificar, alterar o actualizar estos Términos y Condiciones Particulares en cualquier momento.':'Megapix se reserva el derecho de modificar, alterar o actualizar estos Términos y Condiciones Particulares en cualquier momento.',
             
+
+            // PRENSA -----------------
+
+            'Leer más':'Leer más',
+            'PRENSA': 'PRENSA',
+            'Volver a medios':'Volver a prensa',
+            'Ver más':'Ver más',
+
+            'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.',
+
+            'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.':'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.',
+
+            'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.':'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.',
+
+            'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina.',
+
+            'Una solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'Una solución financiera que elimina barreras de cambio entre Argentina y Brasil.',
+
+            'MegaPix: fintech soluciona barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá':'MegaPix: fintech soluciona barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá',
+
+            'Lanzan Megapix como medio de pago para brasileros en Argentina.':'Lanzan Megapix como medio de pago para brasileros en Argentina.',
+
+            'Llega una nueva solución para que los comerciantes le cobren a los turistas brasileños.':'Llega una nueva solución para que los comerciantes le cobren a los turistas brasileños.',
+
+            'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.',
+
+            'Atención Mendoza: llega una plataforma que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'Atención Mendoza: llega una plataforma que permite a los brasileños pagar por transferencia sus gastos en Argentina.',
+
+            'Con Megapix, los comercios argentinos ya pueden cobrar en reales y recibir dólares digitales':'Con Megapix, los comercios argentinos ya pueden cobrar en reales y recibir dólares digitales',
+
         }
     },
     br: {
@@ -649,6 +678,34 @@ const resources = {
 'Megapix se reserva el derecho de modificar, alterar o actualizar estos Términos y Condiciones Particulares en cualquier momento.':'A Megapix reserva-se o direito de modificar, alterar ou atualizar estes Termos e Condições Particulares a qualquer momento.',
 
 
+            // PRENSA -----------------
+
+            'Leer más':'Ler mais', 
+            'PRENSA': 'IMPRENSA',
+            'Volver a prensa':'Voltar à imprensa',
+            'Ver más':'Ver mais',
+
+            'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'Lançam uma ferramenta tecnológica que integra o Pix e busca facilitar as transações dos brasileiros na Argentina.',
+
+            'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.':'Impulso a empreendedores e PMEs: lançam ferramenta para facilitar negócios com o Brasil.',
+
+            'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.':'Brasileiros poderão pagar com Pix no país graças a um "invento" argentino.',
+
+            'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'Lançam plataforma tecnológica que permite aos brasileiros pagarem por transferência suas despesas na Argentina.',
+
+            'Una solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'Uma solução financeira que elimina barreiras de câmbio entre Argentina e Brasil.',
+
+            'MegaPix: fintech soluciona barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá':'MegaPix: fintech resolve barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá.',
+
+            'Lanzan Megapix como medio de pago para brasileros en Argentina.':'Lançam Megapix como meio de pagamento para brasileiros na Argentina.',
+
+            'Llega una nueva solución para que los comerciantes le cobren a los turistas brasileños.':'Chega uma nova solução para que os comerciantes cobrem dos turistas brasileiros.',
+
+            'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'Megapix: chega ao mercado a solução financeira que elimina barreiras de câmbio entre Argentina e Brasil.',
+
+            'Atención Mendoza: llega una plataforma que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'Atenção Mendoza: chega uma plataforma que permite aos brasileiros pagarem por transferência suas despesas na Argentina.',
+
+            'Con Megapix, los comercios argentinos ya pueden cobrar en reales y recibir dólares digitales':'Com Megapix, os comércios argentinos já podem cobrar em reais e receber dólares digitais.',
 
         }
     },
@@ -1030,6 +1087,37 @@ const resources = {
 'El usuario registrado será el único responsable por el uso del servicio y las operaciones realizadas en la aplicación. Entiende que en caso de pérdida, vulnerabilidad, robo y/o filtración de la información de acceso a su cuenta, es exclusivamente el usuario quien será responsable por las pérdidas y perjuicios que esto le pudiera ocasionar.':'The registered user will be solely responsible for the use of the service and the operations carried out in the application. They understand that in case of loss, vulnerability, theft, and/or leakage of access information to their account, the user alone will be responsible for any losses or damages that may arise from this.',
 '12. Modificaciones. ':'12. Modifications. ',
 'Megapix se reserva el derecho de modificar, alterar o actualizar estos Términos y Condiciones Particulares en cualquier momento.':'Megapix reserves the right to modify, alter, or update these Particular Terms and Conditions at any time.',
+
+
+
+            // PRENSA -----------------
+
+            'Leer más':'Read more', 
+            'PRENSA': 'PRESS',
+            'Volver a prensa':'Back to press',
+            'Ver más':'See more',
+
+            'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'A technological tool that integrates Pix is launched to facilitate transactions for Brazilians in Argentina.',
+
+            'Impulso a emprendedores y pymes: lanzan herramienta para facilitar negocios con Brasil.':'Support for entrepreneurs and SMEs: a tool is launched to facilitate business with Brazil.',
+
+            'Brasileños podrán pagar con Pix en el país gracias a un "invento" argentino.':'Brazilians will be able to pay with Pix in the country thanks to an Argentine "invention."',
+
+            'Lanzan plataforma tecnológica que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'A technological platform is launched that allows Brazilians to pay their expenses in Argentina via transfer.',
+
+            'Una solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'A financial solution that eliminates currency exchange barriers between Argentina and Brazil.',
+
+            'MegaPix: fintech soluciona barreiras cambiais entre a Argentina e o Brasil – por Fabián Quintá':'MegaPix: fintech solves currency barriers between Argentina and Brazil – by Fabián Quintá.',
+
+            'Lanzan Megapix como medio de pago para brasileros en Argentina.':'Megapix is launched as a payment method for Brazilians in Argentina.',
+
+            'Llega una nueva solución para que los comerciantes le cobren a los turistas brasileños.':'A new solution arrives for merchants to charge Brazilian tourists.',
+
+            'Megapix: llega al mercado la solución financiera que elimina barreras de cambio entre Argentina y Brasil.':'Megapix: the financial solution that eliminates currency exchange barriers between Argentina and Brazil is now on the market.',
+
+            'Atención Mendoza: llega una plataforma que permite a los brasileños pagar por transferencia sus gastos en Argentina.':'Attention Mendoza: a platform arrives that allows Brazilians to pay their expenses in Argentina via transfer.',
+
+            'Con Megapix, los comercios argentinos ya pueden cobrar en reales y recibir dólares digitales':'With Megapix, Argentine merchants can already charge in reais and receive digital dollars.',
 
         }
     },

@@ -41,7 +41,7 @@
 
 @media (max-width: 576px) {
   .buttonPrensa {
-    width: 249px;
+    width: 100%;
     height: 43px;
     display: flex;
     align-items: center;

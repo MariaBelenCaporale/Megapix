@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
 import './styles.css';
 import ButtonPrensa from '../../components/buttonPrensa/ButtonPrensa';
+import { useTranslation } from 'react-i18next';
 
 const CardPrensa = ({ medio, fecha, texto, url }) => {
+    const { t } = useTranslation();
     return (
         <div className='cardPrensa'>
             <div className='textosPrensaCard'>
@@ -13,7 +15,7 @@ const CardPrensa = ({ medio, fecha, texto, url }) => {
             <p className='prensaTexto'>{texto}</p>
             </div>
             <ButtonPrensa 
-                title='Leer más'
+                title={t('Leer más')}
                 onclick={() => window.open(url, '_blank')}
             />
             

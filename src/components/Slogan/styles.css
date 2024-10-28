@@ -122,12 +122,12 @@
 }
 @media (min-width: 1201px) and (max-width: 1440px) {
     .titleSloganContainer {
-        width: 70%;
+        width: 90%;
     }
 }
 @media (min-width: 1441px) {
     .titleSloganContainer {
-        width: 80%;
+        width: 90%;
     }
 }
 

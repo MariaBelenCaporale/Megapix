@@ -69,3 +69,36 @@
     align-items: flex-start;
     height: 160px;
 }
+
+@media (max-width: 576px) {
+  .prensaTexto {
+    font-size: 1em;
+  }
+  .cardPrensa {
+    padding: 30px 20px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  .textoPrensaTitulo {
+    height: auto;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .prensaTexto {
+    font-size: 1em;
+  }
+  .cardPrensa {
+    padding: 30px 20px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  .medioTitulo {
+    font-size: 1.1em;
+  }
+  .prensaTexto {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  
+}

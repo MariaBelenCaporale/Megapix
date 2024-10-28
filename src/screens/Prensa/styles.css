@@ -1,82 +1,83 @@
 @font-face {
-    font-family: "Bebas";
-    src: url("../../fonts/BebasNeue-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: "Poppins-Regular";
-    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Medium";
-    src: url("../../fonts/Poppins/Poppins-Medium.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Bold";
-    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
-  }
-  @font-face {
-    font-family: "Poppins-Light";
-    src: url("../../fonts/Poppins/Poppins-Light.ttf");
-  }
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+}
 
-  .contieneVolver {
-    width: 70%;
-    display: flex;
-  }
-  .sectionPrensa {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    gap: 4em;
-    margin-bottom: 100px;
+.contieneVolver {
+  width: 70%;
+  display: flex;
+  color: white;
+}
+.sectionPrensa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  gap: 4em;
+  margin-bottom: 100px;
 }
 .imgPrensa {
-    position: absolute;
-    top: 120px;
+  position: absolute;
+  top: 120px;
 }
 .contenedorButtonNavPrensa {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    overflow-x: auto; 
-    overflow-y: hidden; 
-    white-space: nowrap; 
-    gap: 1em; 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  gap: 1em;
 }
 .contenedorButtonNavPrensa::-webkit-scrollbar-track {
-  background: transparent; 
+  background: transparent;
 }
 .contenedorButtonNavPrensa::-webkit-scrollbar {
   height: 8px;
 }
 .columUnoPrensa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 90%;
-    gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+  gap: 2em;
 }
- .cargarMas {
-  color: #FFF;
-  font-family: 'Poppins-Regular';
+.cargarMas {
+  color: #fff;
+  font-family: "Poppins-Regular";
   cursor: pointer;
   background-color: transparent;
   font-size: 1.2em;
   border: none;
   text-decoration-line: underline;
- }
- .cargarMas:hover {
-  color: #62FEE2;
- }
+}
+.cargarMas:hover {
+  color: #62fee2;
+}
 .filaPrensa {
   display: flex;
   flex-direction: row;
   gap: 3em;
+  width: 100%;
   align-items: center;
   background-image: url(/src/images/megaGlass.png);
   background-repeat: no-repeat;
@@ -87,29 +88,53 @@
   justify-content: center;
 }
 .contenedorPrensaTotal {
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    gap: 3em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 2em;
 }
 .tituloPrensa {
-    color:#FFF;
-    text-align: center;
-    font-family: "Bebas";
-    font-size: 3em;
-    font-weight: 400;
-    margin: 0px;
+  color: #fff;
+  text-align: center;
+  font-family: "Bebas";
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0px;
 }
 
-  @media (min-width: 1201px) and (max-width: 1440px) {
-    .tituloPrensa {
-        font-size: 4em;
-    }
-    .contenedorPrensaTotal {
-      width: 100%;
-      gap: 3em;
-    }
+@media (max-width: 576px) {
+  .filaPrensa {
+    width: 80%;
+    gap: 1em;
   }
+  .contenedorPrensaTotal {
+    width: 100%;
+  }
+  .contieneVolver {
+    width: 85%;
+  }
+  .cargarMas {
+    font-size: 1em;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .filaPrensa {
+    width: 60%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px)  {
+  .tituloPrensa {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .tituloPrensa {
+    font-size: 5em;
+  }
+  .contenedorPrensaTotal {
+    gap: 2em;
+  }
+}
