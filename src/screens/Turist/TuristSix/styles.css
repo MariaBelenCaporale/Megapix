@@ -57,7 +57,12 @@
   user-select: none;
   gap: 1em;
 }
-
+.containerButtonSix::-webkit-scrollbar-track {
+  background: transparent;
+}
+.containerButtonSix::-webkit-scrollbar {
+  height: 8px;
+}
 .containerButtonSix button {
   flex: 0 0 auto;
   user-select: none;
