@@ -21,7 +21,10 @@
   }
 
 
-
+  .contieneVolver {
+    width: 70%;
+    display: flex;
+  }
   .sectionPrensa {
     display: flex;
     align-items: center;
@@ -35,15 +38,20 @@
     position: absolute;
     top: 120px;
 }
-.contenedorButtonNav {
+.contenedorButtonNavPrensa {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    overflow: hidden;
-    gap: 1em;
-    height: 200px;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap; 
+    gap: 1em; 
+}
+.contenedorButtonNavPrensa::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.contenedorButtonNavPrensa::-webkit-scrollbar {
+  height: 8px;
 }
 .columUnoPrensa {
     display: flex;
@@ -53,14 +61,30 @@
     width: 90%;
     gap: 2em;
 }
+ .cargarMas {
+  color: #FFF;
+  font-family: 'Poppins-Regular';
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.2em;
+  border: none;
+  text-decoration-line: underline;
+ }
+ .cargarMas:hover {
+  color: #62FEE2;
+ }
 .filaPrensa {
-    display: flex;
-    flex-direction: column;
-    gap: 3em;
-    align-items: center;
-
-    background-image: url('../../images/megaGlass.png');
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  align-items: center;
+  background-image: url(/src/images/megaGlass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .contenedorPrensaTotal {
     display: flex;
@@ -69,6 +93,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    gap: 3em;
 }
 .tituloPrensa {
     color:#FFF;
@@ -83,5 +108,8 @@
     .tituloPrensa {
         font-size: 4em;
     }
-
+    .contenedorPrensaTotal {
+      width: 100%;
+      gap: 3em;
+    }
   }

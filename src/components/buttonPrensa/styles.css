@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+}
+
+
+.buttonPrensa {
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px;
+  background: #1e1e1e;
+  color: white;
+  border: 2px solid #62fee2;
+
+  font-family: "Poppins-Regular";
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.buttonPrensa:hover {
+  box-shadow: 0px 0px 7px 1px rgba(98, 254, 226, 1);
+}
+
+@media (max-width: 576px) {
+  .buttonPrensa {
+    width: 249px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: "Poppins-Regular";
+  }
+  .buttonPrensa:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 577px) {
+  .buttonPrensa {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: "Poppins-Regular";
+  }
+  .buttonPrensa:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buttonPrensa {
+    width: 300px;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: "Poppins-Regular";
+  }
+  .buttonPrensa:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
