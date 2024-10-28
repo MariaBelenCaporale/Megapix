@@ -135,6 +135,7 @@ const Prensa = () => {
                 </NavLink>
             </div>
             <div className='contenedorPrensaTotal'>
+                <div className='prensaYbutton'>
                 <h2 className='tituloPrensa'>{t('PRENSA')}</h2>
                 
                 {selectedMedium && (
@@ -146,7 +147,7 @@ const Prensa = () => {
                    {t('Volver a prensa')}
                </button>
                 )}
-
+</div>
                 <div className='contenedorButtonNavPrensa'>
                     {['Forbes', 'IProUp', 'MDZ Online', 'Ámbito', 'Info Mendoza', 'Rede Argentina', 'Reportur', 'RoadShow', 'Entorno Económico', 'Jornada Online', 'Eco Cuyo', 'M. News', 'La Pampa 24', 'Norte en línea', 'Ovrik'].map(medio => (
                         <ButtonNav 

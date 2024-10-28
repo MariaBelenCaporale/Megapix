@@ -25,6 +25,13 @@
   display: flex;
   color: white;
 }
+.prensaYbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 .sectionPrensa {
   display: flex;
   align-items: center;
