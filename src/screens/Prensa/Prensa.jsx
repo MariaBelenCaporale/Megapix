@@ -131,7 +131,7 @@ const Prensa = () => {
             <div className='contieneVolver'>
                 <NavLink to="/" className='return' >
                     <KeyboardArrowLeftRoundedIcon />
-                    {t("Volver")}
+                    {t("Volver al inicio")}
                 </NavLink>
             </div>
             <div className='contenedorPrensaTotal'>
@@ -141,10 +141,11 @@ const Prensa = () => {
                 {selectedMedium && (
                    <button
                    className='cargarMas'
-                   title={t('Volver a medios')}
+                   title={t('Ver todas las notas')}
                    onClick={() => handleFilter('')}
                >
-                   {t('Volver a prensa')}
+                <KeyboardArrowLeftRoundedIcon />
+                   {t('Ver todas las notas')}
                </button>
                 )}
 </div>
@@ -173,7 +174,7 @@ const Prensa = () => {
                 </div>
                 
                 {filteredCards.length > visibleCards && selectedMedium === '' && (
-                    <button onClick={loadMoreCards} className='cargarMas'>
+                    <button onClick={loadMoreCards} className='cargarMasOk'>
                         {t('Ver más')}
                     </button>
                 )}

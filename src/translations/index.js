@@ -313,8 +313,9 @@ const resources = {
 
             'Leer más':'Leer más',
             'PRENSA': 'PRENSA',
-            'Volver a medios':'Volver a prensa',
+            'Ver todas las notas':'Ver todas las notas',
             'Ver más':'Ver más',
+            'Volver al inicio':'Volver al inicio',
 
             'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.',
 
@@ -682,8 +683,9 @@ const resources = {
 
             'Leer más':'Ler mais', 
             'PRENSA': 'IMPRENSA',
-            'Volver a prensa':'Voltar à imprensa',
+            'Ver todas las notas':'Ver todas as notas',
             'Ver más':'Ver mais',
+            'Volver al inicio':'Voltar ao início',
 
             'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'Lançam uma ferramenta tecnológica que integra o Pix e busca facilitar as transações dos brasileiros na Argentina.',
 
@@ -1094,8 +1096,9 @@ const resources = {
 
             'Leer más':'Read more', 
             'PRENSA': 'PRESS',
-            'Volver a prensa':'Back to press',
+            'Ver todas las notas':'See all notes',
             'Ver más':'See more',
+            'Volver al inicio':'Return to the beginning',
 
             'Lanzan una herramienta tecnológica que integra Pix y busca facilitar las transacciones de los brasileños en Argentina.':'A technological tool that integrates Pix is launched to facilitate transactions for Brazilians in Argentina.',
 
