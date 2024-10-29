@@ -31,6 +31,10 @@ const Condiciones = () => {
           question: t("Términos y condiciones adicionales"),
           answer: <Terminos section="adicionales" />,
       },
+      {
+          question: t("Términos y condiciones particulares para el servicio de operaciones con criptoactivos, provisto por Sixalime SAS.(Manteca)"),
+          answer: <Terminos section="manteca" />,
+      },
   ];
 
     return (

@@ -534,6 +534,142 @@ const Terminos = ({ section }) => {
         </div>
       </>
     ),
+    manteca: (
+      <>
+      
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('Los presentes términos y condiciones del servicio de compra y venta de criptomonedas (los "Términos y Condiciones Crypto") son aplicables al uso del servicio ofrecido por Sixalime S.A.S(MANTECA) a través del Sitio www.__________,. y/ó App. Megapix, descargable de Ios y Android, propiedad de CaveliereGroup SRL. Sixalime S.A.S. es una sociedad legalmente constituida bajo las leyes de la República Argentina, inscripta en Inspección General de Justicia y, registrada como Proveedor de Servicios de Activos Virtuales ante la Comisión Nacional de Valores (CNV) bajo el Número 21. Cualquier Usuario que desee acceder y/o usar el Sitio o los Servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales respectivos, cuyas cláusulas resultan aplicables al presente, junto con los presentes Términos y Condiciones Crypto. ')} 
+            {t('Se entenderá por el término “Criptoactivos” o “Criptomoneda” a la representación digital de valor en tanto activo financiero encriptado, definido por un protocolo computacional que puede ser objeto de comercio digital y cuya funciones son las de constituir un medio de intercambio y/ o pago, y/o una unidad de cuenta, y/o una reserva de valor, y/o herramienta de inversión financiera, y/o medio de financiación, que no posee curso legal y es de carácter descentralizado, estando su valor sujeto a la variación de precios dependiendo de la oferta y demanda en los mercados. Se entenderá por “Sitio” a la plataforma digital a la que se accede o a la aplicación para teléfonos móviles.')}
+          </p>
+        <p className="textScroll">
+            {t('Al presionar la opción “aceptar”, el Usuario entiende que acepta los presentes Términos y Condiciones Crypto, que ya ha aceptado los Términos y Condiciones Generales del Sitio/App y que mantiene un vínculo directo con Sixalime S.A.S. – sociedad por acciones simplificada registrada que brinda una plataforma para la compra y venta de criptoactivos. Asimismo, los Servicios provistos por la Sixalime S.A.S. a través del Sitio están disponibles para personas exclusivamente calificadas que comprenden los riesgos y la volatilidad de las criptomonedas.')}
+          </p>
+        </div>
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('REGISTRACIÓN DEL USUARIO')}
+          </p>
+        <p className="textScroll">
+            {t('Para poder acceder a los servicios de compra y venta de criptomonedas que se ofrecen en el Sitio, es de obligatoriedad completar el formulario de registración en todos sus campos con datos válidos, el cual tiene carácter de declaración jurada. El futuro Usuario deberá completarlo con su información personal de manera exacta, precisa y verdadera ("Datos Personales") y asume el compromiso de actualizar los Datos Personales conforme resulte necesario. El Usuario presta expresa conformidad con que Sixalime S.A.S. utilice diversos medios para identificar sus datos personales, asumiendo el Usuario la obligación de revisarlos  y mantenerlos actualizados. ')}
+            {t('Se deja constancia que Sixalime S.A.S. no se responsabiliza por la certeza de los Datos Personales brindados por los Usuarios de este sitio. Los Usuarios garantizan y responden, en cualquier caso, de la veracidad, exactitud, vigencia y autenticidad de sus Datos Personales.El Usuario accederá a su cuenta personal ("Cuenta") mediante el ingreso de su e-mail y generación de una clave de seguridad personal elegida ("Clave de Seguridad"). El Usuario se obliga a mantener la confidencialidad de su Clave de Seguridad. La Cuenta es personal, única e intransferible. El Usuario será responsable por todas las operaciones efectuadas en su Cuenta, pues el acceso a la misma está restringido al ingreso y uso de su Clave de Seguridad, de conocimiento exclusivo del Usuario. Sixalime S.A.S. se reserva el derecho de rechazar cualquier solicitud de registración o de cancelar una registración previamente aceptada, sin que esté obligado a comunicar o exponer las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento.')}
+          </p>
+        <p className="textScroll">
+            {t('Las cuentas son intransferibles, no pueden cederse los derechos ni las cuentas a terceros. Las cuentas son personales de los Usuarios y todas las transacciones realizadas por la cuenta son realizadas bajo el nombre personal del Usuario titular.')}
+          </p>
+        <p className="textScroll">
+            {t('El titular es responsable de mantener la seguridad de sus credenciales.')}
+          </p>
+        <p className="textScroll">
+            {t('SIXALIME S.A.S. podrá solicitar al Usuario la información y documentación complementaria que estime necesaria a su solo criterio para verificar tanto la identidad del Usuario como la licitud del origen de los fondos transferidos a su cuenta registrada en el Sitio, así como para comprobar el objeto lícito de toda transacción realizada dentro del Sitio. Dicha información y/o documentación será solicitada al Usuario por Sixalime S.A.S exclusivamente a través del correo electrónico: hola@manteca.dev.')}
+          </p>
+        </div>
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('INTERCAMBIO DE MONEDA')}
+          </p>
+        <p className="textScroll">
+            {t('A los fines de realizar el cambio de criptoactivos a dinero fiat, los Usuarios podrán realizar depósitos en criptoactivos a la cuenta provista por la plataforma utilizando los medios de pago aceptados. Para perfeccionar dicha operación, el usuario declara conocer y aceptar que todas aquellas transferencias que realice en la plataforma en criptoactivos, en este caso USDT, podrán ser convertidos conforme su elección, a dinero FIAT, a saber, Pesos Argentinos ($) y/ó Dólares Americanos (USD) a la tasa de cambio vigente en el momento de la transacción. SixalimeS.A.S. se reserva el derecho de verificar la autenticidad y validez de las transacciones de criptomonedas antes de acreditar los fondos en la cuenta del usuario. Una vez efectuada la transacción, los fondos en dinero FIAT podrán ser retirados al CBU proporcionado por el usuario, consignado en su perfil, y de su titularidad exclusivamente. ')} 
+            {t('Se hace saber que dicho retiro, bajo ningún aspecto podrá ser retirado a un CBU que no sea exclusivamente de su titularidad ni de terceros. El usuario se compromete a proporcionar su información bancaria correcta y completa, a los fines de facilitar el retiro en forma eficiente al CBU informado. La conversión se efectuará de acuerdo con los términos y condiciones establecidos para los servicios de intercambio utilizados para llevar a cabo la operación. El usuario renuncia expresamente a cualquier reclamo y/óresponsabilidad alguna contra Sixalime S.A.S. sobre la conversión de divisas y la transferencia de fondos a su cuenta bancaria.')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. podrá tomar las medidas que considere necesarias para consultar y/o confirmar información sobre la cuenta bancaria de los Usuarios, y no tendrá ningún tipo de responsabilidad por cualquier incapacidad temporal o permanente del Usuario para acceder al saldo transferido a su cuenta registrada en el Sitio. Sixalime S.A.S. podrá establecer límites mensuales y anuales al momento de ingresar dinero a su cuenta registrada en el Sitio, y Sixalime S.A.S. no responderá por los perjuicios y/o inconvenientes ocasionados al Usuario en virtud del mal uso o conflicto entre el Usuario y el medio de pago. Al aceptar los presentes Términos y Condiciones Cryptoel Usuario declara tener capacidad legal para contratar, ser mayor de edad y ser un sujeto con aptitud y capacidad suficiente para conocer y aceptar expresamente las fluctuaciones de las criptomonedas. ')} 
+            {t('El cambio final considerado para la conversión entre pesos argentinos y la criptomoneda será el especificado en el Sitio/App al momento de la acreditación de los fondos. En virtud de la fluctuación de la criptomoneda ya conocida por el Usuario y la potencial demora para la conciliación de la transferencia, el Usuario reconoce y acepta que no podrá reclamar diferencias y/o daños y/o perjuicios vinculados a la fluctuación. El Usuario renuncia por medio del presente a invocar la aplicación de la teoría de la imprevisión de conformidad con lo dispuesto por el art. 1091 del Código Civil y Comercial de la Nación.')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. no se responsabiliza por el destino de las monedas virtuales que el Usuario adquiere ni es responsable por el origen de las mismas. En caso de que se solicitara información acerca de ciertas operaciones de una cuenta por parte de un órgano competente o autoridades judiciales, el Usuario autoriza a Sixalime S.A.S. a dar cumplimiento a una eventual obligación de informar y proveer toda la información requerida por los órganos competentes. El Usuario se obliga a garantizar la lícita procedencia de fuentes legítimas del saldo transferido a su cuenta registrada en el Sitio y que toda transacción tendrá objeto lícito. El Usuario comprende y acepta que podrá realizar las siguientes operaciones: adquirir y vender criptoactivos contra la entrega de pesos argentinos, adquirir y vender criptoactivos mediante la transferencia de dólares estadounidenses.')}
+          </p>
+        <p className="textScroll">
+            {t('El Usuario acepta y reconoce que todas estas operaciones podrán estar sujetas a un cobro por servicio, comisión o costos de transacción que informe Sixalime S.A.S.')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. se reserva el derecho a analizar el origen de los criptoactivos que el Usuario transfiera a su cuenta registrada en el Sitio, y el derecho a rechazar dicha transferencia o desconocer la legitimidad de los criptoactivos sin que sea necesario brindar al Usuario información alguna al respecto. Sixalime no será responsable por las consecuencias que le impliquen al Usuario la cancelación de dichas transferencia de criptoactivos ni por los daños y/o perjuicios que se deriven como consecuencia de la misma en caso de corresponder.')}
+          </p>
+        </div>
+
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('INCUMPLIMIENTO')}
+          </p>
+        <p className="textScroll">
+            {t('En caso de incumplimientos y/o infracciones por parte del Usuario de los presentes Términos y Condiciones Crytpo, Sixalime S.A.S. se encuentra facultado a devolver los fondos del Usuario a este a través de transferencia bancaria, sin perjuicio del descuento de los gastos administrativos correspondientes.')}
+          </p>
+          </div>
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('PROTOCOLOS DE MONEDA DIGITAL')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. no tiene autoridad ni control sobre los protocolos de software que gobiernan las operaciones en criptomoneda soportadas en nuestra plataforma. En general, estos protocolos son de código abierto y cualquier persona puede usarlos, copiarlos, modificarlos y distribuirlos. Al usar los servicios de Sixalime S.A.S., el Usuario reconoce y acepta que (i) Sixalime S.A.S. no es responsable por el funcionamiento de los protocolos subyacentes y que Sixalime S.A.S. no garantiza su funcionalidad, seguridad o disponibilidad y que (ii) los protocolos están sujetos a cambios repentinos en sus reglas operativas (es el caso de las eventuales bifurcaciones o “forks”). ')}
+            {t('Tales bifurcaciones pueden afectar materialmente el valor, funcionalidad y/o denominación de la moneda digital almacenada en la plataforma de Sixalime S.A.S. En el caso de ocurrir una bifurcación, el Usuario acepta que Sixalime S.A.S. puede suspender sus operaciones de forma temporaria (con o sin aviso previo) y que Sixalime S.A.S. puede, si así lo cree necesario, (a) configurar o reconfigurar sus sistemas o (b) decidir no soportar (o dejar de soportar) un protocolo alternativo, siempre y cuando el Usuario tenga la oportunidad de retirar sus fondos de la plataforma. El Usuario reconoce y acepta que  Sixalime S.A.S. no asume responsabilidad alguna respecto a una rama no soportada de un protocolo alternativo, liberando de cualquier responsabilidad al respecto a Sixalime S.A.S.')}
+          </p>
+        <p className="textScroll">
+            {t('SE HACE SABER QUE SIXALIME S.A.S. NO ES UNA ENTIDAD FINANCIERA, NI OFRECE ASESORAMIENTO FINANCIERO O DE INVERSIÓN. QUEDA EXPRESAMENTE ESTABLECIDO, Y EL USUARIO ACEPTA, QUE SIXALIME S.A.S. A TRAVÉS DEL SITIO NO PROPORCIONA NINGÚN TIPO DE CONSEJO DE INVERSIÓN CON RESPECTO A LOS SERVICIOS PRESTADOS. ASIMISMO, SE ACLARA QUE SIXALIME S.A.S. NO REALIZA TAREAS DE INTERMEDIACIÓN DE RECURSOS FINANCIEROS NI VALORES NEGOCIABLES, NI TAMPOCO GARANTIZA NINGÚN RETORNO DE INVERSIÓN A LOS USUARIOS."')}
+          </p>
+          </div>
+
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('OBLIGACIONES TRIBUTARIAS')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. no es responsable de cualquier obligación fiscal que se devengue en cabeza del Usuario, siendo este el único responsable por la oportuna declaración e ingreso de los tributos que correspondieran por su operatoria.')}
+          </p>
+          </div>
+
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('PERFIL DE RIESGO')}
+          </p>
+        <p className="textScroll">
+            {t('Con la aceptación de estos Términos y Condiciones Crypto, el Usuario reconoce y acepta que Sixalime S.A.S y/u otras sociedades comerciales que ofrezcan en el futuro servicios o productos en el Sitio quedan habilitados a recopilar el historial de operaciones realizadas por el Usuario en el Sitio, así como a solicitar ante autoridades públicas y/o entidades privadas informes de análisis de riesgo crediticio del Usuario, para la generación y evaluación de su perfil comercial y de riesgo. El Usuario tiene conocimiento y presta su formal consentimiento para que Sixalime S.A.S., a fin de brindar un mejor servicio, puedan utilizar bases de datos de terceros que ayuden a establecer el mejor perfil comercial y de riesgo del Usuario.')}
+          </p>
+          </div>
+
+        <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('RESPONSABILIDAD')}
+          </p>
+        <p className="textScroll">
+            {t('El Usuario reconoce y acepta que utiliza el Sitio bajo su única y exclusiva responsabilidad. Cada Usuario reconoce y acepta ser el exclusivo responsable de su accionar dentro del Sitio. El Usuario reconoce y acepta que al realizar operaciones a través del Sitio lo hace bajo su propio riesgo.')}
+          </p>
+        <p className="textScroll">
+            {t('EN NINGÚN CASO SIXALIME S.A.S. SERÁ RESPONSABLE POR LUCRO CESANTE, O POR CUALQUIER OTRO DAÑO Y/O PERJUICIO QUE HAYA PODIDO SUFRIR EL USUARIO DEBIDO A LAS OPERACIONES QUE SE CONCRETEN A TRAVÉS DEL SITIO,  O COMO RESULTADO DE LA PIRATERÍA (HACKEOS), MANIPULACIÓN, TRANSMISIÓN DE VIRUS, OTROS ACCESOS NO AUTORIZADOS O USO DE LOS SERVICIOS, SU CUENTA O CUALQUIER INFORMACIÓN CONTENIDA EN LA MISMA, ASÍ POR LA IMPOSIBILIDAD DE USO O FALTA DE DISPONIBILIDAD DE LOS USO O FALTA DE DISPONIBILIDAD DE LOS SERVICIOS. LAS EXCLUSIONES DE RESPONSABILIDAD SE APLICARÁN HASTA EL LÍMITE MÁXIMO PERMITIDO POR LA LEY APLICABLE. LA SOCIEDAD NO SERÁ RESPONSABLE POR LA INTERACCIÓN DE LOS USUARIOS BASADAS EN LA CONFIANZA DEPOSITADA EN EL SISTEMA O EN EL SITIO.')}
+          </p>
+        <p className="textScroll">
+            {t('Al aceptar estos Términos y Condiciones, el Usuario acepta y reconoce que el comercio de bienes y productos, reales o virtuales implica un riesgo significativo debido a pérdidas que se pueden producir como resultado de las fluctuaciones propias de un mercado. El Usuario acepta y reconoce que el comercio de criptomonedas es un mercado muy volátil que se basa principalmente en la confianza y que, por ello, tiene riesgos especiales no compartidos con el comercio de materias primas o bienes en un mercado tradicional. Teniendo en cuenta estas consideraciones, el Usuario acepta, reconoce y asume que pueden existir riesgos adicionales que no han sido expresamente previstos en estos Términos y Condiciones, y libera de cualquier clase de responsabilidad a Sixalime S.A.S por daños o pérdidas sufridas como consecuencia directa o indirecta de las características propias del comercio de criptoactivos y su volatilidad.')}
+          </p>
+        <p className="textScroll">
+            {t('Queda expresamente establecido, y el Usuario acepta que la Sixalime S.A.S., a través del Sitio, no proporciona ningún tipo de consejo de inversión en relación con los servicios prestados. Sixalime S.A.S. podrá proporcionar información sobre el precio, el rango, la volatilidad de criptomonedas y eventos que han afectado el precio de las mismas, pero esto en ningún caso se considerará asesoría financiera o de inversión y no deberá interpretarse como tal. Cualquier decisión de compra o venta de criptomonedas es decisión exclusiva del Usuario y la SixalimeS.A.S. no será responsable de cualquier pérdida sufrida como consecuencia de esa decisión.')}
+          </p>
+          </div>
+
+          <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('FALLAS EN EL SITIO')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. no se responsabiliza por cualquier daño, perjuicio o pérdida que sufra un Usuario causados por fallas en el Sitio, sistema, en el servidor o en Internet. Los Usuarios no podrán imputarle a Sixalime S.A.S. responsabilidad alguna ni exigirle indemnizaciones, en virtud de perjuicios resultantes de dificultades técnicas o fallas en el Sitio, los sistemas o en Internet (incluyendo, sin que implique limitación, cualquier incapacidad temporal del Usuario  para acceder al Sitio). Sixalime S.A.S. no garantiza el acceso y uso continuado o ininterrumpido de su Sitio. El sistema puede eventualmente no estar disponible debido a dificultades técnicas o fallas de la red, o por cualquier otra circunstancia ajena a Sixalime S.A.S.; en tales casos, se procurará restablecerlo con la mayor celeridad posible sin que por ello pueda imputársele algún tipo de responsabilidad a Sixalime S.A.S. ni a sus sociedades vinculadas o controladas.')}
+          </p>
+          </div>
+
+          <div className="contenedorUnoTerms">
+        <p className="textScroll">
+            {t('INDEMNIDAD')}
+          </p>
+        <p className="textScroll">
+            {t('El Usuario indemnizará y mantendrá indemne a Sixalime S.A.S. y sus directivos, gerentes, representantes y empleados, por cualquier reclamo o demanda de otros Usuarios o terceros por sus actividades en el Sitio o por su incumplimiento de los Términos y Condiciones Crypto y demás políticas que se entienden incorporadas al presente o por la violación de cualesquiera leyes o derechos de terceros.')}
+          </p>
+        <p className="textScroll">
+            {t('Sixalime S.A.S. se reservan el derecho de revisar estos Términos y Condiciones Compra y Venta Divisas en cualquier momento, actualizando y/o modificando esta página. El Usuario deberá revisar estos Términos y Condiciones cada vez que acceda al Sitio, puesto que las mismas son obligatorias y vinculantes. Toda modificación del presente, será considerada tácitamente aceptada toda vez que el Usuario acceda al Sitio sin necesidad de confirmación expresa salvo que Sixalime S.A.S. exigiera. Asimismo, debido a que ciertos servicios y contenidos ofrecidos a los Usuarios a través del Sitio pueden contener normas específicas que reglamentan, complementan y/o modifiquen los presentes Términos y Condiciones se recomienda a los Usuarios tomar conocimiento específico de ellas antes de la utilización del Sitio.')}
+          </p>
+        <p className="textScroll">
+            {t('A todos los efectos legales que corresponda Sixalime S.A.S. constituye domicilio especial en la calle REPUBLICA DE LA INDIA 2781, CABA, 1425, República Argentina.')}
+          </p>
+          </div>
+
+      </>
+    ),
   };
   return <div className="textComplete">{termsText[section]}</div>;
 };
