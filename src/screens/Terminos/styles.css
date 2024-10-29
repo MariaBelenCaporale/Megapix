@@ -29,6 +29,18 @@
 .textScroll, .textScrollPix {
   font-family: 'Poppins-Light';
 }
+.contenedorUnoTerms {
+  display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.negrita {
+  color: #e6e6e6;
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  line-height: normal;
+  margin: 0px;
+}
 
 @media (min-width: 360px) {
 .containerAllTerms {
