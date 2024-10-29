@@ -12,9 +12,14 @@ const HeroText = ({
   titleColorOne,
   titleColorTwo,
   showButton= true,
+  redirectUrl="https://app.mgapix.com/",
 }) => {
   const { t } = useTranslation();
-  
+
+  const handleButtonClick = () => {
+    window.open(redirectUrl, '_blank'); 
+  };
+
   return (
     <div className="container">
       <div className="containerBackground">
@@ -35,7 +40,7 @@ const HeroText = ({
          
         </h1>
         <p className="subtitleHero">{subtitle}</p>
-        {showButton && <ButtonComponent title={t("Visitar plataforma")} />}
+        {showButton && <ButtonComponent title={t("Visitar plataforma")} onClick={handleButtonClick} />}
       </div>
     </div>
   );
@@ -51,6 +56,7 @@ HeroText.propTypes = {
   titleColorTwo: PropTypes.string.isRequired,
   fontFamily: PropTypes.string,
   showButton: PropTypes.bool,
+  redirectUrl: PropTypes.string,
 };
 
 export default HeroText;
