@@ -42,6 +42,29 @@
 .contenedorCondicionesTotal {
     width: 90%;
 }
+.questionDos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 1em;
+}
+.questionTextDos {
+    color: #FFF;
+    font-family: "Poppins-Medium";
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px;
+    text-align: start;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.questionTextDos.active {
+    color: #62FEE2; 
+}
 .logoCon {
     width: 80%;
 }
@@ -95,6 +118,9 @@
     display: flex;
     background: linear-gradient(360deg, rgba(17, 17, 17, 0) 15.94%, #111111e5 66.12%);
     width: 100%;
+}
+.responseText {
+    font-size: .9em;
 }
 .askCondiciones {
     width: 100%;

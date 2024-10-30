@@ -35,6 +35,10 @@ const Condiciones = () => {
           question: t("Términos y condiciones particulares para el servicio de operaciones con criptoactivos, provisto por Sixalime SAS.(Manteca)"),
           answer: <Terminos section="manteca" />,
       },
+      {
+          question: t("Política de Privacidad particular para el servicio provisto por Sixalime SAS (Manteca)"),
+          answer: <Terminos section="mantecaDos" />,
+      },
   ];
 
     return (
@@ -64,10 +68,10 @@ const Condiciones = () => {
                 {faqs.map((faq, index) => (
                     <div key={index} className='askCondiciones'>
                         <div
-                            className='question'
+                            className='questionDos'
                             onClick={() => handleToggle(index)}
                         >
-                            <p className={`questionText ${activeIndex === index ? 'active' : ''}`}>
+                            <p className={`questionTextDos ${activeIndex === index ? 'active' : ''}`}>
                                 {faq.question}
                             </p>
                             
