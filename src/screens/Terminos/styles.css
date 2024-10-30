@@ -32,7 +32,7 @@
 .contenedorUnoTerms {
   display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
 }
 .negrita {
   color: #e6e6e6;

@@ -29,11 +29,11 @@ const CompanyScreen = () => {
         <div className="containerCompany">
             <div className="containerHeroCompany">
                 <Hero 
-                    title={t('cobra reales y recibí dólar digital ')}
+                    title={t('cobrá reales y recibí dólar digital ')}
                     titleColor={t('GRATIS')} 
                     fontFamily='Bebas Neue, sans-serif'
                     subtitle=
-                    {t('Obtené tu cuenta y cuando desees retirá en pesos o cripto.')} 
+                    {t('Obtené tu cuenta y cuando desees, retirá en pesos o cripto.')} 
                 />
                 <div className="containerPixImg">
                     <img className="megapixHome" src={MegapixGlass} alt="Megapix Glass" />
