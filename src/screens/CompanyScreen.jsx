@@ -19,11 +19,16 @@ import { useTranslation } from 'react-i18next';
 
 
 const CompanyScreen = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    useEffect(() => {
+        i18n.changeLanguage('es');
+        window.scrollTo(0, 0);
+      }, [i18n]);
 
     return (
         <div className="containerCompany">

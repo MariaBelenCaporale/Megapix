@@ -19,11 +19,19 @@ import "./styles.css";
 
 
 const TuristScreen = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
 }, []);
+
+useEffect(() => {
+  i18n.changeLanguage('br'); 
+  window.scrollTo(0, 0);
+}, [i18n]);
+
+
+
   return (
     <div className="containerTurist">
       <div className="containerHeroTurist">
