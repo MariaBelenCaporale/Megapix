@@ -6,10 +6,16 @@ import TuristScreen from './screens/Turist/TuristScreen';
 import Condiciones from './screens/Condiciones/Condiciones';
 import Prensa from './screens/Prensa/Prensa';
 import Footer from './components/Footer/Footer';
+import ReactGA from "react-ga4";
+
+//otra manera p/ no exponer el id es con Google Tag Manager (a chekesar)
+ReactGA.initialize("your GA measurement id");
 
 function App() {
   const location = useLocation();
   const hideNavBar = location.pathname === '/terminos' || location.pathname === '/prensa';
+
+  ReactGA.send({ hitType: 'pageview', page: location.pathname + location.search });
 
   return (
     <>
