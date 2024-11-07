@@ -1,6 +1,7 @@
+
 import './App.css';
 import NavBar from './components/NavBar/Navbar';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import CompanyScreen from './screens/CompanyScreen';
 import TuristScreen from './screens/Turist/TuristScreen'; 
 import Condiciones from './screens/Condiciones/Condiciones';
@@ -8,7 +9,7 @@ import Prensa from './screens/Prensa/Prensa';
 import Footer from './components/Footer/Footer';
 import ReactGA from "react-ga4";
 
-//otra manera p/ no exponer el id es con Google Tag Manager (a chekesar)
+// Otra manera de no mostraee el ID es con Google Tag Manager (a chequear)
 ReactGA.initialize("your GA measurement id");
 
 function App() {
@@ -33,10 +34,4 @@ function App() {
   );
 }
 
-export default function Wrapper() {
-  return (
-    <Router>
-      <App />
-    </Router>
-  );
-}
+export default App;
