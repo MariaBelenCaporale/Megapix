@@ -20,6 +20,7 @@
   src: url("../../fonts/Poppins/Poppins-Light.ttf");
 }
 
+
 .cardPrensa {
   background: rgb(255 255 255 / 4%);
   backdrop-filter: blur(20px);
@@ -57,12 +58,16 @@
   font-weight: 500;
   margin: 0px;
 }
+.imageCardPrensa {
+  width: 60px;
+}
 .textosPrensaCard {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
+  gap: 1em;
 }
 .textoPrensaTitulo {
     display: flex;
