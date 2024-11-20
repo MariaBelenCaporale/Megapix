@@ -19,8 +19,6 @@
     display: flex;
     align-items: center;
     z-index: 9;
-    position: relative;
-    top: 400px;
     justify-content: center;
     width: 100%;
   }
@@ -31,7 +29,6 @@
   }
   .containerImportant {
     width: 85%;
-    margin-bottom: 2em;
   }
   .textImportant {
     color: #BEBEBE;
@@ -252,9 +249,6 @@
     .listResponsive {
         gap: 7em;
     }
-    .containerTextImportant {
-        top: 350px;
-    }
 }
 
 @media (min-width: 577px) and (max-width: 772px) {
@@ -370,7 +364,5 @@
     .listResponsive {
         gap: 7em;
     }
-    .containerTextImportant {
-        top: 350px;
-    }
+
 }
