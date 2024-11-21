@@ -9,5 +9,5 @@ export default defineConfig({
       '@images': '/src/images',
       '@fonts': 'src/fonts'
     }
-  },
+  }
 })
