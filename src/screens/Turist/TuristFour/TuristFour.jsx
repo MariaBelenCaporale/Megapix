@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import PagoQRar from '@images/PagoQR-ES.gif';
 import PagoQRbr from '@images/PagoQR-BR.gif';
 import CarouselImg from '@images/carouselImg.gif';
-import CarouselImgBr from '@images/carouselImgBr.gif';
+import CarouselImgBr from '@images/CarouselImgBr.gif';
 import './styles.css';
 
 const TuristFour = () => {
