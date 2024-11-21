@@ -8,6 +8,7 @@ import Condiciones from './screens/Condiciones/Condiciones';
 import Prensa from './screens/Prensa/Prensa';
 import Footer from './components/Footer/Footer';
 import ReactGA from "react-ga4";
+import TextFooter from './components/Footer/TextFooter';
 
 // Otra manera de no mostraee el ID es con Google Tag Manager (a chequear)
 ReactGA.initialize("your GA measurement id");
@@ -30,6 +31,7 @@ function App() {
       <Footer 
         link={'https://www.instagram.com/megapix_arg/'}
       />
+      <TextFooter />
     </>
   );
 }
