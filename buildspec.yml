@@ -34,7 +34,7 @@ phases:
       - docker push $REPOSITORY_URI:$COMMIT_HASH
       - docker push $REPOSITORY_URI:$TIMESTAMP
       - docker push $REPOSITORY_URI:latest
-      - printf '[{"name":"mi-contenedor","imageUri":"%s"}]'
+      - printf '[{"name":"megapix_landing_img","imageUri":"%s"}]'
         $REPOSITORY_URI:$COMMIT_HASH > imagedefinitions.json
 
 artifacts:
