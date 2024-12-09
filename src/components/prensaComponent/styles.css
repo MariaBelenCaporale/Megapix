@@ -1,0 +1,26 @@
+
+
+.prensaIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    right: 0;
+    z-index: 99;
+}
+
+.prensaIcon:hover {
+    color:  #62fee2;
+}
+
+@media (max-width: 576px) {
+    .prensaIcon {
+        display: none;
+    }
+}

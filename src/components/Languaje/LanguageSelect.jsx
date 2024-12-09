@@ -6,6 +6,7 @@ import Argentina from '@images/argentina.png';
 import EstadosUnidos from '@images/banderaEEUU.png'; 
 import './styles.css';
 
+
 const LanguageSelect = () => {
     const { i18n } = useTranslation();
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -61,6 +62,7 @@ const LanguageSelect = () => {
                 <img className='flag' src={selectedFlag} alt={selectedLanguage} />
                 <p className='idioms'>{selectedLanguage}</p>
             </div>
+
             {isDropdownOpen && (
                 <div className='dropdownMenu'>
                     <div className='containerFlag' onClick={() => handleLanguageChange('Portugués')}>

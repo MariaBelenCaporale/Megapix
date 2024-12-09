@@ -2,6 +2,8 @@ import "./styles.css";
 import Logo from "@images/logoNeon.png";
 import SwitchComponent from "../Switch/SwitchComponent";
 import LanguageSelect from "../Languaje/LanguageSelect";
+import PrensaComponent from "../prensaComponent/PrensaComponent";
+
 
 const NavBar = () => {
   return (
@@ -13,6 +15,7 @@ const NavBar = () => {
       </div>
       <SwitchComponent />
       <LanguageSelect />
+      <PrensaComponent />
     </div>
   );
 };
