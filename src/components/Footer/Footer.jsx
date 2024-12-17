@@ -124,7 +124,7 @@ const Footer = ({ link }) => {
           <img className="formas" src={Formas} />
         </div>
       </div>
-      {/* <TextFooter /> */}
+
     </div>
   );
 };

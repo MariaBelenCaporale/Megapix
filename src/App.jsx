@@ -29,7 +29,7 @@ function App() {
         <Route path="/prensa" element={<Prensa />} />
       </Routes>
       <Footer 
-        link={'https://www.instagram.com/megapix_arg/'}
+        link={'https://www.instagram.com/megapix.app/'}
       />
       <TextFooter />
     </>

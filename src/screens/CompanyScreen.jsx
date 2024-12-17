@@ -16,6 +16,7 @@ import MegapixGlass from '@images/Megapix-Glass.png';
 import CoinTwoIz from '@images/coinBlurIzq.png';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import PrensaContent from './PrensaContent/PrensaContent';
 
 
 const CompanyScreen = () => {
@@ -56,6 +57,7 @@ const CompanyScreen = () => {
             <SectionThree />
             <SectionFour />
             <SectionFive />
+            <PrensaContent />
             <SectionSix />
             <SectionSeven />
             <Slogan />

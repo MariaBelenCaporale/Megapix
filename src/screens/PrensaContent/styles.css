@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("../../fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../../fonts/Poppins/Poppins-Light.ttf");
+}
+
+
+.containerContentPrensa {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorPrensaContent {
+    display: flex;
+    border: 1px solid #62fee2;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #111;
+    -webkit-box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.873);
+    -moz-box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.873);
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.873);
+}
+.containerTextPrensaContent {
+    padding: 60px;
+    width: 100%;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tituloPrensaContent {
+    color: white;
+    font-size: 3em;
+    font-family: 'Poppins-Bold';
+    margin: 0px;
+}
+.subPrensaContent {
+    display: flex;
+    font-family: 'Poppins-Regular';
+    font-size: 1em;
+    color: white;
+    margin: 0px;
+}
+.containerImgPrensaContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgPrensaContent {
+    display: flex;
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .contenedorPrensaContent {
+        flex-direction: column;
+        width: 90%;
+    }
+    .containerTextPrensaContent {
+        padding: 30px 15px 30px 15px;
+        width: auto;
+        align-items: center;
+    }
+    .imgPrensaContent {
+        width: 40%;
+    }
+    .containerImgPrensaContent {
+        height: auto;
+        overflow: visible;
+    }
+    .tituloPrensaContent {
+        font-size: 2em;
+        text-align: center;
+    }
+    .subPrensaContent {
+        font-size: .9em;
+        text-align: center;
+    }
+    .containerContentPrensa {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .imgPrensaContent {
+        width: 100%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1440px) {
+    .imgPrensaContent {
+        width: 60%;
+    }
+}
+

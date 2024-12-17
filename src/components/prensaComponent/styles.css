@@ -42,7 +42,7 @@
   color: #62fee2;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 769px) {
   .prensaIcon {
     display: none;
   }
