@@ -121,7 +121,7 @@ const Footer = ({ link }) => {
         </div>
 
         <div className="containerFormas">
-          <img className="formas" src={Formas} />
+          <img className="formas" src={Formas} /> 
         </div>
       </div>
 
