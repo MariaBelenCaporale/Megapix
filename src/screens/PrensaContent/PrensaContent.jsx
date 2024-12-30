@@ -2,9 +2,11 @@ import { useNavigate } from 'react-router-dom';
 import ButtonComponent from '../../components/buttonComponent/buttonComponent';
 import './styles.css';
 import Nave from '@images/nave.png';
+import { useTranslation } from 'react-i18next';
 
 
 const PrensaContent = () => {
+    const { t } = useTranslation();
     const navigate = useNavigate();
 
     const handleButtonClick = () => {
@@ -22,11 +24,11 @@ const PrensaContent = () => {
                     </div>
                 </div>
                 <div className='containerTextPrensaContent'>
-                    <h2 className='tituloPrensaContent'>Prensa</h2>
-                    <p className='subPrensaContent'>Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.</p>
-                    <p className='subPrensaContent'>¡Te invitamos a explorar todas las notas en la sección de prensa!</p>
+                    <h2 className='tituloPrensaContent'>{t('Prensa')}</h2>
+                    <p className='subPrensaContent'>{t('Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.')}</p>
+                    <p className='subPrensaContent'>{t('¡Te invitamos a explorar todas las notas en la sección de prensa!')}</p>
                     <ButtonComponent 
-                    title='Ver notas de prensa'
+                    title={t('Ver notas de prensa')}
                     onClick={handleButtonClick}
                     />
                 </div>

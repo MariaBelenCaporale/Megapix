@@ -490,6 +490,10 @@ const resources = {
 
 
             // PRENSA -----------------
+            'Prensa':'Prensa',
+            'Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.':'Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.',
+            '¡Te invitamos a explorar todas las notas en la sección de prensa!':'¡Te invitamos a explorar todas las notas en la sección de prensa!',
+            'Ver notas de prensa':'Ver notas de prensa',
 
             'Leer más':'Leer más',
             'PRENSA': 'PRENSA',
@@ -700,19 +704,18 @@ const resources = {
             'Negocios AR':'Negócios AR',
             'Clientes BR':'Clientes BR',
 
+            // CONDICIONES ------------------
 
-// CONDICIONES ------------------
-
-'Volver':'Voltar',
-'Términos y condiciones':'Termos e condições',
-'Políticas de privacidad':'Políticas de privacidade',
-"Términos y condiciones adicionales":"Termos e condições adicionais",
-
-
-
-
+            'Volver':'Voltar',
+            'Términos y condiciones':'Termos e condições',
+            'Políticas de privacidad':'Políticas de privacidade',
+            "Términos y condiciones adicionales":"Termos e condições adicionais",
 
             // PRENSA -----------------
+            'Prensa':'Imprensa',
+            'Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.':'Mais de 33 notas de imprensa em veículos de comunicação renomados destacaram a Megapix como a solução digital inovadora que está transformando as conexões financeiras na Argentina.',
+            '¡Te invitamos a explorar todas las notas en la sección de prensa!':'Convidamos você a explorar todas as notas na seção de imprensa!',
+            'Ver notas de prensa':'Ver notas de imprensa',
 
             'Leer más':'Ler mais', 
             'PRENSA': 'IMPRENSA',
@@ -935,7 +938,12 @@ const resources = {
 
 
             // PRENSA -----------------
+            'Prensa':'Press',
+            'Más de 33 notas de prensa en reconocidos medios de comunicación destacaron a Megapix como la solución digital innovadora que está transformando las conexiones financieras en Argentina.':'More than 33 press releases in renowned media outlets have highlighted Megapix as the innovative digital solution that is transforming financial connections in Argentina.',
+            '¡Te invitamos a explorar todas las notas en la sección de prensa!':'We invite you to explore all the articles in the press section!',
+            'Ver notas de prensa':'View press releases',
 
+            
             'Leer más':'Read more', 
             'PRENSA': 'PRESS',
             'Ver todas las notas':'See all notes',
