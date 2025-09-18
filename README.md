@@ -1,10 +1,25 @@
-# React + Vite
+# Megapix - Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Megapix es una solución desarrollada por Polynomium que conecta a comerciantes argentinos con turistas brasileños a través del sistema de pagos PIX. Su misión es simplificar las transacciones internacionales, eliminando barreras cambiarias y ofreciendo una experiencia de pago rápida, segura y sin fricciones.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+👉 [Ver sitio en vivo](https://megapix-beta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# homepage-megapix
-# homepage-megapix
+## ✨ Características
+- Landing page informativa y responsive.
+- Desarrollada con React JS.
+- Diseño moderno y minimalista.
+
+## 🛠️ Tecnologías
+- React JS
+- JavaScript
+- Vercel (deploy)
+
+## 📦 Instalación
+Cloná el repositorio y ejecutá el proyecto localmente:
+
+```bash
+git clone https://github.com/usuario/proyecto.git
+cd proyecto
+npm install
+npm run dev
